@@ -1,4 +1,5 @@
-baseURL = 'https://littlecheesecake.me/moneysense'
+baseURL = 'https://littlecheesecake.me'
 languageCode = 'en-us'
+canonifyURLs = false
 title = 'LittleCheeseCake MoneySense'
 theme = 'hugo-story'
