@@ -1,0 +1,4 @@
+baseURL = 'https://littlecheesecake.me/moneysense'
+languageCode = 'en-us'
+title = 'LittleCheeseCake MoneySense'
+theme = 'hugo-story'
