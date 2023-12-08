@@ -1,7 +1,6 @@
 ---
 title: "如果20岁重来一次，我会怎样买保险"
 date: 2023-12-08T18:12:02+08:00
-draft: true
 tags: 
 - insurance
 ---
