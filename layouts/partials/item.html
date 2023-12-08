@@ -2,4 +2,9 @@
     <span class="icon {{ .style }}"></span>
     <h3>{{ .name }}</h3>
     <p>{{ .content }}</p>
+    <div class="content" style="text-align: center;">
+        {{ range .articles }}
+        <h6><a href="{{ .url }}">{{ .title }}</a></h>
+        {{ end }}
+    </div>
 </section>

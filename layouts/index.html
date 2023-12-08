@@ -1,5 +1,9 @@
 {{ define "main" }}
 
 	{{ partial "banner" site.Data.banner }}
+	<div id="first">
+	{{ partial "items" site.Data.items }}
+	</div>
 
+	{{ partial "footer" }}
 {{ end }}

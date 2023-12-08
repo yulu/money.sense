@@ -1,0 +1,16 @@
+{{ define "main" }}
+    {{ partial "header" }}
+    <div class="wrapper style1 align-center">
+        <div class="inner">
+            <h2>{{ .Params.Title }}</h1>
+            <p>{{ .Date.Format "January 2, 2006" }} | 
+            {{ range .Params.tags }} <span>{{ . }}</span> {{ end }}
+            </p>
+            <div class="content align-left">
+                {{ .Content }}
+            </div>
+        </div>
+    </div>
+
+    {{ partial "footer" }}
+{{ end }}

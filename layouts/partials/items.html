@@ -3,6 +3,9 @@
     <div class="inner">
         {{ with .title }}<h2>{{ . }}</h2>{{ end }}
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
+        {{ with .button }}
+            <a href="{{ .link }}" class="button small wide smooth-scroll-middle">{{ .label }}</a>
+        {{ end }}
         <div class="items {{ .style }}">
             {{ range .items }}
                 {{ partial "item" . }}
