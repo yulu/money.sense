@@ -15,7 +15,7 @@ tags:
 
 ### MediShield Life 基本医疗住院险
 
-新加坡公民出生就自动入保MediShield Life，覆盖最基本的大额医疗费用，终身受保。**这是最最基本的保险，也是一份很大几率用得上的保险。** 由于MediShield Life只覆盖政府医院B2 Ward及以下，所以推荐在自己能力范围内升级，可以在必要时获得更优质的医疗资源。
+新加坡公民出生就自动入保MediShield Life，覆盖最基本的大额医疗费用，终身受保。**这是最最基本的保险，也是一份很大几率用得上的保险。** 由于MediShield Life只覆盖政府医院B2 Ward及以下，所以推荐在自己能力范围内通过够买Integrated Shield Plan （ISP）升级，可以在必要时获得更优质的医疗资源。
 
 <div>
     <span class="image fit" style="width: 400px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/gov_insurance/gov_insurance_medishield.png" alt="" /></span>
@@ -33,13 +33,15 @@ tags:
 
 Depends Protection Scheme (DPS) 在21岁到65岁的公民和PR第一次工作缴纳CPF之后自动入保。它实质是一个保额70K的人寿保险。DPS可以选择退出，也可以选择提前加入。为什么提供这样的选择，这个就充分解释了人寿保险的作用：保障的是家庭支柱的收入替代。21岁之前没有收入不需要入保，如果是全职主妇主夫没有收入不需要入保，65岁之后子女已经成年了没有家庭责任也不需这个保障了。**同理，普通人的人寿保险不需要保终身，个人根据自己的收入和负债率，家庭结构，退休规划等合理购买定期寿险到退休年龄就可以了**。
 
+DPS是由Great Eastern承保的。我也是在自己梳理保单时才发现这个保险，进一步了解后才知道它是怎么回事。
+
 <div>
     <span class="image fit" style="width: 400px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/gov_insurance/gov_insurance_dps.png" alt="" /></span>
 <div>
 
 ### CPF Life 终身养老年金险
 
-CPF Life 是政府推出的年金险计划，也是应对社会老龄化资源分配的一个措施。CPF Life可以退出：政府不限制公民自己规划自己的养老方案，但是你需要拿得出你的养老方案。比如你可以买房收租养老，也可以选择其他保险公司的养老年金险。但是基本上可以肯定的是在新加坡CPF Life是优于其他保险公司的养老年金计划的，可以作为兜底的养老被动收入，建议最大化CPF投入。我个人是认可养老年金的，七老八十了折腾不动了，有一份不费任何力气的固定现金流就是一份安全感。**这里就要聊聊关于私人保险公司养老年金入保年龄了。保险经纪肯定都说越早越好越早轻松，复利的作用更大。但是离退休的年龄越远，可以承担更高风险，把钱放在市场里投资收益更大。CPF Life 55岁入保，65岁可以开始领养老金。作为一个时间参考，目前三十多岁我不会入养老年金险。可能在五十岁之后再考虑趸交。**
+CPF Life 是政府推出的年金险计划，也是应对社会老龄化资源分配的一个措施。CPF Life可以退出：政府不限制公民自己规划自己的养老方案，但是你需要拿得出你的养老方案。比如你可以买房收租养老，也可以选择其他保险公司的养老年金险。但是基本上可以肯定的是在新加坡CPF Life是优于其他保险公司的养老年金计划的，可以作为兜底的养老被动收入，建议最大化CPF投入。我个人是认可养老年金的，七老八十了折腾不动了，有一份不费任何力气的固定现金流就是一份安全感。**这里就要聊聊关于私人保险公司养老年金入保年龄了。保险经纪很多都说越早越好越早轻松，复利的作用更大。但是年金险追求稳定，收益率一般较低，离退休的年龄越远，可以承担更高风险，把钱放在市场里投资收益更大。CPF Life的模式是55岁趸交入保，65岁可以开始领养老金。作为一个时间参考，目前三十多岁我不会入养老年金险。可能在五十岁之后再考虑趸交。**
 
 医疗-人寿-养老，最基本的保险配置就是这样了。其他的如重疾和意外险，都不是雪中送炭而是锦上添花。
 
@@ -48,3 +50,9 @@ CPF Life 是政府推出的年金险计划，也是应对社会老龄化资源�
 我认为的保险的现实意义有两个：一是针对个人和家庭，保障在不可控的意外发生时家庭财务一定程度上的稳定。第二个意义是从宏观上讲，保险一定程度上是对社会资源的合理调控。
 
 而储蓄投资型保险就见仁见智了，当然是一种理财选择，但肯定也有其他收益高的投资理财途径。我个人目前不太倾向于储蓄投资型保险。关于我的储蓄投资观，在其他博客文章里有分享。
+
+参考:
+- [MediShield Life and ISP](https://www.moh.gov.sg/healthcare-schemes-subsidies/medishield-life)
+- [CareShield Life](https://www.careshieldlife.gov.sg/home.html)
+- [Dependents Protection Schema](https://www.cpf.gov.sg/member/account-services/providing-for-your-loved-ones/insuring-to-protect-your-dependants)
+- [CPF Life](https://www.cpf.gov.sg/member/retirement-income/monthly-payouts/cpf-life)
