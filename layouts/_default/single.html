@@ -9,6 +9,7 @@
             <div class="content align-left">
                 {{ .Content }}
             </div>
+            {{ partial "disclaimer" site.Data.disclaimer }}
             {{ template "_internal/disqus.html" . }}
         </div>
     </div>
