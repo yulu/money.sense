@@ -58,7 +58,10 @@ jobs:
         run: |
           hugo \
             --gc \
-            --minify \
+            --minify 
+      - name: Move default en to root
+        run: |
+          mv ./public/en/* ./public
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:

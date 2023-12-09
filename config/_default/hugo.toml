@@ -57,7 +57,7 @@ defaultContentLanguage = 'en'
     weight = 2
   
   [languages.en]
-    baseURL = '/'
+    baseURL = '/' 
     contentDir = 'content/en'
     disabled = false
     languageCode = 'en-US'
