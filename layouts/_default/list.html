@@ -1,87 +1,127 @@
 {{ define "main" }}
   {{ partial "header" }}
-  {{ partial "gallery" site.Data.gallery }}
+  <section class="wrapper style1 align-center">
+    <div class="inner">
+        {{ partial "spotlight" site.Data.spotlight1 }}
+        <div class="index align-left">
+            <!-- section 1 -->
+            <section>
+              <header>
+                  <h3>金钱观</h3>
+              </header>
+              <div class="content">
+                  <div>
+                    <ul>
+                    {{ $p := where .Pages ".Params.tags" "intersect" (slice "money_sense") }}
+                    {{ range $p }}
+                      {{ partial "post_list.html" . }}
+                    {{ end }}
+                    </ul>
+                  </div>
+              </div>
+            </section>
 
-  <section class="wrapper style1">
-      <!-- Ranges through content/posts/*.md -->
-      <div class="inner">
-        <h3>金钱观</h3>
-        <div>
-          <ul>
-          {{ $p := where .Pages ".Params.tags" "intersect" (slice "money_sense") }}
-          {{ range $p }}
-            {{ partial "post_list.html" . }}
-          {{ end }}
-          </ul>
+            <!-- section 2 -->
+            <section>
+              <header>
+                  <h3>保险</h3>
+              </header>
+              <div class="content">
+                  <div>
+                    <ul>
+                    {{ $p := where .Pages ".Params.tags" "intersect" (slice "insurance") }}
+                    {{ range $p }}
+                      {{ partial "post_list.html" . }}
+                    {{ end }}
+                    </ul>
+                  </div>
+              </div>
+            </section>
+
+            <!-- section 3 -->
+            <section>
+              <header>
+                  <h3>储蓄和投资</h3>
+              </header>
+              <div class="content">
+                  <div>
+                    <ul>
+                    {{ $p := where .Pages ".Params.tags" "intersect" (slice "investment") }}
+                    {{ range $p }}
+                      {{ partial "post_list.html" . }}
+                    {{ end }}
+                    </ul>
+                  </div>
+              </div>
+            </section>
+
+            <!-- section 4 -->
+            <section>
+              <header>
+                  <h3>房产</h3>
+              </header>
+              <div class="content">
+                  <div>
+                    <ul>
+                    {{ $p := where .Pages ".Params.tags" "intersect" (slice "real_estate") }}
+                    {{ range $p }}
+                      {{ partial "post_list.html" . }}
+                    {{ end }}
+                    </ul>
+                  </div>
+              </div>
+            </section>
+
+            <!-- section 5 -->
+            <section>
+              <header>
+                  <h3>遗产规划</h3>
+              </header>
+              <div class="content">
+                  <div>
+                    <ul>
+                    {{ $p := where .Pages ".Params.tags" "intersect" (slice "estate_planning") }}
+                    {{ range $p }}
+                      {{ partial "post_list.html" . }}
+                    {{ end }}
+                    </ul>
+                  </div>
+              </div>
+            </section>
+
+            <!-- section 6 -->
+            <section>
+              <header>
+                  <h3>资源</h3>
+              </header>
+              <div class="content">
+                <div>
+                  <h5>Content Creator</h5>
+                  <ul>
+                    <li><a target="_blank" href="https://providend.com/insights/">Providend Instights</a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/@user-vp6wm8wm3b">跟我一起来谈钱</a></li>
+                  </ul>
+                  <h5>Books</h5>
+                  <ul>
+                    <li><a target="_blank" href="https://littlecheesecake.me/books/collection/%E6%8A%95%E8%B5%84%E6%9C%80%E9%87%8D%E8%A6%81%E7%9A%84%E4%BA%8B.html">投资最重要的事</a></li>
+                    <li><a target="_blank" href="https://littlecheesecake.me/books/collection/%E8%B5%B0%E8%BF%87%E4%BD%8E%E8%B0%B7%E8%A7%81%E8%BF%87%E9%AB%98%E5%B1%B1.html">走过低谷，见过高山</a></li>
+                  </ul>
+        
+                  <h5>MOOC</h5>
+                  <ul>
+                    <li><a target="_blank" href="https://www.coursera.org/learn/investments-fundamentals">Investments I: Fundamentals of Performance Evaluation</a></li>
+                  </ul>
+        
+                  <h5>Data</h5>
+                  <ul>
+                    <li><a target="_blank" href="https://www.singstat.gov.sg/">Statistics Singapore</a></li>
+                  </ul>
+        
+                </div>
+              </div>
+            </section>
         </div>
-
-        <h3>保险</h3>
-        <div>
-          <ul>
-          {{ $p := where .Pages ".Params.tags" "intersect" (slice "insurance") }}
-          {{ range $p }}
-            {{ partial "post_list.html" . }}
-          {{ end }}
-          </ul>
-        </div>
-
-
-        <h3>储蓄和投资</h3>
-        <div>
-          <ul>
-          {{ $p := where .Pages ".Params.tags" "intersect" (slice "investment") }}
-          {{ range $p }}
-            {{ partial "post_list.html" . }}
-          {{ end }}
-          </ul>
-        </div>
-
-        <h3>房产</h3>
-        <div>
-          <ul>
-          {{ $p := where .Pages ".Params.tags" "intersect" (slice "real_estate") }}
-          {{ range $p }}
-            {{ partial "post_list.html" . }}
-          {{ end }}
-          </ul>
-        </div>
-
-        <h3>遗产规划</h3>
-        <div>
-          <ul>
-          {{ $p := where .Pages ".Params.tags" "intersect" (slice "estate_planning") }}
-          {{ range $p }}
-            {{ partial "post_list.html" . }}
-          {{ end }}
-          </ul>
-        </div>
-
-        <h3>资源</h3>
-        <div>
-          <h5>Content Creator</h5>
-          <ul>
-            <li><a target="_blank" href="https://providend.com/insights/">Providend Instights</a></li>
-            <li><a target="_blank" href="https://www.youtube.com/@user-vp6wm8wm3b">跟我一起来谈钱</a></li>
-          </ul>
-          <h5>Books</h5>
-          <ul>
-            <li><a target="_blank" href="https://littlecheesecake.me/books/collection/%E6%8A%95%E8%B5%84%E6%9C%80%E9%87%8D%E8%A6%81%E7%9A%84%E4%BA%8B.html">投资最重要的事</a></li>
-            <li><a target="_blank" href="https://littlecheesecake.me/books/collection/%E8%B5%B0%E8%BF%87%E4%BD%8E%E8%B0%B7%E8%A7%81%E8%BF%87%E9%AB%98%E5%B1%B1.html">走过低谷，见过高山</a></li>
-          </ul>
-
-          <h5>MOOC</h5>
-          <ul>
-            <li><a target="_blank" href="https://www.coursera.org/learn/investments-fundamentals">Investments I: Fundamentals of Performance Evaluation</a></li>
-          </ul>
-
-          <h5>Data</h5>
-          <ul>
-            <li><a target="_blank" href="https://www.singstat.gov.sg/">Statistics Singapore</a></li>
-          </ul>
-
-        </div>
-
-      </div>
+    </div>
   </section>
 
   {{ partial "footer" }}

@@ -36,3 +36,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 [Params.social]
 
 [Params.asset]
+
+[services]
+  [services.disqus]
+    shortname = 'littlecheesecakeme'
