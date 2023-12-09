@@ -48,10 +48,3 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 ## -----------------------------------------------
 ## Site Languages
 ## ----------------------------------------------- 
-defaultContentLanguage = 'en'
-[languages]
-  [languages.cn]
-    baseURL = '/cn'
-  
-  [languages.en]
-    baseURL = '/'

@@ -4,7 +4,7 @@ content: |
 style: "style1 medium onscroll-fade-in"
 button:
   label : "博客总目录"
-  link : "/posts/cn/"
+  link : "posts/"
 items:
   # feature item loop
   - name : "MoneyPhilosophy"
@@ -22,9 +22,9 @@ items:
     style : "solid style2 major fa-kit-medical"
     articles:
       - title: '如果20岁重来一次，我会怎样买保险'
-        url: '/posts/cn/singapore-how-should-i-buy-insurance/'
+        url: 'posts/singapore-how-should-i-buy-insurance/'
       - title: '新加坡政府教你怎么买保险'
-        url: '/posts/cn/singapore-insurance-how-gov-do/'
+        url: 'posts/singapore-insurance-how-gov-do/'
     
   # feature item loop
   - name : "SavingAndInvestment"
@@ -34,7 +34,7 @@ items:
       - title: '了解股票分类'
         url: ''
       - title: '投资小白入门路线图'
-        url: '/posts/cn/investment-101/'
+        url: 'posts/investment-101/'
     
   # feature item loop
   - name : "RealEstate"
