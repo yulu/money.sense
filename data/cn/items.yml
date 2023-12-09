@@ -7,7 +7,7 @@ button:
   link : "/posts/"
 items:
   # feature item loop
-  - name : "金钱观"
+  - name : "MoneyPhilosophy"
     content : ""
     style : "style2 major fa-money-bill"
     articles:
@@ -17,7 +17,7 @@ items:
         url: ''
 
   # feature item loop
-  - name : "保险"
+  - name : "Insurance"
     content : ""
     style : "solid style2 major fa-kit-medical"
     articles:
@@ -27,7 +27,7 @@ items:
         url: '/posts/singapore-insurance-how-gov-do/'
     
   # feature item loop
-  - name : "储蓄和投资"
+  - name : "SavingAndInvestment"
     content : ""
     style : "solid style2 major fa-arrow-up-right-dots"
     articles:
@@ -37,7 +37,7 @@ items:
         url: '/posts/investment-101/'
     
   # feature item loop
-  - name : "房产"
+  - name : "RealEstate"
     content : ""
     style : "solid style2 major fa-house"
     articles:
@@ -47,14 +47,14 @@ items:
         url: ''
     
   # feature item loop
-  - name : "遗产规划"
+  - name : "EstatePlanning"
     content : ""
     style : "solid style2 major fa-hands-holding-child"
     articles:
       - title: ''
     
   # feature item loop
-  - name : "资源"
+  - name : "Resources"
     content : ""
     style : "style2 major fa-database"
     articles:

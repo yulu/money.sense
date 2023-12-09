@@ -1,8 +1,8 @@
 {{ define "main" }}
-
-	{{ partial "banner" site.Data.banner }}
+	{{ $myData := (index site.Data site.Language.Lang) }}
+	{{ partial "banner" $myData.banner }}
 	<div id="first">
-	{{ partial "items" site.Data.items }}
+	{{ partial "items" $myData.items }}
 	</div>
 
 	{{ partial "footer" }}

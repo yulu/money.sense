@@ -1,0 +1,12 @@
+####################### Banner #########################
+style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
+title : "Money Sense"
+subtitle: |
+  A personal blog talking about money philosophy and lifestyle.
+content : |
+  Why write a blog about investment and financial management? The original intention of writing this blog series is to urge myself to learn financial knowledge, establish correct views on money and good habits of spending and saving, and provide better financial security for myself and my family. Meanwhile, I gradually realized that in the developed and wealthy society of Singapore, there are many unprofessional insurance and financial services, and financial literacy education is not widely spread. I myself am also improving through continuous mistakes and learning. I hope to share my own experiences, lessons, and personal thoughts to inspire others.
+button:
+  label : "Explore"
+  link : "#first"
+image : "images/banner.jpg"
+

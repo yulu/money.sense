@@ -1,13 +1,14 @@
 {{ define "main" }}
+  {{ $myData := (index site.Data site.Language.Lang) }}
   {{ partial "header" }}
   <section class="wrapper style1 align-center">
     <div class="inner">
-        {{ partial "spotlight" site.Data.spotlight1 }}
+        {{ partial "spotlight" $myData.spotlight1 }}
         <div class="index align-left">
             <!-- section 1 -->
             <section>
               <header>
-                  <h3>金钱观</h3>
+                  <h3>{{ i18n "MoneyPhilosophy" }}</h3>
               </header>
               <div class="content">
                   <div>
@@ -24,7 +25,7 @@
             <!-- section 2 -->
             <section>
               <header>
-                  <h3>保险</h3>
+                  <h3>{{ i18n "Insurance" }}</h3>
               </header>
               <div class="content">
                   <div>
@@ -41,7 +42,7 @@
             <!-- section 3 -->
             <section>
               <header>
-                  <h3>储蓄和投资</h3>
+                  <h3>{{ i18n "SavingAndInvestment" }}</h3>
               </header>
               <div class="content">
                   <div>
@@ -58,7 +59,7 @@
             <!-- section 4 -->
             <section>
               <header>
-                  <h3>房产</h3>
+                  <h3>{{ i18n "RealEstate" }}</h3>
               </header>
               <div class="content">
                   <div>
@@ -75,7 +76,7 @@
             <!-- section 5 -->
             <section>
               <header>
-                  <h3>遗产规划</h3>
+                  <h3>{{ i18n "EstatePlanning" }}</h3>
               </header>
               <div class="content">
                   <div>
@@ -92,7 +93,7 @@
             <!-- section 6 -->
             <section>
               <header>
-                  <h3>资源</h3>
+                  <h3>{{ i18n "Resources" }}</h3>
               </header>
               <div class="content">
                 <div>
@@ -116,7 +117,15 @@
                   <ul>
                     <li><a target="_blank" href="https://www.singstat.gov.sg/">Statistics Singapore</a></li>
                   </ul>
-        
+                  
+                  <h5>Investment Platform (I am using) </h5>
+                  <ul>
+                    <li><a target="_blank" href="https://endowus.com/">Endowus</a></li>
+                    <li><a target="_blank" href="https://www.syfe.com/">Syfe</a></li>
+                    <li><a target="_blank" href="https://secure.fundsupermart.com/fsmone/home">FSMOne</a></li>
+                    <li><a target="_blank" href="https://www.mas.gov.sg/bonds-and-bills/singapore-savings-bonds">Singapore Savings Bonds</a></li>
+                    <li><a target="_blank" href="https://www.sgx.com/">SGX</a></li>
+                  </ul> 
                 </div>
               </div>
             </section>

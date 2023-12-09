@@ -17,8 +17,6 @@ baseURL = "/"
 publishDir = "public"
 
 # Remote
-#baseURL = "https://caressofsteel.github.io/demos/hugo/hugo-story/"
-#publishDir = "//centos/sites/hugodev/hugostory/"
 
 ## -----------------------------------------------
 ## Hugo Built-in Features
@@ -37,9 +35,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   favicon = true
 
 [Params.social]
-  github = "https://github.com/caressofsteel/"
-  twitter = "https://twitter.com/caressofsteel_"
-  email = "caressofsteel@protonmail.com"
+  github = "https://github.com/yulu"
+  twitter = "https://twitter.com/little_cake_yl"
   instagram = "https://instagram.com"
   linkedin = "https://linkedin.com"
   telegram = "https://telegram.org"
@@ -47,3 +44,14 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 [Params.asset]
   fontawesome_css = ["css/fontawesome-all.min.css"]
   fontawesome_js = ["js/fontawesome-all.min.js"]
+
+## -----------------------------------------------
+## Site Languages
+## ----------------------------------------------- 
+defaultContentLanguage = 'en'
+[languages]
+  [languages.cn]
+    baseURL = '/cn'
+  
+  [languages.en]
+    baseURL = '/'

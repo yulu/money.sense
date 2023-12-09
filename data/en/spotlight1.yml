@@ -1,0 +1,7 @@
+####################### Spotlight #########################
+style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+id: "first"
+title : "Table of Content"
+content: |
+  About my money stories, learnings on financial planning and investment and money philosopy.
+image: "/images/spotlight03.jpg"

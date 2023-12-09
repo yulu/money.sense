@@ -1,4 +1,5 @@
 {{ define "main" }}
+    {{ $myData := (index site.Data site.Language.Lang) }}
     {{ partial "header" }}
     <div class="wrapper style1 align-center">
         <div class="inner">
@@ -9,7 +10,7 @@
             <div class="content align-left">
                 {{ .Content }}
             </div>
-            {{ partial "disclaimer" site.Data.disclaimer }}
+            {{ partial "disclaimer" $myData.disclaimer }}
             {{ template "_internal/disqus.html" . }}
         </div>
     </div>

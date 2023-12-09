@@ -16,9 +16,6 @@ baseURL = "/"
 publishDir = "public"
 
 # Remote
-#baseURL = "https://caressofsteel.github.io/demos/hugo/hugo-story/"
-#publishDir = "//centos/sites/hugodev/hugostory/"
-
 
 ## -----------------------------------------------
 ## Hugo Built-in Features
@@ -43,3 +40,28 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [markup.goldmark.renderer]
   unsafe = true
+
+## -----------------------------------------------
+## Site Languages
+## ----------------------------------------------- 
+defaultContentLanguage = 'en'
+[languages]
+  [languages.cn]
+    baseURL = '/'
+    contentDir = 'content/cn'
+    disabled = false
+    languageCode = 'zh'
+    languageDirection = 'ltr'
+    languageName = '简体中文'
+    title = 'LitteCheeseCake MoneySense'
+    weight = 2
+  
+  [languages.en]
+    baseURL = '/'
+    contentDir = 'content/en'
+    disabled = false
+    languageCode = 'en-US'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    title = 'LitteCheeseCake MoneySense'
+    weight = 1

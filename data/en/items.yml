@@ -1,0 +1,61 @@
+title : "My Money Story"
+content: |
+  About my money stories, learnings on financial planning and investment and money philosopy.
+style: "style1 medium onscroll-fade-in"
+button:
+  label : "All Posts"
+  link : "/posts/"
+items:
+  # feature item loop
+  - name : "MoneyPhilosophy"
+    content : ""
+    style : "style2 major fa-money-bill"
+    articles:
+      - title: 'Money Philosophy'
+        url: ''
+      - title: 'Female Invester'
+        url: ''
+
+  # feature item loop
+  - name : "Insurance"
+    content : ""
+    style : "solid style2 major fa-kit-medical"
+    articles:
+      - title: 'How would I buy insurance if I were 20s something'
+        url: '/posts/singapore-how-should-i-buy-insurance/'
+      - title: 'Learn how to buy insurance from Singapore Government'
+        url: '/posts/singapore-insurance-how-gov-do/'
+    
+  # feature item loop
+  - name : "SavingAndInvestment"
+    content : ""
+    style : "solid style2 major fa-arrow-up-right-dots"
+    articles:
+      - title: 'Different types of stocks'
+        url: ''
+      - title: 'How to start investing as a newbie'
+        url: '/posts/investment-101/'
+    
+  # feature item loop
+  - name : "RealEstate"
+    content : ""
+    style : "solid style2 major fa-house"
+    articles:
+      - title: 'How do I find an real estate agent'
+        url: ''
+      - title: 'House upgrade'
+        url: ''
+    
+  # feature item loop
+  - name : "EstatePlanning"
+    content : ""
+    style : "solid style2 major fa-hands-holding-child"
+    articles:
+      - title: ''
+    
+  # feature item loop
+  - name : "Resources"
+    content : ""
+    style : "style2 major fa-database"
+    articles:
+    
