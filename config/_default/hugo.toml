@@ -40,3 +40,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 [services]
   [services.disqus]
     shortname = 'littlecheesecakeme'
+
+[markup.goldmark.renderer]
+  unsafe = true
