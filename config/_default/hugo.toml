@@ -45,7 +45,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 ## Site Languages
 ## ----------------------------------------------- 
 defaultContentLanguage = 'en'
-defaultContentLanguageInSubdir = false
+defaultContentLanguageInSubdir = true
 
 [languages]
   [languages.cn]
