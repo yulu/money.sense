@@ -1,0 +1,9 @@
+<div style="position: fixed; right: 10px; top: 10px; z-index: 1000;">
+
+{{ range site.Home.AllTranslations }}
+    {{ if ne .Language site.Language }}
+        <span><a href="{{ .RelPermalink }}" class="button small primary">{{ .Language.LanguageName }}</a></span>
+    {{ end }}
+{{ end }}
+
+</div>

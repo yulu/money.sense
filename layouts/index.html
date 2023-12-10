@@ -1,5 +1,6 @@
 {{ define "main" }}
 	{{ $myData := (index site.Data site.Language.Lang) }}
+	{{ partial "lang" }}
 	{{ partial "banner" $myData.banner }}
 	<div id="first">
 	{{ partial "items" $myData.items }}
