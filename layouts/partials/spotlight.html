@@ -3,7 +3,8 @@
     <div class="content">
         {{ with .title }}<h2>{{ . }}</h2>{{ end }}
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
-        {{ partial "disclaimer" site.Data.disclaimer }}
+        {{ $myData := (index site.Data site.Language.Lang) }}
+        {{ partial "disclaimer" $myData.disclaimer }}
         {{ with .button }}<ul class="actions stacked">
             <li><a href="{{ .link }}" class="button">{{ .label }}</a></li>
         </ul>{{ end }}
