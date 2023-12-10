@@ -8,5 +8,5 @@ content : |
 button:
   label : "博客"
   link : "#first"
-image : "images/banner.jpg"
+image : "../images/banner.jpg"
 

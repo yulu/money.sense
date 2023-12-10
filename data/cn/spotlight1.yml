@@ -4,4 +4,4 @@ id: "first"
 title : "博客总目录"
 content: |
   关于我的金钱故事，理财学习笔记，金钱哲学和投资观等等。
-image: "/images/spotlight03.jpg"
+image: "../../images/spotlight03.jpg"
