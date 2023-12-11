@@ -2,7 +2,7 @@
     <span class="icon {{ .style }}"></span>
     <h3>{{ i18n .name }}</h3>
     <p>{{ .content }}</p>
-    <div class="content" style="text-align: center;">
+    <div class="content" style="text-align: left;">
         {{ range .articles }}
         <h6><a href="{{ .url }}">{{ .title }}</a></h6>
         {{ end }}
