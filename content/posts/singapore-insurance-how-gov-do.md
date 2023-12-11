@@ -19,7 +19,7 @@ The Singapore government automatically provides citizens with four types of insu
 Singaporean citizens are automatically enrolled in MediShield Life from birth, providing coverage for the most basic medical expenses throughout their lives. **This is the most fundamental insurance and one that has a very high likelihood of being used**. Since MediShield Life only covers government hospital B2 Ward and below, it is recommended that individuals, within their means, consider upgrading through the purchase of an Integrated Shield Plan (ISP) to access better medical resources when necessary.
 
 <div>
-    <span class="image fit" style="width: 400px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/gov_insurance/gov_insurance_medishield.png" alt="" /></span>
+    <span class="image fit" style="max-width: 400px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/gov_insurance/gov_insurance_medishield.png" alt="" /></span>
 <div>
 
 ### CareShield Life: Long-term care insurance
@@ -27,7 +27,7 @@ Singaporean citizens are automatically enrolled in MediShield Life from birth, p
 Citizens and PRs automatically join CareShield Life at the age of thirty. This insurance is designed to provide lifelong cash flow to cover the cost of care after the insured person loses their ability to live independently. Citizens and PRs born after 1980 are mandatorily enrolled and cannot opt out of this scheme. I believe this is the government's strategy to cope with the challenges posed by an aging population. For the average person, this is one solution to address the risk of longevity. It can be upgraded using CPF, similar to hospitalization insurance. In this [video](https://www.youtube.com/watch?v=-nqSEUA7ZLk&t=339s) (Chinese), the blogger discusses the high expenses associated with long-term care in the US and explores long-term care insurance in the U.S. One takeaway is that in US society, long-term care insurance is crucial but often difficult to afford. We should be grateful for the universal mandatory program implemented by the Singapore government.
 
 <div>
-    <span class="image fit" style="width: 400px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/gov_insurance/gov_insurance_careshield.png" alt="" /></span>
+    <span class="image fit" style="max-width: 400px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/gov_insurance/gov_insurance_careshield.png" alt="" /></span>
 <div>
 
 ### Dependents Protection Schema (DPS): Term life insurance
@@ -37,7 +37,7 @@ The Dependents Protection Scheme (DPS) automatically covers citizens and PRs bet
 DPS is underwritten by Great Eastern. I just discovered this insurance while reviewing my policies and understood how it works after further investigation.
 
 <div>
-    <span class="image fit" style="width: 400px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/gov_insurance/gov_insurance_dps.png" alt="" /></span>
+    <span class="image fit" style="max-width: 400px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/gov_insurance/gov_insurance_dps.png" alt="" /></span>
 <div>
 
 ### CPF Life 终身养老年金险
