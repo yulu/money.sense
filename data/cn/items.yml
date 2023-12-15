@@ -14,7 +14,7 @@ items:
       - title: '金钱哲学'
         url: ''
       - title: '女性投资者'
-        url: ''
+        url: 'posts/female-investor/'
 
   # feature item loop
   - name : "Insurance"
