@@ -18,7 +18,7 @@ tags:
 新加坡公民出生就自动入保MediShield Life，覆盖最基本的大额医疗费用，终身受保。**这是最最基本的保险，也是一份很大几率用得上的保险。** 由于MediShield Life只覆盖政府医院B2 Ward及以下，所以推荐在自己能力范围内通过够买Integrated Shield Plan （ISP）升级，可以在必要时获得更优质的医疗资源。
 
 <div>
-    <span class="image fit" style="width: 400px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/gov_insurance/gov_insurance_medishield.png" alt="" /></span>
+    <span class="image fit" style="max-width: 400px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/gov_insurance/gov_insurance_medishield.png" alt="" /></span>
 <div>
 
 ### CareShield Life 长期照顾险
@@ -26,7 +26,7 @@ tags:
 公民和PR在三十岁时自动加入CareShield Life。这个保险是保障受保人失去生活自理能力之后能获得终身现金流用以支付生活护理的费用。1980年后出生的公民和PR是强制入保不能退保的。我认为这是政府对社会超老龄化做的资源调控。对于普通人，这是通过保险应对长寿风险的一个方案，它和住院险一样可以用CPF进行升级。在这个[视频分享](https://www.youtube.com/watch?v=-nqSEUA7ZLk&t=339s)里，博主分享了美国长期照顾的高额开销，也对美国长期照顾险的进行了探讨。一个观后感是在美国社会，长期照顾险很重要，但是很难负担。应该庆幸新加坡政府实施的这个全民强制计划。
 
 <div>
-    <span class="image fit" style="width: 400px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/gov_insurance/gov_insurance_careshield.png" alt="" /></span>
+    <span class="image fit" style="max-width: 400px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/gov_insurance/gov_insurance_careshield.png" alt="" /></span>
 <div>
 
 ### Dependents Protection Schema (DPS) 定期寿险
@@ -36,7 +36,7 @@ Depends Protection Scheme (DPS) 在21岁到65岁的公民和PR第一次工作缴
 DPS是由Great Eastern承保的。我也是在自己梳理保单时才发现这个保险，进一步了解后才知道它是怎么回事。
 
 <div>
-    <span class="image fit" style="width: 400px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/gov_insurance/gov_insurance_dps.png" alt="" /></span>
+    <span class="image fit" style="max-width: 400px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/gov_insurance/gov_insurance_dps.png" alt="" /></span>
 <div>
 
 ### CPF Life 终身养老年金险
