@@ -14,7 +14,7 @@ items:
       - title: 'Money Philosophy'
         url: ''
       - title: 'Female Invester'
-        url: ''
+        url: 'posts/female-investor/'
 
   # feature item loop
   - name : "Insurance"

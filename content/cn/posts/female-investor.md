@@ -55,5 +55,7 @@ tags:
     <span class="image fit" style="max-width: 500px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/female_investor/money_sense_female_invester3.png" alt="" /></span>
 <div>
 
+附录:
+- [读书笔记思维导图](https://xmind.app/m/CwCH7g)
 
 
