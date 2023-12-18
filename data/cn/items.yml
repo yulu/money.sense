@@ -32,7 +32,7 @@ items:
     style : "solid style2 major fa-arrow-up-right-dots"
     articles:
       - title: '了解股票分类'
-        url: 'posts/equity-categorization/'
+        url: 'posts/listed-company-categorization/'
       - title: '投资小白入门路线图'
         url: 'posts/investment-101/'
     

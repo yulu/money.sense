@@ -31,8 +31,8 @@ items:
     content : ""
     style : "solid style2 major fa-arrow-up-right-dots"
     articles:
-      - title: 'Different types of stocks'
-        url: ''
+      - title: 'Listed Company Categorization'
+        url: 'posts/listed-company-categorization/'
       - title: 'How to start investing as a newbie'
         url: 'posts/investment-101/'
     
