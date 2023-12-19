@@ -11,7 +11,7 @@ tags:
 
 ### 基金选择
 
-FWD提供50+基金选择（[FWD Fund Lab](https://www.fwd.com.sg/personalised-financial-advice/funds/#!?filtersSelectedValue=%7B%7D&page=1&perPage=10&sortField=CustomFundName&sortOrder=asc&universeId=FOALL$$ALL_5677))，股、债、货币基金平衡，可以做合理的搭配控制风险。当然相对于Robo advisor和券商平台，基金选择的还是非常有限。选择里包括S&P500 Index Fund，对于我这样无脑投大盘的投资者是一个选项。
+FWD提供50+基金选择（[FWD Fund Lab](https://www.fwd.com.sg/personalised-financial-advice/funds))，股、债、货币基金平衡，可以做合理的搭配控制风险。当然相对于Robo advisor和券商平台，基金选择的还是非常有限。选择里包括S&P500 Index Fund，对于我这样无脑投大盘的投资者是一个选项。
 
 保险经纪极力推荐的Fundsmith Equity Fund，据说是表现非常好的AI Fund(accredited investor Fund)。粗略看这个基金，投资的分布基本是Large-cap+Growth，这个组合就是在控制风险的同时追求增长。过去十年表现良好，当然过去十年大盘也表现很好。我不会分析基金——因为不懂，所以我不会轻易投，[investmentmoats](https://investmentmoats.com/money/fundsmith-equity-funds-performance/)做了很详细的分析。
 
@@ -35,7 +35,7 @@ ILP背很多人诟病的另一个原因，是它的费用问题。那它到底�
 ##### Robo: Endowus
 - 收费模型：平台费+基金管理费-返利
 - 选择基金：[Infinity US 500 Stock Index Fund USD Acc, ISIN: SG9999003297](https://www.fwd.com.sg/personalised-financial-advice/fund-report/?currencyId=USD&languageId=en-GB&id=F0HKG062P3&idCurrencyId=%20&idType=MSID&marketCode=%20), [factsheet](https://lgi.dzhintl.com/doc/uploads/documents/index.php?type=FS&fid=IUSI&lang=EN)
-- Expense Ratio from Endowus platform: [0.4%](https://endowus.com/pricing) + [0.32%](https://endowus.com/pricing)
+- Expense Ratio from Endowus platform: [0.4%](https://endowus.com/pricing) + [0.32%](https://endowus.com/investment-funds-list/lion-global-infinity-u.s-500-stock-index-fund-SG9999003289)
 
 ##### ETF: FSMOne
 - 收费模型：交易费+基金管理费
