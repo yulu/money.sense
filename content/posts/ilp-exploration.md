@@ -1,7 +1,6 @@
 ---
 title: "Dismantle one 101 ILP"
 date: 2023-12-19T05:35:17+08:00
-draft: true
 tags:
 - investment
 ---
