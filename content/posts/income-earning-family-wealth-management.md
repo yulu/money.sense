@@ -54,7 +54,7 @@ I believe there are two pitfalls to be wary of:
 1. Investing too conservatively.
 2. Having an excessively high proportion of real estate investments.
 
-Being overly conservative in investments (e.g., 3-4% bond investments) show limits in asset appreciation or inflation protection. If low-risk investments significantly dominate the balance sheet, be causious.
+Being overly conservative in investments (e.g., 3-4% bond investments) show limits in asset appreciation or inflation protection. If low-risk investments significantly dominate the balance sheet, be cautious.
 
 This year, thanks to changing homes and reconfiguring insurance, I have had interactions with a few real estate agencies and insurance agencies. An interesting discovery is that when real estate brokers agencies affordability for us initially, they base it on the family's maximum loan amount. My insurance agent however, timely reminded me that property prices are at the all-time high and recommended investment products. There are vested interests for them, of course, and only when we know our own debt-to-asset ratio, understand our financial goals, and risk preferences, can we make better choices. I can't definitively answer whether investing in real estate or the stock market is more advantageous. I endorse the Chinese tradition of investing in real estate, but my attitude is balanced: strive for optimal ratio.
 
@@ -92,7 +92,7 @@ Earning and saving money are about improving one's life and the lives of one's f
     - Short-term savings: Saving accounts, fixed deposits, Singapore Savings Bonds (SSB), T-bills, Money Market Funds.
     - Long-term investments: Central Provident Fund Special Account (CPF SA) Top-Up, Index ETF.
 
-I will continue share money philosophy and investment strategies in my blog. As for life and dreams, I also hope to continue [writing about nice pieces of memery of my life](https://littlecheesecake.me).
+I will continue share money philosophy and investment strategies in my blog. As for life and dreams, I also hope to continue [writing about nice pieces of memory of my life](https://littlecheesecake.me).
 
 ### Reference
 
