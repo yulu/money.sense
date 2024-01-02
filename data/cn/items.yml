@@ -31,8 +31,8 @@ items:
     content : ""
     style : "solid style2 major fa-arrow-up-right-dots"
     articles:
-      - title: '了解股票分类'
-        url: 'posts/listed-company-categorization/'
+      - title: '普通家庭如何做理财规划'
+        url: 'posts/income-earning-family-wealth-management/'
       - title: '拆解101连投险（101 ILPs）'
         url: 'posts/ilp-exploration/'
     

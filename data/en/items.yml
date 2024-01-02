@@ -31,8 +31,8 @@ items:
     content : ""
     style : "solid style2 major fa-arrow-up-right-dots"
     articles:
-      - title: 'Listed Company Categorization'
-        url: 'posts/listed-company-categorization/'
+      - title: 'Wealth Management for Ordinary Income Earning Family'
+        url: 'posts/income-earning-family-wealth-management/'
       - title: 'Dismantle one 101 ILP'
         url: 'posts/ilp-exploration/'
     
