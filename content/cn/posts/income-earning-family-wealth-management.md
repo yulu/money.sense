@@ -23,7 +23,7 @@ tags:
 
 <div>
     <span class="image fit" style="max-width: 800px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/wealth_management/money_sense_networth_tracker.png" alt="" /></span>
-<div>
+</div>
 
 关于净值，我们也可以参考新加坡国民数据。
 
@@ -31,19 +31,19 @@ tags:
 
 <div>
     <span class="image fit" style="max-width: 500px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/wealth_management/money_sense_household_assets.png" alt="" /></span>
-<div>
+</div>
 
 - 在金融资产分布中，现金储蓄和CPF占了绝大部份。而投资型金融资产中，人寿保险占比最高。我可以理解新加坡家庭的总体风险偏好低，大部分依赖管理型，保险类投资产品。
 
 <div>
     <span class="image fit" style="max-width: 800px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/wealth_management/money_sense_singapore_networth_portfolio.png" alt="" /></span>
-<div>
+</div>
 
 - 新加坡家庭的负债率在12%左右，是非常健康的。当然也和年龄有关，年轻人还在收入上升和积累财富阶段，稍高的房贷比例也是合理的。如果计算房产和投资型金融资产（非现金储蓄非CPF）的占比，达到70%以上，我们还是可以认为新加坡家庭仍以房产为主要投资资产。
 
 <div>
     <span class="image fit" style="max-width: 800px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/wealth_management/money_sense_singapore_debt_ratio.png" alt="" /></span>
-<div>
+</div>
 
 以上是家庭净值总数据，有很强的年龄偏差。因为年长人士完成了资产累积，对总数贡献大，但是年长人士临近或已经退休，风险偏好低。所以整体数据是一个投资保守的接近退休的中老年人的资产配置。可能对于资产累积期的年轻家庭不能完全作为参考，但是做类似的分析是很重要的。
 
@@ -65,7 +65,7 @@ tags:
 
 <div>
     <span class="image fit" style="max-width: 800px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/wealth_management/money_sense_spend_tracker.png" alt="" /></span>
-<div>
+</div>
 
 通过自动化定投的方式先储蓄再消费，保证储蓄率。固定支出是刚需，几乎没有办法压缩。如果出现重大财务危机要缩减固定支出，就要接受生活方式的重大转变比如住房降级。而基本支出和灵活支出可以通过适当消费降级控制，牺牲一定的生活品质但并不会颠覆目前生活模式。在实际生活中因为我和先生消费习惯都比较良好（他是天生简朴，我是仍在后天努力慢慢纠正），我只是粗略估算一下，并没有分毫必究的记录。
 
@@ -73,7 +73,7 @@ tags:
 
 <div>
     <span class="image fit" style="max-width: 800px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/wealth_management/money_sense_stats_singapore_expenditure.png" alt="" /></span>
-<div>
+</div>
 
 ### ✍🏻 我们的人生计划是什么：目标决定如何选择投资方式
 

@@ -25,7 +25,7 @@ This can be recorded quarterly to track changes in family net worth—hopefully,
 
 <div>
     <span class="image fit" style="max-width: 800px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/wealth_management/money_sense_networth_tracker.png" alt="" /></span>
-<div>
+</div>
 
 Regarding net worth, we can also refer to Singapore's national data ([reference]((https://www.singstat.gov.sg/publications/reference/ebook/economy/household-sector-balance-sheet))):
 
@@ -33,19 +33,19 @@ Regarding net worth, we can also refer to Singapore's national data ([reference]
 
 <div>
     <span class="image fit" style="max-width: 500px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/wealth_management/money_sense_household_assets.png" alt="" /></span>
-<div>
+</div>
 
 - In the distribution of financial assets, cash savings and CPF (Central Provident Fund) account for the majority. Among investment-type financial assets, life insurance has the highest proportion. I can understand that Singaporean households generally have a low risk appetite, relying mostly on managed and insurance-type investment products.
 
 <div>
     <span class="image fit" style="max-width: 800px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/wealth_management/money_sense_singapore_networth_portfolio.png" alt="" /></span>
-<div>
+</div>
 
 - Singaporean households have a debt-to-asset ratio of around 12%, which is very healthy. Of course, it varies with age, and for young individuals in the income growth and wealth accumulation phase, a slightly higher mortgage ratio is reasonable. If we calculate the proportion of property and investment-type financial assets (excluding cash savings and CPF), it's over 70%, indicating that Singaporean households still primarily invest in real estate.
 
 <div>
     <span class="image fit" style="max-width: 800px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/wealth_management/money_sense_singapore_debt_ratio.png" alt="" /></span>
-<div>
+</div>
 
 The above data represents overall net worth statistics with a strong age bias. Older individuals have accumulated assets, contributing significantly to the total, but their risk appetite is low as they approach retirement or are already retired. Therefore, the overall data reflects a conservative investment allocation for middle-aged and older individuals nearing retirement. It may not be a complete reference for young families who are still in the asset accumulation phase, but similar analyses are crucial.
 
@@ -69,7 +69,7 @@ Recording is the first step in planning. Knowing the specific numbers of income 
 
 <div>
     <span class="image fit" style="max-width: 800px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/wealth_management/money_sense_spend_tracker.png" alt="" /></span>
-<div>
+</div>
 
 By automating regular investments before spending, I ensure a savings rate. Fixed expenses are essential and difficult to reduce. If a major financial crisis requires a reduction in fixed expenses, it may involve significant lifestyle changes such as downgrading housing. However, basic expenses and flexible expenses can be controlled through moderate consumption downgrades, sacrificing some quality of life but not disrupting the current lifestyle abruptly. In actual life, because both my husband and I have relatively good spending habits (he is naturally frugal, and I am still working on this), we make rough estimates without meticulously tracking every cent.
 
@@ -79,7 +79,7 @@ It can be observed that as income increases, the proportion of spending decrease
 
 <div>
     <span class="image fit" style="max-width: 800px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/wealth_management/money_sense_stats_singapore_expenditure.png" alt="" /></span>
-<div>
+</div>
 
 ### ✍🏻 What are our life plans: Goals determine investment choices
 

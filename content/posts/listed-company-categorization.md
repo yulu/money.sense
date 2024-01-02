@@ -11,7 +11,7 @@ I stumbled upon a YouTuber whose content was very informative, sharing investmen
 
 <div>
     <span class="image fit" style="max-width: 1000px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/equity_categorization/money_sense_equity_categorization_mindmap_en.png" alt="" /></span>
-<div>
+</div>
 
 Why understanding listed company classification is important? Imagine yourself as an investment novice trying to pick stocks to invest in. Without background knowledge, we tend to choose using three "methods":
 
@@ -37,7 +37,7 @@ Applying the knowledge of listed company classification to the performance of th
 
 <div>
     <span class="image fit" style="max-width: 1000px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/equity_categorization/money_sense_sp_500_sector_performance_en.png" alt="" /></span>
-<div>
+</div>
 
 ### The Robo-Advisor ETF Portfolio I'm Currently Investing In
 
@@ -47,7 +47,7 @@ If I didn't have this basic understanding, I might not even know what I'm buying
 
 <div>
     <span class="image fit" style="max-width: 600px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/equity_categorization/money_sense_robo_porfolio.jpg" alt="" /></span>
-<div>
+</div>
 
 Appendix:
 - [S&P 500 Sector Performance](https://novelinvestor.com/sector-performance/)

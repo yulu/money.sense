@@ -19,7 +19,7 @@ tags:
 
 <div>
     <span class="image fit" style="max-width: 400px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/gov_insurance/gov_insurance_medishield.png" alt="" /></span>
-<div>
+</div>
 
 ### CareShield Life 长期照顾险
 
@@ -27,7 +27,7 @@ tags:
 
 <div>
     <span class="image fit" style="max-width: 400px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/gov_insurance/gov_insurance_careshield.png" alt="" /></span>
-<div>
+</div>
 
 ### Dependents Protection Schema (DPS) 定期寿险
 
@@ -37,7 +37,7 @@ DPS是由Great Eastern承保的。我也是在自己梳理保单时才发现这�
 
 <div>
     <span class="image fit" style="max-width: 400px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/gov_insurance/gov_insurance_dps.png" alt="" /></span>
-<div>
+</div>
 
 ### CPF Life 终身养老年金险
 

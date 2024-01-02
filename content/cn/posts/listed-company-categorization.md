@@ -11,7 +11,7 @@ tags:
 
 <div>
     <span class="image fit" style="max-width: 1000px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/equity_categorization/money_sense_equity_categorization_mindmap.png" alt="" /></span>
-<div>
+</div>
   
 了解股票分类为什么重要？设想一下自己，一个投资小白要入市选股，该怎么选呢？由于没有背景知识，我们会通过三个“方法”来选择：
 
@@ -36,7 +36,7 @@ tags:
 
 <div>
     <span class="image fit" style="max-width: 1000px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/equity_categorization/money_sense_sp_500_sector_performance_cn.png" alt="" /></span>
-<div>
+</div>
 
 ### 目前投资的 Robo-advisor ETF portfolio  
 
@@ -46,7 +46,7 @@ tags:
 
 <div>
     <span class="image fit" style="max-width: 600px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/equity_categorization/money_sense_robo_porfolio.jpg" alt="" /></span>
-<div>
+</div>
 
 如果没有这些基本的认知，我可能根本不知道自己买的什么，无法判断收益高低的原因。我觉得新手来说robo-advisor的portfolio算是比较好的入门。在积累经验之后，再决定是否要自己来DIY自己的资产配置——取决于自己的兴趣，动力和时间。  
 

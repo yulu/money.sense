@@ -57,11 +57,11 @@ The calculations are based on the following assumptions:
 
 <div>
     <span class="image fit" style="max-width: 1000px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/ilp_exploration/money_sense_compare_ilp_robo_etf.excalidraw.png" alt="" /></span>
-<div>
+</div>
 
 <div>
     <span class="image fit" style="max-width: 500px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/ilp_exploration/money_sense_ipl_comparison.png" alt="" /></span>
-<div>
+</div>
 
 ### My Conclusion
 - Costs have a significant impact on asset accumulation: **Cost** really **matters** a lot!
@@ -90,7 +90,7 @@ This is an explanation of ILPs that I accidentally came across from an insurance
 
 <div>
     <span class="image fit" style="max-width: 1000px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/ilp_exploration/money_sense_incorrect_ilp_explanation_en.png" alt="" /></span>
-<div>
+</div>
 
 Reference:
 - [FWD invest first plus product brochure](https://www.fwd.com.sg/wp-content/uploads/2023/12/Invest-First-Plus-Brochure-Q3-2023-6-Dec-2023.pdf)

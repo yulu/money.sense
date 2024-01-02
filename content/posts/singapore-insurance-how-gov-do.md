@@ -20,7 +20,7 @@ Singaporean citizens are automatically enrolled in MediShield Life from birth, p
 
 <div>
     <span class="image fit" style="max-width: 400px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/gov_insurance/gov_insurance_medishield.png" alt="" /></span>
-<div>
+</div>
 
 ### CareShield Life: Long-term care insurance
 
@@ -28,7 +28,7 @@ Citizens and PRs automatically join CareShield Life at the age of thirty. This i
 
 <div>
     <span class="image fit" style="max-width: 400px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/gov_insurance/gov_insurance_careshield.png" alt="" /></span>
-<div>
+</div>
 
 ### Dependents Protection Schema (DPS): Term life insurance
 
@@ -38,7 +38,7 @@ DPS is underwritten by Great Eastern. I just discovered this insurance while rev
 
 <div>
     <span class="image fit" style="max-width: 400px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/gov_insurance/gov_insurance_dps.png" alt="" /></span>
-<div>
+</div>
 
 ### CPF Life: Lifelong retirement annuity 
 
