@@ -21,9 +21,12 @@ tags:
 
 可以每个季度记录一次，这样可以看到家庭净资产的变化—希望可以是稳步上涨的 📈。
 
+家庭净值记录表（[点击下载](https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/wealth_management/Family+Net+Worth+Sample.xlsx)）
+
 <div>
     <span class="image fit" style="max-width: 800px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/wealth_management/money_sense_networth_tracker.png" alt="" /></span>
 </div>
+
 
 关于净值，我们也可以参考新加坡国民数据。
 
