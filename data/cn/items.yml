@@ -21,8 +21,8 @@ items:
     content : ""
     style : "solid style2 major fa-kit-medical"
     articles:
-      - title: '如果20岁重来一次，我会怎样买保险'
-        url: 'posts/singapore-how-should-i-buy-insurance/'
+      - title: '一家人的保险配置分享'
+        url: 'posts/family-insurance-planning/'
       - title: '新加坡政府教你怎么买保险'
         url: 'posts/singapore-insurance-how-gov-do/'
     
