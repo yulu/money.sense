@@ -32,6 +32,6 @@ tags:
 ### Insurance savings plans / endowment plans 1%~3%
 - ❌流动性低，费用高，收益低
 
-对比来看，很难找到能和CPF媲美的无风险但是在4%以上收益的投资产品了。我打算先无脑放CPF SA，然后Top OA housing refund，保证2%，同时可以转出买tbill。不管是定存，saving account还是SSB/Tbill，低利率环境下收益是很小的。记得2021年时，这些都在2%一下。当时Singlife短期储蓄利率给到2%都抢破头了，发现儿子的CDA账号利率给到2%，我迫不及待地放了好大一笔。
+对比来看，很难找到能和CPF媲美的无风险但是在4%以上收益的投资产品了。我打算先无脑放CPF SA/MA，然后Top OA housing refund，保证2%，同时可以转出买tbill。不管是定存，saving account还是SSB/Tbill，低利率环境下收益是很小的。记得2021年时，这些都在2%一下。当时Singlife短期储蓄利率给到2%都抢破头了，发现儿子的CDA账号利率给到2%，我迫不及待地放了好大一笔。
 
 有余钱根据风险偏好可以放SSB/Tbill/fixed income funds。
