@@ -21,11 +21,11 @@ Tax planning doesn't need to be a last-minute rush to top up CPF and SRS (Supple
 
 SRS has lower liquidity and withdrawal is subject to tax regulations, so it's not really necessary to contribute if you are not benefit much from the tax reduction. I use a spreadsheet to track family income and various tax-saving initiatives to determine the SRS contribution. For example, if we've reached the tax savings limit of 80k, there's no need to contribute further.
 
-My husband utilizes his company's matching donation policy to make regular contributions, effectively offsetting the added tax.
+My husband utilizes his company's donation matching policy to make regular contributions, effectively offsetting the added tax while contributing to public good.
 
 #### 3️⃣ Review Your Housing Loan
 
-Recently, when selling our house and reviewing documents, I discovered that the floating interest rate on our mortgage had reached over 4%. Even though the monthly deduction statement indicated an increase of over 1000 dollars, I couldn't find the specific interest rate anywhere. Regularly reviewing your housing loan becomes more critical during periods of high interest rates!
+Recently, when selling our house and reviewing documents, I discovered that the floating interest rate on our mortgage had reached over 4%. Even though the monthly deduction statement indicated an increase of over 1000 dollars, I couldn't find the specific interest rate statedd anywhere. Regularly reviewing your housing loan becomes more critical during periods of high interest rates!
 
 #### 4️⃣ Update Your CPF Nomination
 
