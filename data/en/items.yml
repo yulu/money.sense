@@ -21,8 +21,8 @@ items:
     content : ""
     style : "solid style2 major fa-kit-medical"
     articles:
-      - title: 'How would I buy insurance if I were 20s something'
-        url: 'posts/singapore-how-should-i-buy-insurance/'
+      - title: 'My Approach to Family Insurance Planning'
+        url: 'posts/family-insurance-planning/'
       - title: 'Learn how to buy insurance from Singapore Government'
         url: 'posts/singapore-insurance-how-gov-do/'
     
