@@ -11,8 +11,8 @@ items:
     content : ""
     style : "style2 major fa-money-bill"
     articles:
-      - title: '金钱哲学'
-        url: ''
+      - title: '认清劝诱者'
+        url: 'posts/be-cautious-with-persuaders'
       - title: '女性投资者'
         url: 'posts/female-investor/'
 
