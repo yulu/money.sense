@@ -3,7 +3,7 @@ title: "投资小白入门路线图"
 date: 2023-12-09T05:18:53+08:00
 draft: true
 tags:
-- investment
+- SavingAndInvestment
 ---
 
 小白入门路线图:

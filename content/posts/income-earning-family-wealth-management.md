@@ -2,7 +2,7 @@
 title: "Wealth Management for Ordinary Income Earning Family"
 date: 2023-12-23T10:13:37+08:00
 tags:
-- investment
+- SavingAndInvestment
 ---
 
 I've decided to handle my family finances on my own. The main reasons are:

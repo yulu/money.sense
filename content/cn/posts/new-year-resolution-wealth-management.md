@@ -2,7 +2,7 @@
 title: "CPF Board的新年理财小贴士"
 date: 2024-01-03T05:36:12+08:00
 tags:
-- money_sense
+- MoneyPhilosophy
 ---
 
 <div>

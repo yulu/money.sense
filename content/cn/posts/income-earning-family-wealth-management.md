@@ -2,7 +2,7 @@
 title: "普通家庭如何做理财规划"
 date: 2023-12-23T10:13:37+08:00
 tags:
-- investment
+- SavingAndInvestment
 ---
 
 理财这事，我决定自己来。主要原因是：

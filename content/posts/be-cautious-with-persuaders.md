@@ -2,7 +2,7 @@
 title: "Be Caustios with Persuaders"
 date: 2024-01-23T05:50:31+08:00
 tags:
-- money_sense
+- MoneyPhilosophy
 ---
 
 Howard Marks has this passage in his book "The Most Important Thing," which I find very interesting:

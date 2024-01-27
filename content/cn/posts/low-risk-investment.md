@@ -2,7 +2,7 @@
 title: "新加坡低风险投资选择"
 date: 2024-01-01T05:41:25+08:00
 tags:
-- investment
+- SavingAndInvestment
 ---
 
 重新计划每月的现金流，有一部分余钱打算长期投资。之前基本是定投S&P, MSCI和REITs。现在打算定投里加上一小部分低风险投资。

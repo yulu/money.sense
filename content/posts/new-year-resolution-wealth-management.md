@@ -2,7 +2,7 @@
 title: "Personal Finance Tips from CPF Board"
 date: 2024-01-03T05:36:12+08:00
 tags:
-- money_sense
+- MoneyPhilosophy
 ---
 
 <div>

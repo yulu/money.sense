@@ -2,7 +2,7 @@
 title: "My Approach to Family Insurance Planning"
 date: 2024-01-06T05:47:18+08:00
 tags: 
-- insurance
+- Insurance
 ---
 
 It's the time of the year that the annual renewal of some of my family insurance policies is needed. While organizing my family's insurance policies, I thought that since I've discussed various insurance topics, why not share my family's insurance principles and strategies directly, similar to what Morgan Housel did in the last chapter of [The Psychology of Money](https://www.goodreads.com/book/show/41881472-the-psychology-of-money), which are practical and convincing advices.

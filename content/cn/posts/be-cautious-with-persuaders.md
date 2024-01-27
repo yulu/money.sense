@@ -2,7 +2,7 @@
 title: "认清劝诱者"
 date: 2024-01-23T05:50:31+08:00
 tags:
-- money_sense
+- MoneyPhilosophy
 ---
 
 霍华德·马克斯在[《投资最重要的事》](https://littlecheesecake.me/books/collection/%E6%8A%95%E8%B5%84%E6%9C%80%E9%87%8D%E8%A6%81%E7%9A%84%E4%BA%8B.html)一书中有这样一段阐述，我觉得非常有意思：

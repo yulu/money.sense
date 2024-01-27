@@ -11,8 +11,8 @@ items:
     content : ""
     style : "style2 major fa-money-bill"
     articles:
-      - title: 'Money Philosophy'
-        url: ''
+      - title: 'Be Cautious with Persuader'
+        url: 'posts/be-cautious-with-persuaders'
       - title: 'Female Invester'
         url: 'posts/female-investor/'
 

@@ -6,7 +6,7 @@
         <div class="inner">
             <h2>{{ .Params.Title }}</h1>
             <p>{{ .Date.Format "January 2, 2006" }} | 
-            {{ range .Params.tags }} <span>{{ . }}</span> {{ end }}
+            {{ range .Params.tags }} <span>{{ i18n . }}</span> {{ end }}
             </p>
             <div class="content align-left">
                 {{ .Content }}

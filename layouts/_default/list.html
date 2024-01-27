@@ -14,7 +14,7 @@
               <div class="content">
                   <div>
                     <ul>
-                    {{ $p := where .Pages ".Params.tags" "intersect" (slice "money_sense") }}
+                    {{ $p := where .Pages ".Params.tags" "intersect" (slice "MoneyPhilosophy") }}
                     {{ range $p }}
                       {{ partial "post_list.html" . }}
                     {{ end }}
@@ -31,7 +31,7 @@
               <div class="content">
                   <div>
                     <ul>
-                    {{ $p := where .Pages ".Params.tags" "intersect" (slice "insurance") }}
+                    {{ $p := where .Pages ".Params.tags" "intersect" (slice "Insurance") }}
                     {{ range $p }}
                       {{ partial "post_list.html" . }}
                     {{ end }}
@@ -48,7 +48,7 @@
               <div class="content">
                   <div>
                     <ul>
-                    {{ $p := where .Pages ".Params.tags" "intersect" (slice "investment") }}
+                    {{ $p := where .Pages ".Params.tags" "intersect" (slice "SavingAndInvestment") }}
                     {{ range $p }}
                       {{ partial "post_list.html" . }}
                     {{ end }}
@@ -65,7 +65,7 @@
               <div class="content">
                   <div>
                     <ul>
-                    {{ $p := where .Pages ".Params.tags" "intersect" (slice "real_estate") }}
+                    {{ $p := where .Pages ".Params.tags" "intersect" (slice "RealEstate") }}
                     {{ range $p }}
                       {{ partial "post_list.html" . }}
                     {{ end }}
@@ -82,7 +82,7 @@
               <div class="content">
                   <div>
                     <ul>
-                    {{ $p := where .Pages ".Params.tags" "intersect" (slice "estate_planning") }}
+                    {{ $p := where .Pages ".Params.tags" "intersect" (slice "EstatePlanning") }}
                     {{ range $p }}
                       {{ partial "post_list.html" . }}
                     {{ end }}

@@ -2,7 +2,7 @@
 title: "Female Investors"
 date: 2023-12-16T06:44:09+08:00
 tags:
-- money_sense
+- MoneyPhilosophy
 ---
 
 A few years ago, I came across this book on called "[Worth It: Your Life, Your Money, Your Terms](https://www.amazon.sg/Worth-Your-Life-Money-Terms/dp/150114099X)." (I was reading the Chinese version). Out of curiosity, I glanced through it and found it worth reading. At the time, I was learning about investment and financial planning, and this book served as a simple and insightful guide. The author discusses the right financial mindset from a female perspective. Upon reading, I learned about two concepts: "Money Blindness" and "Money Aversion". It resonated with me as I realized that these are common issues women tend to avoid. The following quote struck me:

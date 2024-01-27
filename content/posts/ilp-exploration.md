@@ -2,7 +2,7 @@
 title: "Dismantle one 101 ILP"
 date: 2023-12-19T05:35:17+08:00
 tags:
-- investment
+- SavingAndInvestment
 ---
 
 My insurance agent recommended FWD Invest First Plus, an Investment-Linked Policy (ILP), so I took the opportunity to break it down. Influenced by many negative online reviews on ILPs, I had some bias against this type of investment product initially. However, after dissecting this product, my attitude towards it has somewhat changed a little bit.

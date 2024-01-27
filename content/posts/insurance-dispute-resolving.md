@@ -2,7 +2,7 @@
 title: "Our Experience on Insurance Dispute Resolving in Singapore"
 date: 2023-12-30T05:48:11+08:00
 tags: 
-- insurance
+- Insurance
 ---
 
 My husband and I were first recommended to buy Wholelife+Term insurance by a former colleague when he switched careers to become an insurance agent. A year later, our former colleague changed companies and handed over our policies to his friend. Later on, at his friend's suggestion, we switched our Wholelife policy once, whether it was in our favor or beneficial for the new agent to change the policy is ambiguous. Wholelife premiums are quite high, and agents earn substantial commissions in the first few years. Being trust in others and a lack of financial awareness, we did not investigate further. In hindsight, the agent was negligent in not providing us with enough explanation, merely saying that the new policy was better, without mentioning specific details regarding costs, returns, and benefits. Well, all these were not the directly related to the disappointing experience we had later.
