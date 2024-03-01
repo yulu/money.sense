@@ -13,7 +13,7 @@ relativeURLs = "true"
 #canonifyURLs = "true"
 
 # Local
-baseURL = "/"
+baseURL = "https://littlecheesecake.me/money.sense"
 publishDir = "public"
 
 # Remote
