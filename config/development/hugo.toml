@@ -30,7 +30,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 ## -----------------------------------------------
 
 [Params]
-  description = "A (modular, highly tweakable) responsive one-page theme for Hugo"
+  description = "A personal blog about investment, wealth management by a software engineer in Singapore."
   logo = "images/banner.jpg"
   favicon = true
 
