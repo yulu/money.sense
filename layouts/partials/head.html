@@ -1,5 +1,13 @@
 <head>
-	<title>{{ .Title }}</title>
+	<title>
+		{{- if .IsHome -}}
+		  Home | {{ .Site.Title }}
+		{{- else if .Page.Title -}}
+		  {{ .Page.Title }} | {{ .Site.Title }}
+		{{- else -}}
+		  {{ .Site.Title }}
+		{{- end -}}
+	</title> 
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<meta name="description" content="">

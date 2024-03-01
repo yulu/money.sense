@@ -1,5 +1,5 @@
 ---
-title: "Dismantle one 101 Investment-Linked Policy (ILP)"
+title: "Dismantle one 101 Investment-Linked Plan (ILP)"
 date: 2023-12-19T05:35:17+08:00
 tags:
 - SavingAndInvestment
