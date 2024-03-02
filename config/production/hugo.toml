@@ -11,6 +11,7 @@ copyright = "{year}"
 
 relativeURLs = "true"
 canonifyURLs = "true"
+enableRobotsTXT = true
 
 # Local
 baseURL = "https://littlecheesecake.me/money.sense"
