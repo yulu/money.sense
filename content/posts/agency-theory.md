@@ -1,21 +1,22 @@
 ---
 title: "Agent Theory, Incentivisation and Insurance commission rebate"
 date: 2024-01-29T05:58:30+08:00
+description: "The greatest value of financial markets lies in the optimal allocation of resources across time and space. Here's some thoughts about agent theory, incentivisation and insurance commission rebase learnt from Coursera course - Financial Market by Yale"
 tags:
 - MoneyPhilosophy
 ---
 
 Recently, I've been watching an introductory finance course on Coursera - [Financial Market by Yale](https://www.coursera.org/learn/financial-markets-global). It covers the basics of finance and is quite interesting.
 
-### Why it's "insurance sales" and not customer service
+### Why it's "insurance sales" but not customer service
 
 <div>
     <span class="image fit"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/agency-theory/money-sense-agency-theory-insurance-rebate.png" alt="" /></span>
 </div>
 
-What is the social significance of finance? Is it just about making money? Apparently not. The greatest value of financial markets lies in the optimal allocation of societal resources across time and space. Insurance, as an ancient financial tool, exemplifies this advantage well: based on mathematical models such as binomial distribution and the law of large numbers, insurance disperses individual risks, allowing money or resources to be timely and appropriately allocated to those in need.
+What is the social significance of finance? Is it just about making money? Apparently not. The greatest value of financial markets lies in the optimal allocation of resources across time and space. Insurance, as an ancient financial tool, exemplifies this advantage well: based on mathematical models such as binomial distribution and the law of large numbers, insurance disperses individual risks, allowing money or resources to be timely and appropriately allocated to those in need.
 
-However, in the 19th century, society's acceptance of insurance was not high. The fundamental reason is that it is counterintuitive: insurance encourages people to pay for things they wish it will never happen, as if betting on one's cherished health and life.
+However, in the 19th century, society's acceptance of insurance was not high. The fundamental reason is that insurance is counterintuitive: insurance encourages people to pay for things they wish it will never happen, as if betting on one's cherished health and life.
 
 Two important milestones that made insurance widely accepted are:
 
@@ -28,7 +29,7 @@ However, problems associated with the agency sales model and the concept of cash
 
 ### Incentivisation
 
-Insurance companies lack the motivation to promote financial education because their incentivised by agent sales model and high-profit cash value products. In the 1990s, Singapore banned insurance rebates to prevent brokers from inducing customers to buy unreasonable products through rebates. The [ban was lifted in 2002](https://www.mas.gov.sg/news/parliamentary-replies/2002/reply-to-pq-on-insurance-rebates--27-august-2002) as the insurance market matured, and the government shifted from a regulatory to a supervisory role, allowing rebate practices that were not inducement to purchase. However, rebates remain a controversial topic, with situations where financial advisors entice customers to buy unsuitable products through rebates. Then another problem remains: advisors may recommend high-commission but unsuitable products to profit themselves. The fundamental issue is still the conflict of interest and information asymmetry in agency theory—customers and advisors act out of their own interests, leading to disagreement in product selection. The assumption in financial theory that people are driven by self-interest (which is true in most real-life scenarios) further exacerbates the conflict of interest under the commission system, leading to an information bias between financial advisors and clients, eventually turning into a game of interests.
+Insurance companies lack the motivation to promote financial education because they are incentivised by agent sales model and high-profit cash value products. In the 1990s, Singapore banned insurance rebates to prevent brokers from inducing customers to buy unreasonable products through rebates. The [ban was lifted in 2002](https://www.mas.gov.sg/news/parliamentary-replies/2002/reply-to-pq-on-insurance-rebates--27-august-2002) as the insurance market matured, and the government shifted from a regulatory to a supervisory role, allowing rebate practices that were not inducement to purchase. However, rebates remain a controversial topic, another problem remains: advisors may recommend high-commission but unsuitable products to profit themselves. The fundamental issue is still the conflict of interest and information asymmetry in agency theory: customers and advisors act out of their own interests, leading to disagreement in product selection. The assumption in financial theory that people are driven by self-interest (which is true in most real-life scenarios) further exacerbates the conflict of interest under the commission system, leading to an information bias between financial advisors and clients, eventually turning into a game of interests.
 
 <div>
     <span class="image fit" style="max-width: 400px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/agency-theory/money-sense-agency-theory-insurance-en.png" alt="" /></span>
@@ -36,13 +37,11 @@ Insurance companies lack the motivation to promote financial education because t
 
 Therefore, from a regulatory perspective, it's difficult to strictly define rebate activities. Currently, the local brokerage FSMOne in Singapore offers insurance services, [quietly stating that some products are eligible for 30%-45% rebates](https://secure.fundsupermart.com/fsm/advice-services/faq/9322/?source=ins&rank=2). The Singapore government also mandates insurance companies to offer zero-commission term life/whole life insurance [Direct Purchase Insurance](https://www.moneysense.gov.sg/buying-direct-purchase-insurance/) that can be bought directly from insurers, which can be viewed and compared on [CompareFIRST](https://www.comparefirst.sg/wap/homeEvent.action).
 
+Aside from the sales-driven agency model and cash value-packaged insurance products, what better ways are there to improve insurance penetration and serve society better?
 
-Aside from the sales-driven agency model and cash value-packaged insurance products, what better ways are there to promote insurance penetration and serve society better?
+- Government Policy: For example, ObamaCare, which attempts to address the criticized American healthcare system, incentivizes Americans to buy medical insurance through tax incentives and other reward-penalty systems, increasing insurance coverage. Similarly, the Singapore government has increased insurance coverage and reduced selection bias through policies like MediShield, CareShield, and CPF Life ([Learn how to buy insurance from Singapore Government](https://littlecheesecake.me/money.sense/posts/singapore-insurance-how-gov-do/)).
 
-- Government Policy: For example, ObamaCare, which attempts to address the criticized American healthcare system, incentivizes Americans to buy medical insurance through tax incentives and other reward-penalty systems, increasing insurance coverage. Similarly, the Singapore government has increased insurance coverage and reduced selection bias through policies like MediShield, CareShield, and CPF Life.
-
-- Social Education: Only when people's understanding of the essence of finance improves and they recognize the value of financial tools beyond making money can they better accept and efficiently use them. Singapore government websites like [Money Sense](https://www.moneysense.gov.sg/), [MyMoneySense](https://www.mymoneysense.gov.sg/) and [CPF Board](https://www.cpf.gov.sg/member) are working to popularize financial literacy and develop digital tools to help citizens improve their personal financial management skills.
-
+- Social Education: Only when people's financial literacy improves and they recognize the value of financial tools beyond making money can they better accept and effectively use them. Singapore government websites like [Money Sense](https://www.moneysense.gov.sg/), [MyMoneySense](https://www.mymoneysense.gov.sg/) and [CPF Board](https://www.cpf.gov.sg/member) are working hard to popularize financial literacy and develop digital tools to help citizens improve their personal financial management skills.
 
 ### References
 
