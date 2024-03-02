@@ -12,12 +12,19 @@ Howard Marks has this passage in his book [The Most Important Thing](https://www
 > 
 > I consider those who simplify investment for others as "persuaders"...
 
-His definition of persuaders gave me some inspiration. If we understand the business models of different institutions and the perspectives of "persuaders", we can make more objective and neutral financial decisions. The facts are:
+His definition of persuaders gave me some inspiration. If we understand the business models of different institutions and the perspectives of "persuaders", we can make more objective and neutral financial decisions:
 
-- Brokerages: They are making money through the transaction commissions and interests on lending for marginal accounts. However, pursuing excess returns (alpha) in the market is a zero-sum game, largely dominated by institutional investors. Individual traders make very little consistent profit and require a lot of effort.
-- Mutual Funds: They are making money through the fund management fees. However, most actively managed funds can't outperform the market.
-- Insurance: They are making money through the sales commission of insurance products. However, insurance investment products are essentially fund wrappers with high costs.
-- Banks: They are making money through loans. So they are stimulating you to increase borrowing through various operations, such as showing funds to increase mortgage loan limits, credit card rebates, leveraged investment product selling. 
+- **Brokerage firms**: Everyone has the ability to trade investments. Daily trading, options, forex, crypto, are all lucrative tools! — Inducing you to pay commissions for each transaction or charging interest through margin accounts.
+- **Mutual funds**: The investment market is too risky, only we have professional investment capabilities! — Inducing you to invest money in managed funds and paying management fees for it.
+- **Insurance**: Most people don't understand investing or can't save money, so they need mandatory constraints! — Inducing you to purchase low-liquidity insurance investment products and paying commissions and management fees for it.
+- **Banks**: Everyone needs to consume and pursue an ideal life, buying houses, cars, bags. — Inducing you to borrow money, mortgages, car loans, credit cards.
+
+The truth is:
+
+- **Brokerage firms**: Pursuing excess returns (alpha) in the market is a zero-sum game, largely dominated by institutional investors. Individual traders can sustain very little profit and require a significant amount of effort.
+- **Mutual funds**: Most actively managed funds can't outperform the market.
+- **Insurance**: Insurance investment products are essentially funds in a shell, and this shell incurs high costs.
+- **Banks**: Various operations, such as showing funds to increase loan limits, credit card rebates, etc., are all aimed at stimulating you to increase borrowing.
 
 In the book "Three-Body Problem", there is a term called "dimensional reduction strike". Here, once we understand the business models of different institutions and their dimensions in the market, we can stand at a higher dimension and look down:
 
