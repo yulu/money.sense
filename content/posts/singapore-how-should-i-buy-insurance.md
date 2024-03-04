@@ -1,6 +1,7 @@
 ---
 title: "How would I buy insurance if I were 20s something"
 date: 2023-12-08T18:12:02+08:00
+description: "If I could go back from my twenties to thirties, here's how I would approach buying insurance."
 tags: 
 - Insurance
 ---

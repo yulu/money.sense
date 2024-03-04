@@ -1,6 +1,7 @@
 ---
 title: "Wealth Management for Ordinary Income Earning Family"
 date: 2023-12-23T10:13:37+08:00
+description: "In this post, I am sharing our ways to do family wealth management as an ordinary income earning family, bascially answering the following three questions: how much assets do we have? how much do we earn, spend and save? and what are our life goals?"
 tags:
 - SavingAndInvestment
 ---
@@ -8,7 +9,7 @@ tags:
 I've decided to handle my family finances on my own. The main reasons are:
 
 - Financial decisions are built upon life decisions, and I need to be completely honest with a financial advisor for them to help us make the most reasonable plan. However, for me it's difficult to fully open up about my personal dreams and family plans to someone else without a deep trust.
-- We need insurance agencies to handle policies, real estate agencies for property transactions, banks for loans, and law firms for wills. Without anyone of these, financial planning isn't complete. I feel that Singaporean society hasn't developed to the point where ordinary income earning (non high-net-worth) families can easily access professional financial planning services that manage all-in-one.
+- We need insurance agencies to handle policies, real estate agencies for property transactions, banks for loans, and law firms for wills. Without anyone of these, financial planning isn't complete. I feel that Singapore society hasn't developed to the point where ordinary income earning (non high-net-worth) families can easily access professional financial planning services that manage all-in-one.
 - Ordinary families don't have large sums of wealth to 'manage'. Through books, MOOCs, and media platforms, one can obtain sufficient financial knowledge, and with retail financial investment products and some affordable professional services, one can meet their own financial needs.
 
 Now, let me explain how I go about it by start with the following three questions:

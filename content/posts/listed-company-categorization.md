@@ -1,6 +1,7 @@
 ---
 title: "Listed Company Categorization"
 date: 2023-12-18T05:52:30+08:00
+description: "I stumbled upon a YouTuber whose content was very informative, sharing investment knowledge, methods, and promoting a healthy investment mindset. I greatly benefited from watching his videos. He summarized the knowledge of listed company categorization, which is very suitable for beginners. "
 tags:
 - SavingAndInvestment
 ---
