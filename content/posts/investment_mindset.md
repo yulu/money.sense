@@ -18,7 +18,7 @@ Investing and financial planning are not just about chasing monetary growth, but
 
 ❷ Savings rate is the key to wealth
 
-While increasing income is important, controlling expenses is the key. In the book [The Psychology of Money](https://www.goodreads.com/book/show/41881472-the-psychology-of-money), the author, in the final chapter, shares his own financial strategy (titled “My Confessions”). One point that stood out to me is that as he and his wife’s income increased, they didn’t upgrade their lifestyle. Instead, they continued to live frugally as they did in their younger years, which ensured their savings rate increased.
+While increasing income is important, controlling expenses is the key. In the book [The Psychology of Money](https://www.goodreads.com/book/show/41881472-the-psychology-of-money), the author, in the final chapter, shares his own financial strategy (titled “My Confessions”). One point that stood out to me is that as he and his wife’s income increased, they didn’t upgrade their lifestyle. Instead, they continued to live frugally as they did in their younger years, which ensured their savings rate increased. Relationship between savings rate and time required to achieve financial freedom as:
 
 <div>
     <span class="image fit" style="max-width: 1000px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/investment_mindset/years_until_fire_vs_savings_rate.webp" alt="" /></span>

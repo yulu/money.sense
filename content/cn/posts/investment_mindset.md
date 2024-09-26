@@ -18,7 +18,7 @@ Christopher Tan是新加坡一家fee-only独立理财顾问公司Providend的CEO
 
 ❷ 储蓄率才是财富密码
 
-开源固然重要，但是截流才是关键。在[Psychology of Mone](https://www.goodreads.com/book/show/41881472-the-psychology-of-money)一书中，作者在最后的一章公开了自己的理财方式（My Confessions)，其中印象深刻的一点就是他和妻子在收入提升的过程中，没有进行消费升级，一直保持年轻时节俭的生活方式，所以可以确保储蓄率的增长。
+开源固然重要，但是截流才是关键。在[Psychology of Mone](https://www.goodreads.com/book/show/41881472-the-psychology-of-money)一书中，作者在最后的一章公开了自己的理财方式（My Confessions)，其中印象深刻的一点就是他和妻子在收入提升的过程中，没有进行消费升级，一直保持年轻时节俭的生活方式，所以可以确保储蓄率的增长。储蓄率和财务自由所需的时间如图。
 
 <div>
     <span class="image fit" style="max-width: 1000px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/investment_mindset/years_until_fire_vs_savings_rate.webp" alt="" /></span>
