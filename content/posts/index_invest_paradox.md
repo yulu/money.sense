@@ -1,12 +1,12 @@
 ---
-title: "Index Investment Paradox"
+title: "Index Invest Paradox"
 date: 2024-09-26T23:31:16+08:00
 description: "Beginner investors who have overcome greed, by passively investing in this relatively efficient market, can ride the tide and win effortlessly."
 tags:
 - SavingAndInvestment
 ---
 
-[A Random Walk Down Wall Street](https://www.amazon.sg/Random-Walk-Down-Wall-Street-dp-1324051132/dp/1324051132/ref=dp_ob_title_bk) is, in my opinion, a great introductory book for beginner investors. At the end of the book, the author includes an interesting essay where he refutes a lengthy paper published by a well-known Wall Street investment research institution. This paper argues that “index fund investing does more harm than good to the investment market.”
+[A Random Walk Down Wall Street](https://www.goodreads.com/en/book/show/40242274) is, in my opinion, a great introductory book for beginner investors. At the end of the book, the author includes an interesting essay where he refutes a lengthy paper published by a well-known Wall Street investment research institution. This paper argues that “index fund investing does more harm than good to the investment market.”
 
 The issues raised in the paper criticizing index investing can be simplified into what I call the “Index Investing Paradox.” Why is it a paradox? Because passive investing relies on the market’s efficiency — meaning that information flows freely and prices always reflect true value. The logic of passive investing is to avoid frequent trading based on market information. However if the vast majority of people passively invest in indices, how can capital circulate quickly to ensure market efficiency?
 
