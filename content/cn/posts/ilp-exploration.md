@@ -1,7 +1,7 @@
 ---
-title: "拆解101连投险（101 ILPs）"
+title: "拆解101投连险（101 ILPs）"
 date: 2023-12-19T05:35:17+08:00
-description: "中立的对比101 ILP（连投险），Robo advisor和直接通过券商投资Index ETF的收益和费用，附Python计算脚本"
+description: "中立的对比101 ILP（投连险），Robo advisor和直接通过券商投资Index ETF的收益和费用，附Python计算脚本"
 tags:
 - SavingAndInvestment
 ---
