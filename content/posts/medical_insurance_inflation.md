@@ -32,7 +32,7 @@ We chose Gleneagles Hospital for the cancer treatment, solely because we weren't
 
 Using public resources responsibly is every citizen’s duty because the cost will eventually be borne by consumers in the form of premium increases.
 
-参考
+Reference
 - [Deep Dive - Are generous health insurance policies inflating medical costs?](https://www.channelnewsasia.com/listen/deep-dive/are-generous-health-insurance-policies-inflating-medical-costs-4505956)
 - [5 of Singapore’s 7 IP insurers post mixed or poor results in last 5 years](https://www.straitstimes.com/singapore/five-of-singapore-s-seven-ip-insurers-post-mixed-or-poor-results-in-last-five-years)
 - [社论：完善赔付体制 遏制医药费飙涨](https://www.zaobao.com.sg/forum/editorial/story20240808-4441675)
