@@ -31,7 +31,7 @@ ILP被很多人诟病的一个原因，是它的费用问题。那它到底多�
 ##### ILP: FWD Investment first plus
 - 收费模型：产品费用 - 返利 + 基金管理费用
 - 选择基金：[Infinity US 500 Stock Index Fund USD Acc, ISIN: SG9999003297](https://www.fwd.com.sg/personalised-financial-advice/fund-report/?currencyId=USD&languageId=en-GB&id=F0HKG062P3&idCurrencyId=%20&idType=MSID&marketCode=%20), [factsheet](https://lgi.dzhintl.com/doc/uploads/documents/index.php?type=FS&fid=IUSI&lang=EN)
-- Expense Ratio from factsheet: [0.61% + 额外保险费用]((https://www.comparefirst.sg/wap/prodSummaryPdf/200501737H/WA_Sum_200501737H_ILP03_RP_May2023.pdf))
+- Expense Ratio from factsheet: [0.61% + 额外保险费用](https://www.comparefirst.sg/wap/prodSummaryPdf/200501737H/WA_Sum_200501737H_ILP03_RP_May2023.pdf)
 
 ##### Robo: Endowus
 - 收费模型：平台费+基金管理费 - 返利

@@ -31,7 +31,7 @@ The calculations are based on the following assumptions:
 ##### ILP: FWD Investment First Plus
 - Fee model: Product fees - Bonuses + Fund management fees
 - Selected fund: [Infinity US 500 Stock Index Fund USD Acc, ISIN: SG9999003297](https://www.fwd.com.sg/personalised-financial-advice/fund-report/?currencyId=USD&languageId=en-GB&id=F0HKG062P3&idCurrencyId=%20&idType=MSID&marketCode=%20), [factsheet](https://lgi.dzhintl.com/doc/uploads/documents/index.php?type=FS&fid=IUSI&lang=EN)
-- Expense Ratio from factsheet: [0.61% + additional insurance fees]((https://www.comparefirst.sg/wap/prodSummaryPdf/200501737H/WA_Sum_200501737H_ILP03_RP_May2023.pdf))
+- Expense Ratio from factsheet: [0.61% + additional insurance fees](https://www.comparefirst.sg/wap/prodSummaryPdf/200501737H/WA_Sum_200501737H_ILP03_RP_May2023.pdf)
 
 ##### Robo: Endowus
 - Fee model: Platform fee + Fund management fees - Platform rebates
