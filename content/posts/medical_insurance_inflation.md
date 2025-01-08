@@ -1,7 +1,7 @@
 ---
 title: "Are Generous Health Insurance Policies Inflating Medical Costs"
 date: 2024-10-28T05:41:25+08:00
-description: ""
+description: "Using public resources responsibly is every citizen’s duty because the cost will eventually be borne by consumers in the form of premium increases"
 tags:
 - Insurance
 ---
