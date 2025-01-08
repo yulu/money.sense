@@ -1,9 +1,9 @@
 ---
 title: "Money Story: Cope with Kawasaki Disease Financially and Invaluable Life Lessons"
 date: 2025-01-07T05:58:30+08:00
-description: ""
+description: "My son’s first hospitalization for Kawasaki disease gave me a deep understanding of the healthcare system. During the COVID-19 period, with international travel restricted, I worried about the affordability of medical care for my foreign-national parents living in Singapore, which prompted me to insure them with hospitalization policies. Later, when my family member was diagnosed with cancer and I lost my job, the first thing I did was to upgrade our family’s insurance coverage. "
 tags:
-- MoneyPhilosophy
+- Insurance
 ---
 
 When my son was born in 2020, I had no idea about the importance of insurance. At the time, I gave birth in a private hospital, and as part of the hospital benefits, they offered a free insurance policy. I didn’t read the policy, just signed it and didn’t keep any records.

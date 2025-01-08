@@ -1,5 +1,5 @@
 ---
-title: "Our Experience on Insurance Dispute Resolving in Singapore"
+title: "Money Story: Our Experience on Insurance Dispute Resolving in Singapore"
 date: 2023-12-30T05:48:11+08:00
 description: "This is a story about how we resolved an insurance dispute due to irresponsible agent and insurance company and protected our rights through FIDReC."
 tags: 
