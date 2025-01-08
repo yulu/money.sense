@@ -29,5 +29,5 @@ Christopher Tan是新加坡一家fee-only独立理财顾问公司Providend的CEO
 保险并不是理财产品，但是是个人理财的非常重要的一部分。它的目的是在意外发生时，让你可以不偏离你的财物目标。区分保障型和投资型保险，购买基本的人寿和医疗保险，That's it, invest the rest。
 
 参考：
-- [My Money | Questions You Should Ask Before Taking Up an Insurance Product by Christopher Tan, CEO of Providend](https://www.youtube.com/watch?v=hgSrQoY3ORo&t=1728s)
+- [My Money | Questions You Should Ask Before Taking Up an Insurance Product by Christopher Tan, CEO of Providend](https://www.youtube.com/watch?v=hgSrQoY3ORo)
 - [When can I retire calculator by Networthify](https://networthify.com/calculator/earlyretirement?income=50000&initialBalance=0&expenses=20000&annualPct=5&withdrawalRate=4)

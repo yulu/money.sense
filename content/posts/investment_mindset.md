@@ -30,5 +30,5 @@ Insurance is not a financial product, but it is a very important part of persona
 
 Reference：
 
-- [My Money | Questions You Should Ask Before Taking Up an Insurance Product by Christopher Tan, CEO of Providend](https://www.youtube.com/watch?v=hgSrQoY3ORo&t=1728s)
+- [My Money | Questions You Should Ask Before Taking Up an Insurance Product by Christopher Tan, CEO of Providend](https://www.youtube.com/watch?v=hgSrQoY3ORo)
 - [When can I retire calculator by Networthify](https://networthify.com/calculator/earlyretirement?income=50000&initialBalance=0&expenses=20000&annualPct=5&withdrawalRate=4)
