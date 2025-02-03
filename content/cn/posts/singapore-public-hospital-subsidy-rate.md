@@ -28,3 +28,9 @@ Ministry of finance在2024 Q4调整了补贴费率，提高了每个区间的PCH
 </div>
 
 假设一个家庭的gross monthly收入是20K。如果是两人小家庭，PCHI就是10K，rate都是在最高的bracket。但如果父母同住还有两娃，PCHI一下降到3.3K，补贴费率一下子提高了不少。不妨登陆HOMES看看自己的household信息是否准确，不要错过了应得的福利。
+
+参考:
+- [HOMES](https://www.homes.gov.sg/eservice)
+- [ANNEX F-4: ENHANCEMENTS TO SUBSIDY SCHEMES FOR HEALTHCARE AND ASSOCIATED SOCIAL SUPPORT](https://www.mof.gov.sg/docs/librariesprovider3/budget2024/download/pdf/annexf4.pdf)
+- [MOH: Subsidies for Acute Inpatient Care at Public Healthcare Institutions](https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/subsidies-for-acute-inpatient-care-at-public-healthcare-institutions)
+- [MOH: Subsidies for Specialist Outpatient care at Public Healthcare Institutions](https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/subsidies-for-specialist-outpatient-care-at-public-healthcare-institutions)

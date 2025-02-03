@@ -32,3 +32,9 @@ For example, if a household’s gross monthly income is **$20,000**:
 - However, if they live with their parents and have two children, the PCHI drops to **$3,300**, significantly increasing their subsidy rate.
 
 This change highlights how household size and income distribution can greatly impact subsidy eligibility in Singapore. You might as well log in to HOMES to check whether your household information is accurate, so you don’t miss out on the benefits you are entitled to.
+
+Reference:
+- [HOMES](https://www.homes.gov.sg/eservice)
+- [ANNEX F-4: ENHANCEMENTS TO SUBSIDY SCHEMES FOR HEALTHCARE AND ASSOCIATED SOCIAL SUPPORT](https://www.mof.gov.sg/docs/librariesprovider3/budget2024/download/pdf/annexf4.pdf)
+- [MOH: Subsidies for Acute Inpatient Care at Public Healthcare Institutions](https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/subsidies-for-acute-inpatient-care-at-public-healthcare-institutions)
+- [MOH: Subsidies for Specialist Outpatient care at Public Healthcare Institutions](https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/subsidies-for-specialist-outpatient-care-at-public-healthcare-institutions)
