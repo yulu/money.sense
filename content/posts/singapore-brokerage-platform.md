@@ -7,6 +7,10 @@ addtags:
 - Tools
 ---
 
+<div style="text-align: center">
+    <span class="image fit" style="max-width: 500px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/brokerage/brokerage_cover.jpg" alt="" /></span>
+</div>
+
 A few years ago, Tiger Brokers entered the Singapore market with overwhelming advertisements. After some research (mainly comparing platforms' commissions), I chose it as my main brokerage platform. Having used it for a few years, I found it fairly average. Since I only trade occasionally, I don’t have much to comment on. In Singapore, the cross-border internet-based brokers MooMoo (Futu) and Tiger Brokers are direct competitors. Both are popular for their low commissions and deposit bonuses. They share similar business models and are backed by Chinese capital, but their development paths and clearing systems differ significantly. 
 
 I’ve noticed that many investors in Singapore use IBKR (Interactive Brokers) as their primary brokerage platform. At the beginning of 2024, when I re-evaluated my investment allocations, I spent some time reading insights from seasoned investors and finally understood the advantages of this traditional brokerage: IBKR supports trading on the London Stock Exchange (LSE).

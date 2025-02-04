@@ -7,6 +7,10 @@ addtags:
 - Opinions
 ---
 
+<div style="text-align: center">
+    <span class="image fit" style="max-width: 500px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/path_to_fire/fire_path_cover.jpg" alt="" /></span>
+</div>
+
 If you’ve been learning about financial management and investment, you’re likely familiar with the term FIRE: Financial Independence and Retire Early. While I don’t pursue the extreme lifestyle of drastically cutting living expenses to retire early, some concepts from FIRE have been quite inspiring to me. Just like the financial planning methods I’ve shared before, I don’t solely plan based on how much money I have; instead, I focus on aligning financial planning with my life goals and personal values. Drawing on the FIRE framework, I’ve divided my life plan into four stages:
 
 Assets Accumulation ➡️ Coast FIRE ➡️ Barista FIRE ➡️ Retirement  

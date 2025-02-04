@@ -8,7 +8,7 @@ addtags:
 - Tools
 ---
 
-<div>
+<div style="text-align: center">
     <span class="image fit" style="max-width: 400px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/cpf_board_tips/CPF_board_tips.jpg" alt="" /></span>
 </div>
 

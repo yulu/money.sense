@@ -7,6 +7,10 @@ addtags:
 - Tools
 ---
 
+<div style="text-align: center">
+    <span class="image fit" style="max-width: 500px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/save_and_spend_effortlessly/save_effortlessly_cover.jpg" alt="" /></span>
+</div>
+
 When I was at my 20s, I was living paycheck to paycheck. Late payment fees for phone bills and credit card repayments were a regular occurrence. I tried tracking my daily expenses, and it was incredibly helpful! But, unfortunately, I couldn’t keep it up for more than a few months before gradually slacking off.  
 
 I’m the type who occasionally gets a burst of motivation but most of the time lying flat. Over time, I figured out a pain-free way to save and spend money that works for people like me.

@@ -8,6 +8,10 @@ addtags:
 - MoneyStory
 ---
 
+<div style="text-align: center">
+    <span class="image fit" style="max-width: 500px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/cope_with_kawasaki_disease/kawasaki_cover.jpg" alt="" /></span>
+</div>
+
 When my son was born in 2020, I had no idea about the importance of insurance. At the time, I gave birth in a private hospital, and as part of the hospital benefits, they offered a free insurance policy. I didn’t read the policy, just signed it and didn’t keep any records.
 
 After he was born, I kept thinking about asking an insurance agent what insurance my child might need. I procrastinated for a long time and finally texted an agent when my son was over four months old. The agent recommended hospitalization insurance and an education savings plan. Back then, my financial knowledge was vague. I thought savings plans were too inflexible due to the long commitment, so I decided not to buy one. I arranged a meeting with the agent to sign up for hospitalization insurance. However, as luck would have it, on the day we were supposed to meet, my son suddenly developed a high fever of 40°C and had to be hospitalized, delaying the insurance signing.
