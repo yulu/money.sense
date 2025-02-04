@@ -11,8 +11,8 @@ items:
     content : ""
     style : "style2 major fa-money-bill"
     articles:
-      - title: '认清劝诱者'
-        url: 'posts/be-cautious-with-persuaders'
+      - title: '我认可的理财观'
+        url: 'posts/investment_mindset/'
       - title: '女性投资者'
         url: 'posts/female-investor/'
 
@@ -37,7 +37,7 @@ items:
         url: 'posts/ilp-exploration/'
     
   # feature item loop
-  - name : "RealEstate"
+  - name : "Properties"
     content : ""
     style : "solid style2 major fa-house"
     articles:

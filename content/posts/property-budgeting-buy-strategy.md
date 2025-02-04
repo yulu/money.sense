@@ -3,7 +3,7 @@ title: "Private Property Budgeting and Buying Strategy"
 date: 2025-01-30T23:31:16+08:00
 description: ""
 tags: 
-- RealEstate
+- Properties
 addtags:
 - MoneyStory
 ---

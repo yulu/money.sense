@@ -60,12 +60,12 @@
             <!-- section 4 -->
             <section>
               <header>
-                  <h3>{{ i18n "RealEstate" }}</h3>
+                  <h3>{{ i18n "Properties" }}</h3>
               </header>
               <div class="content">
                   <div>
                     <ul>
-                    {{ $p := where .Pages ".Params.tags" "intersect" (slice "RealEstate") }}
+                    {{ $p := where .Pages ".Params.tags" "intersect" (slice "Properties") }}
                     {{ range $p }}
                       {{ partial "post_list.html" . }}
                     {{ end }}

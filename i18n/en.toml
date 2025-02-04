@@ -7,8 +7,8 @@ other = "Insurance"
 [SavingAndInvestment]
 other = "Saving and Investments"
 
-[RealEstate]
-other = "Real Estate"
+[Properties]
+other = "Properties"
 
 [EstatePlanning]
 other = "Estate Planning"
