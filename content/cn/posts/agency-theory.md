@@ -4,6 +4,8 @@ date: 2024-01-29T05:58:30+08:00
 description: "金融市场存在的最大价值是将社会资源在时间和空间的维度上最大优化。最近在看Coursera的一门金融入门课Financial Market by Yale，记录一下关于代理理论、激励机制和保险返佣的思考。"
 tags:
 - MoneyPhilosophy
+addtags:
+- 观点
 ---
 
 最近在看Coursera的一门金融入门课[Financial Market by Yale](https://www.coursera.org/learn/financial-markets-global)。讲金融基础，还挺有趣的。

@@ -4,6 +4,8 @@ date: 2025-01-06T23:31:16+08:00
 description: ""
 tags:
 - SavingAndInvestment
+addtags:
+- 观点
 ---
 
 读Random Walk Down Wall Street，作者建议不管是什么年龄段，都在资产配置里放一小部分REITs。

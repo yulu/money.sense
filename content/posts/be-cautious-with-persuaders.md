@@ -4,6 +4,8 @@ date: 2024-01-23T05:50:31+08:00
 description: "Inspired by Howard Marks's famous book The Most Important Things, I am sharing some thoughts about brokerages, fund firms, insurance companies and banks and how to navigate through the different service providers wisely."
 tags:
 - MoneyPhilosophy
+addtags:
+- Opinions
 ---
 
 Howard Marks has this passage in his book [The Most Important Thing](https://www.goodreads.com/book/show/10454418-the-most-important-thing), which I find very interesting:

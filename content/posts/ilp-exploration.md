@@ -1,9 +1,12 @@
 ---
-title: "Data Analysis: Dismantle one 101 Investment-Linked Plan (ILP)"
+title: "Dismantle one 101 Investment-Linked Plan (ILP)"
 date: 2023-12-19T05:35:17+08:00
 description: "A transparent, unbiased comparision of 101 ILP (FWD), Robo Advisor (Endowus) and direct ETF investment, with actual numbers and python scripts."
 tags:
 - SavingAndInvestment
+addtags:
+- DataAnalysis
+- Opinions
 ---
 
 My insurance agent recommended FWD Invest First Plus, an Investment-Linked Plan (ILP), so I took the opportunity to break it down. Influenced by many negative online reviews on ILPs, I had some bias against this type of investment product initially. However, after dissecting this product, my attitude towards it has somewhat changed a little bit.

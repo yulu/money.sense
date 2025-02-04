@@ -3,6 +3,8 @@ title: "How to Save and Spend Effortlessly"
 date: 2025-01-11T18:37:21+08:00
 tags:
 - SavingAndInvestment
+addtags:
+- Tools
 ---
 
 When I was at my 20s, I was living paycheck to paycheck. Late payment fees for phone bills and credit card repayments were a regular occurrence. I tried tracking my daily expenses, and it was incredibly helpful! But, unfortunately, I couldn’t keep it up for more than a few months before gradually slacking off.  

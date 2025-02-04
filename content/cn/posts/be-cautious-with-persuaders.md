@@ -4,6 +4,8 @@ date: 2024-01-23T05:50:31+08:00
 description: "霍华德·马克斯在《投资最重要的事》一书中关于劝诱者的描述给我很多启发，这里分享我关于券商、基金、保险和银行这些金融服务机构的看法以及我们应该如何有效的使用金融服务。"
 tags:
 - MoneyPhilosophy
+addtags:
+- 观点
 ---
 
 霍华德·马克斯在[《投资最重要的事》](https://littlecheesecake.me/books/collection/%E6%8A%95%E8%B5%84%E6%9C%80%E9%87%8D%E8%A6%81%E7%9A%84%E4%BA%8B.html)一书中有这样一段阐述，我觉得非常有意思：

@@ -4,6 +4,8 @@ date: 2023-12-23T10:13:37+08:00
 description: "In this post, I am sharing our ways to do family wealth management as an ordinary income earning family, bascially answering the following three questions: how much assets do we have? how much do we earn, spend and save? and what are our life goals?"
 tags:
 - SavingAndInvestment
+addtags:
+- Tools
 ---
 
 I've decided to handle my family finances on my own. The main reasons are:

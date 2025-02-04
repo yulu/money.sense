@@ -4,7 +4,8 @@ date: 2025-02-06T23:31:16+08:00
 description: ""
 tags:
 - SavingAndInvestment
-- Tools
+addtags:
+- 工具
 ---
 
 最近在政府医院看诊，走补贴通道，发现政府补贴的费率根据家庭收入是不同的。好奇心驱使，想弄清楚这个到底是怎么计算的。

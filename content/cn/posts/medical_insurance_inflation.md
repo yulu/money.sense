@@ -4,6 +4,8 @@ date: 2024-10-28T05:41:25+08:00
 description: "对于公共资源的善用，是每一个公民的责任。因为这个费用最终将以保费上涨点赞形式又消费者承担"
 tags:
 - Insurance
+addtags:
+- 观点
 ---
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/7efoJ2EvjfQ9DC0T7BQZQT?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>

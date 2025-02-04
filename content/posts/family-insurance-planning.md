@@ -4,6 +4,8 @@ date: 2024-01-06T05:47:18+08:00
 description: "It's the time of the year that the annual renewal of some of my family insurance policies is needed. While organizing my family's insurance policies, I thought that since I've discussed various insurance topics, why not share my family's insurance principles and strategies directly. Here I am sharing how I plan my family's insurance, with some useful "
 tags:
 - Insurance
+addtags:
+- Tools
 ---
 
 It's the time of the year that the annual renewal of some of my family insurance policies is needed. While organizing my family's insurance policies, I thought that since I've discussed various insurance topics, why not share the principles and strategies of my family insurance planning directly, similar to what Morgan Housel's confession in the last chapter of the book [The Psychology of Money](https://www.goodreads.com/book/show/41881472-the-psychology-of-money), which are practical and convincing advices.

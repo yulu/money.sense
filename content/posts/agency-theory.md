@@ -4,6 +4,8 @@ date: 2024-01-29T05:58:30+08:00
 description: "The greatest value of financial markets lies in the optimal allocation of resources across time and space. Here's some thoughts about agent theory, incentivisation and insurance commission rebase learnt from Coursera course - Financial Market by Yale"
 tags:
 - MoneyPhilosophy
+addtags:
+- Opinions
 ---
 
 Recently, I've been watching an introductory finance course on Coursera - [Financial Market by Yale](https://www.coursera.org/learn/financial-markets-global). It covers the basics of finance and is quite interesting.

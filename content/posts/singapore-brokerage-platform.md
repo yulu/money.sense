@@ -3,6 +3,8 @@ title: "Brokerage Platform Options in Singapore"
 date: 2025-01-01T18:37:21+08:00
 tags:
 - SavingAndInvestment
+addtags:
+- Tools
 ---
 
 A few years ago, Tiger Brokers entered the Singapore market with overwhelming advertisements. After some research (mainly comparing platforms' commissions), I chose it as my main brokerage platform. Having used it for a few years, I found it fairly average. Since I only trade occasionally, I don’t have much to comment on. In Singapore, the cross-border internet-based brokers MooMoo (Futu) and Tiger Brokers are direct competitors. Both are popular for their low commissions and deposit bonuses. They share similar business models and are backed by Chinese capital, but their development paths and clearing systems differ significantly. 

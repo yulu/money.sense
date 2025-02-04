@@ -4,6 +4,8 @@ date: 2023-12-18T05:52:30+08:00
 description: "I stumbled upon a YouTuber whose content was very informative, sharing investment knowledge, methods, and promoting a healthy investment mindset. I greatly benefited from watching his videos. He summarized the knowledge of listed company categorization, which is very suitable for beginners. "
 tags:
 - SavingAndInvestment
+addtags:
+- Tools
 ---
 
 This piece was written a few years ago, as notes from my introduction to investment. After getting a preliminary understanding of basic financial product concepts, I began reading several recommended investment-related books. Reading these books was challenging, and progress was slow. Meanwhile, I also opened several brokerage accounts to learn by practicing. For beginners like me, gaining some basic knowledge and then getting hands-on can lead to a quick entry into the world of investment.

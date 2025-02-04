@@ -4,6 +4,8 @@ date: 2024-01-06T05:47:18+08:00
 description: "又到了年度续保的肉疼时间了。整理保单时想，聊了这么多关于保险的话题，不如直接分享我家的保险配置原则和策略。就像Morgan Housel在The Psychology of Money最后一章Confessions里直接公开自己的理财策略。"
 tags: 
 - Insurance
+addtags:
+- 工具
 ---
 
 又到了年度续保的肉疼时间了。整理保单时想，聊了这么多关于保险的话题，不如直接分享我家的保险配置原则和策略。就像Morgan Housel在The Psychology of Money最后一章Confessions里直接公开自己的理财策略。

@@ -4,6 +4,8 @@ date: 2025-01-06T23:31:16+08:00
 description: ""
 tags:
 - SavingAndInvestment
+addtags:
+- Opinions
 ---
 
 Reading A Random Walk Down Wall Street, the author suggests allocating a small portion of assets to REITs (Real Estate Investment Trusts) regardless of age. 

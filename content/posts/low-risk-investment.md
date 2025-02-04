@@ -4,6 +4,8 @@ date: 2024-01-01T05:41:25+08:00
 description: "For long-term investments, what options should I consider for low-risk investments?"
 tags:
 - SavingAndInvestment
+addtags:
+- Tools
 ---
 
 I am planning to reevaluate my monthly cash flow and allocate some of the savings for long-term investments. Previously, I primarily invested in S&P, MSCI, and REITs through regular saving plans. Now, I intend to add a small portion of low-risk investments to my portfolio.

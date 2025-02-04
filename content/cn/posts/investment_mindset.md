@@ -4,6 +4,8 @@ date: 2024-09-27T00:08:14+08:00
 description: "先规划你的人生目标，然后根据目标规划你的财务；量入为出，略有结余；只买定期寿险和医疗保险，然后不用再考虑保险的问题。"
 tags:
 - MoneyPhilosophy
+addtags:
+- 观点
 ---
 
 Christopher Tan是新加坡一家fee-only独立理财顾问公司Providend的CEO。偶然看到他一个关于保险的[演讲](https://www.youtube.com/watch?v=hgSrQoY3ORo&t=1728s)，风趣幽默把我笑得前仰后合。他也曾在一个访谈中分享自己的人生经历——从成功的保险经纪转型成fee-only的理财顾问，带着一家人从Condo降级到HDB生活。他的几个观点让我很认同:

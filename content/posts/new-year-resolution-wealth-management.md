@@ -4,6 +4,8 @@ date: 2024-01-03T05:36:12+08:00
 description: "On the first day of 2024, just like usual, I woke up early to enjoy my me-time. I opened my CPF account to check if the government's New Year's red packet (CPF interests) had been credited. However, I discovered that the system was still under maintenance. It was only after 8 AM that it could be accessed 😅. Later, I received New Year's greetings from CPF's official Telegram account along with six financial tips."
 tags:
 - MoneyPhilosophy
+addtags:
+- Tools
 ---
 
 <div>

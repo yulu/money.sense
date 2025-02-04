@@ -4,6 +4,8 @@ date: 2024-09-26T23:31:16+08:00
 description: "Beginner investors who have overcome greed, by passively investing in this relatively efficient market, can ride the tide and win effortlessly."
 tags:
 - SavingAndInvestment
+addtags:
+- ReadingNotes
 ---
 
 [A Random Walk Down Wall Street](https://www.goodreads.com/en/book/show/40242274) is, in my opinion, a great introductory book for beginner investors. At the end of the book, the author includes an interesting essay where he refutes a lengthy paper published by a well-known Wall Street investment research institution. This paper argues that “index fund investing does more harm than good to the investment market.”

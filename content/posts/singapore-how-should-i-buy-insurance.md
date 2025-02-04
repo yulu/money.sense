@@ -4,6 +4,8 @@ date: 2023-12-08T18:12:02+08:00
 description: "If I could go back from my twenties to thirties, here's how I would approach buying insurance."
 tags: 
 - Insurance
+addtags:
+- Opinions
 ---
 
 This is my journey as someone who once had no understanding of financial planning:

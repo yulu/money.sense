@@ -4,6 +4,8 @@ date: 2024-02-10T06:04:56+08:00
 description: "席勒认为人们天生就是受激励驱动、愿意冒险和自私的。金融市场利用人们利己主义加速资源的流通提高社会效率。金融市场鼓励风险，而良性的风险和冒险精神是社会创新的源泉。他鼓励人们积极入市，鼓励先进的金融产品提高风险控制和市场自由度。社会主义不是理想的场景。人类是复杂的，他们总是在进化并变得更加复杂。简单和理想的乌托邦世界剥夺了人类发明和进步的乐趣。金融市场或世界不太可能变得更简单，但随着新发明的出现，它正在变得更好和更有趣。他也不断强调人为因素造成的市场动荡，人的贪婪让金融市场时而走向疯狂的极端，而最终参与者不得不为此埋单。"
 tags:
 - MoneyPhilosophy
+addtags:
+- 观点
 ---
 
 今天继续跟Yale的Financial Market，讲到Efficient market hypothesis，这位西装革履的老教授说到：The term efficient markets was popularized by Eugene Fama, who won the Nobel Prize with me...

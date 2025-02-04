@@ -4,6 +4,8 @@ date: 2024-10-28T05:41:25+08:00
 description: "Using public resources responsibly is every citizen’s duty because the cost will eventually be borne by consumers in the form of premium increases"
 tags:
 - Insurance
+addtags:
+- Opinions
 ---
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/7efoJ2EvjfQ9DC0T7BQZQT?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
