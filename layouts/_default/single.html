@@ -7,6 +7,11 @@
             <h2>{{ .Params.Title }}</h1>
             <p>{{ .Date.Format "January 2, 2006" }} | 
             {{ range .Params.tags }} <span>{{ i18n . }}</span> {{ end }}
+            {{ with .Param "addtags" }}
+            {{ range $index, $tag := (. | sort) }} 
+            <span class="tag">{{ $tag }}</span>
+            {{ end }}
+            {{ end }}
             </p>
             <div class="content align-left">
                 {{ .Content }}

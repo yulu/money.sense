@@ -1,3 +1,9 @@
       <li>
-        <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a> | <span>{{ .Date.Format "January 2, 2006" }} </span>
+        <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a> 
+        {{ with .Param "addtags" }}
+          {{ range $index, $tag := (. | sort) }} 
+          <span class="tag">{{ $tag }}</span>
+          {{ end }}
+        {{ end }}
+        | <span class="date">{{ .Date.Format "January 2, 2006" }} </span>
       </li>
