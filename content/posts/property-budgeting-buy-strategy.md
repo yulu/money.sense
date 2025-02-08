@@ -8,7 +8,7 @@ addtags:
 - MoneyStory
 ---
 
-### 💰 Should We Switch or Buy a Second Condo?
+### 🏠 Should We Switch or Buy a Second Condo?
 
 This was our second home purchase. After discussing with my husband, we outlined two possible approaches:
 1. Keep our current condo and purchase a second property.
@@ -25,7 +25,7 @@ For these reasons, we ultimately decided to sell before buying and replace our c
 
 Real estate tends to appreciate more during high-inflation periods, but compared to broad stock and bond index funds, it carries higher risk as a single-asset investment. That said, I still believe that for most families, purchasing a home early is a wise financial decision, while investing in 2nd+ properties require a more cautious approach.
 
-### 💰 Budget Planning
+### 🏠 Budget Planning
 
 Whiling talking to different real estate agents, one interesting observation I made was how some real estate agents calculate "affordability." Some agents calculate the mortgage based on the family’s total income and persuade the buyers to increase the budget, which, of course, benefits them—the higher the home price, the higher their commission. However, it is crucial to evaluate affordability based on personal financial conditions and investment goals rather than simply borrowing the maximum allowable amount.
 
@@ -38,7 +38,7 @@ Many people unconsciously stretch their budgets when hunting for a dream home, s
  
 Ultimately, our cash payments came primarily from the gain from our first home sale, our "home upgrade fund" savings accumulated over the past few years, and a portion of CPF OA. By carefully managing our budget, we reduced financial stress and ensured that our home remained a reasonable proportion of our net worth.
 
-### 💰 Buying Strategy
+### 🏠 Buying Strategy
 
 To minimise costs and maintain financial flexibility, we structured our purchase as follows:
 - Selling our first home first. Then our second purchase can be considered as our primary residence, we avoided ABSD.
