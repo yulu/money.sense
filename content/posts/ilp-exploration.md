@@ -56,7 +56,123 @@ The calculations are based on the following assumptions:
 
 <details>
   <summary>Calculation Script (Click to Open)</summary>
-    <script src="https://gist.github.com/yulu/f2a1742fbbccd023def1c80946485519.js"></script>
+
+```python
+import numpy as np
+import pandas as pd
+from IPython.display import display
+import matplotlib.pyplot as plt
+
+premium = 12000
+payment_term = 15
+policy_term = 25
+irr = 0.08
+
+# ILP Bonus and Fees---------------------
+# booster bonus rate
+reward_band = lambda a : 4 if (a / 12000 > 4) else int(a / 12000)
+booster_bonus_rate_table = np.array([
+    [0.17, 0.18, 0.19, 0.20, 0.21], # 15
+    [0.17, 0.18, 0.19, 0.20, 0.21], # 16
+    [0.17, 0.18, 0.19, 0.20, 0.21], # 17
+    [0.17, 0.18, 0.19, 0.20, 0.21], # 18
+    [0.17, 0.18, 0.19, 0.20, 0.21], # 19
+    [0.20, 0.21, 0.22, 0.23, 0.24], # 24
+    [0.20, 0.21, 0.22, 0.23, 0.24], # 24
+    [0.20, 0.21, 0.22, 0.23, 0.24], # 24
+    [0.20, 0.21, 0.22, 0.23, 0.24], # 24
+    [0.20, 0.21, 0.22, 0.23, 0.24], # 24
+    [0.26, 0.27, 0.31, 0.32, 0.33], # 25
+    [0.26, 0.27, 0.31, 0.32, 0.33], # 26
+    [0.26, 0.27, 0.31, 0.32, 0.33], # 27
+    [0.26, 0.27, 0.31, 0.32, 0.33], # 28
+    [0.26, 0.27, 0.31, 0.32, 0.33], # 29
+    [0.27, 0.28, 0.32, 0.33, 0.34], # 30
+])
+booster_bonus_rate = lambda premium, pt: booster_bonus_rate_table[pt - 15][reward_band(premium)]
+
+# loyalty bonus rate
+loyalty_bonus_rate = lambda py: 0.012 if py >= 21 else 0.01 if py >= 11 else 0.007 if py >= 6 else 0
+
+# initial account charge, throughout the premium payment term only, monthly charge
+# N is policy year
+A = lambda pt: 0.01 if pt >= 30 else 0.012 if pt >= 25 else 0.014 if pt >= 20 else 0.018
+inital_account_charge_monthly = lambda premium, pt, N: A(pt) / 12 * premium * N 
+
+# policy charge: start from the 25th policy month (5th year) to the end of policy term
+# N is policy year or payment term if policy year passed the term
+policy_charge = lambda premium, N, pt: 0.012 / 12 * premium * (N if N <= pt else pt) 
+
+# ---------------------
+
+# Calculation---------------------
+
+fig, ax = plt.subplots()  # Create a figure containing a single axes.
+
+def cal_return(fund_expense_ratio, type_of_investment, fix_fee=0):
+    policy_values = [0] * policy_term
+    policy_value_total = 0
+    fees = [0] * policy_term
+    bonuses = [0] * policy_term
+    interests = [0] * policy_term
+    for N in range(0, policy_term):  
+        booster_bonus = 0 if not type_of_investment == 'ILP' else 0 if N > 4 else booster_bonus_rate(premium, payment_term) * premium
+        bonuses[N] = int(booster_bonus)
+        policy_values[N] = 0 if N >= payment_term else (premium + booster_bonus)
+    
+        # monthly fee
+        yearly_fee = 0
+        yearly_interest = 0
+        for n in range(0, 12):
+            # calculate fee
+            fee = 0
+            if type_of_investment == 'ILP':
+                fee += inital_account_charge_monthly(premium, payment_term, N + 1) if N < payment_term else 0
+                fee += 0 if N < 3 else policy_charge(premium, N + 1, payment_term)
+
+            fee += (policy_value_total + policy_values[N]) * (fund_expense_ratio / 12)
+            policy_values[N] -= fee
+    
+            # for record only
+            yearly_fee += fee
+            
+        # add fee
+        policy_values[N] -= fix_fee
+        yearly_fee += fix_fee
+        
+        # yearly interest 
+        yearly_interest = (policy_value_total + policy_values[N]) * (irr)
+        policy_values[N] += yearly_interest
+        fees[N] = int(yearly_fee)
+        interests[N] = int(yearly_interest)
+
+        # add loyalty_bonus, which paid at the end of policy year based on the policy value
+        if type_of_investment == 'ILP':
+            loyalty_bonus = 0 if N < 5 else loyalty_bonus_rate(N + 1) * policy_value_total
+            policy_values[N] += loyalty_bonus
+
+            # for record
+            bonuses[N] += int(loyalty_bonus)
+
+        policy_values[N] = int(policy_values[N])
+        policy_value_total += policy_values[N]
+
+    df = pd.DataFrame(data=[policy_values, interests, fees, bonuses])
+    transposed_df = df.transpose()
+    transposed_df.columns = ['value_per_annual', 'interest', 'fees', 'bonuses']
+    display(transposed_df)
+    print("Total Value:", sum(policy_values))
+
+    # plot the graph
+    ax.plot([i for i in range(1, policy_term + 1)], np.cumsum(policy_values), label=type_of_investment)
+    leg = plt.legend(loc='upper center')
+
+cal_return(0.0061, "ILP") # https://lgi.dzhintl.com/doc/uploads/documents/index.php?type=FS&fid=IUSI&lang=EN
+cal_return(0.004 + 0.0032, "Robo") # https://endowus.com/investment-funds-list/lion-global-infinity-u.s-500-stock-index-fund-SG9999003289
+cal_return(0.000945, "ETF", 50) # https://www.ssga.com/library-content/products/factsheets/etfs/us/factsheet-us-en-spy.pdf
+plt.show()
+```
+
 </details>
 
 <div>
