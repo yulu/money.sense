@@ -8,6 +8,8 @@ addtags:
 - Opinions
 ---
 
+{{< toc >}}
+
 The Singapore government, often affectionately referred to as 'Government Daddy' is renowned for meticulously planning the lives of its citizens and providing a safety net for them always. From the globally well-known HDB housing policy that ensures every Singaporean has a roof over their heads, to the continually improved CPF policies that offer basic housing, medical and retirement security. There's also one aspect that often goes unnoticed: insurance coverage. It's worth studying how the Singaporean government ensures insurance coverage for every citizen; I believe it serves as a good example of insurance portfolio construction for the general population.
 
 The Singapore government automatically provides citizens with four types of insurance, two of which are mandatory, while the others are withdrawable:

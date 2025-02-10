@@ -8,6 +8,8 @@ addtags:
 - Tools
 ---
 
+{{< toc >}}
+
 I've decided to handle my family finances on my own. The main reasons are:
 
 - Financial decisions are built upon life decisions, and I need to be completely honest with a financial advisor for them to help us make the most reasonable plan. However, for me it's difficult to fully open up about my personal dreams and family plans to someone else without a deep trust.

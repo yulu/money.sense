@@ -9,6 +9,8 @@ addtags:
 - 观点
 ---
 
+{{< toc >}}
+
 我的保险经纪给我推荐了FWD Invest First Plus这个ILP，借机拆解了一下。因为受网上很多负面评价的影响，我本身对ILPs有一定偏见，但是拆解这个产品以后，让我的态度有了一些改观。
 
 > 免责声明：我没有购买任何ILP，我的投资主要在Robo advisor（Endowus）和券商平台的ETF（FSMOne，IBKR）。ILPs的费用只是其中一个原因，灵活度和沉没成本是最重要的原因。
@@ -25,29 +27,29 @@ ILP被很多人诟病的一个原因，是它的费用问题。那它到底多�
 
 计算数据基于以下假设
 
-##### 投资计划
+#### 投资计划
 - 年投入12000 
 - 定投15年
 - 继续持续增长10年
 - 定投S&P500 Index，假设年回报率8%
 
-##### ILP: FWD Investment first plus
+#### ILP: FWD Investment first plus
 - 收费模型：产品费用 - 返利 + 基金管理费用
 - 选择基金：[Infinity US 500 Stock Index Fund USD Acc, ISIN: SG9999003297](https://www.fwd.com.sg/personalised-financial-advice/fund-report/?currencyId=USD&languageId=en-GB&id=F0HKG062P3&idCurrencyId=%20&idType=MSID&marketCode=%20), [factsheet](https://lgi.dzhintl.com/doc/uploads/documents/index.php?type=FS&fid=IUSI&lang=EN)
 - Expense Ratio from factsheet: [0.61% + 额外保险费用](https://www.comparefirst.sg/wap/prodSummaryPdf/200501737H/WA_Sum_200501737H_ILP03_RP_May2023.pdf)
 
-##### Robo: Endowus
+#### Robo: Endowus
 - 收费模型：平台费+基金管理费 - 返利
 - 选择基金：[Infinity US 500 Stock Index Fund USD Acc, ISIN: SG9999003297](https://www.fwd.com.sg/personalised-financial-advice/fund-report/?currencyId=USD&languageId=en-GB&id=F0HKG062P3&idCurrencyId=%20&idType=MSID&marketCode=%20), [factsheet](https://lgi.dzhintl.com/doc/uploads/documents/index.php?type=FS&fid=IUSI&lang=EN)
 - Expense Ratio from Endowus platform: [0.4%](https://endowus.com/pricing) + [0.32%](https://endowus.com/investment-funds-list/lion-global-infinity-u.s-500-stock-index-fund-SG9999003289)
 
-##### ETF: FSMOne
+#### ETF: FSMOne
 - 收费模型：交易费 + 基金管理费
 - 选择ETF：[SPDR® S&P 500® ETF](https://www.ssga.com/library-content/products/factsheets/etfs/us/factsheet-us-en-spy.pdf)
 - 交易费：每年交易四次交易费50（[单次交易费](https://www.fsmone.com.my/etfs/get-started/stock-fees))
 - Expose Ratio from factsheet: 0.0945%
 
-##### 计算假设
+#### 计算假设
 - 假设投资同一类产品 - S&P500 index： 实际不同平台有不同的投资产品。
 - 假设没有波动 ：实际S&P的波动可以到上下40%。
 - 假设年定投 ：实际ILP可以选择每月入金，Robo可以无交易费用随时投资，券商平台的交易也很灵活。

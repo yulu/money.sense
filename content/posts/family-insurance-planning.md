@@ -8,6 +8,8 @@ addtags:
 - Tools
 ---
 
+{{< toc >}}
+
 It's the time of the year that the annual renewal of some of my family insurance policies is needed. While organizing my family's insurance policies, I thought that since I've discussed various insurance topics, why not share the principles and strategies of my family insurance planning directly, similar to what Morgan Housel's confession in the last chapter of the book [The Psychology of Money](https://www.goodreads.com/book/show/41881472-the-psychology-of-money), which are practical and convincing advices.
 
 ### Determining Priorities
@@ -31,7 +33,7 @@ Other types of insurance can be determined based on the family's situation:
 - Travel insurance
 - Pregnancy insurance
 
-### Identifying Gaps
+### Identifying Gaps - Using a Coverage Matrix Form
 
 Based on the priorities mentioned above, I created an insurance coverage matrix ([click to download](https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/family_insurance_plan/Insurance+Coverage+Matrix.xlsx)). I filled in the corresponding types of coverage and specific insurance plans, including premiums and coverage amounts. This helps check for any gaps in coverage and ensures that premiums and coverage amounts are within reasonable ranges. The yellow highlights indicate that CPF can be used to pay (part or all of) the premiums.
 
@@ -57,15 +59,15 @@ How much do these premiums cost? Excluding the portion covered by CPF, our month
 
 Due to my personal experiences with care giving to family member in severe medical condition, my family is somewhat over-insured in terms of protection insurance, and some of our insurance configurations may not offer the best value for money. While it's rational to aim for 'minimal cost for adequate coverage' when it comes to insurance allocation, implementing it can be challenging. Here are some of the challenges I've identified:
 
-#### 1. Insurance is a long-term commitment with significant sunk costs.
+1. Insurance is a long-term commitment with significant sunk costs.
 
 I believe many people made mistakes in insurance planning when they were young due to a lack of financial literacy, and some insurance products come with high penalties for early termination. For example, savings insurance policies have hefty surrender charges, and if one purchases hospitalization insurance when young and later develops pre-existing conditions, switching insurance companies can be risky. The high costs of switching products are due in part to the commission-driven sales culture prevalent in the insurance industry. Many so-called financial advisors do not provide proper guidance and may not even guarantee basic after-sales service. The government has been making efforts to improve financial literacy among the public (e.g., [CompareFirst](https://www.comparefirst.sg/wap/homeEvent.action), [MoneySense](https://www.moneysense.gov.sg/), [CPF](https://www.cpf.gov.sg/member)). This is one of the main reasons that I started to write blog posts spreading wealth management ideas, as only when overall financial literacy in society improves can the insurance industry become more regulated.
 
-#### 2. The human factor in insurance is challenging to quantify.
+2. The human factor in insurance is challenging to quantify.
 
 While I appreciate the efficiency and transparency of digital platforms, I've learned the importance of service during the insurance claim process. After acquiring some financial knowledge and finding a relatively reliable insurance agent, I established a good working relationship with her. She doesn't need to push policies on me because I understand the necessity of insurance, and I can honestly express my opinions about any unreasonable insurance configurations. A good insurance agent can also provide excellent service and consultation on various apesct of life other than insurances. When considering insurance costs, it's challenging to put a price on the "human" factor, especially in an industry that operates on a commission-based sales system.
 
-#### 3. Life is full of uncertainty.
+3. Life is full of uncertainty.
 
 Though we can follow some guidelines' suggestion to allocate specific coverage amounts for life and critical illness insurance based on income, life is constantly changing. Our income, family situation, and unforeseen surprises or accidents are hard to predict. For instance, my family's income has increased noticeably in recent years, and due to the pandemic, we've transitioned to a three-generation household. Our previous insurance coverage was clearly inadequate. Additionally, because of recurring health issues in our family, I have placed more emotional reliance on health-related coverage. Therefore, I allocated an extra budget for a comprehensive but relatively expensive critical illness insurance.
 

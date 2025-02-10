@@ -9,6 +9,8 @@ addtags:
 - Opinions
 ---
 
+{{< toc >}}
+
 My insurance agent recommended FWD Invest First Plus, an Investment-Linked Plan (ILP), so I took the opportunity to break it down. Influenced by many negative online reviews on ILPs, I had some bias against this type of investment product initially. However, after dissecting this product, my attitude towards it has somewhat changed a little bit.
 
 > Disclaimer: I don't own any ILPs and not plan to purchase any for now. My main investments are in Robo advisors (Endowus) and ETFs on brokerage platforms (FSMOne, IBKR). ILPs' fees are just one reason, flexibility and sunk costs are yet the other important factors.
@@ -25,29 +27,29 @@ Another reason that ILPs have been criticized by many people is their cost. But 
 
 The calculations are based on the following assumptions:
 
-##### Investment Plan
+#### Investment Plan
 - Annual contribution of 12,000
 - Regular contributions for 15 years
 - Let it compound for another 10 years
 - Investing in the S&P500 Index with an assumed annual return of 8%
 
-##### ILP: FWD Investment First Plus
+#### ILP: FWD Investment First Plus
 - Fee model: Product fees - Bonuses + Fund management fees
 - Selected fund: [Infinity US 500 Stock Index Fund USD Acc, ISIN: SG9999003297](https://www.fwd.com.sg/personalised-financial-advice/fund-report/?currencyId=USD&languageId=en-GB&id=F0HKG062P3&idCurrencyId=%20&idType=MSID&marketCode=%20), [factsheet](https://lgi.dzhintl.com/doc/uploads/documents/index.php?type=FS&fid=IUSI&lang=EN)
 - Expense Ratio from factsheet: [0.61% + additional insurance fees](https://www.comparefirst.sg/wap/prodSummaryPdf/200501737H/WA_Sum_200501737H_ILP03_RP_May2023.pdf)
 
-##### Robo: Endowus
+#### Robo: Endowus
 - Fee model: Platform fee + Fund management fees - Platform rebates
 - Selected fund: [Infinity US 500 Stock Index Fund USD Acc, ISIN: SG9999003297](https://www.fwd.com.sg/personalised-financial-advice/fund-report/?currencyId=USD&languageId=en-GB&id=F0HKG062P3&idCurrencyId=%20&idType=MSID&marketCode=%20), [factsheet](https://lgi.dzhintl.com/doc/uploads/documents/index.php?type=FS&fid=IUSI&lang=EN)
 - Expense Ratio from Endowus platform: [0.4%](https://endowus.com/pricing) + [0.32%](https://endowus.com/investment-funds-list/lion-global-infinity-u.s-500-stock-index-fund-SG9999003289)
 
-##### ETF: FSMOne
+#### ETF: FSMOne
 - Fee model: Trading fees + Fund management fees
 - Selected ETF: [SPDR® S&P 500® ETF](https://www.ssga.com/library-content/products/factsheets/etfs/us/factsheet-us-en-spy.pdf)
 - Trading fees: 50 per year for four trades ([Single trade fees](https://www.fsmone.com.my/etfs/get-started/stock-fees))
 - Expense Ratio from factsheet: 0.0945%
 
-##### Assumptions for calculations
+#### Assumptions for calculations
 - Assume investment in the same type of product - S&P500 index: In reality, different platforms offer different investment products.
 - Assume no volatility: In reality, the S&P's volatility can be up to +/- 40%.
 - Assume annual contributions: In reality, ILP allows for monthly deposits, Robo allows for investments without transaction fees at any time, and brokerage platforms offer flexible trading.

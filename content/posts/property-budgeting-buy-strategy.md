@@ -8,6 +8,8 @@ addtags:
 - MoneyStory
 ---
 
+{{< toc >}}
+
 ### 🏠 Should We Switch or Buy a Second Condo?
 
 This was our second home purchase. After discussing with my husband, we outlined two possible approaches:

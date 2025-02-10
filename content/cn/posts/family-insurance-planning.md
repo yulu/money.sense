@@ -8,6 +8,8 @@ addtags:
 - 工具
 ---
 
+{{< toc >}}
+
 又到了年度续保的肉疼时间了。整理保单时想，聊了这么多关于保险的话题，不如直接分享我家的保险配置原则和策略。就像Morgan Housel在The Psychology of Money最后一章Confessions里直接公开自己的理财策略。
 
 ### 确定购买的优先级
@@ -31,7 +33,7 @@ addtags:
 - 旅游险
 - 孕期险
 
-### 查漏补缺
+### 查漏补缺 - 保险记录矩阵表格
 
 根据上面的优先级，我制作了一个保险记录矩阵表格（[点击下载表格](https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/family_insurance_plan/Insurance+Coverage+Matrix.xlsx)），把对应的保障类型和配置的具体保险填在表格里，包括保费和保额。这样检查是否有遗漏，同时计算保费和保额是否在合理的范围。其中黄色提示是指可以用CPF还（全部或部分）保费。
 
