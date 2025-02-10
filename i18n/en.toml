@@ -18,3 +18,6 @@ other = "Resource"
 
 [Disclaimer]
 other = "Disclaimer"
+
+[TOC]
+other = "Table of Contents"
