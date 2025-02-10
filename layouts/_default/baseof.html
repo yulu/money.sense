@@ -6,6 +6,11 @@
 	This Hugo theme is licensed under the Creative Commons Attribution 3.0 License.
 -->
 <html>
+	<head>
+		{{ if .Param "math" }}
+			{{ partialCached "math.html" . }}
+	  	{{ end }}
+	</head>
 	
 	{{ partial "head" . }}
 
