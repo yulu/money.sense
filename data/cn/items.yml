@@ -42,7 +42,7 @@ items:
     style : "solid style2 major fa-house"
     articles:
       - title: '换房预算和购买方式'
-        url: 'posts/property_budgeting_buy_strategy/'
+        url: 'posts/property-budgeting-buy-strategy'
     
   # feature item loop
   - name : "EstatePlanning"

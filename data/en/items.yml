@@ -42,7 +42,7 @@ items:
     style : "solid style2 major fa-house"
     articles:
       - title: 'Private Property Budgeting and Buying Strategy'
-        url: 'posts/property_budgeting_buy_strategy/'
+        url: 'posts/property-budgeting-buy-strategy'
     
   # feature item loop
   - name : "EstatePlanning"
