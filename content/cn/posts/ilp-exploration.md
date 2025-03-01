@@ -13,7 +13,8 @@ addtags:
 
 我的保险经纪给我推荐了FWD Invest First Plus这个ILP，借机拆解了一下。因为受网上很多负面评价的影响，我本身对ILPs有一定偏见，但是拆解这个产品以后，让我的态度有了一些改观。
 
-> 免责声明：我没有购买任何ILP，我的投资主要在Robo advisor（Endowus）和券商平台的ETF（FSMOne，IBKR）。ILPs的费用只是其中一个原因，灵活度和沉没成本是最重要的原因。
+> [!caution] 免责声明
+> 我没有购买任何ILP，我的投资主要在Robo advisor（Endowus）和券商平台的ETF（FSMOne，IBKR）。ILPs的费用只是其中一个原因，灵活度和沉没成本是最重要的原因。
 
 ### 基金选择
 
