@@ -5,14 +5,14 @@ description: ""
 tags:
 - Properties 
 addtags:
-- MoneyStory
+- 金钱故事
 ---
 
 <div>
     <span class="image fit"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/renovation_journey/money-story-renovation-images.jpg" alt="" /></span>
 </div>
 
-之前聊了[换房的预算规划和购买策略](/posts/property-budgeting-buy-strategy/)。接着聊聊关于装修的金钱故事吧。这是第二次装修了，相比第一次除了有更多经验，也有了更宽裕的预算。由于这是我们打算长期居住的家，决定在装修上不马虎。这符合我一个金钱哲学：愿为了长期主义和生活体验买单，不在自己喜爱的事情上过于拮据。
+之前聊了[换房的预算规划和购买策略](/cn/posts/property-budgeting-buy-strategy/)。接着聊聊关于装修的金钱故事吧。这是第二次装修了，相比第一次除了有更多经验，也有了更宽裕的预算。由于这是我们打算长期居住的家，决定在装修上不马虎。这符合我一个金钱哲学：愿为了长期主义和生活体验买单，不在自己喜爱的事情上过于拮据。
 
 ## 装修预算和装修细节的取舍
 

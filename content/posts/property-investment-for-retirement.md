@@ -755,5 +755,6 @@ I would still consider property investment as a possibility. There are indeed pr
 **Cons**  
 - Investing in a single property carries higher concentration risk compared to broad index funds.  
 - It involves non-financial operational costs, such as managing tenant relationships and adapting to government policy changes.  
+- Property value may depreciate with time
 
 I prioritize investments in the stock and bond markets due to their flexibility, controllable risks, and ease of operation. However, I still consider Singapore property investment as a potential way to diversify my family's investment portfolio. To minimize the high investment cost from ABSD, we would need to invest as a family. When our investment assets reach a certain level and the market presents good opportunities, we could consider property investment for risk diversification and additional retirement income. In this money story, I shared our [home purchase strategy](/posts/property-budgeting-buy-strategy/) and how we intentionally left the option open for future investment opportunities.
