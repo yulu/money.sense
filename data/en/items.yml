@@ -41,6 +41,8 @@ items:
     content : ""
     style : "solid style2 major fa-house"
     articles:
+      - title: 'Should I Include Singapore Property in My Investment Portfolio'
+        url: 'posts/property-investment-for-retirement/'
       - title: 'Private Property Budgeting and Buying Strategy'
         url: 'posts/property-budgeting-buy-strategy'
     

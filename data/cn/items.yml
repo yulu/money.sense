@@ -41,6 +41,8 @@ items:
     content : ""
     style : "solid style2 major fa-house"
     articles:
+      - title: '是否在投资配置中考虑房产投资'
+        url: 'posts/property-investment-for-retirement/'
       - title: '换房预算和购买方式'
         url: 'posts/property-budgeting-buy-strategy'
     
