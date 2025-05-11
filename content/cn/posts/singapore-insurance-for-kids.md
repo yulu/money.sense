@@ -5,7 +5,7 @@ description: ""
 tags:
 - Insurance
 addtags:
-- Opinions
+- 观点
 ---
 
 我属于非专业人士，但是很认真给[家人配置保险](cn/posts/family-insurance-planning/)。这是我非常主观的给小朋友购买保险的策略：
