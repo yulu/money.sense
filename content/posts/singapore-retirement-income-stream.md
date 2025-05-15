@@ -12,7 +12,7 @@ Previously, I wrote about [insurance and financial planning needs for the elderl
 
 Here are common passive income sources available to most working individuals:
 
-💰 CPF Life (government annuity scheme)  
+💰 CPF LIFE (government annuity scheme)  
 💰 Commercial annuities  
 💰 Interest from cash savings  
 💰 Bond interest payments  
@@ -42,7 +42,7 @@ After reading _My Money Journey_, which shares retirement planning stories from 
 
 | Source                     | Analysis                                                                                      | Score |
 | -------------------------- | --------------------------------------------------------------------------------------------- | ----- |
-| CPF Life                   | Backed by the government, provides lifetime income, lowest maintenance                        | 5     |
+| CPF LIFE                   | Backed by the government, provides lifetime income, lowest maintenance                        | 5     |
 | Commercial annuities       | Also low maintenance, but product design is more complex with fixed and floating components   | 4     |
 | Cash savings interest      | Low maintenance, but may require effort to manage fixed deposits or meet account requirements | 3     |
 | Bond income                | Requires analysis and transaction management                                                  | 3     |
@@ -63,7 +63,7 @@ Volatility in capital is also important. For instance, if you rely on selling gr
 
 | Source                    | Analysis                                                          | Score |
 | ------------------------- | ----------------------------------------------------------------- | ----- |
-| CPF Life                  | Most stable due to its non-profit, government-backed nature       | 5     |
+| CPF LIFE                  | Most stable due to its non-profit, government-backed nature       | 5     |
 | Commercial annuities      | Offers relatively stable cash flow, some have variable components | 4     |
 | Cash interest             | Fluctuates slightly with economic conditions, generally stable    | 4     |
 | Bond income               | May fluctuate with default risk and rate cycles                   | 3     |
@@ -81,7 +81,7 @@ Liquidity is important in retirement for unexpected large expenses — especiall
 
 | Source               | Analysis                                   | Score |
 | -------------------- | ------------------------------------------ | ----- |
-| CPF Life             | Not liquid                                 | 1     |
+| CPF LIFE             | Not liquid                                 | 1     |
 | Commercial annuities | Low liquidity; high surrender costs        | 2     |
 | Cash savings         | Highly liquid and flexible                 | 5     |
 | Bonds                | Medium liquidity, depending on maturity    | 3     |
@@ -100,7 +100,7 @@ Returns matter at all stages — but unfortunately, higher returns usually come 
 
 | Source                    | Analysis                                                                                                                                                   | Score |
 | ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ----- |
-| CPF Life                  | ~4% return (based on CPF RA). Payouts include "mortality credits" due to risk pooling — initial payout rate ~5-6%, which is high for risk-free instruments | 3     |
+| CPF LIFE                  | ~4% return (based on CPF RA). Payouts include "mortality credits" due to risk pooling — initial payout rate ~5-6%, which is high for risk-free instruments | 3     |
 | Commercial annuities      | Typically 3-4.5%, split into fixed and variable components, no mortality credits                                                                           | 2     |
 | Cash interest             | 2-3%, depending on rates                                                                                                                                   | 1     |
 | Bonds                     | 4-5%, depending on risk                                                                                                                                    | 3     |
@@ -119,7 +119,7 @@ This considers how much capital is required to start. All of the above are acces
 
 | Source               | Analysis                                                                  | Score |
 | -------------------- | ------------------------------------------------------------------------- | ----- |
-| CPF Life             | Not high, but requires long-term CPF savings and policy-based limitations | 3     |
+| CPF LIFE             | Not high, but requires long-term CPF savings and policy-based limitations | 3     |
 | Commercial annuities | Many low-entry options, flexible designs                                  | 4     |
 | Cash savings         | Highly flexible, with better rates at higher balances                     | 4     |
 | Bonds                | Low entry threshold                                                       | 5     |
@@ -135,7 +135,7 @@ If we apply weights to each category based on retirement needs (maintenance > st
     <span class="image fit" style="max-width: 800px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/retirement-income-stream/retirement-income-stream-scores-en.png" alt="" /></span>
 </div>
 
-- **Annuities (especially CPF Life)** are the best option for retirement. They offer the most stability and require almost no maintenance — even though returns may be modest.
+- **Annuities (especially CPF LIFE)** are the best option for retirement. They offer the most stability and require almost no maintenance — even though returns may be modest.
 - **Cash reserves** (via savings accounts, fixed deposits, money market funds, bonds) offer steady income and liquidity — a smart choice at any stage.
 - **Younger investors** should focus on **growth and high-dividend stock ETFs** for wealth accumulation — rather than low-yield, low-liquidity options like commercial annuities or endowment plans.
 - **Property investment** can be underwhelming. While it has advantages like leverage and diversification from financial assets, investment properties beyond your own home must be approached cautiously. As I’ve written before, I’ll only consider property investment after building a strong financial portfolio — and even then, I’ll limit property to no more than 30% of total assets.
