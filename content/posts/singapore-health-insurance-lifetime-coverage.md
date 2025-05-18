@@ -10,7 +10,7 @@ addtags:
 
 ### My Medical and Critical Illness Insurance
 
-Let me share my medical and critical illness insurance setup. It might be a bit over-insured, but that's largely due to my personal experiences and risk preferences. First, here’s how I see the roles of life and critical illness insurance:
+Let me share my medical and critical illness insurance setup (I shared [how I plan for my family's insurances here](/posts/family-insurance-planning/)). It might be a bit over-insured, but that's largely due to my personal experiences and risk preferences. First, here’s how I see the roles of life and critical illness insurance:
 
 **What does life insurance cover?**  
 - Primary purpose: Death benefit (financial responsibility after death)  

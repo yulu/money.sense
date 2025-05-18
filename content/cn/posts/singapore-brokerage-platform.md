@@ -7,6 +7,10 @@ addtags:
 - 工具
 ---
 
+<div style="text-align: center">
+    <span class="image fit" style="max-width: 500px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/brokerage/brokerage_cover.jpg" alt="" /></span>
+</div>
+
 几年前Tiger进入新加坡市场，铺天盖地的广告。一番研究之后（主要是对比和平台佣金），我选了它作为日常的券商平台，用了几年无功无过，由于我只是非常偶尔的交易一下，也没有太多发言权。在新加坡的跨境互联网券商，MooMoo（富途）和Tiger Broker基本是直接竞争对手，因为低佣金和入金优惠，很受欢迎。这两家都是中资背景，业务模式相近，但是发展路径大相径庭，背后的清算系统也各有不同。
 
 而我知道很多新加坡投资者，都使用IBKR（盈透）做为主要的券商平台。最近重新梳理投资配置，花时间读了读一些老练的投资者的分享，才意识到老牌券商IBKR的优势到底是什么：IBKR支持London Stock Exchange交易。
