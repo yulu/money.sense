@@ -41,7 +41,7 @@ CPF and SRS each have their own liquidity advantages. Personally, I prefer to ma
 Donations are eligible for 2.5 times tax relief. Some companies encourage employees to participate in social causes and have matching donation policies. If your company matches 1:1, donating $100 yourself is equivalent to $500 in tax relief. At a 20% tax rate, you can save $100 in tax, which means all the tax you would have paid on this portion is instead donated (reference: $200k–19%, $240k–19.5%, $280k–20%). For higher-income individuals, whether to give similar amounts to charity or pay taxes is a personal choice.
 
 
-# Reference
+### Reference
 
 - [IRAS Calculators](https://www.iras.gov.sg/quick-links/calculators)
 - [Click to download the calculator](https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/personal-income-tax-calculator-family/Sample+Personal+Income+Tax+for+Familty+Calculator.xlsx)

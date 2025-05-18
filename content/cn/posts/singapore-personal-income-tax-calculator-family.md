@@ -41,7 +41,7 @@ CPF和SRS流动性上各有优势。我个人倾向于先把CPF放满，再补�
 捐款额度的2.5倍可用于减税。有些公司鼓励员工积极参与社会公益，有匹配捐款的政策。如果公司有1比1的匹配额，自己捐款100块相当于500的减税额。税率20%时，可以减税100，相当于这部分全部缴税额都换成了捐款（参考：200k-19%，240k-19.5%，280k-20%）。对于较高收入人群，差不多的钱直接做公益还是给政府纳税，个人选择。
 
 
-# Reference
+### Reference
 
 - [IRAS计算器](https://www.iras.gov.sg/quick-links/calculators)
 - [点击下载计算表格](https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/personal-income-tax-calculator-family/Sample+Personal+Income+Tax+for+Familty+Calculator.xlsx)
