@@ -2,7 +2,7 @@
 title: "怎么无痛存钱花钱"
 date: 2025-01-11T18:37:21+08:00
 tags:
-- SavingAndInvestment
+- MoneyPhilosophy
 addtags:
 - 工具
 ---

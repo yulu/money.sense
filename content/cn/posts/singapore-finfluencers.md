@@ -3,7 +3,7 @@ title: "我关注的本地Finfluencers"
 date: 2025-07-04T18:12:02+08:00
 description: "学习投资理财时，本地Finfluencers是一个非常实用的渠道。相比视频，我更喜欢看文字内容，因此关注了几位值得推荐的博客作者。他们大多公开自己的财务状况，包括收入、支出和投资配置，内容透明且中立，具有一定的说服力。当然，每个人的投资偏好和价值观不同，所有观点不能全盘接收。"
 tags: 
-- SavingAndInvestment
+- MoneyPhilosophy
 addtags:
 - 观点
 ---
