@@ -3,7 +3,7 @@ title: "Simple Family Income Tax Calculation Template"
 date: 2025-05-18T18:37:21+08:00
 description: "In Singapore for dual-income households, reasonable planning can save a lot of tax. I’ve always used a simple Google Sheet to calculate family income tax, and the results are almost always consistent with the actual tax paid. Here are some tips to share."
 tags:
-- SavingAndInvestment
+- MoneyPhilosophy
 addtags:
 - Tools
 ---
