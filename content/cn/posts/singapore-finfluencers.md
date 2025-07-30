@@ -73,11 +73,15 @@ Kyith擅长用数据和表格分析投资理财问题，文章常常配有详尽
 
 在自媒体盛行的时代，Finfluencers的内容并非总是可靠。近年来，关于Finfluencer的投诉有所增加，监管也在加强。筛选时我会注意以下几点，避免踩雷：
 
-- 信息不透明、带有明显引流或宣传目的
-- 观点不够中立，过度带入个人偏好
-- 理财理念不符，如过度关注市场波动、频繁交易、投资复杂衍生品
-- 短视频内容重复度高、信息量有限
+- 🚫 信息不透明、带有明显引流或宣传目的
+- 🚫 观点不够中立，过度带入个人偏好
+- 🚫 理财理念不符，如过度关注市场波动、频繁交易、投资复杂衍生品
+- 🚫 短视频内容重复度高、信息量有限
+
+### 参考
 
 <div style="text-align: center">
-    <span class="image fit"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/finfluencers/finfluencers-new.jpeg" alt="" /></span>
+   <span class="image fit"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/finfluencers/finfluencers-new.jpeg" alt="" /></span>
 </div>
+
+- [Oral reply to Parliamentary Question on safeguards against non-licensed individuals and financial influencers from providing financial advice](https://www.mas.gov.sg/news/parliamentary-replies/2025/oral-reply-to-parliamentary-questions-on-financial-services-platform-safeguards-and-complaints)
