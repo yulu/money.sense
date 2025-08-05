@@ -22,9 +22,8 @@ Related Posts: [How to Save and Spend Effortlessly](/posts/save-and-spend-effort
 
 Life is unpredictable. Illness, job loss, accidents—they all happen. Malkiel stresses the importance of:
 
-Setting aside an emergency fund (ideally 3–6 months of expenses)
-
-Having adequate protection insurance (e.g., health, life, home)
+- Setting aside an emergency fund (ideally 3–6 months of expenses)
+- Having adequate protection insurance (e.g., health, life, home)
 
 This gives you peace of mind and prevents forced asset sales during crises.
 
