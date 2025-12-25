@@ -1,152 +1,276 @@
 {{ define "main" }}
-  {{ $myData := (index site.Data site.Language.Lang) }}
-  {{ partial "header" }}
-  <section class="wrapper style1 align-center">
-    <div class="inner">
+{{ $myData := (index site.Data site.Language.Lang) }}
+
+<!-- Header -->
+{{ partial "header" }}
+
+<!-- Page Header -->
+<section class="post-header">
+    <div class="container container-wide">
         {{ partial "lang" }}
-        {{ partial "spotlight" $myData.spotlight1 }}
-        <div class="index align-left">
-            <!-- section 1 -->
-            <section>
-              <header>
-                  <h3>{{ i18n "MoneyPhilosophy" }}</h3>
-              </header>
-              <div class="content">
-                  <div>
-                    <ul>
-                    {{ $p := where .Pages ".Params.tags" "intersect" (slice "MoneyPhilosophy") }}
-                    {{ range $p }}
-                      {{ partial "post_list.html" . }}
-                    {{ end }}
-                    </ul>
-                  </div>
-              </div>
-            </section>
+        <h1 class="post-title">{{ $myData.spotlight1.title }}</h1>
+        {{ with $myData.spotlight1.content }}
+        <p class="hero-description">{{ . | safeHTML }}</p>
+        {{ end }}
+    </div>
+</section>
 
-            <!-- section 2 -->
-            <section>
-              <header>
-                  <h3>{{ i18n "Insurance" }}</h3>
-              </header>
-              <div class="content">
-                  <div>
-                    <ul>
-                    {{ $p := where .Pages ".Params.tags" "intersect" (slice "Insurance") }}
-                    {{ range $p }}
-                      {{ partial "post_list.html" . }}
-                    {{ end }}
-                    </ul>
-                  </div>
-              </div>
-            </section>
+<!-- Category Tabs Navigation -->
+<div class="category-tabs">
+    <div class="container container-wide">
+        <div class="category-tabs-inner">
+            <a href="#money-philosophy" class="category-tab">{{ i18n "MoneyPhilosophy" }}</a>
+            <a href="#insurance" class="category-tab">{{ i18n "Insurance" }}</a>
+            <a href="#saving-investment" class="category-tab">{{ i18n "SavingAndInvestment" }}</a>
+            <a href="#properties" class="category-tab">{{ i18n "Properties" }}</a>
+            <a href="#estate-planning" class="category-tab">{{ i18n "EstatePlanning" }}</a>
+            <a href="#resources" class="category-tab">{{ i18n "Resources" }}</a>
+        </div>
+    </div>
+</div>
 
-            <!-- section 3 -->
-            <section>
-              <header>
-                  <h3>{{ i18n "SavingAndInvestment" }}</h3>
-              </header>
-              <div class="content">
-                  <div>
-                    <ul>
-                    {{ $p := where .Pages ".Params.tags" "intersect" (slice "SavingAndInvestment") }}
-                    {{ range $p }}
-                      {{ partial "post_list.html" . }}
+<!-- Post List Sections -->
+<section class="post-list-section">
+    <div class="container container-wide">
+        
+        <!-- MoneyPhilosophy -->
+        <div id="money-philosophy" class="post-list-category">
+            <h2 class="post-list-category-title">{{ i18n "MoneyPhilosophy" }}</h2>
+            <ul class="post-list">
+                {{ $p := where .Pages ".Params.tags" "intersect" (slice "MoneyPhilosophy") }}
+                {{ range $p }}
+                <li class="post-list-item">
+                    <h3 class="post-list-item-title">
+                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    </h3>
+                    <div class="post-list-item-meta">
+                        {{ .Date.Format "January 2, 2006" }}
+                    </div>
+                    {{ with .Params.addtags }}
+                    <div class="post-list-item-tags">
+                        {{ range . }}
+                        <span class="post-tag">{{ . }}</span>
+                        {{ end }}
+                    </div>
                     {{ end }}
-                    </ul>
-                  </div>
-              </div>
-            </section>
-
-            <!-- section 4 -->
-            <section>
-              <header>
-                  <h3>{{ i18n "Properties" }}</h3>
-              </header>
-              <div class="content">
-                  <div>
-                    <ul>
-                    {{ $p := where .Pages ".Params.tags" "intersect" (slice "Properties") }}
-                    {{ range $p }}
-                      {{ partial "post_list.html" . }}
+                    {{ with .Description }}
+                    <p class="post-list-item-description">{{ . }}</p>
                     {{ end }}
-                    </ul>
-                  </div>
-              </div>
-            </section>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
 
-            <!-- section 5 -->
-            <section>
-              <header>
-                  <h3>{{ i18n "EstatePlanning" }}</h3>
-              </header>
-              <div class="content">
-                  <div>
-                    <ul>
-                    {{ $p := where .Pages ".Params.tags" "intersect" (slice "EstatePlanning") }}
-                    {{ range $p }}
-                      {{ partial "post_list.html" . }}
+        <!-- Insurance -->
+        <div id="insurance" class="post-list-category">
+            <h2 class="post-list-category-title">{{ i18n "Insurance" }}</h2>
+            <ul class="post-list">
+                {{ $p := where .Pages ".Params.tags" "intersect" (slice "Insurance") }}
+                {{ range $p }}
+                <li class="post-list-item">
+                    <h3 class="post-list-item-title">
+                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    </h3>
+                    <div class="post-list-item-meta">
+                        {{ .Date.Format "January 2, 2006" }}
+                    </div>
+                    {{ with .Params.addtags }}
+                    <div class="post-list-item-tags">
+                        {{ range . }}
+                        <span class="post-tag">{{ . }}</span>
+                        {{ end }}
+                    </div>
                     {{ end }}
-                    </ul>
-                  </div>
-              </div>
-            </section>
+                    {{ with .Description }}
+                    <p class="post-list-item-description">{{ . }}</p>
+                    {{ end }}
+                </li>
+                {{ end }}
+            </ul>
+        </div>
 
-            <!-- section 6 -->
-            <section>
-              <header>
-                  <h3>{{ i18n "Resources" }}</h3>
-              </header>
-              <div class="content">
-                <div>
-                  <h5>Content Creator</h5>
-                  <ul>
+        <!-- SavingAndInvestment -->
+        <div id="saving-investment" class="post-list-category">
+            <h2 class="post-list-category-title">{{ i18n "SavingAndInvestment" }}</h2>
+            <ul class="post-list">
+                {{ $p := where .Pages ".Params.tags" "intersect" (slice "SavingAndInvestment") }}
+                {{ range $p }}
+                <li class="post-list-item">
+                    <h3 class="post-list-item-title">
+                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    </h3>
+                    <div class="post-list-item-meta">
+                        {{ .Date.Format "January 2, 2006" }}
+                    </div>
+                    {{ with .Params.addtags }}
+                    <div class="post-list-item-tags">
+                        {{ range . }}
+                        <span class="post-tag">{{ . }}</span>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                    {{ with .Description }}
+                    <p class="post-list-item-description">{{ . }}</p>
+                    {{ end }}
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+
+        <!-- Properties -->
+        <div id="properties" class="post-list-category">
+            <h2 class="post-list-category-title">{{ i18n "Properties" }}</h2>
+            <ul class="post-list">
+                {{ $p := where .Pages ".Params.tags" "intersect" (slice "Properties") }}
+                {{ range $p }}
+                <li class="post-list-item">
+                    <h3 class="post-list-item-title">
+                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    </h3>
+                    <div class="post-list-item-meta">
+                        {{ .Date.Format "January 2, 2006" }}
+                    </div>
+                    {{ with .Params.addtags }}
+                    <div class="post-list-item-tags">
+                        {{ range . }}
+                        <span class="post-tag">{{ . }}</span>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                    {{ with .Description }}
+                    <p class="post-list-item-description">{{ . }}</p>
+                    {{ end }}
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+
+        <!-- EstatePlanning -->
+        <div id="estate-planning" class="post-list-category">
+            <h2 class="post-list-category-title">{{ i18n "EstatePlanning" }}</h2>
+            <ul class="post-list">
+                {{ $p := where .Pages ".Params.tags" "intersect" (slice "EstatePlanning") }}
+                {{ range $p }}
+                <li class="post-list-item">
+                    <h3 class="post-list-item-title">
+                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    </h3>
+                    <div class="post-list-item-meta">
+                        {{ .Date.Format "January 2, 2006" }}
+                    </div>
+                    {{ with .Params.addtags }}
+                    <div class="post-list-item-tags">
+                        {{ range . }}
+                        <span class="post-tag">{{ . }}</span>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                    {{ with .Description }}
+                    <p class="post-list-item-description">{{ . }}</p>
+                    {{ end }}
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+
+        <!-- Resources -->
+        <div id="resources" class="post-list-category">
+            <h2 class="post-list-category-title">{{ i18n "Resources" }}</h2>
+            <div class="post-content">
+                <h4>Content Creator</h4>
+                <ul>
                     <li><a target="_blank" href="https://investmentmoats.com/">Investment Moats</a></li>
                     <li><a target="_blank" href="https://sgbudgetbabe.com/">SG Budget Babe</a></li>
                     <li><a target="_blank" href="https://www.instagram.com/sgfirecouple/">sgfirecouple</a></li>
-                    <li><a target="_blank" href="https://providend.com/insights/">Providend Instights</a></li>
+                    <li><a target="_blank" href="https://providend.com/insights/">Providend Insights</a></li>
                     <li><a target="_blank" href="https://www.channelnewsasia.com/listen/money-talks">CNA Money Talks Podcast</a></li>
                     <li><a target="_blank" href="https://www.youtube.com/@user-vp6wm8wm3b">跟我一起来谈钱</a></li>
-                  </ul>
-                  <h5>Books</h5>
-                  <ul>
+                </ul>
+                
+                <h4>Books</h4>
+                <ul>
                     <li><a target="_blank" href="https://www.goodreads.com/book/show/41881472-the-psychology-of-money">The Psychology of Money</a></li>
                     <li><a target="_blank" href="https://www.goodreads.com/en/book/show/60784524-my-money-journey">My Money Journey</a></li>
                     <li><a target="_blank" href="https://www.goodreads.com/en/book/show/40242274">A Random Walk Down Wall Street</a></li>
                     <li><a target="_blank" href="https://press.princeton.edu/books/hardcover/9780691215204/in-pursuit-of-the-perfect-portfolio">In Pursuit of Perfect Portfolio</a></li>
                     <li><a target="_blank" href="https://littlecheesecake.me/books/collection/%E6%8A%95%E8%B5%84%E6%9C%80%E9%87%8D%E8%A6%81%E7%9A%84%E4%BA%8B.html">投资最重要的事</a></li>
                     <li><a target="_blank" href="https://littlecheesecake.me/books/collection/%E8%B5%B0%E8%BF%87%E4%BD%8E%E8%B0%B7%E8%A7%81%E8%BF%87%E9%AB%98%E5%B1%B1.html">走过低谷，见过高山</a></li>
-                  </ul>
-        
-                  <h5>MOOC</h5>
-                  <ul>
+                </ul>
+                
+                <h4>MOOC</h4>
+                <ul>
                     <li><a target="_blank" href="https://www.coursera.org/learn/financial-markets-global">Financial Markets by Yale</a></li>
                     <li><a target="_blank" href="https://www.coursera.org/learn/investments-fundamentals">Investments I: Fundamentals of Performance Evaluation</a></li>
                     <li><a target="_blank" href="https://www.coursera.org/learn/decentralized-finance-infrastructure-duke">Decentralized Finance (DeFi) Infrastructure</a></li>
-                  </ul>
-        
-                  <h5>Data</h5>
-                  <ul>
+                </ul>
+                
+                <h4>Data</h4>
+                <ul>
                     <li><a target="_blank" href="https://www.singstat.gov.sg/">Statistics Singapore</a></li>
                     <li><a target="_blank" href="https://beta.data.gov.sg/">DATA.GOV.SG</a></li>
                     <li><a target="_blank" href="https://guide.data.gov.sg/developers/api-v2">DATA.GOV.SG API doc</a></li>
                     <li><a target="_blank" href="https://pandas-datareader.readthedocs.io/en/latest/remote_data.html">Stock market data - python library</a></li>
-                  </ul>
-                  
-                  <h5>Investment Platform (I am using) </h5>
-                  <ul>
+                </ul>
+                
+                <h4>Investment Platform (I am using)</h4>
+                <ul>
                     <li><a target="_blank" href="https://endowus.com/invite?code=O91N3">Endowus</a></li>
                     <li><a target="_blank" href="https://www.syfe.com/invite/wealth/SRPRYKNMN">Syfe</a></li>
                     <li><a target="_blank" href="https://ibkr.com/referral/lu902">InteractiveBrokers</a></li> 
                     <li><a target="_blank" href="https://secure.fundsupermart.com/fsmone/signup/personal/P0438068">FSMOne</a></li>
                     <li><a target="_blank" href="https://www.mas.gov.sg/bonds-and-bills/singapore-savings-bonds">Singapore Savings Bonds</a></li>
                     <li><a target="_blank" href="https://www.sgx.com/">SGX</a></li>
-                  </ul> 
-                </div>
-              </div>
-            </section>
+                </ul>
+            </div>
         </div>
-    </div>
-  </section>
 
-  {{ partial "footer" }}
+    </div>
+</section>
+
+<script>
+// Smooth scroll and active tab highlighting
+(function() {
+    const tabs = document.querySelectorAll('.category-tab');
+    const sections = document.querySelectorAll('.post-list-category');
+    
+    // Smooth scroll on tab click
+    tabs.forEach(tab => {
+        tab.addEventListener('click', function(e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href').substring(1);
+            const targetSection = document.getElementById(targetId);
+            if (targetSection) {
+                const offset = 130; // Header + tabs height
+                const targetPosition = targetSection.offsetTop - offset;
+                window.scrollTo({
+                    top: targetPosition,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+    
+    // Highlight active tab on scroll
+    function highlightActiveTab() {
+        const scrollPos = window.scrollY + 150;
+        
+        sections.forEach((section, index) => {
+            const sectionTop = section.offsetTop;
+            const sectionBottom = sectionTop + section.offsetHeight;
+            
+            if (scrollPos >= sectionTop && scrollPos < sectionBottom) {
+                tabs.forEach(t => t.classList.remove('active'));
+                tabs[index].classList.add('active');
+            }
+        });
+    }
+    
+    window.addEventListener('scroll', highlightActiveTab);
+    highlightActiveTab(); // Initial highlight
+})();
+</script>
+
+<!-- Footer -->
+{{ partial "footer" }}
+
 {{ end }}

@@ -1,31 +1,52 @@
 {{ define "main" }}
-    {{ $myData := (index site.Data site.Language.Lang) }}
-    {{ partial "lang" }}
-    {{ partial "header" }}
-    <div class="wrapper style1 align-center">
-        <div class="inner">
-            <h2>{{ .Params.Title }}</h1>
-            <p>{{ .Date.Format "January 2, 2006" }} | 
-            {{ range .Params.tags }} <span>{{ i18n . }}</span> {{ end }}
+{{ $myData := (index site.Data site.Language.Lang) }}
+
+<!-- Header -->
+{{ partial "header" }}
+
+<!-- Post Header -->
+<section class="post-header">
+    <div class="container container-narrow">
+        {{ partial "lang" }}
+        <h1 class="post-title">{{ .Title }}</h1>
+        
+        <div class="post-meta">
+            {{ .Date.Format "January 2, 2006" }}
+        </div>
+        
+        <div class="post-tags">
+            {{ range .Params.tags }}
+            <span class="tag">{{ i18n . }}</span>
+            {{ end }}
+            
             {{ with .Param "addtags" }}
-            {{ range $index, $tag := (. | sort) }} 
+            {{ range $index, $tag := (. | sort) }}
             <span class="tag">{{ $tag }}</span>
             {{ end }}
             {{ end }}
-            </p>
-            <div class="content align-left">
-                {{ .Content }}
-            </div>
-            {{ partial "disclaimer" $myData.disclaimer }}
-            {{ partial "buy_me_a_coffee" }}
-            {{ template "_internal/disqus.html" . }}
         </div>
     </div>
+</section>
 
-    {{ partial "footer" }}
+<!-- Post Content -->
+<article class="section-sm">
+    <div class="container container-narrow">
+        <div class="post-content">
+            {{ .Content }}
+        </div>
+        
+        <!-- Disclaimer -->
+        {{ partial "disclaimer" $myData.disclaimer }}
+        
+        <!-- Buy Me a Coffee -->
+        {{ partial "buy_me_a_coffee" }}
+        
+        <!-- Comments -->
+        {{ template "_internal/disqus.html" . }}
+    </div>
+</article>
 
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PB2VMZMH"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+<!-- Footer -->
+{{ partial "footer" }}
+
 {{ end }}

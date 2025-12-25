@@ -1,29 +1,109 @@
-<!DOCTYPE HTML>
-<!--
-	Hugo Story by CaressOfSteel
-	A (modular, highly tweakable) responsive one-page theme for Hugo.
-	Ported from Story by HTML5UP.
-	This Hugo theme is licensed under the Creative Commons Attribution 3.0 License.
--->
-<html>
-	<head>
-		{{ if .Param "math" }}
-			{{ partialCached "math.html" . }}
-	  	{{ end }}
-	</head>
-	
-	{{ partial "head" . }}
-
-	<body class="is-preload">
-
-		<!-- Wrapper -->
-		<div id="wrapper" class="divided">
-            {{- block "main" . }}{{- end }}
-		<!-- Wrapper -->
-		</div>
-		
-		{{ template "_internal/google_analytics.html" . }}
-		{{ partial "scripts" . }}
-
-	</body>
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <meta name="author" content="{{ .Site.Params.author }}">
+    
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="{{ "images/favicon.ico" | absURL }}">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="{{ "css/fontawesome-all.min.css" | absURL }}">
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="{{ "css/main.css" | absURL }}">
+    
+    <!-- MathJax -->
+    {{ if or .Params.math .Site.Params.math }}
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']],
+                processEscapes: true,
+                processEnvironments: true
+            },
+            options: {
+                skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+            }
+        };
+    </script>
+    <script type="text/javascript" id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    {{ end }}
+    
+    <!-- Google Tag Manager -->
+    {{ if .Site.Params.googleTagManager }}
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','{{ .Site.Params.googleTagManager }}');</script>
+    {{ end }}
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    {{ if .Site.Params.googleTagManager }}
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ .Site.Params.googleTagManager }}"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    {{ end }}
+    
+    <div id="wrapper">
+        {{ block "main" . }}{{ end }}
+    </div>
+    
+    <script>
+    // Typing animation for hero title
+    (function() {
+        const phrases = ['Money Sense', 'Money Stories', 'Life Stories', 'Life Goals'];
+        const typingElement = document.getElementById('typing-text');
+        if (!typingElement) return;
+        
+        let phraseIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        let typingSpeed = 150;
+        
+        function type() {
+            const currentPhrase = phrases[phraseIndex];
+            
+            if (isDeleting) {
+                typingElement.textContent = currentPhrase.substring(0, charIndex - 1);
+                charIndex--;
+                typingSpeed = 75;
+            } else {
+                typingElement.textContent = currentPhrase.substring(0, charIndex + 1);
+                charIndex++;
+                typingSpeed = 150;
+            }
+            
+            if (!isDeleting && charIndex === currentPhrase.length) {
+                // Finished typing, wait before deleting
+                typingSpeed = 2000;
+                isDeleting = true;
+            } else if (isDeleting && charIndex === 0) {
+                // Finished deleting, move to next phrase
+                isDeleting = false;
+                phraseIndex = (phraseIndex + 1) % phrases.length;
+                typingSpeed = 500;
+            }
+            
+            setTimeout(type, typingSpeed);
+        }
+        
+        // Start typing animation
+        type();
+    })();
+    </script>
+</body>
 </html>

@@ -1,7 +1,9 @@
-<div>
-    {{ range site.Home.AllTranslations }}
-        {{ if eq .Language site.Language }}
-            <h4 style="padding: 10px; margin: 0;"><a href="/{{ .Language }}">LittleCheeseCake MoneySense</a></h3>
+<header class="site-header">
+    <div class="container">
+        {{ range site.Home.AllTranslations }}
+            {{ if eq .Language site.Language }}
+                <a href="/{{ .Language }}" class="site-logo">LittleCheeseCake MoneySense</a>
+            {{ end }}
         {{ end }}
-    {{ end }}
-</div>
+    </div>
+</header>
