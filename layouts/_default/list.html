@@ -43,25 +43,27 @@
                     {{ $img = index (findRE "src=\"([^\"]+)\"" (index . 0) 1) 0 | replaceRE "src=\"(.+)\"" "$1" }}
                 {{ end }}
                 <li class="post-list-item" {{ if $img }}style="background-image: url('{{ $img }}');"{{ end }}>
-                    <div class="post-list-item-overlay"></div>
-                    <div class="post-list-item-content">
-                    <h3 class="post-list-item-title">
-                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-                    </h3>
-                    <div class="post-list-item-meta">
-                        {{ .Date.Format "January 2, 2006" }}
-                    </div>
-                    {{ with .Params.addtags }}
-                    <div class="post-list-item-tags">
-                        {{ range . }}
-                        <span class="post-tag">{{ . }}</span>
+                    <a href="{{ .RelPermalink }}" class="post-list-item-link">
+                        <div class="post-list-item-overlay"></div>
+                        <div class="post-list-item-content">
+                        <h3 class="post-list-item-title">
+                            {{ .Title }}
+                        </h3>
+                        <div class="post-list-item-meta">
+                            {{ .Date.Format "January 2, 2006" }}
+                        </div>
+                        {{ with .Params.addtags }}
+                        <div class="post-list-item-tags">
+                            {{ range . }}
+                            <span class="post-tag">{{ . }}</span>
+                            {{ end }}
+                        </div>
                         {{ end }}
-                    </div>
-                    {{ end }}
-                    {{ with .Description }}
-                    <p class="post-list-item-description">{{ . }}</p>
-                    {{ end }}
-                    </div>
+                        {{ with .Description }}
+                        <p class="post-list-item-description">{{ . }}</p>
+                        {{ end }}
+                        </div>
+                    </a>
                 </li>
                 {{ end }}
             </ul>
@@ -78,24 +80,27 @@
                     {{ $img = index (findRE "src=\"([^\"]+)\"" (index . 0) 1) 0 | replaceRE "src=\"(.+)\"" "$1" }}
                 {{ end }}
                 <li class="post-list-item" {{ if $img }}style="background-image: url('{{ $img }}');"{{ end }}>
-                    <div class="post-list-item-overlay"></div>
-                    <div class="post-list-item-content">
-                    <h3 class="post-list-item-title">
-                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-                    </h3>
-                    <div class="post-list-item-meta">
-                        {{ .Date.Format "January 2, 2006" }}
-                    </div>
-                    {{ with .Params.addtags }}
-                    <div class="post-list-item-tags">
-                        {{ range . }}
-                        <span class="post-tag">{{ . }}</span>
+                    <a href="{{ .RelPermalink }}" class="post-list-item-link">
+                        <div class="post-list-item-overlay"></div>
+                        <div class="post-list-item-content">
+                        <h3 class="post-list-item-title">
+                            {{ .Title }}
+                        </h3>
+                        <div class="post-list-item-meta">
+                            {{ .Date.Format "January 2, 2006" }}
+                        </div>
+                        {{ with .Params.addtags }}
+                        <div class="post-list-item-tags">
+                            {{ range . }}
+                            <span class="post-tag">{{ . }}</span>
+                            {{ end }}
+                        </div>
                         {{ end }}
-                    </div>
-                    {{ end }}
-                    {{ with .Description }}
-                    <p class="post-list-item-description">{{ . }}</p>
-                    {{ end }}
+                        {{ with .Description }}
+                        <p class="post-list-item-description">{{ . }}</p>
+                        {{ end }}
+                        </div>
+                    </a>
                 </li>
                 {{ end }}
             </ul>
@@ -112,24 +117,27 @@
                     {{ $img = index (findRE "src=\"([^\"]+)\"" (index . 0) 1) 0 | replaceRE "src=\"(.+)\"" "$1" }}
                 {{ end }}
                 <li class="post-list-item" {{ if $img }}style="background-image: url('{{ $img }}');"{{ end }}>
-                    <div class="post-list-item-overlay"></div>
-                    <div class="post-list-item-content">
-                    <h3 class="post-list-item-title">
-                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-                    </h3>
-                    <div class="post-list-item-meta">
-                        {{ .Date.Format "January 2, 2006" }}
-                    </div>
-                    {{ with .Params.addtags }}
-                    <div class="post-list-item-tags">
-                        {{ range . }}
-                        <span class="post-tag">{{ . }}</span>
+                    <a href="{{ .RelPermalink }}" class="post-list-item-link">
+                        <div class="post-list-item-overlay"></div>
+                        <div class="post-list-item-content">
+                        <h3 class="post-list-item-title">
+                            {{ .Title }}
+                        </h3>
+                        <div class="post-list-item-meta">
+                            {{ .Date.Format "January 2, 2006" }}
+                        </div>
+                        {{ with .Params.addtags }}
+                        <div class="post-list-item-tags">
+                            {{ range . }}
+                            <span class="post-tag">{{ . }}</span>
+                            {{ end }}
+                        </div>
                         {{ end }}
-                    </div>
-                    {{ end }}
-                    {{ with .Description }}
-                    <p class="post-list-item-description">{{ . }}</p>
-                    {{ end }}
+                        {{ with .Description }}
+                        <p class="post-list-item-description">{{ . }}</p>
+                        {{ end }}
+                        </div>
+                    </a>
                 </li>
                 {{ end }}
             </ul>
@@ -146,24 +154,27 @@
                     {{ $img = index (findRE "src=\"([^\"]+)\"" (index . 0) 1) 0 | replaceRE "src=\"(.+)\"" "$1" }}
                 {{ end }}
                 <li class="post-list-item" {{ if $img }}style="background-image: url('{{ $img }}');"{{ end }}>
-                    <div class="post-list-item-overlay"></div>
-                    <div class="post-list-item-content">
-                    <h3 class="post-list-item-title">
-                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-                    </h3>
-                    <div class="post-list-item-meta">
-                        {{ .Date.Format "January 2, 2006" }}
-                    </div>
-                    {{ with .Params.addtags }}
-                    <div class="post-list-item-tags">
-                        {{ range . }}
-                        <span class="post-tag">{{ . }}</span>
+                    <a href="{{ .RelPermalink }}" class="post-list-item-link">
+                        <div class="post-list-item-overlay"></div>
+                        <div class="post-list-item-content">
+                        <h3 class="post-list-item-title">
+                            {{ .Title }}
+                        </h3>
+                        <div class="post-list-item-meta">
+                            {{ .Date.Format "January 2, 2006" }}
+                        </div>
+                        {{ with .Params.addtags }}
+                        <div class="post-list-item-tags">
+                            {{ range . }}
+                            <span class="post-tag">{{ . }}</span>
+                            {{ end }}
+                        </div>
                         {{ end }}
-                    </div>
-                    {{ end }}
-                    {{ with .Description }}
-                    <p class="post-list-item-description">{{ . }}</p>
-                    {{ end }}
+                        {{ with .Description }}
+                        <p class="post-list-item-description">{{ . }}</p>
+                        {{ end }}
+                        </div>
+                    </a>
                 </li>
                 {{ end }}
             </ul>
@@ -180,24 +191,27 @@
                     {{ $img = index (findRE "src=\"([^\"]+)\"" (index . 0) 1) 0 | replaceRE "src=\"(.+)\"" "$1" }}
                 {{ end }}
                 <li class="post-list-item" {{ if $img }}style="background-image: url('{{ $img }}');"{{ end }}>
-                    <div class="post-list-item-overlay"></div>
-                    <div class="post-list-item-content">
-                    <h3 class="post-list-item-title">
-                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-                    </h3>
-                    <div class="post-list-item-meta">
-                        {{ .Date.Format "January 2, 2006" }}
-                    </div>
-                    {{ with .Params.addtags }}
-                    <div class="post-list-item-tags">
-                        {{ range . }}
-                        <span class="post-tag">{{ . }}</span>
+                    <a href="{{ .RelPermalink }}" class="post-list-item-link">
+                        <div class="post-list-item-overlay"></div>
+                        <div class="post-list-item-content">
+                        <h3 class="post-list-item-title">
+                            {{ .Title }}
+                        </h3>
+                        <div class="post-list-item-meta">
+                            {{ .Date.Format "January 2, 2006" }}
+                        </div>
+                        {{ with .Params.addtags }}
+                        <div class="post-list-item-tags">
+                            {{ range . }}
+                            <span class="post-tag">{{ . }}</span>
+                            {{ end }}
+                        </div>
                         {{ end }}
-                    </div>
-                    {{ end }}
-                    {{ with .Description }}
-                    <p class="post-list-item-description">{{ . }}</p>
-                    {{ end }}
+                        {{ with .Description }}
+                        <p class="post-list-item-description">{{ . }}</p>
+                        {{ end }}
+                        </div>
+                    </a>
                 </li>
                 {{ end }}
             </ul>

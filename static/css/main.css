@@ -552,13 +552,22 @@ em, i {
 
 .post-list-item {
     position: relative;
-    padding: var(--spacing-sm) var(--spacing-md);
     background: var(--color-bg);
     border-radius: var(--radius-md);
     border: 1px solid var(--color-purple-100);
     transition: all var(--transition-base);
     overflow: hidden;
     min-height: 140px;
+}
+
+.post-list-item-link {
+    display: block;
+    padding: var(--spacing-sm) var(--spacing-md);
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    cursor: pointer;
+    height: 100%;
 }
 
 .post-list-item::after {
@@ -605,13 +614,10 @@ em, i {
 .post-list-item-title {
     font-size: 1.1rem;
     margin-bottom: var(--spacing-xs);
-}
-
-.post-list-item-title a {
     color: var(--color-text-primary);
 }
 
-.post-list-item-title a:hover {
+.post-list-item:hover .post-list-item-title {
     color: var(--color-accent);
 }
 
