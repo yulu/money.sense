@@ -1,7 +1,7 @@
 ---
 title: "Walk as a Investment Newbie"
 date: 2025-07-26T23:31:16+08:00
-description: ""
+description: "Nine practical steps from Burton Malkiel's 'A Random Walk Down Wall Street': save more, build emergency funds, understand taxes, and invest wisely."
 tags:
 - SavingAndInvestment
 addtags:

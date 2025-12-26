@@ -1,7 +1,7 @@
 ---
 title: "Should I Buy Maternity Insurance?"
 date: 2025-07-13T18:12:02+08:00
-description: ""
+description: "Analyzing maternity insurance options: bundled policies, standalone term plans, and why I chose not to purchase—plus alternative solutions to consider."
 tags: 
 - Insurance
 addtags:

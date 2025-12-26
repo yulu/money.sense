@@ -1,7 +1,7 @@
 ---
 title: "Birth Diary: Cost and Experience at KKH"
 date: 2025-07-27T18:12:02+08:00
-description: ""
+description: "My natural delivery experience at KKH: detailed cost breakdown totaling $14.3K, prenatal to delivery expenses, CPF claims, and why I chose public hospital."
 tags: 
 - MoneyPhilosophy
 addtags:

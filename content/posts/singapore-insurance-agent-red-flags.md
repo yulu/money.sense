@@ -1,7 +1,7 @@
 ---
 title: "Insurance Agent Red Flags: Real-Life Lessons on What to Watch Out For"
 date: 2025-06-16T23:31:16+08:00
-description: ""
+description: "Real-life lessons from two insurance agent failures: missing basic coverage, pushing policy replacements, slow claims, and lack of product knowledge."
 tags:
 - Insurance
 addtags:

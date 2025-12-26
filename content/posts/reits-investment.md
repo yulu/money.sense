@@ -1,7 +1,7 @@
 ---
 title: "Why I invest in REITs"
 date: 2025-01-06T23:31:16+08:00
-description: ""
+description: "My rationale for regular REIT investment: lower risk than stocks, risk hedging benefits, and confidence in Singapore's mature commercial real estate market."
 tags:
 - SavingAndInvestment
 addtags:

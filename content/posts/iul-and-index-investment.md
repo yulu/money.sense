@@ -1,7 +1,7 @@
 ---
 title: "IUL and Index Investment Comparision"
 date: 2025-07-25T05:18:53+08:00
-description: ""
+description: "Comparing downside-protected IUL investment logic with direct index investment and 40/60 portfolios: 25-year backtest of floor-cap strategies vs market."
 tags:
 - SavingAndInvestment
 addtags:

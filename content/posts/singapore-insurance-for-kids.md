@@ -1,7 +1,7 @@
 ---
 title: "Insurance for Kids"
 date: 2025-04-16T23:31:16+08:00
-description: ""
+description: "A practical guide to children's insurance focusing on essential hospitalisation and critical illness coverage while avoiding unnecessary policies."
 tags:
 - Insurance
 addtags:

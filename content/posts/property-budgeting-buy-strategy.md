@@ -1,7 +1,7 @@
 ---
 title: "Private Property Budgeting and Buying Strategy"
 date: 2025-01-30T23:31:16+08:00
-description: ""
+description: "Our strategy for selling our first condo and buying a second property, with budgeting principles to avoid financial strain and maintain investment flexibility."
 tags: 
 - Properties
 addtags:

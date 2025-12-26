@@ -1,7 +1,7 @@
 ---
 title: "Retirement Income Streams"
 date: 2025-05-08T23:31:16+08:00
-description: ""
+description: "Comparing seven passive income sources for retirement: CPF LIFE, annuities, bonds, dividends, and property, across maintenance effort, stability, and returns."
 tags:
 - SavingAndInvestment
 addtags:

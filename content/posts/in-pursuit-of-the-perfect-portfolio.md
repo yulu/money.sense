@@ -1,7 +1,7 @@
 ---
 title: "Profoundly Simple Investment Strategies"
 date: 2025-07-11T18:12:02+08:00
-description: "我始终相信大道至简，四位金融泰斗对投资组合配置的个人建议也都反映出最朴素的投资理念：积极入市、分散风险、降低费率、长期主义"
+description: "Key investment theories from four finance legends: Markowitz's MPT, Sharpe's CAPM, Fama's EMH, and Bogle's CMH—and how they shape my portfolio."
 tags: 
 - SavingAndInvestment
 addtags:

@@ -1,7 +1,7 @@
 ---
 title: "How to Buy Health Insurance and What Coverage Should Last a Lifetime"
 date: 2025-04-18T23:31:16+08:00
-description: ""
+description: "My medical and critical illness insurance strategy: why I prefer term coverage over whole life, and what elderly truly need for lifelong protection."
 tags:
 - Insurance
 addtags:

@@ -1,7 +1,7 @@
 ---
 title: "Our Renovation Journey: Budgeting and Quotation Cost Breakdown"
 date: 2025-02-20T05:58:30+08:00
-description: ""
+description: "Our S$70K renovation budget planning. Comparing 5 different IDs' quotations"
 tags:
 - Properties 
 addtags:
