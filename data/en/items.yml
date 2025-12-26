@@ -11,8 +11,8 @@ items:
     content : ""
     style : "style2 major fa-money-bill"
     articles:
-      - title: 'Investment Mindset that Inspires Me'
-        url: 'posts/investment_mindset/'
+      - title: 'Birth Diary: Cost and Experience at KKH'
+        url: '/posts/birth-diary-at-kkh/'
       - title: 'Female Invester'
         url: 'posts/female-investor/'
 
@@ -43,8 +43,8 @@ items:
     articles:
       - title: 'Should I Include Singapore Property in My Investment Portfolio'
         url: 'posts/property-investment-for-retirement/'
-      - title: 'Private Property Budgeting and Buying Strategy'
-        url: 'posts/property-budgeting-buy-strategy'
+      - title: 'Our Renovation Journey: Budgeting and Quotation Cost Breakdown'
+        url: 'posts/money-story-renovation-journey/'
     
   # feature item loop
   - name : "EstatePlanning"
@@ -58,4 +58,8 @@ items:
     content : ""
     style : "style2 major fa-database"
     articles:
+      - title: 'In Pursuit of Perfect Portfolio'
+        url: 'https://press.princeton.edu/books/hardcover/9780691215204/in-pursuit-of-the-perfect-portfolio'
+      - title: 'MOOC: Financial Markets by Yale University'
+        url: 'https://www.coursera.org/learn/financial-markets-global'
     
