@@ -29,19 +29,23 @@
 
 <!-- Post Content -->
 <article class="section-sm">
-    <div class="container container-narrow">
-        <div class="post-content">
-            {{ .Content }}
+    <div class="container">
+        <div class="post-layout">
+            <div class="post-content-wrapper">
+                <div class="post-content">
+                    {{ .Content }}
+                </div>
+                
+                <!-- Disclaimer -->
+                {{ partial "disclaimer" $myData.disclaimer }}
+                
+                <!-- Buy Me a Coffee -->
+                {{ partial "buy_me_a_coffee" }}
+                
+                <!-- Comments -->
+                {{ template "_internal/disqus.html" . }}
+            </div>
         </div>
-        
-        <!-- Disclaimer -->
-        {{ partial "disclaimer" $myData.disclaimer }}
-        
-        <!-- Buy Me a Coffee -->
-        {{ partial "buy_me_a_coffee" }}
-        
-        <!-- Comments -->
-        {{ template "_internal/disqus.html" . }}
     </div>
 </article>
 

@@ -42,7 +42,7 @@
     
     /* Layout */
     --max-width-content: 1200px;
-    --max-width-text: 800px;
+    --max-width-text: 900px;
     --max-width-narrow: 600px;
     
     /* Border Radius */
@@ -659,12 +659,103 @@ em, i {
     font-weight: 500;
 }
 
+.post-layout {
+    display: flex;
+    gap: var(--spacing-2xl);
+    justify-content: center;
+    position: relative;
+}
+
+@media (max-width: 1400px) {
+    .post-layout {
+        flex-direction: column;
+        gap: 0;
+    }
+}
+
+.post-toc-inline {
+    position: fixed;
+    left: max(1rem, calc((100vw - 900px) / 2 - 340px));
+    top: 100px;
+    width: 320px;
+    max-height: calc(100vh - 120px);
+    overflow-y: auto;
+    z-index: 10;
+}
+
+.toc-wrapper {
+    padding: 0;
+    background: linear-gradient(135deg, #f8f5fa 0%, #f3e5f5 50%, #e1d5f0 100%);
+    border-radius: var(--radius-md);
+    box-shadow: 0 2px 8px rgba(149, 117, 205, 0.1);
+}
+
+.toc-wrapper #TableOfContents {
+    padding-left: 0;
+}
+
+.toc-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-accent);
+    margin-bottom: 0.3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+#TableOfContents > ul {
+    padding-left: 0;
+    margin-left: 0;
+    list-style: none;
+}
+
+#TableOfContents ul ul {
+    padding-left: var(--spacing-sm);
+    margin-top: 0.2rem;
+}
+
+.post-toc-inline nav li {
+    margin-bottom: 0.3rem;
+}
+
+.post-toc-inline nav a {
+    font-size: 0.85rem;
+    color: var(--color-text-light);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+    display: block;
+    line-height: 1.4;
+}
+
+.post-toc-inline nav a:hover {
+    color: var(--color-accent);
+}
+
+.post-content-wrapper {
+    width: 900px;
+    max-width: 100%;
+}
+
 .post-content {
     padding: var(--spacing-xl) 0;
     font-family: var(--font-serif);
     font-size: 1.1rem;
     line-height: 1.7;
     color: var(--color-text-secondary);
+}
+
+@media (max-width: 1400px) {
+    .post-toc-inline {
+        position: static;
+        width: 100%;
+        max-height: none;
+        margin-bottom: var(--spacing-lg);
+        order: -1;
+    }
+    
+    .toc-wrapper {
+        background: transparent;
+    }
 }
 
 .post-content h2,
@@ -692,7 +783,7 @@ em, i {
 }
 
 .post-content li {
-    margin-bottom: var(--spacing-xs);
+    margin-bottom: 0.25rem;
 }
 
 .post-content code {
