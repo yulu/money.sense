@@ -1040,6 +1040,10 @@ em, i {
 /* ========================================
    Utility Classes
    ======================================== */
+.image.fit {
+    display: block;
+}
+
 .text-center { text-align: center; }
 .text-left { text-align: left; }
 .text-right { text-align: right; }
