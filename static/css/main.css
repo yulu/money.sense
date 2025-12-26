@@ -551,17 +551,55 @@ em, i {
 }
 
 .post-list-item {
+    position: relative;
     padding: var(--spacing-sm) var(--spacing-md);
     background: var(--color-bg);
     border-radius: var(--radius-md);
-    border: 1px solid var(--color-border-light);
+    border: 1px solid var(--color-purple-100);
     transition: all var(--transition-base);
+    overflow: hidden;
+    min-height: 140px;
+}
+
+.post-list-item::after {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    right: 3px;
+    bottom: 3px;
+    background-image: inherit;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: calc(var(--radius-md) - 3px);
+    z-index: 0;
+}
+
+.post-list-item-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(248, 245, 250, 0.9) 100%);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3);
+    z-index: 1;
+}
+
+.post-list-item-content {
+    position: relative;
+    z-index: 2;
 }
 
 .post-list-item:hover {
     border-color: var(--color-purple-300);
     box-shadow: var(--shadow-card);
     transform: translateX(4px);
+}
+
+.post-list-item:hover .post-list-item-overlay {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(243, 229, 245, 0.85) 100%);
 }
 
 .post-list-item-title {
