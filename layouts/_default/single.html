@@ -39,6 +39,35 @@
                 <!-- Disclaimer -->
                 {{ partial "disclaimer" $myData.disclaimer }}
                 
+                <!-- Random Posts -->
+                <div class="random-posts">
+                    <div class="random-posts-grid">
+                        {{ $currentPage := . }}
+                        {{ $pages := where site.RegularPages "Section" "posts" }}
+                        {{ $pages := where $pages ".Params.draft" "ne" true }}
+                        {{ $pages := $pages | complement (slice $currentPage) }}
+                        {{ $randomPages := shuffle $pages | first 2 }}
+                        {{ range $randomPages }}
+                        {{ $img := "" }}
+                        {{ with findRE "<img[^>]+src=\"([^\"]+)\"" .Content 1 }}
+                            {{ $img = index (findRE "src=\"([^\"]+)\"" (index . 0) 1) 0 | replaceRE "src=\"(.+)\"" "$1" }}
+                        {{ end }}
+                        <a href="{{ .RelPermalink }}" class="random-post-card" {{ if $img }}style="background-image: url('{{ $img }}');"{{ end }}>
+                            <div class="random-post-overlay"></div>
+                            <div class="random-post-content">
+                                <h4 class="random-post-title">{{ .Title }}</h4>
+                                {{ with .Description }}
+                                <p class="random-post-description">{{ . }}</p>
+                                {{ end }}
+                                <div class="random-post-meta">
+                                    {{ .Date.Format "January 2, 2006" }}
+                                </div>
+                            </div>
+                        </a>
+                        {{ end }}
+                    </div>
+                </div>
+                
                 <!-- Buy Me a Coffee -->
                 {{ partial "buy_me_a_coffee" }}
                 
