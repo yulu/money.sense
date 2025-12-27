@@ -195,7 +195,7 @@ em, i {
 
 .lang-switcher {
     display: flex;
-    gap: var(--spacing-sm);
+    gap: var(--spacing-xs);
 }
 
 .lang-link {
@@ -210,6 +210,13 @@ em, i {
 .lang-link.active {
     background: var(--color-purple-50);
     color: var(--color-accent);
+}
+
+@media (max-width: 768px) {
+    .lang-link {
+        font-size: 0.65rem;
+        padding: var(--spacing-xs) var(--spacing-xs);
+    }
 }
 
 /* ========================================
@@ -1012,6 +1019,16 @@ em, i {
 .post-content th {
     background: var(--color-bg-alt);
     font-weight: 600;
+}
+
+/* Table wrapper for mobile scrolling */
+@media (max-width: 768px) {
+    .post-content table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+    }
 }
 
 /* Table of Contents */
