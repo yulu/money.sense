@@ -1,0 +1,26 @@
+// ========================================
+// Buttons
+// ========================================
+
+// Buy Me a Coffee Button
+.buy-me-coffee {
+    text-align: center;
+    padding: var(--spacing-xl) 0;
+
+    a {
+        display: inline-flex;
+        align-items: center;
+        gap: var(--spacing-sm);
+        padding: var(--spacing-sm) var(--spacing-lg);
+        background: var(--color-purple-100);
+        color: var(--color-accent);
+        border-radius: var(--radius-md);
+        font-weight: 500;
+        transition: all var(--transition-base);
+
+        &:hover {
+            background: var(--color-purple-200);
+            transform: translateY(-2px);
+        }
+    }
+}

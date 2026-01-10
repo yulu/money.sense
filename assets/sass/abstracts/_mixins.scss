@@ -1,0 +1,76 @@
+// ========================================
+// Mixins
+// ========================================
+
+@use 'variables' as *;
+
+// Responsive breakpoint mixins
+@mixin respond-to($breakpoint) {
+    @if $breakpoint == 'sm' {
+        @media (max-width: $breakpoint-sm) { @content; }
+    } @else if $breakpoint == 'md' {
+        @media (max-width: $breakpoint-md) { @content; }
+    } @else if $breakpoint == 'lg' {
+        @media (max-width: $breakpoint-lg) { @content; }
+    } @else if $breakpoint == 'xl' {
+        @media (max-width: $breakpoint-xl) { @content; }
+    }
+}
+
+@mixin respond-between($min, $max) {
+    @media (min-width: $min) and (max-width: $max) { @content; }
+}
+
+// Flexbox shortcuts
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+// Text truncation
+@mixin line-clamp($lines) {
+    display: -webkit-box;
+    -webkit-line-clamp: $lines;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+// Card overlay effect
+@mixin card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(248, 245, 250, 0.9) 100%);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3);
+    z-index: 1;
+}
+
+@mixin card-overlay-hover {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(243, 229, 245, 0.85) 100%);
+}
+
+// Background image with inset border
+@mixin bg-image-inset($inset: 3px) {
+    content: '';
+    position: absolute;
+    top: $inset;
+    left: $inset;
+    right: $inset;
+    bottom: $inset;
+    background-image: inherit;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: calc(var(--radius-md) - #{$inset});
+    z-index: 0;
+}
