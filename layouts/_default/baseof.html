@@ -19,8 +19,13 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{{ "css/fontawesome-all.min.css" | absURL }}">
     
-    <!-- Main CSS -->
-    <link rel="stylesheet" href="{{ "css/main.css" | absURL }}">
+    <!-- Main CSS (compiled from SASS) -->
+    {{ $sass := resources.Get "sass/main.scss" }}
+    {{ $style := $sass | toCSS (dict "transpiler" "dartsass" "targetPath" "css/main.css") }}
+    {{ if hugo.IsProduction }}
+        {{ $style = $style | minify | fingerprint }}
+    {{ end }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}"{{ if hugo.IsProduction }} integrity="{{ $style.Data.Integrity }}"{{ end }}>
     
     <!-- MathJax -->
     {{ if or .Params.math .Site.Params.math }}

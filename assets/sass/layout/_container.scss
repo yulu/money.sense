@@ -1,0 +1,42 @@
+// ========================================
+// Layout - Container & Sections
+// ========================================
+
+@use '../abstracts' as *;
+
+#wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 100%;
+    max-width: var(--max-width-content);
+    margin: 0 auto;
+    padding: 0 var(--spacing-lg);
+
+    @include respond-to('md') {
+        padding: 0 var(--spacing-md);
+    }
+}
+
+.container-narrow {
+    max-width: var(--max-width-text);
+}
+
+.container-wide {
+    max-width: 1000px;
+}
+
+.section {
+    padding: var(--spacing-3xl) 0;
+
+    @include respond-to('md') {
+        padding: var(--spacing-2xl) 0;
+    }
+}
+
+.section-sm {
+    padding: var(--spacing-2xl) 0;
+}

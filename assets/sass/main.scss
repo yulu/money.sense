@@ -1,0 +1,19 @@
+// ========================================
+// Main SASS Entry Point
+// Money Sense Blog - Purple/White Theme
+// ========================================
+
+// 1. Abstracts (variables, mixins) - must come first
+@use 'abstracts';
+
+// 2. Base styles (reset, typography)
+@use 'base';
+
+// 3. Layout (container, header, footer)
+@use 'layout';
+
+// 4. Components (hero, cards, posts, etc.)
+@use 'components';
+
+// 5. Utilities (helper classes) - must come last for specificity
+@use 'utilities';
