@@ -9,11 +9,8 @@ copyright = "{year}"
 ## Publish
 ## -----------------------------------------------
 
-relativeURLs = "true"
-canonifyURLs = "true"
 enableRobotsTXT = true
 
-# Local
 baseURL = "https://littlecheesecake.me/money.sense"
 publishDir = "public"
 
