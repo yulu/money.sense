@@ -1,5 +1,5 @@
 // ========================================
-// Random Posts Section
+// Random Posts Section - Calm Teal & Sage Theme
 // ========================================
 
 @use '../abstracts' as *;
@@ -7,7 +7,7 @@
 .random-posts {
     margin: var(--spacing-2xl) 0;
     padding-top: var(--spacing-xl);
-    border-top: 2px solid var(--color-purple-100);
+    border-top: 2px solid var(--color-rose-100);
 }
 
 .random-posts-title {
@@ -32,7 +32,7 @@
     display: block;
     background: var(--color-bg);
     border-radius: var(--radius-md);
-    border: 1px solid var(--color-purple-100);
+    border: 1px solid var(--color-rose-100);
     overflow: hidden;
     min-height: 200px;
     transition: all var(--transition-base);
@@ -44,7 +44,7 @@
     }
 
     &:hover {
-        border-color: var(--color-purple-300);
+        border-color: var(--color-rose-300);
         box-shadow: var(--shadow-card);
         transform: translateY(-4px);
 
@@ -76,6 +76,7 @@
     margin-bottom: var(--spacing-sm);
     color: var(--color-text-primary);
     font-weight: 600;
+    transition: color var(--transition-fast);
 }
 
 .random-post-description {

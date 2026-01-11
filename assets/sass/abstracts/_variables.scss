@@ -1,5 +1,6 @@
 // ========================================
-// Variables - Purple/White Theme
+// Variables - Dusty Rose/Mauve Theme
+// Bold, Modern, Soothing
 // ========================================
 
 // SASS Breakpoints
@@ -10,30 +11,36 @@ $breakpoint-xl: 1400px;
 
 // CSS Custom Properties
 :root {
-    // Colors
-    --color-bg: #ffffff;
-    --color-bg-alt: #f8f5fa;
-    --color-bg-light: #fdfcfe;
+    // Primary Colors - Dusty Rose/Mauve (elegant, soothing)
+    --color-rose-50: #fdf2f4;
+    --color-rose-100: #fce8ec;
+    --color-rose-200: #f8d1d9;
+    --color-rose-300: #f0b3c2;
+    --color-rose-400: #e599ad;
+    --color-rose-500: #d97a94;
+    --color-rose-600: #c25a77;
 
-    --color-purple-50: #f3e5f5;
-    --color-purple-100: #e1d5f0;
-    --color-purple-200: #d1c4e9;
-    --color-purple-300: #b39ddb;
-    --color-purple-400: #9b72aa;
-    --color-purple-500: #8b5fb5;
-    --color-purple-600: #7b4f9d;
-    --color-purple-700: #6a3f8a;
+    // Warm Neutrals - Cream/Off-white backgrounds
+    --color-bg: #fdfbf7;
+    --color-bg-alt: #f9f6f2;
+    --color-bg-light: #fffef9;
+    --color-bg-warm: #f5f2ed;
 
-    --color-text-primary: #2d2d2d;
-    --color-text-secondary: #4a4a4a;
-    --color-text-light: #6b6b6b;
-    --color-text-lighter: #8e8e8e;
+    // Text Colors - Warm charcoal tones
+    --color-text-primary: #2a2f2a;
+    --color-text-secondary: #454a45;
+    --color-text-light: #5f665f;
+    --color-text-lighter: #7a827a;
 
-    --color-border: rgba(74, 74, 74, 0.15);
-    --color-border-light: rgba(74, 74, 74, 0.08);
+    // Borders - Subtle, warm rose
+    --color-border: rgba(217, 122, 148, 0.15);
+    --color-border-light: rgba(217, 122, 148, 0.08);
 
-    --color-accent: var(--color-purple-500);
-    --color-accent-hover: var(--color-purple-600);
+    // Accent Colors - Dusty Rose as primary
+    --color-accent: var(--color-rose-500);
+    --color-accent-hover: var(--color-rose-600);
+    --color-accent-light: var(--color-rose-100);
+    --color-accent-secondary: var(--color-rose-400);
 
     // Typography
     --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -59,15 +66,15 @@ $breakpoint-xl: 1400px;
     --radius-lg: 0.75rem;
     --radius-xl: 1rem;
 
-    // Shadows
-    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05);
-    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.07);
-    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
-    --shadow-card: 0 2px 8px rgba(139, 95, 181, 0.08);
-    --shadow-card-hover: 0 8px 20px rgba(139, 95, 181, 0.15);
+    // Shadows - Softer, rose-tinted
+    --shadow-sm: 0 1px 3px rgba(217, 122, 148, 0.06);
+    --shadow-md: 0 4px 6px rgba(217, 122, 148, 0.08);
+    --shadow-lg: 0 10px 15px rgba(217, 122, 148, 0.10);
+    --shadow-card: 0 2px 12px rgba(217, 122, 148, 0.10);
+    --shadow-card-hover: 0 8px 24px rgba(217, 122, 148, 0.15);
 
-    // Transitions
+    // Transitions - Smooth, calming
     --transition-fast: 150ms ease;
-    --transition-base: 250ms ease;
-    --transition-slow: 350ms ease;
+    --transition-base: 300ms ease;
+    --transition-slow: 400ms ease;
 }

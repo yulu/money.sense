@@ -1,5 +1,5 @@
 // ========================================
-// Category Cards Grid
+// Category Cards Grid - Calm Teal & Sage Theme
 // ========================================
 
 @use '../abstracts' as *;
@@ -16,22 +16,22 @@
 }
 
 .highlight-life {
-    color: var(--color-purple-500);
+    color: var(--color-rose-500);
     font-style: italic;
     font-weight: 700;
     position: relative;
     display: inline-block;
-    animation: glow 3s ease-in-out infinite;
+    animation: gentleGlow 4s ease-in-out infinite;
 }
 
-@keyframes glow {
+@keyframes gentleGlow {
     0%, 100% {
-        color: var(--color-purple-500);
-        text-shadow: 0 0 5px rgba(155, 114, 170, 0.3);
+        color: var(--color-rose-500);
+        text-shadow: 0 0 8px rgba(217, 122, 148, 0.2);
     }
     50% {
-        color: var(--color-purple-400);
-        text-shadow: 0 0 15px rgba(155, 114, 170, 0.6);
+        color: var(--color-rose-400);
+        text-shadow: 0 0 16px rgba(217, 122, 148, 0.35);
     }
 }
 
@@ -60,8 +60,9 @@
     border: 1px solid var(--color-border-light);
 
     &:hover {
-        transform: translateY(-4px);
+        transform: translateY(-6px);
         box-shadow: var(--shadow-card-hover);
+        border-color: var(--color-rose-200);
     }
 }
 
@@ -92,6 +93,7 @@
     color: var(--color-text-light);
     margin-bottom: var(--spacing-md);
     font-size: 0.95rem;
+    line-height: 1.6;
 }
 
 .category-card-articles {
@@ -107,15 +109,22 @@
         display: flex;
         align-items: center;
         gap: var(--spacing-xs);
+        transition: color var(--transition-fast);
 
         &:hover {
             color: var(--color-accent);
         }
 
         &::before {
-            content: '→';
-            color: var(--color-accent);
+            content: '\2192';
+            color: var(--color-rose-400);
             font-weight: 600;
+            transition: transform var(--transition-fast);
+        }
+
+        &:hover::before {
+            transform: translateX(3px);
+            color: var(--color-accent);
         }
     }
 }

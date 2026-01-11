@@ -1,5 +1,5 @@
 // ========================================
-// Buttons
+// Buttons - Dusty Rose/Mauve Theme
 // ========================================
 
 // Buy Me a Coffee Button
@@ -12,15 +12,16 @@
         align-items: center;
         gap: var(--spacing-sm);
         padding: var(--spacing-sm) var(--spacing-lg);
-        background: var(--color-purple-100);
-        color: var(--color-accent);
+        background: var(--color-rose-100);
+        color: var(--color-rose-600);
         border-radius: var(--radius-md);
         font-weight: 500;
         transition: all var(--transition-base);
 
         &:hover {
-            background: var(--color-purple-200);
+            background: var(--color-rose-200);
             transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(217, 122, 148, 0.18);
         }
     }
 }

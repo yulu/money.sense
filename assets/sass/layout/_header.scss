@@ -1,5 +1,5 @@
 // ========================================
-// Header
+// Header - Calm Teal & Sage Theme
 // ========================================
 
 @use '../abstracts' as *;
@@ -12,7 +12,7 @@
     top: 0;
     z-index: 100;
     backdrop-filter: blur(10px);
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(253, 251, 247, 0.95);
 
     .container {
         @include flex-between;
@@ -45,7 +45,7 @@
 
     &:hover,
     &.active {
-        background: var(--color-purple-50);
+        background: var(--color-rose-50);
         color: var(--color-accent);
     }
 
