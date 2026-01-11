@@ -1,43 +1,63 @@
 // ========================================
-// Footer
+// Footer - Bold Editorial Style
 // ========================================
 
 .site-footer {
-    background: var(--color-bg-alt);
-    padding: var(--spacing-2xl) 0;
+    background: var(--color-bg-dark);
+    color: var(--color-text-inverse);
+    padding: var(--spacing-3xl) 0 var(--spacing-2xl);
     margin-top: auto;
-    border-top: 1px solid var(--color-border-light);
 }
 
 .footer-content {
     text-align: center;
 }
 
+.footer-brand {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--color-text-inverse);
+    margin-bottom: var(--spacing-sm);
+    letter-spacing: -0.02em;
+}
+
+.footer-tagline {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: var(--spacing-xl);
+}
+
 .social-icons {
     display: flex;
     justify-content: center;
     gap: var(--spacing-md);
-    margin-bottom: var(--spacing-lg);
+    margin-bottom: var(--spacing-xl);
     list-style: none;
 }
 
 .social-icon {
-    font-size: 1.5rem;
-    color: var(--color-text-light);
-    transition: color var(--transition-fast);
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 0.5);
+    transition: all var(--transition-fast);
+    padding: var(--spacing-sm);
+    border: 1px solid rgba(255, 255, 255, 0.1);
 
     &:hover {
-        color: var(--color-accent);
+        color: var(--color-gold-500);
+        border-color: var(--color-gold-500);
     }
 }
 
 .footer-text {
-    color: var(--color-text-light);
-    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 0.85rem;
+    padding-top: var(--spacing-lg);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer-divider {
     display: inline-block;
     margin: 0 var(--spacing-sm);
-    color: var(--color-accent);
+    color: var(--color-gold-500);
 }

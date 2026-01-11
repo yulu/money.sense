@@ -1,5 +1,5 @@
 // ========================================
-// Header - Calm Teal & Sage Theme
+// Header - Bold Editorial Style
 // ========================================
 
 @use '../abstracts' as *;
@@ -11,8 +11,8 @@
     position: sticky;
     top: 0;
     z-index: 100;
-    backdrop-filter: blur(10px);
-    background: rgba(253, 251, 247, 0.95);
+    backdrop-filter: blur(12px);
+    background: rgba(255, 252, 249, 0.95);
 
     .container {
         @include flex-between;
@@ -20,37 +20,51 @@
 }
 
 .site-logo {
-    font-size: 1.25rem;
-    font-weight: 600;
+    font-family: var(--font-display);
+    font-size: 1.35rem;
+    font-weight: 400;
     color: var(--color-text-primary);
     text-decoration: none;
     transition: color var(--transition-fast);
+    letter-spacing: -0.02em;
+    white-space: nowrap;
 
     &:hover {
         color: var(--color-accent);
+    }
+
+    @include respond-to('md') {
+        font-size: 1rem;
     }
 }
 
 .lang-switcher {
     display: flex;
-    gap: var(--spacing-xs);
+    gap: 0;
+    border: 1px solid var(--color-border);
 }
 
 .lang-link {
     padding: var(--spacing-xs) var(--spacing-sm);
-    border-radius: var(--radius-sm);
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    font-weight: 500;
     color: var(--color-text-light);
     transition: all var(--transition-fast);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
 
-    &:hover,
+    &:hover {
+        color: var(--color-text-primary);
+        background: var(--color-bg-alt);
+    }
+
     &.active {
-        background: var(--color-rose-50);
-        color: var(--color-accent);
+        background: var(--color-text-primary);
+        color: var(--color-text-inverse);
     }
 
     @include respond-to('md') {
-        font-size: 0.65rem;
-        padding: var(--spacing-xs) var(--spacing-xs);
+        font-size: 0.7rem;
+        padding: var(--spacing-xs);
     }
 }

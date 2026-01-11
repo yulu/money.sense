@@ -1,6 +1,6 @@
 // ========================================
-// Variables - Dusty Rose/Mauve Theme
-// Bold, Modern, Soothing
+// Variables - Bold Editorial Theme
+// Finance meets Feminine Confidence
 // ========================================
 
 // SASS Breakpoints
@@ -11,70 +11,88 @@ $breakpoint-xl: 1400px;
 
 // CSS Custom Properties
 :root {
-    // Primary Colors - Dusty Rose/Mauve (elegant, soothing)
-    --color-rose-50: #fdf2f4;
-    --color-rose-100: #fce8ec;
-    --color-rose-200: #f8d1d9;
-    --color-rose-300: #f0b3c2;
-    --color-rose-400: #e599ad;
-    --color-rose-500: #d97a94;
-    --color-rose-600: #c25a77;
+    // Primary - Deep Wine/Burgundy (sophisticated, bold)
+    --color-wine-50: #fdf2f3;
+    --color-wine-100: #fce4e7;
+    --color-wine-200: #facdd3;
+    --color-wine-300: #f5a3af;
+    --color-wine-400: #ed6b81;
+    --color-wine-500: #e13d5a;
+    --color-wine-600: #c41e42;
+    --color-wine-700: #a41535;
+    --color-wine-800: #891531;
+    --color-wine-900: #722f37;
 
-    // Warm Neutrals - Cream/Off-white backgrounds
-    --color-bg: #fdfbf7;
-    --color-bg-alt: #f9f6f2;
-    --color-bg-light: #fffef9;
-    --color-bg-warm: #f5f2ed;
+    // Accent - Gold/Bronze (wealth, prosperity)
+    --color-gold-100: #fef9e7;
+    --color-gold-200: #fcefc4;
+    --color-gold-300: #f9e08a;
+    --color-gold-400: #f5c84f;
+    --color-gold-500: #d4a93a;
+    --color-gold-600: #c9a962;
+    --color-gold-700: #a67c2e;
 
-    // Text Colors - Warm charcoal tones
-    --color-text-primary: #2a2f2a;
-    --color-text-secondary: #454a45;
-    --color-text-light: #5f665f;
-    --color-text-lighter: #7a827a;
+    // Neutrals - Warm & Sophisticated
+    --color-bg: #fffcf9;
+    --color-bg-alt: #faf7f4;
+    --color-bg-warm: #f5f0eb;
+    --color-bg-dark: #1a1a1a;
+    --color-bg-wine: #2d1f22;
 
-    // Borders - Subtle, warm rose
-    --color-border: rgba(217, 122, 148, 0.15);
-    --color-border-light: rgba(217, 122, 148, 0.08);
+    // Text Colors
+    --color-text-primary: #1a1a1a;
+    --color-text-secondary: #3d3d3d;
+    --color-text-light: #6b6b6b;
+    --color-text-lighter: #9a9a9a;
+    --color-text-inverse: #ffffff;
 
-    // Accent Colors - Dusty Rose as primary
-    --color-accent: var(--color-rose-500);
-    --color-accent-hover: var(--color-rose-600);
-    --color-accent-light: var(--color-rose-100);
-    --color-accent-secondary: var(--color-rose-400);
+    // Borders
+    --color-border: rgba(26, 26, 26, 0.12);
+    --color-border-light: rgba(26, 26, 26, 0.06);
+    --color-border-dark: rgba(26, 26, 26, 0.2);
 
-    // Typography
+    // Accent shortcuts
+    --color-accent: var(--color-wine-600);
+    --color-accent-hover: var(--color-wine-700);
+    --color-accent-light: var(--color-wine-100);
+    --color-highlight: var(--color-gold-500);
+
+    // Typography - Editorial style
     --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     --font-serif: 'Source Serif 4', Georgia, serif;
+    --font-display: 'Source Serif 4', Georgia, serif;
 
-    // Spacing
+    // Spacing - Generous for editorial feel
     --spacing-xs: 0.5rem;
     --spacing-sm: 1rem;
     --spacing-md: 1.5rem;
-    --spacing-lg: 2rem;
-    --spacing-xl: 3rem;
-    --spacing-2xl: 4rem;
-    --spacing-3xl: 6rem;
+    --spacing-lg: 2.5rem;
+    --spacing-xl: 4rem;
+    --spacing-2xl: 6rem;
+    --spacing-3xl: 8rem;
 
     // Layout
-    --max-width-content: 1200px;
-    --max-width-text: 900px;
-    --max-width-narrow: 600px;
+    --max-width-content: 1400px;
+    --max-width-text: 960px;
+    --max-width-narrow: 560px;
 
-    // Border Radius
-    --radius-sm: 0.375rem;
-    --radius-md: 0.5rem;
-    --radius-lg: 0.75rem;
-    --radius-xl: 1rem;
+    // Border Radius - Mix of sharp and soft
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 16px;
+    --radius-xl: 24px;
+    --radius-full: 9999px;
 
-    // Shadows - Softer, rose-tinted
-    --shadow-sm: 0 1px 3px rgba(217, 122, 148, 0.06);
-    --shadow-md: 0 4px 6px rgba(217, 122, 148, 0.08);
-    --shadow-lg: 0 10px 15px rgba(217, 122, 148, 0.10);
-    --shadow-card: 0 2px 12px rgba(217, 122, 148, 0.10);
-    --shadow-card-hover: 0 8px 24px rgba(217, 122, 148, 0.15);
+    // Shadows - Subtle, sophisticated
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
+    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.08);
+    --shadow-xl: 0 24px 48px rgba(0, 0, 0, 0.12);
+    --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06);
+    --shadow-card-hover: 0 8px 24px rgba(0, 0, 0, 0.08), 0 16px 48px rgba(0, 0, 0, 0.1);
 
-    // Transitions - Smooth, calming
-    --transition-fast: 150ms ease;
-    --transition-base: 300ms ease;
-    --transition-slow: 400ms ease;
+    // Transitions
+    --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-base: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }

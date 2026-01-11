@@ -4,16 +4,6 @@
 <!-- Header -->
 {{ partial "header" }}
 
-<!-- Page Header -->
-<section class="post-header">
-    <div class="container container-wide">
-        <h1 class="post-title">{{ $myData.spotlight1.title }}</h1>
-        {{ with $myData.spotlight1.content }}
-        <p class="hero-description">{{ . | safeHTML }}</p>
-        {{ end }}
-    </div>
-</section>
-
 <!-- Category Tabs Navigation -->
 <div class="category-tabs">
     <div class="container container-wide">

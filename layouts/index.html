@@ -6,23 +6,45 @@
 
 <!-- Hero Banner -->
 <section class="hero-banner">
-    <div class="container">
-        <div class="hero-content">
+    <div class="hero-content">
+        <div class="hero-text">
+            <span class="hero-eyebrow">Personal Finance Blog</span>
             <h1 class="hero-title">
                 <span id="typing-text"></span><span class="typing-cursor">|</span>
             </h1>
-            
+
             {{ with $myData.banner.subtitle }}
             <p class="hero-subtitle">{{ . | safeHTML }}</p>
             {{ end }}
-            
+
             {{ with $myData.banner.content }}
             <p class="hero-description">{{ . | safeHTML }}</p>
             {{ end }}
-            
+
             {{ with $myData.banner.button }}
             <a href="{{ .link | absURL }}" class="hero-button">{{ .label }}</a>
             {{ end }}
+        </div>
+
+        <div class="hero-visual">
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <div class="hero-stat-number">{{ len (where site.RegularPages "Section" "posts") }}<span>+</span></div>
+                    <div class="hero-stat-label">Articles</div>
+                </div>
+                <div class="hero-stat">
+                    <div class="hero-stat-number">5</div>
+                    <div class="hero-stat-label">Topics</div>
+                </div>
+                <div class="hero-stat">
+                    <div class="hero-stat-number">SG</div>
+                    <div class="hero-stat-label">Focus</div>
+                </div>
+                <div class="hero-stat">
+                    <div class="hero-stat-number"><span>$</span></div>
+                    <div class="hero-stat-label">Sense</div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -31,46 +53,54 @@
 {{ with $myData.items }}
 <section class="category-section">
     <div class="container">
-        {{ with .title }}
-        <h2 class="category-section-title">{{ . | safeHTML }}</h2>
-        {{ end }}
-        
+        <div class="section-header">
+            {{ with .title }}
+            <h2 class="section-title">{{ . | safeHTML }}</h2>
+            {{ end }}
+            <p class="section-subtitle">Explore topics that matter for your financial journey</p>
+        </div>
+
         <div class="category-grid">
-            {{ range .items }}
-            <div class="category-card">
+            {{ range $index, $item := .items }}
+            <article class="category-card">
                 <!-- Category image -->
-                {{ if eq .name "MoneyPhilosophy" }}
-                <img src="https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?w=600&q=80" alt="Money Philosophy" class="category-card-image">
-                {{ else if eq .name "Insurance" }}
-                <img src="https://images.unsplash.com/photo-1519692933481-e162a57d6721?w=600&q=80" alt="Insurance" class="category-card-image">
-                {{ else if eq .name "SavingAndInvestment" }}
-                <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?w=600&q=80" alt="Saving and Investment" class="category-card-image">
-                {{ else if eq .name "Properties" }}
-                <img src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=600&q=80" alt="Properties" class="category-card-image">
-                {{ else if eq .name "EstatePlanning" }}
-                <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=600&q=80" alt="Estate Planning" class="category-card-image">
-                {{ else if eq .name "Resources" }}
-                <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600&q=80" alt="Resources" class="category-card-image">
-                {{ end }}
-                
+                <div class="category-card-image-wrapper">
+                    {{ if eq .name "MoneyPhilosophy" }}
+                    <img src="https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?w=800&q=80" alt="Money Philosophy" class="category-card-image">
+                    {{ else if eq .name "Insurance" }}
+                    <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80" alt="Insurance" class="category-card-image">
+                    {{ else if eq .name "SavingAndInvestment" }}
+                    <img src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=800&q=80" alt="Saving and Investment" class="category-card-image">
+                    {{ else if eq .name "Properties" }}
+                    <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80" alt="Properties" class="category-card-image">
+                    {{ else if eq .name "EstatePlanning" }}
+                    <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80" alt="Estate Planning" class="category-card-image">
+                    {{ else if eq .name "Resources" }}
+                    <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&q=80" alt="Resources" class="category-card-image">
+                    {{ end }}
+                    <div class="category-card-overlay"></div>
+                </div>
+
                 <div class="category-card-content">
+                    <span class="category-card-number">0{{ add $index 1 }}</span>
                     <h3 class="category-card-title">{{ i18n .name }}</h3>
-                    
+
                     {{ with .content }}
                     <p class="category-card-description">{{ . }}</p>
                     {{ end }}
-                    
+
                     {{ with .articles }}
                     <ul class="category-card-articles">
-                        {{ range . }}
+                        {{ range first 3 . }}
                         <li class="category-card-article">
                             <a href="{{ .url | absURL }}">{{ .title }}</a>
                         </li>
                         {{ end }}
                     </ul>
                     {{ end }}
+
                 </div>
-            </div>
+            </article>
             {{ end }}
         </div>
     </div>

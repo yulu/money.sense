@@ -1,101 +1,165 @@
 // ========================================
-// Hero Banner - Calm Teal & Sage Theme
+// Hero Banner - Bold Editorial Style
 // ========================================
 
 @use '../abstracts' as *;
 
 .hero-banner {
-    background: linear-gradient(-45deg, var(--color-bg), var(--color-bg-alt), var(--color-rose-50), var(--color-rose-100));
-    background-size: 400% 400%;
-    animation: gradientShift 12s ease infinite;
+    background: var(--color-bg-dark);
     padding: var(--spacing-3xl) 0;
     position: relative;
     overflow: hidden;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
 
-    // Subtle organic shapes
+    // Decorative diagonal line
     &::before {
         content: '';
         position: absolute;
-        top: -50%;
-        right: -20%;
-        width: 600px;
-        height: 600px;
-        background: radial-gradient(circle, rgba(217, 122, 148, 0.06) 0%, transparent 70%);
-        animation: float 15s ease-in-out infinite;
+        top: 0;
+        right: 15%;
+        width: 1px;
+        height: 100%;
+        background: linear-gradient(
+            to bottom,
+            transparent,
+            var(--color-gold-500) 20%,
+            var(--color-gold-500) 80%,
+            transparent
+        );
+        opacity: 0.4;
+
+        @include respond-to('md') {
+            display: none;
+        }
     }
 
+    // Decorative circle
     &::after {
         content: '';
         position: absolute;
-        bottom: -30%;
-        left: -10%;
+        bottom: -200px;
+        right: -100px;
         width: 500px;
         height: 500px;
-        background: radial-gradient(circle, rgba(194, 90, 119, 0.05) 0%, transparent 70%);
-        animation: float 18s ease-in-out infinite reverse;
+        border: 1px solid var(--color-wine-600);
+        border-radius: 50%;
+        opacity: 0.15;
+    }
+
+    @include respond-to('md') {
+        min-height: auto;
+        padding: var(--spacing-2xl) 0;
     }
 }
 
 // Hero Content
 .hero-content {
-    max-width: var(--max-width-text);
+    max-width: var(--max-width-content);
     margin: 0 auto;
-    text-align: center;
+    padding: 0 var(--spacing-lg);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-2xl);
+    align-items: center;
     position: relative;
     z-index: 1;
+
+    @include respond-to('lg') {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: var(--spacing-xl);
+    }
+}
+
+.hero-text {
+    @include respond-to('lg') {
+        order: 1;
+    }
+}
+
+.hero-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: var(--color-gold-500);
+    margin-bottom: var(--spacing-md);
+
+    &::before {
+        content: '';
+        width: 24px;
+        height: 1px;
+        background: var(--color-gold-500);
+
+        @include respond-to('lg') {
+            display: none;
+        }
+    }
 }
 
 .hero-title {
-    font-size: 3.5rem;
-    font-weight: 700;
-    color: var(--color-text-primary);
+    font-family: var(--font-display);
+    font-size: clamp(3rem, 6vw, 5rem);
+    font-weight: 400;
+    color: var(--color-text-inverse);
     margin-bottom: var(--spacing-md);
-    background: linear-gradient(135deg, var(--color-rose-600), var(--color-rose-400));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    min-height: 4.2rem;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    min-height: auto;
 
-    @include respond-to('md') {
-        font-size: 2.5rem;
+    // Animated word styling
+    .typing-word {
+        color: var(--color-wine-400);
+        font-style: italic;
     }
 }
 
 .typing-cursor {
+    color: var(--color-gold-500);
     animation: blink 1s step-end infinite;
-    margin-left: 2px;
+    font-weight: 300;
 }
 
 .hero-subtitle {
-    font-size: 1.5rem;
-    color: var(--color-text-secondary);
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 0.7);
     margin-bottom: var(--spacing-md);
-    font-weight: 500;
-
-    @include respond-to('md') {
-        font-size: 1.25rem;
-    }
+    font-weight: 400;
+    letter-spacing: 0.01em;
 }
 
 .hero-description {
-    font-size: 1.1rem;
-    color: var(--color-text-light);
-    line-height: 1.7;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 1.8;
     margin-bottom: var(--spacing-xl);
+    max-width: 480px;
+
+    @include respond-to('lg') {
+        max-width: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .hero-button {
     display: inline-flex;
     align-items: center;
-    gap: var(--spacing-xs);
-    padding: var(--spacing-sm) var(--spacing-lg);
-    background: linear-gradient(135deg, var(--color-rose-500), var(--color-rose-400));
-    color: white;
-    font-weight: 600;
-    font-size: 1rem;
-    border-radius: 50px;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-md) var(--spacing-lg);
+    background: transparent;
+    color: var(--color-text-inverse);
+    font-weight: 500;
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    border: 1px solid rgba(255, 255, 255, 0.3);
     transition: all var(--transition-base);
-    box-shadow: 0 4px 15px rgba(217, 122, 148, 0.3);
     position: relative;
     overflow: hidden;
 
@@ -103,28 +167,26 @@
         content: '';
         position: absolute;
         top: 0;
-        left: -100%;
-        width: 100%;
+        left: 0;
+        width: 0;
         height: 100%;
-        background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.15), transparent);
-        transition: left 0.6s;
-    }
-
-    &:hover::before {
-        left: 100%;
+        background: var(--color-wine-600);
+        transition: width var(--transition-base);
+        z-index: -1;
     }
 
     &::after {
         content: '\2192';
-        font-size: 1.2rem;
         transition: transform var(--transition-base);
     }
 
     &:hover {
-        background: linear-gradient(135deg, var(--color-rose-600), var(--color-rose-500));
-        transform: translateY(-3px);
-        box-shadow: 0 6px 25px rgba(217, 122, 148, 0.4);
-        color: white;
+        color: var(--color-text-inverse);
+        border-color: var(--color-wine-600);
+
+        &::before {
+            width: 100%;
+        }
 
         &::after {
             transform: translateX(4px);
@@ -132,26 +194,66 @@
     }
 }
 
-// ========================================
-// Hero Animations - Smoother, calmer
-// ========================================
+// Hero visual side
+.hero-visual {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-@keyframes gradientShift {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-}
-
-@keyframes float {
-    0%, 100% {
-        transform: translateY(0) scale(1);
-        opacity: 0.8;
-    }
-    50% {
-        transform: translateY(-30px) scale(1.05);
-        opacity: 1;
+    @include respond-to('lg') {
+        order: 0;
+        max-width: 300px;
+        margin: 0 auto;
     }
 }
+
+.hero-stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-md);
+
+    @include respond-to('lg') {
+        display: none;
+    }
+}
+
+.hero-stat {
+    padding: var(--spacing-lg);
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    text-align: center;
+    transition: all var(--transition-base);
+
+    &:hover {
+        background: rgba(255, 255, 255, 0.06);
+        border-color: var(--color-wine-600);
+    }
+}
+
+.hero-stat-number {
+    font-family: var(--font-display);
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: var(--color-text-inverse);
+    line-height: 1;
+    margin-bottom: var(--spacing-xs);
+
+    span {
+        color: var(--color-gold-500);
+    }
+}
+
+.hero-stat-label {
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+// ========================================
+// Animations
+// ========================================
 
 @keyframes blink {
     0%, 50% { opacity: 1; }
