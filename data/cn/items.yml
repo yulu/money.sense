@@ -12,9 +12,9 @@ items:
     style : "style2 major fa-money-bill"
     articles:
       - title: 'KKH生娃记录：花销和体验'
-        url: '/cn/posts/birth-diary-at-kkh/'
+        url: 'cn/posts/birth-diary-at-kkh/'
       - title: '女性投资者'
-        url: '/cn/posts/female-investor/'
+        url: 'cn/posts/female-investor/'
 
   # feature item loop
   - name : "Insurance"
@@ -22,9 +22,9 @@ items:
     style : "solid style2 major fa-kit-medical"
     articles:
       - title: '一家人的保险配置分享'
-        url: '/cn/posts/family-insurance-planning/'
+        url: 'cn/posts/family-insurance-planning/'
       - title: '新加坡政府教你怎么买保险'
-        url: '/cn/posts/singapore-insurance-how-gov-do/'
+        url: 'cn/posts/singapore-insurance-how-gov-do/'
     
   # feature item loop
   - name : "SavingAndInvestment"
@@ -32,9 +32,9 @@ items:
     style : "solid style2 major fa-arrow-up-right-dots"
     articles:
       - title: '普通家庭如何做理财规划'
-        url: '/cn/posts/income-earning-family-wealth-management/'
+        url: 'cn/posts/income-earning-family-wealth-management/'
       - title: '拆解101连投险（101 ILPs）'
-        url: '/cn/posts/ilp-exploration/'
+        url: 'cn/posts/ilp-exploration/'
     
   # feature item loop
   - name : "Properties"
@@ -42,9 +42,9 @@ items:
     style : "solid style2 major fa-house"
     articles:
       - title: '是否在投资配置中考虑房产投资'
-        url: '/cn/posts/property-investment-for-retirement/'
+        url: 'cn/posts/property-investment-for-retirement/'
       - title: '换房预算和购买方式'
-        url: '/cn/posts/property-budgeting-buy-strategy'
+        url: 'cn/posts/property-budgeting-buy-strategy'
     
   # feature item loop
   - name : "EstatePlanning"

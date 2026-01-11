@@ -2,14 +2,14 @@
     <div class="container">
         {{ range site.Home.AllTranslations }}
             {{ if eq .Language site.Language }}
-                <a href="/{{ .Language }}" class="site-logo">LittleCheeseCake MoneySense</a>
+                <a href="{{ .Permalink }}" class="site-logo">LittleCheeseCake MoneySense</a>
             {{ end }}
         {{ end }}
-        
+
         <div class="lang-switcher">
             {{ range site.Home.AllTranslations }}
                 {{ if ne .Language site.Language }}
-                    <a href="{{ .RelPermalink }}" class="lang-link">{{ .Language.LanguageName }}</a>
+                    <a href="{{ .Permalink }}" class="lang-link">{{ .Language.LanguageName }}</a>
                 {{ else }}
                     <span class="lang-link active">{{ .Language.LanguageName }}</span>
                 {{ end }}

@@ -43,7 +43,7 @@
                     {{ $img = index (findRE "src=\"([^\"]+)\"" (index . 0) 1) 0 | replaceRE "src=\"(.+)\"" "$1" }}
                 {{ end }}
                 <li class="post-list-item" {{ if $img }}style="background-image: url('{{ $img }}');"{{ end }}>
-                    <a href="{{ .RelPermalink }}" class="post-list-item-link">
+                    <a href="{{ .Permalink }}" class="post-list-item-link">
                         <div class="post-list-item-overlay"></div>
                         <div class="post-list-item-content">
                         <h3 class="post-list-item-title">
@@ -80,7 +80,7 @@
                     {{ $img = index (findRE "src=\"([^\"]+)\"" (index . 0) 1) 0 | replaceRE "src=\"(.+)\"" "$1" }}
                 {{ end }}
                 <li class="post-list-item" {{ if $img }}style="background-image: url('{{ $img }}');"{{ end }}>
-                    <a href="{{ .RelPermalink }}" class="post-list-item-link">
+                    <a href="{{ .Permalink }}" class="post-list-item-link">
                         <div class="post-list-item-overlay"></div>
                         <div class="post-list-item-content">
                         <h3 class="post-list-item-title">
@@ -117,7 +117,7 @@
                     {{ $img = index (findRE "src=\"([^\"]+)\"" (index . 0) 1) 0 | replaceRE "src=\"(.+)\"" "$1" }}
                 {{ end }}
                 <li class="post-list-item" {{ if $img }}style="background-image: url('{{ $img }}');"{{ end }}>
-                    <a href="{{ .RelPermalink }}" class="post-list-item-link">
+                    <a href="{{ .Permalink }}" class="post-list-item-link">
                         <div class="post-list-item-overlay"></div>
                         <div class="post-list-item-content">
                         <h3 class="post-list-item-title">
@@ -154,7 +154,7 @@
                     {{ $img = index (findRE "src=\"([^\"]+)\"" (index . 0) 1) 0 | replaceRE "src=\"(.+)\"" "$1" }}
                 {{ end }}
                 <li class="post-list-item" {{ if $img }}style="background-image: url('{{ $img }}');"{{ end }}>
-                    <a href="{{ .RelPermalink }}" class="post-list-item-link">
+                    <a href="{{ .Permalink }}" class="post-list-item-link">
                         <div class="post-list-item-overlay"></div>
                         <div class="post-list-item-content">
                         <h3 class="post-list-item-title">
@@ -191,7 +191,7 @@
                     {{ $img = index (findRE "src=\"([^\"]+)\"" (index . 0) 1) 0 | replaceRE "src=\"(.+)\"" "$1" }}
                 {{ end }}
                 <li class="post-list-item" {{ if $img }}style="background-image: url('{{ $img }}');"{{ end }}>
-                    <a href="{{ .RelPermalink }}" class="post-list-item-link">
+                    <a href="{{ .Permalink }}" class="post-list-item-link">
                         <div class="post-list-item-overlay"></div>
                         <div class="post-list-item-content">
                         <h3 class="post-list-item-title">

@@ -21,7 +21,7 @@
             {{ end }}
             
             {{ with $myData.banner.button }}
-            <a href="{{ .link }}" class="hero-button">{{ .label }}</a>
+            <a href="{{ .link | absURL }}" class="hero-button">{{ .label }}</a>
             {{ end }}
         </div>
     </div>
@@ -64,7 +64,7 @@
                     <ul class="category-card-articles">
                         {{ range . }}
                         <li class="category-card-article">
-                            <a href="{{ .url | relURL }}">{{ .title }}</a>
+                            <a href="{{ .url | absURL }}">{{ .title }}</a>
                         </li>
                         {{ end }}
                     </ul>

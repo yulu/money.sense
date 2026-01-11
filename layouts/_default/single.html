@@ -52,7 +52,7 @@
                         {{ with findRE "<img[^>]+src=\"([^\"]+)\"" .Content 1 }}
                             {{ $img = index (findRE "src=\"([^\"]+)\"" (index . 0) 1) 0 | replaceRE "src=\"(.+)\"" "$1" }}
                         {{ end }}
-                        <a href="{{ .RelPermalink }}" class="random-post-card" {{ if $img }}style="background-image: url('{{ $img }}');"{{ end }}>
+                        <a href="{{ .Permalink }}" class="random-post-card" {{ if $img }}style="background-image: url('{{ $img }}');"{{ end }}>
                             <div class="random-post-overlay"></div>
                             <div class="random-post-content">
                                 <h4 class="random-post-title">{{ .Title }}</h4>
