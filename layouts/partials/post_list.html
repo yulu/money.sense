@@ -1,5 +1,5 @@
       <li>
-        <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a> 
+        <a href="{{ .Permalink }}">{{ .LinkTitle }}</a> 
         {{ with .Param "addtags" }}
           {{ range $index, $tag := (. | sort) }} 
           <span class="tag">{{ $tag }}</span>

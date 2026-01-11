@@ -1,6 +1,6 @@
 <div class="lang-switcher">
 {{ range .Translations }}
-    <a href="{{ .RelPermalink }}" class="lang-link">{{ .Language.LanguageName }}</a>
+    <a href="{{ .Permalink }}" class="lang-link">{{ .Language.LanguageName }}</a>
 {{ end }}
 {{ range site.Home.AllTranslations }}
     {{ if eq .Language site.Language }}

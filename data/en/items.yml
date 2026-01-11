@@ -12,7 +12,7 @@ items:
     style : "style2 major fa-money-bill"
     articles:
       - title: 'Birth Diary: Cost and Experience at KKH'
-        url: '/posts/birth-diary-at-kkh/'
+        url: 'posts/birth-diary-at-kkh/'
       - title: 'Female Invester'
         url: 'posts/female-investor/'
 
