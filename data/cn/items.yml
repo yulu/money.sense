@@ -4,7 +4,7 @@ content: |
 style: "style1 medium onscroll-fade-in"
 button:
   label : "博客总目录"
-  link : "posts/"
+  link : "cn/posts/"
 items:
   # feature item loop
   - name : "MoneyPhilosophy"
