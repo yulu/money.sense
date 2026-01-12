@@ -1,5 +1,5 @@
 // ========================================
-// Mixins
+// Mixins - Editorial Theme
 // ========================================
 
 @use 'variables' as *;
@@ -43,6 +43,16 @@
     text-overflow: ellipsis;
 }
 
+// Card hover effect
+@mixin card-hover {
+    transition: all var(--transition-base);
+
+    &:hover {
+        transform: translateY(-4px);
+        box-shadow: var(--shadow-card-hover);
+    }
+}
+
 // Card overlay effect
 @mixin card-overlay {
     position: absolute;
@@ -50,13 +60,13 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(248, 245, 250, 0.9) 100%);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(250, 247, 248, 0.9) 100%);
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3);
     z-index: 1;
 }
 
 @mixin card-overlay-hover {
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(243, 229, 245, 0.85) 100%);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(253, 242, 243, 0.85) 100%);
 }
 
 // Background image with inset border
@@ -71,6 +81,33 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border-radius: calc(var(--radius-md) - #{$inset});
+    border-radius: 0;
     z-index: 0;
+}
+
+// Button base styles
+@mixin button-base {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-md) var(--spacing-lg);
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: all var(--transition-base);
+    cursor: pointer;
+    border: none;
+}
+
+// Underline hover effect
+@mixin link-underline {
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    text-underline-offset: 3px;
+    transition: text-decoration-color var(--transition-fast);
+
+    &:hover {
+        text-decoration-color: currentColor;
+    }
 }
