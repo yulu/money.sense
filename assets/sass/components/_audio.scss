@@ -1,0 +1,130 @@
+// ========================================
+// Audio Player Styling
+// ========================================
+
+.audio-player {
+  margin: 2rem auto;
+  padding: 0;
+  background: linear-gradient(135deg, var(--color-wine-50) 0%, var(--color-wine-100) 100%);
+  box-shadow: 0 4px 15px rgba(196, 30, 66, 0.12);
+  border: 1px solid var(--color-wine-200);
+  max-width: 700px;
+  overflow: hidden;
+  
+  .audio-player-content {
+    display: flex;
+    align-items: stretch;
+    gap: 0;
+  }
+  
+  .audio-cover {
+    flex-shrink: 0;
+    width: 180px;
+    height: 180px;
+    border-radius: 0;
+    overflow: hidden;
+    
+    img {
+      object-fit: cover;
+      display: block;
+      margin: 0;
+    }
+  }
+  
+  .audio-controls {
+    flex: 1;
+    min-width: 0;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  audio {
+    width: 100%;
+    height: 54px;
+    border-radius: 0;
+    outline: none;
+    
+    &::-webkit-media-controls-panel {
+      background-color: rgba(255, 255, 255, 0.95);
+      border-radius: 0;
+    }
+    
+    &::-webkit-media-controls-play-button,
+    &::-webkit-media-controls-pause-button {
+      background-color: var(--color-wine-600);
+      border-radius: 50%;
+    }
+  }
+  
+  // Optional: Add a label/title above the player
+  .audio-title {
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-wine-700);
+    text-align: left;
+  }
+  
+  // Optional: Add a description/duration below
+  .audio-description {
+    margin-top: 0.75rem;
+    font-size: 0.85rem;
+    color: var(--color-text-light);
+    text-align: left;
+  }
+  
+  // Responsive: smaller cover on mobile
+  @media (max-width: 768px) {
+    .audio-cover {
+      width: 100px;
+      height: 100px;
+    }
+    
+    .audio-controls {
+      padding: 1rem;
+    }
+    
+    audio {
+      height: 40px;
+    }
+    
+    .audio-title {
+      font-size: 0.8rem;
+      margin-bottom: 0.5rem;
+    }
+    
+    .audio-description {
+      display: none;
+    }
+  }
+}
+
+// Alternative minimal style
+.audio-player-minimal {
+  margin: 2rem auto;
+  max-width: 700px;
+  padding: 1rem;
+  background: var(--color-wine-50);
+  border-radius: 50px;
+  border: 1px solid var(--color-wine-200);
+  
+  audio {
+    width: 100%;
+    height: 54px;
+    border-radius: 90px;
+    filter: sepia(20%) saturate(80%) hue-rotate(320deg);
+  }
+}
+
+// Compact inline style
+.audio-player-inline {
+  display: inline-block;
+  margin: 1rem 0;
+  
+  audio {
+    height: 40px;
+    border-radius: 20px;
+  }
+}
