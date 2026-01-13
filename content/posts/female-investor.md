@@ -9,6 +9,8 @@ addtags:
 - Opinions
 ---
 
+{{< audio src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/female_investor/podcast.mp3" cover="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/female_investor/cover.jpg" title="Listen to the podcast" description="Female Investors" >}}
+
 A few years ago, I came across this book [Worth It: Your Life, Your Money, Your Terms](https://www.amazon.sg/Worth-Your-Life-Money-Terms/dp/150114099X) (I was reading the Chinese version). Out of curiosity, I glanced through it and found it worth reading. At the time, I was learning about investment and financial planning, and this book served as a simple and insightful guide. The author discusses the right financial mindset from a female perspective. Upon reading, I learned about two concepts: "Money Blindness" and "Money Aversion". It resonated with me as I realized that these are common issues women tend to have. The following quote struck me:
 
 > Being angry, confused, or distant about your financial situation will only lead to more problems than facing it head-on.

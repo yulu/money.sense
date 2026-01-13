@@ -1,0 +1,43 @@
+{{- $src := .Get "src" -}}
+{{- $title := .Get "title" -}}
+{{- $description := .Get "description" -}}
+{{- $cover := .Get "cover" -}}
+{{- $style := .Get "style" | default "default" -}}
+
+{{- if eq $style "minimal" -}}
+<div class="audio-player-minimal">
+  <audio controls preload="metadata">
+    <source src="{{ $src }}" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+{{- else if eq $style "inline" -}}
+<div class="audio-player-inline">
+  <audio controls preload="metadata">
+    <source src="{{ $src }}" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+{{- else -}}
+<div class="audio-player">
+  <div class="audio-player-content">
+    {{- if $cover -}}
+    <div class="audio-cover">
+      <img src="{{ $cover }}" alt="Audio cover">
+    </div>
+    {{- end -}}
+    <div class="audio-controls">
+      {{- if $title -}}
+      <div class="audio-title">🎧 {{ $title }}</div>
+      {{- end -}}
+      <audio controls preload="metadata">
+        <source src="{{ $src }}" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      {{- if $description -}}
+      <div class="audio-description">{{ $description }}</div>
+      {{- end -}}
+    </div>
+  </div>
+</div>
+{{- end -}}
