@@ -7,6 +7,7 @@ tags:
 addtags:
 - ReadingNotes
 - Opinions
+- Podcast
 ---
 
 {{< audio src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/female_investor/podcast.mp3" cover="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/female_investor/cover.jpg" title="Listen to the podcast" description="Female Investors" >}}
