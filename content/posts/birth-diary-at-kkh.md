@@ -7,9 +7,12 @@ tags:
 addtags:
 - Opinions
 - MoneyStory
+- Podcast
 ---
 
 {{< toc >}}
+
+{{< audio src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/blog-post/birth-diary-at-kkh/kkh_part.mp3" cover="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/blog-post/birth-diary-at-kkh/birth_diary_cover.jpg" title="Listen to the podcast" description="Birth Diary: Cost and Experience at KKH" >}}
 
 ### Pre-delivery and Delivery Total Cost
 
