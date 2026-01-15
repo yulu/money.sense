@@ -11,6 +11,8 @@ addtags:
 
 {{< toc >}}
 
+{{< audio src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/blog-post/birth-diary-at-kkh/kkh_part.mp3" cover="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/blog-post/birth-diary-at-kkh/birth_diary_cover.jpg" title="Listen to the podcast" description="Birth Diary: Cost and Experience at KKH" >}}
+
 ### 产检和生产花销
 
 公民津贴路线，第二十周转指定医生问诊。39w+6入院催产顺产，A1 Ward四天三夜。
