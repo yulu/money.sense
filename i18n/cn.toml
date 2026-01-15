@@ -60,3 +60,15 @@ other = "探索数据"
 
 [By]
 other = "作者"
+
+[NewsletterTitle]
+other = "订阅更新"
+
+[NewsletterPlaceholder]
+other = "您的电子邮件地址"
+
+[NewsletterButton]
+other = "订阅"
+
+[NewsletterPrivacy]
+other = "不发垃圾邮件。随时可取消订阅。"

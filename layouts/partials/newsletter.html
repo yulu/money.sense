@@ -1,0 +1,26 @@
+<!-- Newsletter Subscription Form -->
+<section class="newsletter-section">
+    <div class="newsletter-container">
+        <form action="https://buttondown.email/api/emails/embed-subscribe/littlecheesecake"
+              method="post"
+              target="popupwindow"
+              onsubmit="window.open('https://buttondown.email/littlecheesecake', 'popupwindow')"
+              class="newsletter-form">
+            <div class="newsletter-form-group">
+                <label for="bd-email" class="visually-hidden">{{ i18n "NewsletterPlaceholder" }}</label>
+                <input type="email"
+                       name="email"
+                       id="bd-email"
+                       placeholder="{{ i18n "NewsletterPlaceholder" }}"
+                       required
+                       class="newsletter-input"
+                       aria-label="{{ i18n "NewsletterPlaceholder" }}">
+                <button type="submit" class="newsletter-button">
+                    {{ i18n "NewsletterButton" }}
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+            <p class="newsletter-privacy">{{ i18n "NewsletterPrivacy" }}</p>
+        </form>
+    </div>
+</section>

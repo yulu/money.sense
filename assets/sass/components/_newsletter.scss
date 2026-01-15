@@ -1,0 +1,136 @@
+// ========================================
+// Newsletter Subscription - Footer Style
+// Dark theme to match footer
+// ========================================
+
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+.newsletter-section {
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.newsletter-container {
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+
+.newsletter-content {
+    text-align: left;
+    margin-bottom: var(--spacing-md);
+}
+
+.newsletter-title {
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: var(--spacing-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.newsletter-form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+
+    @include respond-to('md') {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
+.newsletter-input {
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.85rem;
+    font-family: var(--font-sans);
+    color: var(--color-text-primary);
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: var(--radius-sm);
+    transition: all var(--transition-base);
+    box-sizing: border-box;
+
+    &::placeholder {
+        color: rgba(0, 0, 0, 0.4);
+    }
+
+    &:focus {
+        outline: none;
+        border-color: rgba(255, 255, 255, 0.4);
+        background: white;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1);
+    }
+}
+
+.newsletter-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.35rem;
+    width: auto;
+    padding: 0.5rem 1.25rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    font-family: var(--font-sans);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-bg-dark);
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: all var(--transition-base);
+
+    &:hover {
+        background: white;
+        border-color: rgba(255, 255, 255, 0.4);
+    }
+
+    &:active {
+        transform: translateY(0);
+    }
+
+    i {
+        font-size: 0.7rem;
+        transition: transform var(--transition-base);
+    }
+
+    &:hover i {
+        transform: translateX(2px);
+    }
+}
+
+.newsletter-privacy {
+    text-align: left;
+    font-size: 0.7rem;
+    color: rgba(255, 255, 255, 0.3);
+    margin: 0;
+}
+
+// Visually hidden label for accessibility
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}

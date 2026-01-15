@@ -12,16 +12,22 @@
                 {{ $resources := (index site.Data site.Language.Lang).resources }}
                 {{ with $resources.investment_platforms }}
                 <div class="footer-platforms">
-                    <h4 class="footer-platforms-title">{{ i18n "InvestmentPlatforms" }}</h4>
-                    <ul class="platform-links">
-                        {{ range . }}
-                        <li>
-                            <a target="_blank" href="{{ .url }}" class="platform-link" title="{{ if .full_name }}{{ .full_name }}{{ else }}{{ .name }}{{ end }}">
-                                {{ .name }}
-                            </a>
-                        </li>
-                        {{ end }}
-                    </ul>
+                    <div>
+                        <h4 class="footer-platforms-title">{{ i18n "NewsletterTitle" }}</h4>
+                        {{ partial "newsletter.html" . }}
+                    </div>
+                    <div>
+                        <h4 class="footer-platforms-title">{{ i18n "InvestmentPlatforms" }}</h4>
+                        <ul class="platform-links">
+                            {{ range . }}
+                            <li>
+                                <a target="_blank" href="{{ .url }}" class="platform-link" title="{{ if .full_name }}{{ .full_name }}{{ else }}{{ .name }}{{ end }}">
+                                    {{ .name }}
+                                </a>
+                            </li>
+                            {{ end }}
+                        </ul>
+                    </div>
                 </div>
                 {{ end }}
             </div>

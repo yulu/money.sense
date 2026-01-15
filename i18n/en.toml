@@ -60,3 +60,15 @@ other = "Explore Data"
 
 [By]
 other = "By"
+
+[NewsletterTitle]
+other = "Subscribe to Newsletter"
+
+[NewsletterPlaceholder]
+other = "Your email address"
+
+[NewsletterButton]
+other = "Subscribe"
+
+[NewsletterPrivacy]
+other = "No spam. Unsubscribe anytime."
