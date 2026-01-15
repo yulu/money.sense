@@ -1,0 +1,16 @@
+<nav class="breadcrumb" aria-label="Breadcrumb">
+    <ol class="breadcrumb-list">
+        <li class="breadcrumb-item">
+            <a href="{{ .Site.Home.RelPermalink }}">{{ i18n "Home" }}</a>
+        </li>
+        <li class="breadcrumb-separator">›</li>
+        <li class="breadcrumb-item">
+            {{ $postsSection := .Site.GetPage "section" "posts" }}
+            <a href="{{ $postsSection.RelPermalink }}">{{ i18n "Posts" }}</a>
+        </li>
+        <li class="breadcrumb-separator">›</li>
+        <li class="breadcrumb-item breadcrumb-current" aria-current="page">
+            {{ .Title }}
+        </li>
+    </ol>
+</nav>

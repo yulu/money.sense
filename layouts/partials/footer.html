@@ -1,6 +1,12 @@
 <footer class="site-footer">
     <div class="container">
         <div class="footer-content">
+            <div class="footer-disclaimer">
+                <p>All content published on this blog is provided for general information and educational purposes only. Nothing on this site constitutes, or should be construed as, financial, investment, legal, or tax advice.</p>
+                <p>The views expressed are my own and are based on my personal research, experience, and opinions. I am not a licensed financial advisor, and the information presented may not be suitable for your individual circumstances.</p>
+                <p>Before making any financial decisions, you should seek advice from a qualified and licensed professional who understands your specific situation.</p>
+                <p>To the fullest extent permitted by law, I disclaim any liability for any loss, damage, or expense incurred as a result of reliance on the information provided on this blog.</p>
+            </div>
             <ul class="social-icons">
                 {{ with .Site.Params.social.github }}<li><a target="_blank" href="{{.}}" class="social-icon"><i class="fab fa-github"></i></a></li>{{end}}
                 {{ with .Site.Params.social.twitter }}<li><a target="_blank" href="{{.}}" class="social-icon"><i class="fab fa-twitter"></i></a></li>{{end}}
