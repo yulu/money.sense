@@ -21,3 +21,9 @@ other = "Disclaimer"
 
 [TOC]
 other = "Table of Contents"
+
+[Home]
+other = "Home"
+
+[Posts]
+other = "Posts"
