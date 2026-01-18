@@ -1,0 +1,82 @@
+{{ define "main" }}
+{{ $myData := (index site.Data site.Language.Lang) }}
+
+<!-- Header -->
+{{ partial "header" }}
+
+<!-- Podcast List Page -->
+<section class="post-list-section">
+    <div class="container container-wide">
+
+        <!-- Page Header -->
+        <div class="post-list-category">
+            <div style="text-align: center; margin-bottom: 3rem;">
+                <h1 class="post-list-category-title" style="font-size: 2.5rem; margin-bottom: 1rem;">
+                    {{ i18n "Podcasts" }}
+                </h1>
+                <p style="color: var(--color-text-muted); font-size: 1.1rem; max-width: 700px; margin: 0 auto;">
+                    {{ if eq site.Language.Lang "cn" }}
+                    收听我的播客，探讨理财、投资和金钱故事
+                    {{ else }}
+                    Listen to my podcast episodes on personal finance, investment, and money stories
+                    {{ end }}
+                </p>
+            </div>
+
+            <!-- Podcast List -->
+            <ul class="post-list">
+                {{ $podcastTag := cond (eq site.Language.Lang "cn") "播客" "Podcast" }}
+                {{ $allPodcasts := where site.RegularPages ".Params.addtags" "intersect" (slice $podcastTag) }}
+                {{ $podcasts := where $allPodcasts "Lang" site.Language.Lang }}
+                {{ if $podcasts }}
+                    {{ range $podcasts }}
+                    {{ $img := "" }}
+                    {{ with findRE "<img[^>]+src=\"([^\"]+)\"" .Content 1 }}
+                        {{ $img = index (findRE "src=\"([^\"]+)\"" (index . 0) 1) 0 | replaceRE "src=\"(.+)\"" "$1" }}
+                    {{ end }}
+                    <li class="post-list-item" {{ if $img }}style="background-image: url('{{ $img }}');"{{ end }}>
+                        <a href="{{ .Permalink }}" class="post-list-item-link">
+                            <div class="post-list-item-overlay"></div>
+                            <div class="post-list-item-content">
+                                <h3 class="post-list-item-title">
+                                    {{ .Title }}
+                                </h3>
+                                <div class="post-list-item-meta">
+                                    {{ .Date.Format "January 2, 2006" }}
+                                    {{ with .Params.duration }}
+                                    <span style="margin-left: 1rem;">⏱️ {{ . }}</span>
+                                    {{ end }}
+                                </div>
+                                {{ with .Params.addtags }}
+                                <div class="post-list-item-tags">
+                                    {{ range . }}
+                                    <span class="post-tag">{{ . }}</span>
+                                    {{ end }}
+                                </div>
+                                {{ end }}
+                                {{ with .Description }}
+                                <p class="post-list-item-description">{{ . }}</p>
+                                {{ end }}
+                            </div>
+                        </a>
+                    </li>
+                    {{ end }}
+                {{ else }}
+                    <li style="padding: 3rem; text-align: center; color: var(--color-text-muted);">
+                        {{ if eq site.Language.Lang "cn" }}
+                        暂无播客内容，敬请期待！
+                        {{ else }}
+                        No podcast episodes yet. Stay tuned!
+                        {{ end }}
+                    </li>
+                {{ end }}
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+<!-- Footer -->
+{{ partial "footer" }}
+
+{{ end }}

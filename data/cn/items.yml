@@ -52,13 +52,11 @@ items:
     style : "solid style2 major fa-hands-holding-child"
     articles:
       - title: ''
-    
+
   # feature item loop
-  - name : "Resources"
-    content : ""
-    style : "style2 major fa-database"
+  - name : "Podcasts"
+    content : "收听我的播客，探讨理财、理财和金钱故事"
+    style : "solid style2 major fa-podcast"
     articles:
-      - title: 'In Pursuit of Perfect Portfolio'
-        url: 'https://press.princeton.edu/books/hardcover/9780691215204/in-pursuit-of-the-perfect-portfolio'
-      - title: 'MOOC: Financial Markets by Yale University'
-        url: 'https://www.coursera.org/learn/financial-markets-global'
+      - title: '查看所有播客'
+        url: 'cn/podcasts/'
