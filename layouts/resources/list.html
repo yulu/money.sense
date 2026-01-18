@@ -1,0 +1,90 @@
+{{ define "main" }}
+{{ $resources := (index site.Data site.Language.Lang).resources }}
+
+<!-- Header -->
+{{ partial "header" }}
+
+<!-- Resources Page -->
+<section class="resources-page">
+    <div class="container">
+        <div class="resources-header">
+            <h1 class="resources-title">{{ .Title }}</h1>
+            {{ with .Description }}
+            <p class="resources-description">{{ . }}</p>
+            {{ end }}
+        </div>
+
+        <!-- Content Creators -->
+        {{ with $resources.content_creators }}
+        <div class="resource-section">
+            <h2 class="resource-section-title">
+                <i class="fa-solid fa-users"></i>
+                {{ i18n "ContentCreators" }}
+            </h2>
+            <ul class="resource-list">
+                {{ range . }}
+                <li class="resource-item">
+                    <a href="{{ .url }}" target="_blank" class="resource-link">{{ .name }}</a>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+        {{ end }}
+
+        <!-- Books -->
+        {{ with $resources.books }}
+        <div class="resource-section">
+            <h2 class="resource-section-title">
+                <i class="fa-solid fa-book"></i>
+                {{ i18n "Books" }}
+            </h2>
+            <ul class="resource-list">
+                {{ range . }}
+                <li class="resource-item">
+                    <a href="{{ .url }}" target="_blank" class="resource-link">{{ .title }}</a>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+        {{ end }}
+
+        <!-- Courses -->
+        {{ with $resources.courses }}
+        <div class="resource-section">
+            <h2 class="resource-section-title">
+                <i class="fa-solid fa-graduation-cap"></i>
+                {{ i18n "Courses" }}
+            </h2>
+            <ul class="resource-list">
+                {{ range . }}
+                <li class="resource-item">
+                    <a href="{{ .url }}" target="_blank" class="resource-link">{{ .title }}</a>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+        {{ end }}
+
+        <!-- Data Sources -->
+        {{ with $resources.data_sources }}
+        <div class="resource-section">
+            <h2 class="resource-section-title">
+                <i class="fa-solid fa-database"></i>
+                {{ i18n "DataSources" }}
+            </h2>
+            <ul class="resource-list">
+                {{ range . }}
+                <li class="resource-item">
+                    <a href="{{ .url }}" target="_blank" class="resource-link">{{ .name }}</a>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+        {{ end }}
+    </div>
+</section>
+
+<!-- Footer -->
+{{ partial "footer" }}
+
+{{ end }}

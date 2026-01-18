@@ -30,3 +30,33 @@ other = "文章"
 
 [Podcasts]
 other = "播客"
+
+[InvestmentPlatforms]
+other = "我使用的投资平台"
+
+[ContentCreators]
+other = "内容创作者"
+
+[Books]
+other = "书籍"
+
+[Courses]
+other = "在线课程"
+
+[DataSources]
+other = "数据来源"
+
+[VisitSite]
+other = "访问网站"
+
+[ViewOnGoodreads]
+other = "在Goodreads查看"
+
+[EnrollNow]
+other = "立即注册"
+
+[ExploreData]
+other = "探索数据"
+
+[By]
+other = "作者"

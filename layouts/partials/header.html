@@ -6,6 +6,13 @@
             {{ end }}
         {{ end }}
 
+        <nav class="site-nav">
+            <a href="{{ "/" | relLangURL }}" class="nav-link">{{ i18n "Home" }}</a>
+            <a href="{{ "/posts" | relLangURL }}" class="nav-link">{{ i18n "Posts" }}</a>
+            <a href="{{ "/podcasts" | relLangURL }}" class="nav-link">{{ i18n "Podcasts" }}</a>
+            <a href="{{ "/resources" | relLangURL }}" class="nav-link">{{ i18n "Resources" }}</a>
+        </nav>
+
         <div class="lang-switcher">
             {{ range site.Home.AllTranslations }}
                 {{ if ne .Language site.Language }}
