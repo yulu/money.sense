@@ -30,3 +30,33 @@ other = "Posts"
 
 [Podcasts]
 other = "Podcasts"
+
+[InvestmentPlatforms]
+other = "Investment Platforms I Use"
+
+[ContentCreators]
+other = "Content Creators"
+
+[Books]
+other = "Books"
+
+[Courses]
+other = "Online Courses"
+
+[DataSources]
+other = "Data Sources"
+
+[VisitSite]
+other = "Visit Site"
+
+[ViewOnGoodreads]
+other = "View on Goodreads"
+
+[EnrollNow]
+other = "Enroll Now"
+
+[ExploreData]
+other = "Explore Data"
+
+[By]
+other = "By"

@@ -16,6 +16,8 @@
 
     .container {
         @include flex-between;
+        align-items: center;
+        gap: var(--spacing-xl);
     }
 }
 
@@ -28,6 +30,7 @@
     transition: color var(--transition-fast);
     letter-spacing: -0.02em;
     white-space: nowrap;
+    flex-shrink: 0;
 
     &:hover {
         color: var(--color-accent);
@@ -35,6 +38,32 @@
 
     @include respond-to('md') {
         font-size: 1rem;
+    }
+}
+
+.site-nav {
+    display: flex;
+    gap: var(--spacing-lg);
+    align-items: center;
+    margin-left: auto;
+
+    @include respond-to('md') {
+        display: none;
+    }
+}
+
+.nav-link {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--color-text-light);
+    text-decoration: none;
+    transition: all var(--transition-base);
+    padding: var(--spacing-xs) var(--spacing-sm);
+    border-radius: 4px;
+
+    &:hover {
+        color: var(--color-wine-600);
+        background: var(--color-wine-50);
     }
 }
 
