@@ -5,7 +5,7 @@ investment_platforms:
   - name: "Syfe"
     url: "https://www.syfe.com/invite/wealth/SRPRYKNMN"
     icon: "fa-wallet"
-  - name: "Interactive Brokers"
+  - name: "IBKR"
     url: "https://ibkr.com/referral/lu902"
     icon: "fa-building-columns"
   - name: "FSMOne"

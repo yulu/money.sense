@@ -13,28 +13,6 @@
     display: flex;
     align-items: center;
 
-    // Decorative diagonal line
-    &::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        right: 15%;
-        width: 1px;
-        height: 100%;
-        background: linear-gradient(
-            to bottom,
-            transparent,
-            var(--color-gold-500) 20%,
-            var(--color-gold-500) 80%,
-            transparent
-        );
-        opacity: 0.4;
-
-        @include respond-to('md') {
-            display: none;
-        }
-    }
-
     // Decorative circle
     &::after {
         content: '';
