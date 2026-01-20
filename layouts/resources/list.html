@@ -14,6 +14,29 @@
             {{ end }}
         </div>
 
+        <!-- Website Resources -->
+        {{ with $resources.website_resources }}
+        <div class="resource-section">
+            <h2 class="resource-section-title">
+                <i class="fa-solid fa-file-arrow-down"></i>
+                {{ i18n "WebsiteResources" }}
+            </h2>
+            <ul class="resource-list">
+                {{ range . }}
+                <li class="resource-item resource-item-with-post">
+                    <a href="{{ .url }}" target="_blank" class="resource-link">{{ .name }}</a>
+                    {{ with .post }}
+                    <a href="{{ . | relLangURL }}" class="resource-post-link">
+                        <i class="fa-solid fa-arrow-right"></i>
+                        {{ i18n "ReadPost" }}
+                    </a>
+                    {{ end }}
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+        {{ end }}
+
         <!-- Content Creators -->
         {{ with $resources.content_creators }}
         <div class="resource-section">
