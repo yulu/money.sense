@@ -1,3 +1,14 @@
+website_resources:
+  - name: "保险记录矩阵表格"
+    url: "https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/family_insurance_plan/Insurance+Coverage+Matrix.xlsx"
+    post: "/cn/posts/family-insurance-planning/"
+  - name: "简单家庭所得税计算器"
+    url: "https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/personal-income-tax-calculator-family/Sample+Personal+Income+Tax+for+Familty+Calculator.xlsx"
+    post: "/cn/posts/singapore-personal-income-tax-calculator-family/"
+  - name: "装修报价分析与成本比较"
+    url: "https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/renovation_journey/Renovation_Quotation_Comparison.xlsx"
+    post: "/cn/posts/money-story-renovation-journey/"
+
 investment_platforms:
   - name: "Endowus"
     url: "https://endowus.com/invite?code=O91N3"
