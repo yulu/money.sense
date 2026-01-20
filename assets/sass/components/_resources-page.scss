@@ -35,7 +35,7 @@
 
 // Resource Sections
 .resource-section {
-    margin-bottom: var(--spacing-3xl);
+    margin-bottom: var(--spacing-2xl);
 
     &:last-child {
         margin-bottom: 0;
@@ -47,8 +47,8 @@
     font-size: 1.75rem;
     font-weight: 600;
     color: var(--color-text);
-    margin-bottom: var(--spacing-xl);
-    padding-bottom: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+    padding-bottom: var(--spacing-sm);
     border-bottom: 2px solid var(--color-primary-500);
     display: flex;
     align-items: center;
@@ -71,7 +71,7 @@
     padding: 0;
     display: flex;
     flex-direction: column;
-    gap: var(--spacing-xs);
+    gap: 0;
 }
 
 .resource-item {
@@ -84,10 +84,11 @@
 
 .resource-link {
     display: block;
-    padding: var(--spacing-sm) 0;
+    padding: 0.5rem 0;
     color: var(--color-text);
     text-decoration: none;
     transition: all var(--transition-fast);
+    line-height: 1.4;
 
     &:hover {
         color: var(--color-primary-600);

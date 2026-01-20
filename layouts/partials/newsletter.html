@@ -1,0 +1,76 @@
+<!-- Newsletter Subscription Form -->
+<section class="newsletter-section">
+    <div class="newsletter-container">
+        <form action="https://buttondown.email/api/emails/embed-subscribe/littlecheesecake"
+              method="post"
+              class="newsletter-form"
+              id="newsletter-form">
+            <input type="hidden" value="1" name="embed"/>
+            <input type="hidden" name="tag" value="moneysense-blog"/>
+            <div class="newsletter-form-group">
+                <label for="bd-email" class="visually-hidden">{{ i18n "NewsletterPlaceholder" }}</label>
+                <input type="email"
+                       name="email"
+                       id="bd-email"
+                       placeholder="{{ i18n "NewsletterPlaceholder" }}"
+                       required
+                       class="newsletter-input"
+                       aria-label="{{ i18n "NewsletterPlaceholder" }}">
+                <button type="submit" class="newsletter-button">
+                    {{ i18n "NewsletterButton" }}
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+            <p class="newsletter-privacy" id="newsletter-privacy">{{ i18n "NewsletterPrivacy" }}</p>
+        </form>
+    </div>
+</section>
+
+<script>
+(function() {
+    const form = document.getElementById('newsletter-form');
+    const privacyText = document.getElementById('newsletter-privacy');
+    const emailInput = document.getElementById('bd-email');
+    const submitButton = form.querySelector('.newsletter-button');
+
+    if (form) {
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const email = emailInput.value;
+            const formData = new FormData(form);
+
+            // Disable button during submission
+            submitButton.disabled = true;
+            submitButton.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Subscribing...';
+
+            fetch(form.action, {
+                method: 'POST',
+                body: formData,
+                mode: 'no-cors'
+            })
+            .then(() => {
+                // Replace privacy text with success message
+                privacyText.textContent = '{{ i18n "NewsletterSuccess" }}';
+                privacyText.style.color = 'rgba(255, 255, 255, 0.5)';
+
+                // Clear form
+                emailInput.value = '';
+
+                // Reset button
+                submitButton.disabled = false;
+                submitButton.innerHTML = '{{ i18n "NewsletterButton" }} <i class="fas fa-arrow-right"></i>';
+            })
+            .catch((error) => {
+                // Replace privacy text with error message
+                privacyText.textContent = '{{ i18n "NewsletterError" }}';
+                privacyText.style.color = 'rgba(255, 150, 150, 0.6)';
+
+                // Reset button
+                submitButton.disabled = false;
+                submitButton.innerHTML = '{{ i18n "NewsletterButton" }} <i class="fas fa-arrow-right"></i>';
+            });
+        });
+    }
+})();
+</script>
