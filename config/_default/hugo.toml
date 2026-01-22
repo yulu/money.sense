@@ -59,8 +59,14 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     startLevel = 1
 
 ## -----------------------------------------------
+## Output Formats (for search index)
+## -----------------------------------------------
+[outputs]
+  home = ["HTML", "JSON"]
+
+## -----------------------------------------------
 ## Site Languages
-## ----------------------------------------------- 
+## -----------------------------------------------
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true
 

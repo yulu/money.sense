@@ -13,6 +13,10 @@
             <a href="{{ "/resources" | relLangURL }}" class="nav-link">{{ i18n "Resources" }}</a>
         </nav>
 
+        <button id="search-button" class="search-button" aria-label="Search">
+            <i class="fas fa-search"></i>
+        </button>
+
         <div class="lang-switcher">
             {{ range site.Home.AllTranslations }}
                 {{ if ne .Language site.Language }}

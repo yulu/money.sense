@@ -1,0 +1,30 @@
+<!-- Search Modal Overlay -->
+<div id="search-overlay" class="search-overlay"></div>
+
+<!-- Search Modal -->
+<div id="search-modal" class="search-modal">
+    <div class="search-modal-header">
+        <div class="search-input-wrapper">
+            <i class="fas fa-search search-icon"></i>
+            <input
+                type="text"
+                id="search-input"
+                class="search-input"
+                placeholder="{{ if eq .Site.Language.Lang "zh" }}搜索文章...{{ else }}Search articles...{{ end }}"
+                autocomplete="off"
+            >
+            <button id="close-search" class="search-close" aria-label="Close search">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="search-hint">
+            {{ if eq .Site.Language.Lang "zh" }}
+                按 <kbd>Esc</kbd> 关闭
+            {{ else }}
+                Press <kbd>Esc</kbd> to close
+            {{ end }}
+        </div>
+    </div>
+
+    <div id="search-results" class="search-results"></div>
+</div>
