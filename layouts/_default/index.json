@@ -1,0 +1,8 @@
+{{- $pages := where .Site.RegularPages "Type" "posts" -}}
+{{- $data := slice -}}
+{{- range $pages -}}
+  {{- $content := .Plain | replaceRE "\\s+" " " | replaceRE "\"" "\\\"" -}}
+  {{- $item := dict "title" .Title "description" .Description "content" $content "permalink" .Permalink "date" (.Date.Format "2006-01-02") "tags" .Params.tags "addtags" .Params.addtags -}}
+  {{- $data = $data | append $item -}}
+{{- end -}}
+{{- $data | jsonify -}}
