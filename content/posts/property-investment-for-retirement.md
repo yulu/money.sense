@@ -32,7 +32,8 @@ If the return curve in the report were extended to 2024, we might see the gap be
 
 To provide an alternative perspective on real estate investment, I will analyze a specific case study to calculate the expected returns of investing in Singapore property and compare them to financial product investments. Before diving into the case study, I will first outline relevant financial concepts and mathematical formulas, then gather historical data to support the calculations, and finally use a Python script to compute the projected returns based on various assumptions.
 
->[!caution] Disclaimer
+> Disclaimer
+>
 > I would like to declare that I do not have professional qualifications in real estate or financial investment. The following analysis is based on online research, data analysis, and my personal investment experience. It does not guarantee accuracy and does not constitute any investment advice.
 
 ## 💡 Concepts
