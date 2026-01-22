@@ -9,10 +9,15 @@
   const closeSearchButton = document.getElementById('close-search');
   const searchOverlay = document.getElementById('search-overlay');
 
+  // Get base path from configuration
+  function getBasePath() {
+    return window.searchConfig?.basePath || '';
+  }
+
   // Determine current language from URL
   function getCurrentLanguage() {
     const path = window.location.pathname;
-    if (path.startsWith('/cn/') || path === '/cn') {
+    if (path.includes('/cn/') || path.endsWith('/cn')) {
       return 'cn';
     }
     return 'en';
@@ -22,9 +27,10 @@
   async function loadSearchIndex() {
     if (searchIndex) return; // Already loaded
 
+    const basePath = getBasePath();
     const lang = getCurrentLanguage();
     // English index is at root, others are in language subdirectories
-    const indexUrl = lang === 'en' ? '/index.json' : `/${lang}/index.json`;
+    const indexUrl = lang === 'en' ? `${basePath}/index.json` : `${basePath}/${lang}/index.json`;
 
     try {
       const response = await fetch(indexUrl);

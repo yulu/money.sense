@@ -73,6 +73,13 @@
     <!-- Fuse.js for client-side search -->
     <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
 
+    <!-- Search configuration -->
+    <script>
+        window.searchConfig = {
+            basePath: '{{ strings.TrimSuffix "/" (urls.Parse .Site.BaseURL).Path }}'
+        };
+    </script>
+
     <!-- Search functionality -->
     <script src="{{ "js/search.js" | absURL }}"></script>
 
