@@ -13,7 +13,8 @@ addtags:
 
 My insurance agent recommended FWD Invest First Plus, an Investment-Linked Plan (ILP), so I took the opportunity to break it down. Influenced by many negative online reviews on ILPs, I had some bias against this type of investment product initially. However, after dissecting this product, my attitude towards it has somewhat changed a little bit.
 
-> [!caution] Disclaimer
+> Disclaimer
+>
 > I don't own any ILPs and not plan to purchase any for now. My main investments are in Robo advisors (Endowus) and ETFs on brokerage platforms (FSMOne, IBKR). ILPs' fees are just one reason, flexibility and sunk costs are yet the other important factors.
 
 ### Fund Selection
