@@ -1,6 +1,7 @@
 ---
 title: "Should I Include Singapore Property in My Investment Portfolio"
 date: 2025-03-01T18:12:02+08:00
+lastmod: 2025-03-01T18:12:02+08:00
 description: "Analyzing Singapore property investment returns vs S&P 500 and REITs: data-driven case study with Python calculations comparing expected returns."
 tags: 
 - Properties

@@ -1,7 +1,8 @@
 ---
 title: "My Financial Review 2025 - The Financial Habits That Paid Off"
 date: 2025-12-15T00:00:00+08:00
-description: As 2025 comes to a close, I reflect on what worked in my personal finances. Here I break down my passive investing approach, key lessons from recent years, and the savings, asset allocation, and debt goals guiding my 2026 plan.
+lastmod: 2025-12-15T00:00:00+08:00
+description: "As 2025 comes to a close, I reflect on what worked in my personal finances. Here I break down my passive investing approach, key lessons from recent years, and the savings, asset allocation, and debt goals guiding my 2026 plan."
 tags:
   - SavingAndInvestment
 addtags:

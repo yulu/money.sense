@@ -1,6 +1,7 @@
 ---
 title: "SG Finfluencers I am Following"
 date: 2025-07-04T18:12:02+08:00
+lastmod: 2025-07-04T18:12:02+08:00
 description: "I’ve followed several bloggers/ploggers who are well worth recommending. Many of them openly share their own financial situations, including income, expenses, and portfolio allocations. This transparency and neutrality make their content especially persuasive."
 tags: 
 - MoneyPhilosophy

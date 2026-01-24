@@ -1,6 +1,7 @@
 ---
 title: "How to Save and Spend Effortlessly"
 date: 2025-01-11T18:37:21+08:00
+lastmod: 2025-01-11T18:37:21+08:00
 tags:
 - MoneyPhilosophy
 addtags:

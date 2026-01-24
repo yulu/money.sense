@@ -1,6 +1,7 @@
 ---
 title: "Index Investment Paradox"
 date: 2024-09-26T23:31:16+08:00
+lastmod: 2024-09-26T23:31:16+08:00
 description: "Beginner investors who have overcome greed, by passively investing in this relatively efficient market, can ride the tide and win effortlessly."
 tags:
 - SavingAndInvestment

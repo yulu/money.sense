@@ -1,6 +1,7 @@
 ---
 title: "Singapore Integrated Shield Plan Rider Change: My Opinions"
 date: 2025-12-15T00:00:00+08:00
+lastmod: 2025-12-15T00:00:00+08:00
 description: "IP rider reforms: new deductible and co-payment cap rules, why I support the changes, and considerations for policy holders."
 tags:
 - Insurance

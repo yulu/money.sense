@@ -1,6 +1,7 @@
 ---
 title: "Investment Mindset that Inspires Me"
 date: 2024-09-27T00:08:14+08:00
+lastmod: 2024-09-27T00:08:14+08:00
 description: "Plan your life goals first, then plan your finance towards that; Live below your means; Buy term life and health insurance, that's it, then forget about insurance"
 tags:
 - MoneyPhilosophy

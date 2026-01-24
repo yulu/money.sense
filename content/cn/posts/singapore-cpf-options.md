@@ -1,6 +1,7 @@
 ---
 title: "关于CPF LIFE选择的思考"
 date: 2025-07-29T18:12:02+08:00
+lastmod: 2025-07-29T18:12:02+08:00
 description: ""
 tags: 
 - SavingAndInvestment

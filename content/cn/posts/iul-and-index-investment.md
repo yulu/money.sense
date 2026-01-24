@@ -1,6 +1,7 @@
 ---
 title: "IUL和直接投资指数收益对比"
 date: 2025-07-25T05:18:53+08:00
+lastmod: 2025-07-25T05:18:53+08:00
 description: ""
 tags:
 - SavingAndInvestment

@@ -1,6 +1,7 @@
 ---
 title: "How to Buy Insurance as Home Owners"
 date: 2025-11-16T00:00:00+08:00
+lastmod: 2025-11-16T00:00:00+08:00
 description: "Understanding mandatory fire and mortgage insurance for home owners, plus optional home insurance to protect personal property and belongings."
 tags:
 - Insurance

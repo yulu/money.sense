@@ -1,6 +1,7 @@
 ---
 title: "CPF Board的新年理财小贴士"
 date: 2024-01-03T05:36:12+08:00
+lastmod: 2024-01-03T05:36:12+08:00
 description: "2024新年第一天和往常一样早起享受我的me-time。打开CPF查查政府爸爸的新年大红包（CPF interests）到了吗，发现系统还在维护中。 八点以后就正常工作可以查看了。接着又收到CPF官方telegram新年问候，和六个理财小贴士。"
 tags:
 - MoneyPhilosophy

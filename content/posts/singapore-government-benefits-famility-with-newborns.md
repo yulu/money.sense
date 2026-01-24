@@ -1,6 +1,7 @@
 ---
 title: "Government Benefits for Familities with Newborns (2025)"
 date: 2025-07-18T05:48:31+08:00
+lastmod: 2025-07-18T05:48:31+08:00
 description: "Comprehensive guide to Singapore's baby bonus, MediSave grants, parental leave reimbursements, preschool subsidies, and tax reliefs for newborns in 2025."
 tags: 
 - MoneyPhilosophy

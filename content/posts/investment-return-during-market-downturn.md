@@ -1,6 +1,7 @@
 ---
 title: "Investment Return during Market Downturn"
 date: 2025-04-27T00:08:14+08:00
+lastmod: 2025-04-27T00:08:14+08:00
 description: "Still, staying committed to broad-based index fund DCA remains my long-term strategy, even in volatile markets"
 tags:
 - SavingAndInvestment

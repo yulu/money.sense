@@ -1,6 +1,7 @@
 ---
 title: "Dismantle one 101 Investment-Linked Plan (ILP)"
 date: 2023-12-19T05:35:17+08:00
+lastmod: 2023-12-19T05:35:17+08:00
 description: "A transparent, unbiased comparision of 101 ILP (FWD), Robo Advisor (Endowus) and direct ETF investment, with actual numbers and python scripts."
 tags:
 - SavingAndInvestment

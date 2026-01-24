@@ -1,6 +1,7 @@
 ---
 title: "Profoundly Simple Investment Strategies"
 date: 2025-07-11T18:12:02+08:00
+lastmod: 2025-07-11T18:12:02+08:00
 description: "Key investment theories from four finance legends: Markowitz's MPT, Sharpe's CAPM, Fama's EMH, and Bogle's CMH—and how they shape my portfolio."
 tags: 
 - SavingAndInvestment

@@ -1,6 +1,7 @@
 ---
 title: "聊聊新加坡REITs投资"
 date: 2025-01-06T23:31:16+08:00
+lastmod: 2025-01-06T23:31:16+08:00
 description: ""
 tags:
 - SavingAndInvestment

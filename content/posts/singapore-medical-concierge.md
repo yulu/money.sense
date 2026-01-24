@@ -1,6 +1,7 @@
 ---
 title: "The Darkside of the Medical Concierge Service in Singapore"
 date: 2025-07-10T18:12:02+08:00
+lastmod: 2025-07-10T18:12:02+08:00
 description: "A critical look at medical concierge services: conflicts of interest when concierges earn commissions from clinics while claiming to serve patient needs."
 tags: 
 - Insurance

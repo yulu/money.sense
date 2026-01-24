@@ -1,6 +1,7 @@
 ---
 title: "换房预算和购买方式"
 date: 2025-01-30T23:31:16+08:00
+lastmod: 2025-01-30T23:31:16+08:00
 description: ""
 tags: 
 - Properties
