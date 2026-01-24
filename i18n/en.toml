@@ -99,3 +99,12 @@ other = "To the fullest extent permitted by law, I disclaim any liability for an
 
 [MinRead]
 other = "min read"
+
+[Archive]
+other = "Archive"
+
+[TotalPosts]
+other = "total posts"
+
+[ViewAllPosts]
+other = "View all posts in archive"

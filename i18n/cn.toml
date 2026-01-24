@@ -99,3 +99,12 @@ other = "在法律允许的范围内，因使用或参考本博客内容而可�
 
 [MinRead]
 other = "分钟阅读"
+
+[Archive]
+other = "归档"
+
+[TotalPosts]
+other = "篇文章"
+
+[ViewAllPosts]
+other = "查看所有文章归档"

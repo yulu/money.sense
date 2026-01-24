@@ -209,12 +209,23 @@
     </div>
 </section>
 
+<!-- Archive Link -->
+<section class="archive-link-section">
+    <div class="container container-wide">
+        <div class="archive-link-wrapper">
+            <a href="{{ "/archive" | relLangURL }}" class="archive-link-subtle">
+                <i class="fas fa-archive"></i> {{ i18n "ViewAllPosts" }}
+            </a>
+        </div>
+    </div>
+</section>
+
 <script>
 // Smooth scroll and active tab highlighting
 (function() {
     const tabs = document.querySelectorAll('.category-tab');
     const sections = document.querySelectorAll('.post-list-category');
-    
+
     // Smooth scroll on tab click
     tabs.forEach(tab => {
         tab.addEventListener('click', function(e) {
@@ -231,22 +242,22 @@
             }
         });
     });
-    
+
     // Highlight active tab on scroll
     function highlightActiveTab() {
         const scrollPos = window.scrollY + 150;
-        
+
         sections.forEach((section, index) => {
             const sectionTop = section.offsetTop;
             const sectionBottom = sectionTop + section.offsetHeight;
-            
+
             if (scrollPos >= sectionTop && scrollPos < sectionBottom) {
                 tabs.forEach(t => t.classList.remove('active'));
                 tabs[index].classList.add('active');
             }
         });
     }
-    
+
     window.addEventListener('scroll', highlightActiveTab);
     highlightActiveTab(); // Initial highlight
 })();
