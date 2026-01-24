@@ -73,9 +73,21 @@
       <meta name="twitter:creator" content="@{{ replaceRE "https?://(?:www\\.)?twitter\\.com/" "" . }}">
     {{ end }}
     
+    <!-- Canonical URL -->
+    <link rel="canonical" href="{{ .Permalink }}">
+
+    <!-- Language Alternates (hreflang) for SEO -->
+    {{ if .IsTranslated }}
+      {{ range .Translations }}
+      <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" />
+      {{ end }}
+      <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" />
+      <link rel="alternate" hreflang="x-default" href="{{ .Permalink }}" />
+    {{ end }}
+
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="{{ "images/favicon.ico" | absURL }}">
-    
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -128,6 +140,9 @@
         src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
     </script>
     {{ end }}
+
+    <!-- Structured Data (JSON-LD) -->
+    {{ partial "structured-data.html" . }}
 </head>
 <body>
     <!-- Google Tag Manager (noscript) -->
