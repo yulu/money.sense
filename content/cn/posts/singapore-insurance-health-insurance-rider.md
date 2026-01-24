@@ -1,6 +1,7 @@
 ---
 title: "关于新加坡医疗保险（IP Rider）改革"
 date: 2025-12-15T00:00:00+08:00
+lastmod: 2025-12-15T00:00:00+08:00
 description: "IP Rider医疗保险改革：变化是什么，为什么我认可这个政策，消费者需要考虑什么"
 tags:
 - Insurance

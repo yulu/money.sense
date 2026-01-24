@@ -1,6 +1,7 @@
 ---
 title: "装修笔记: 预算规划和ID报价单分析对比"
 date: 2025-02-20T05:58:30+08:00
+lastmod: 2025-02-20T05:58:30+08:00
 description: ""
 tags:
 - Properties 

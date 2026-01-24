@@ -1,6 +1,7 @@
 ---
 title: "A Path to FIR(E)"
 date: 2024-02-28T18:37:21+08:00
+lastmod: 2024-02-28T18:37:21+08:00
 tags:
 - MoneyPhilosophy
 addtags:

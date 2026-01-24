@@ -1,6 +1,7 @@
 ---
 title: "Common Investment Misconceptions"
 date: 2025-06-27T00:08:14+08:00
+lastmod: 2025-06-27T00:08:14+08:00
 description: "Four common investment mistakes: being overly conservative, single investment channels, over-focusing on passive income early, and chasing growth in retirement."
 tags:
 - SavingAndInvestment

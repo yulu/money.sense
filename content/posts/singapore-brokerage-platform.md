@@ -1,6 +1,7 @@
 ---
 title: "Brokerage Platform Options in Singapore"
 date: 2025-01-01T18:37:21+08:00
+lastmod: 2025-01-01T18:37:21+08:00
 tags:
 - SavingAndInvestment
 addtags:

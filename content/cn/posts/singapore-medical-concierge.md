@@ -1,6 +1,7 @@
 ---
 title: "新加坡陪诊服务和医疗成本思考"
 date: 2025-07-10T18:12:02+08:00
+lastmod: 2025-07-10T18:12:02+08:00
 description: ""
 tags: 
 - Insurance

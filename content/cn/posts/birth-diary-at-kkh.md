@@ -1,6 +1,7 @@
 ---
 title: "KKH生娃记录：花销和体验"
 date: 2025-07-27T18:12:02+08:00
+lastmod: 2025-07-27T18:12:02+08:00
 description: ""
 tags: 
 - MoneyPhilosophy

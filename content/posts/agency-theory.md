@@ -1,6 +1,7 @@
 ---
 title: "Agent Theory, Incentivisation and Insurance commission rebate"
 date: 2024-01-29T05:58:30+08:00
+lastmod: 2024-01-29T05:58:30+08:00
 description: "The greatest value of financial markets lies in the optimal allocation of resources across time and space. Here's some thoughts about agent theory, incentivisation and insurance commission rebase learnt from Coursera course - Financial Market by Yale"
 tags:
 - MoneyPhilosophy

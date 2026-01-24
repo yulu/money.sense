@@ -1,6 +1,7 @@
 ---
 title: "Low Risk Investments in Singapore"
 date: 2024-01-01T05:41:25+08:00
+lastmod: 2024-01-01T05:41:25+08:00
 description: "For long-term investments, what options should I consider for low-risk investments?"
 tags:
 - SavingAndInvestment

@@ -96,3 +96,6 @@ other = "Before making any financial decisions, you should seek advice from a qu
 
 [DisclaimerPara4]
 other = "To the fullest extent permitted by law, I disclaim any liability for any loss, damage, or expense incurred as a result of reliance on the information provided on this blog."
+
+[MinRead]
+other = "min read"

@@ -1,6 +1,7 @@
 ---
 title: "普通人的佛系FIR(E)路径"
 date: 2024-02-28T18:37:21+08:00
+lastmod: 2024-02-28T18:37:21+08:00
 tags:
 - MoneyPhilosophy
 addtags:

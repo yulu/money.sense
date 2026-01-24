@@ -1,7 +1,39 @@
-{{- define "main" -}}
- <div class="FourOhFourCentered">
-   <h1>Page not found</h1>
-   <p>Sorry, that page isn't on this site.</p>
-   <p class="bottom">Please use the navigation menu above, or the <a href="/sitemap.xml">sitemap</a> linked below, to find another page.</p>
- </div>
-{{- end }}
+{{ define "main" }}
+
+<!-- Header -->
+{{ partial "header" }}
+
+<!-- 404 Error Page -->
+<section class="error-404">
+    <div class="container container-narrow">
+        <div class="error-content">
+            <h1 class="error-title">404</h1>
+            <h2 class="error-subtitle">Page Not Found</h2>
+            <p class="error-description">Sorry, the page you're looking for doesn't exist or has been moved.</p>
+
+            <!-- Popular Posts -->
+            <div class="error-popular">
+                <h3 class="error-popular-title">Popular Posts</h3>
+                <div class="error-popular-grid">
+                    {{ $pages := where site.RegularPages "Section" "posts" }}
+                    {{ $pages := where $pages ".Params.draft" "ne" true }}
+                    {{ $popularPages := shuffle $pages | first 3 }}
+                    {{ range $popularPages }}
+                    <a href="{{ .Permalink }}" class="error-popular-item">
+                        <div class="error-popular-meta">{{ .Date.Format "Jan 2, 2006" }}</div>
+                        <h4 class="error-popular-item-title">{{ .Title }}</h4>
+                        {{ with .Description }}
+                        <p class="error-popular-description">{{ . }}</p>
+                        {{ end }}
+                    </a>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+{{ partial "footer" }}
+
+{{ end }}

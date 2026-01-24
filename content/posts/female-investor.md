@@ -1,6 +1,7 @@
 ---
 title: "Female Investors"
 date: 2023-12-16T06:44:09+08:00
+lastmod: 2023-12-16T06:44:09+08:00
 description: "This is a reading notes on a book about financial planning from a women's perspective. I am sharing some learning points as a female investor."
 tags:
 - MoneyPhilosophy

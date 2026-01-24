@@ -1,6 +1,7 @@
 ---
 title: "Robert Shiller's Investment Philosophy"
 date: 2024-05-29T06:04:56+08:00
+lastmod: 2024-05-29T06:04:56+08:00
 description: "Shiller believes that people are inherently driven by incentives, willing to take risks, and selfish. Financial markets leverage people's self-interest to accelerate the flow of resources and increase social efficiency. Financial markets encourage risk-taking, and a healthy sense of risk and adventurous spirit is the source of innovation that drives the human civilization progresses. He encourages people to actively participate in the market and supports advanced financial products that enhance risk control and market freedom. Socialism is not the ideal scenario. Humans are complex, always evolving. A simple and ideal utopian world would deprive humans of the joy of invention and progress. Financial markets or the world are unlikely to become simpler, but with new inventions, they are becoming better and more interesting. He also constantly emphasizes the market turbulence caused by human factors, noting that greed sometimes drives financial markets to extreme madness, for which the participants ultimately have to pay the price."
 tags:
 - MoneyPhilosophy

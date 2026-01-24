@@ -1,6 +1,7 @@
 ---
 title: "如何配置医疗险和保险保障终身的误区"
 date: 2025-04-18T23:31:16+08:00
+lastmod: 2025-04-18T23:31:16+08:00
 description: ""
 tags:
 - Insurance
