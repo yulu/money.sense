@@ -1,0 +1,75 @@
+{{ define "main" }}
+
+<!-- Header -->
+{{ partial "header" }}
+
+<!-- Archive Page -->
+<section class="archive-section">
+    <div class="container">
+        <div class="archive-header">
+            <h1 class="archive-title">{{ .Title }}</h1>
+            {{ with .Description }}
+            <p class="archive-description">{{ . }}</p>
+            {{ end }}
+            {{ $posts := where .Site.RegularPages "Section" "posts" }}
+            {{ $posts = where $posts "Language.Lang" site.Language.Lang }}
+            <div class="archive-count">{{ len $posts }} {{ i18n "TotalPosts" }}</div>
+        </div>
+
+        {{ $posts := where .Site.RegularPages "Section" "posts" }}
+        {{ $posts = where $posts "Language.Lang" site.Language.Lang }}
+
+        {{ $postsByYear := dict }}
+        {{ $years := slice }}
+
+        <!-- Group posts by year, excluding invalid dates -->
+        {{ range $posts }}
+            {{ $year := .Date.Format "2006" }}
+            {{ if and (ne $year "0001") (ne $year "") }}
+                {{ $yearPosts := index $postsByYear $year }}
+                {{ if not $yearPosts }}
+                    {{ $yearPosts = slice . }}
+                    {{ $years = $years | append $year }}
+                {{ else }}
+                    {{ $yearPosts = $yearPosts | append . }}
+                {{ end }}
+                {{ $postsByYear = merge $postsByYear (dict $year $yearPosts) }}
+            {{ end }}
+        {{ end }}
+
+        <!-- Sort years in descending order -->
+        {{ $sortedYears := sort $years "value" "desc" }}
+
+        <!-- Display posts grouped by year -->
+        {{ range $sortedYears }}
+        {{ $year := . }}
+        {{ $yearPosts := index $postsByYear $year }}
+        {{ $sortedPosts := sort $yearPosts "Date" "desc" }}
+        <div class="archive-year-group">
+            <h2 class="archive-year">{{ $year }}</h2>
+            <ul class="archive-list">
+                {{ range $sortedPosts }}
+                <li class="archive-item">
+                    <time class="archive-date" datetime="{{ .Date.Format "2006-01-02" }}">
+                        {{ .Date.Format "Jan 02" }}
+                    </time>
+                    <div class="archive-content">
+                        <a href="{{ .Permalink }}" class="archive-link">
+                            <h3 class="archive-post-title">{{ .Title }}</h3>
+                        </a>
+                        {{ with .Description }}
+                        <p class="archive-post-description">{{ . }}</p>
+                        {{ end }}
+                    </div>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+        {{ end }}
+    </div>
+</section>
+
+<!-- Footer -->
+{{ partial "footer" }}
+
+{{ end }}
