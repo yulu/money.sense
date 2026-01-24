@@ -1,0 +1,200 @@
+// ========================================
+// 404 Error Page
+// ========================================
+
+@use '../abstracts' as *;
+
+.error-404 {
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    padding: var(--spacing-3xl) 0;
+
+    @include respond-to('md') {
+        min-height: 50vh;
+        padding: var(--spacing-2xl) 0;
+    }
+}
+
+.error-content {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-lg);
+}
+
+.error-title {
+    font-family: var(--font-display);
+    font-size: clamp(6rem, 15vw, 10rem);
+    font-weight: 700;
+    color: var(--color-accent);
+    margin-bottom: var(--spacing-md);
+    line-height: 1;
+    opacity: 0.15;
+}
+
+.error-subtitle {
+    font-family: var(--font-sans);
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    font-weight: 600;
+    color: var(--color-text-primary);
+    margin-bottom: var(--spacing-md);
+}
+
+.error-description {
+    font-size: 1.1rem;
+    color: var(--color-text-secondary);
+    margin-bottom: var(--spacing-2xl);
+    line-height: 1.6;
+
+    @include respond-to('md') {
+        font-size: 1rem;
+    }
+}
+
+// Search Box
+.error-search {
+    margin-bottom: var(--spacing-2xl);
+
+    .btn {
+        padding: 1rem 2rem;
+        font-size: 1rem;
+        border: none;
+        background: var(--color-accent);
+        color: white;
+        cursor: pointer;
+        transition: all var(--transition-fast);
+        display: inline-flex;
+        align-items: center;
+        gap: var(--spacing-sm);
+
+        &:hover {
+            background: var(--color-wine-600);
+            transform: translateY(-2px);
+        }
+
+        i {
+            font-size: 1.1rem;
+        }
+    }
+}
+
+// Quick Links
+.error-links {
+    display: flex;
+    gap: var(--spacing-md);
+    justify-content: center;
+    margin-bottom: var(--spacing-3xl);
+    flex-wrap: wrap;
+}
+
+.error-link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    padding: 0.75rem 1.5rem;
+    border: 2px solid var(--color-border);
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all var(--transition-fast);
+
+    &:hover {
+        border-color: var(--color-accent);
+        color: var(--color-accent);
+        transform: translateY(-2px);
+    }
+
+    i {
+        font-size: 1.1rem;
+    }
+}
+
+// Popular Posts Section - Break out of narrow container
+.error-popular {
+    margin-top: var(--spacing-3xl);
+    padding-top: var(--spacing-2xl);
+    border-top: 1px solid var(--color-border-light);
+
+    // Break out of container-narrow to match container-wide width (1000px)
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -500px;
+    margin-right: -500px;
+    width: 1000px;
+    max-width: calc(100vw - var(--spacing-lg) * 2);
+
+    @include respond-to('md') {
+        margin-left: calc(-50vw + 50%);
+        margin-right: calc(-50vw + 50%);
+        width: auto;
+        left: 0;
+        right: 0;
+    }
+}
+
+.error-popular-title {
+    font-family: var(--font-sans);
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--color-text-primary);
+    margin-bottom: var(--spacing-xl);
+    text-align: center;
+}
+
+.error-popular-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-lg);
+
+    @include respond-to('lg') {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include respond-to('md') {
+        grid-template-columns: 1fr;
+    }
+}
+
+.error-popular-item {
+    padding: var(--spacing-lg);
+    border: 1px solid var(--color-border-light);
+    text-decoration: none;
+    transition: all var(--transition-fast);
+    display: block;
+
+    &:hover {
+        border-color: var(--color-accent);
+        transform: translateY(-4px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+        .error-popular-item-title {
+            color: var(--color-accent);
+        }
+    }
+}
+
+.error-popular-meta {
+    font-size: 0.85rem;
+    color: var(--color-text-light);
+    margin-bottom: var(--spacing-xs);
+}
+
+.error-popular-item-title {
+    font-family: var(--font-sans);
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--color-text-primary);
+    margin-bottom: var(--spacing-sm);
+    line-height: 1.4;
+    transition: color var(--transition-fast);
+}
+
+.error-popular-description {
+    font-size: 0.9rem;
+    color: var(--color-text-secondary);
+    line-height: 1.5;
+    margin: 0;
+    @include line-clamp(2);
+}

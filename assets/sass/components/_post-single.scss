@@ -53,6 +53,11 @@
     flex-wrap: wrap;
 }
 
+.meta-separator {
+    color: var(--color-text-light);
+    opacity: 0.5;
+}
+
 .post-meta-divider {
     width: 4px;
     height: 4px;

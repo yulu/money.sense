@@ -13,16 +13,20 @@
 <section class="post-header">
     <div class="container container-narrow">
         <h1 class="post-title">{{ .Title }}</h1>
-        
+
         <div class="post-meta">
             {{ .Date.Format "January 2, 2006" }}
+            <span class="meta-separator">•</span>
+            {{ $readTime := div (countwords .Content) 200 }}
+            {{ if lt $readTime 1 }}{{ $readTime = 1 }}{{ end }}
+            {{ $readTime }} {{ i18n "MinRead" }}
         </div>
-        
+
         <div class="post-tags">
             {{ range .Params.tags }}
             <span class="tag">{{ i18n . }}</span>
             {{ end }}
-            
+
             {{ with .Param "addtags" }}
             {{ range $index, $tag := (. | sort) }}
             <span class="tag">{{ $tag }}</span>

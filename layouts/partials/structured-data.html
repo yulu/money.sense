@@ -41,7 +41,11 @@
   "keywords": "{{ delimit . ", " }}",
   {{ end }}
   "articleSection": "{{ with .Section }}{{ . }}{{ else }}Blog{{ end }}",
-  "inLanguage": "{{ .Site.Language.Lang }}"
+  "inLanguage": "{{ .Site.Language.Lang }}",
+  "wordCount": {{ .WordCount }},
+  {{ $readTime := div (countwords .Content) 200 }}
+  {{ if lt $readTime 1 }}{{ $readTime = 1 }}{{ end }}
+  "timeRequired": "PT{{ $readTime }}M"
 }
 </script>
 {{ else if .IsHome }}
