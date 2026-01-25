@@ -28,6 +28,9 @@ other = "Home"
 [Posts]
 other = "Posts"
 
+[Topics]
+other = "Topics"
+
 [Podcasts]
 other = "Podcasts"
 
@@ -108,3 +111,9 @@ other = "total posts"
 
 [ViewAllPosts]
 other = "View all posts in archive"
+
+[ExploreTopics]
+other = "Explore Topics"
+
+[ReadMore]
+other = "Read More"

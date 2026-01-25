@@ -1,0 +1,13 @@
+{{ $myData := (index site.Data site.Language.Lang) }}
+
+<div class="post-topics">
+    <h3 class="post-topics-title">{{ i18n "ExploreTopics" }}</h3>
+    <div class="post-topics-grid">
+        {{ range $myData.topics.topics }}
+        <a href="{{ printf "/topics/%s/" .name | relLangURL }}" class="post-topic-card">
+            <i class="fas {{ .icon }}"></i>
+            <span>{{ .title }}</span>
+        </a>
+        {{ end }}
+    </div>
+</div>

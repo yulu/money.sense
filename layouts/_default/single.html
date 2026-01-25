@@ -48,8 +48,12 @@
                 <!-- Disclaimer -->
                 {{ partial "disclaimer" $myData.disclaimer }}
 
+                <!-- Buy Me a Coffee -->
+                {{ partial "buy_me_a_coffee" }}
+
                 <!-- Random Posts -->
                 <div class="random-posts">
+                    <h3 class="random-posts-title">{{ i18n "ReadMore" }}</h3>
                     <div class="random-posts-grid">
                         {{ $currentPage := . }}
                         {{ $pages := where site.RegularPages "Section" "posts" }}
@@ -77,8 +81,8 @@
                     </div>
                 </div>
 
-                <!-- Buy Me a Coffee -->
-                {{ partial "buy_me_a_coffee" }}
+                <!-- Topics Section -->
+                {{ partial "post_topics" }}
                 
                 <!-- Comments -->
                 {{ template "_internal/disqus.html" . }}

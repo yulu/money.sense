@@ -1,0 +1,51 @@
+{{ define "main" }}
+{{ $myData := (index site.Data site.Language.Lang) }}
+
+<!-- Header -->
+{{ partial "header" }}
+
+<!-- Topics Hub Section -->
+{{ with $myData.topics }}
+<section class="topics-section">
+    <div class="container container-wide">
+        <div class="resources-header">
+            {{ with .title }}
+            <h1 class="resources-title">{{ . | safeHTML }}</h1>
+            {{ end }}
+            {{ with .subtitle }}
+            <p class="resources-description">{{ . | safeHTML }}</p>
+            {{ end }}
+        </div>
+
+        <div class="topics-grid">
+            {{ range .topics }}
+            <article class="topic-card">
+                <a href="{{ printf "/topics/%s/" .name | relLangURL }}" class="topic-card-link">
+                    <!-- Topic image with icon overlay -->
+                    <div class="topic-card-image-wrapper">
+                        <img src="{{ .image }}" alt="{{ .title }}" class="topic-card-image">
+                        <div class="topic-card-overlay">
+                            <i class="fas {{ .icon }} topic-card-icon"></i>
+                        </div>
+                    </div>
+
+                    <div class="topic-card-content">
+                        <h2 class="topic-card-title">{{ .title }}</h2>
+                        <p class="topic-card-description">{{ .description }}</p>
+                        <div class="topic-card-meta">
+                            <span class="topic-card-count">{{ len .articles }} {{ if eq (len .articles) 1 }}article{{ else }}articles{{ end }}</span>
+                            <i class="fas fa-arrow-right topic-card-arrow"></i>
+                        </div>
+                    </div>
+                </a>
+            </article>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
+
+<!-- Footer -->
+{{ partial "footer" }}
+
+{{ end }}
