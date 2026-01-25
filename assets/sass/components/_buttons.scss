@@ -40,21 +40,28 @@
 // Buy Me a Coffee Button
 .buy-me-coffee {
     text-align: center;
-    padding: var(--spacing-xl) 0;
+    padding: var(--spacing-md) 0;
+    margin-top: var(--spacing-lg);
 
     a {
         display: inline-flex;
         align-items: center;
-        gap: var(--spacing-sm);
-        padding: var(--spacing-md) var(--spacing-lg);
+        justify-content: center;
+        gap: var(--spacing-xs);
+        padding: 0.4rem 2rem;
+        min-width: 200px;
         background: var(--color-wine-50);
         color: var(--color-accent);
         border: 1px solid var(--color-accent);
         font-weight: 500;
-        font-size: 0.9rem;
+        font-size: 0.75rem;
         text-transform: uppercase;
         letter-spacing: 0.05em;
         transition: all var(--transition-base);
+
+        i {
+            font-size: 0.8rem;
+        }
 
         &:hover {
             border-color: var(--color-wine-700);

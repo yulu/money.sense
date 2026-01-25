@@ -7,13 +7,13 @@
 <!-- Topics Hub Section -->
 {{ with $myData.topics }}
 <section class="topics-section">
-    <div class="container">
-        <div class="section-header">
+    <div class="container container-wide">
+        <div class="resources-header">
             {{ with .title }}
-            <h1 class="section-title">{{ . | safeHTML }}</h1>
+            <h1 class="resources-title">{{ . | safeHTML }}</h1>
             {{ end }}
             {{ with .subtitle }}
-            <p class="section-subtitle">{{ . | safeHTML }}</p>
+            <p class="resources-description">{{ . | safeHTML }}</p>
             {{ end }}
         </div>
 

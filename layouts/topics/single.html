@@ -28,53 +28,88 @@
 
         <!-- Topic Header -->
         <div class="topic-header">
-            <div class="topic-header-icon">
-                <i class="fas {{ .icon }}"></i>
+            <div class="topic-header-content">
+                <div class="topic-header-icon">
+                    <i class="fas {{ .icon }}"></i>
+                </div>
+                <div class="topic-header-text">
+                    <h1 class="topic-header-title">{{ .title }}</h1>
+                    <p class="topic-header-meta">{{ len .articles }} articles • {{ .description }}</p>
+                </div>
             </div>
-            <h1 class="topic-header-title">{{ .title }}</h1>
-            <p class="topic-header-description">{{ .description }}</p>
         </div>
 
-        <!-- Articles List -->
-        <ul class="post-list">
-            {{ range .articles }}
-                {{ $page := site.GetPage .url }}
-                {{ if $page }}
-                    {{ $img := "" }}
-                    {{ with findRE "<img[^>]+src=\"([^\"]+)\"" $page.Content 1 }}
-                        {{ $img = index (findRE "src=\"([^\"]+)\"" (index . 0) 1) 0 | replaceRE "src=\"(.+)\"" "$1" }}
-                    {{ end }}
-                    <li class="post-list-item" {{ if $img }}style="background-image: url('{{ $img }}');"{{ end }}>
-                        <a href="{{ $page.Permalink }}" class="post-list-item-link">
-                            <div class="post-list-item-overlay"></div>
-                            <div class="post-list-item-content">
-                                <h3 class="post-list-item-title">
-                                    {{ $page.Title }}
-                                </h3>
-                                <div class="post-list-item-meta">
-                                    {{ $page.Date.Format "January 2, 2006" }}
+        <!-- Conditional Layout: Timeline or Toolbox -->
+        {{ if eq .layout "toolbox" }}
+            <!-- Toolbox Layout -->
+            <div class="topic-toolbox">
+                <div class="toolbox-grid">
+                    {{ range $index, $article := .articles }}
+                        {{ $page := $.Site.GetPage .url }}
+                        {{ if $page }}
+                            <a href="{{ $page.Permalink }}" target="_blank" rel="noopener noreferrer" class="tool-card">
+                                <div class="tool-card-icon">
+                                    <i class="fas fa-tools"></i>
                                 </div>
-                                {{ with $page.Params.addtags }}
-                                <div class="post-list-item-tags">
-                                    {{ range . }}
-                                    <span class="post-tag">{{ . }}</span>
+                                <div class="tool-card-content">
+                                    <h3 class="tool-card-title">{{ $page.Title }}</h3>
+                                    {{ with $page.Description }}
+                                    <p class="tool-card-description">{{ . }}</p>
                                     {{ end }}
+                                    <div class="tool-card-meta">
+                                        {{ with $page.Params.addtags }}
+                                            <span class="tool-card-tag">{{ index . 0 }}</span>
+                                        {{ end }}
+                                    </div>
                                 </div>
-                                {{ end }}
-                                {{ with $page.Description }}
-                                <p class="post-list-item-description">{{ . }}</p>
-                                {{ end }}
+                            </a>
+                        {{ end }}
+                    {{ end }}
+                </div>
+            </div>
+        {{ else }}
+            <!-- Timeline Layout (Default) -->
+            <div class="topic-journey">
+                <div class="topic-timeline">
+                    {{ range $index, $article := .articles }}
+                        {{ $page := $.Site.GetPage .url }}
+                        {{ if $page }}
+                            <div class="timeline-item">
+                                <div class="timeline-marker">
+                                    <div class="timeline-number">{{ add $index 1 }}</div>
+                                    <div class="timeline-line"></div>
+                                </div>
+
+                                <div class="timeline-content">
+                                    <a href="{{ $page.Permalink }}" target="_blank" rel="noopener noreferrer" class="timeline-card">
+                                        <div class="timeline-card-header">
+                                            <h3 class="timeline-card-title">{{ $page.Title }}</h3>
+                                            <div class="timeline-card-meta">
+                                                <span class="timeline-card-date">{{ $page.Date.Format "Jan 2006" }}</span>
+                                                {{ with $page.Params.addtags }}
+                                                    <span class="timeline-card-separator">•</span>
+                                                    <span class="timeline-card-tag">{{ index . 0 }}</span>
+                                                {{ end }}
+                                            </div>
+                                        </div>
+
+                                        {{ with $page.Description }}
+                                        <p class="timeline-card-description">{{ . }}</p>
+                                        {{ end }}
+                                    </a>
+                                </div>
                             </div>
-                        </a>
-                    </li>
-                {{ end }}
-            {{ end }}
-        </ul>
+                        {{ end }}
+                    {{ end }}
+                </div>
+            </div>
+        {{ end }}
     </div>
 </section>
 {{ end }}
 
 <!-- Footer -->
 {{ partial "footer" }}
+
 
 {{ end }}

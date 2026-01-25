@@ -111,3 +111,9 @@ other = "篇文章"
 
 [ViewAllPosts]
 other = "查看所有文章归档"
+
+[ExploreTopics]
+other = "探索专题"
+
+[ReadMore]
+other = "阅读更多内容"

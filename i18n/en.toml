@@ -111,3 +111,9 @@ other = "total posts"
 
 [ViewAllPosts]
 other = "View all posts in archive"
+
+[ExploreTopics]
+other = "Explore Topics"
+
+[ReadMore]
+other = "Read More"
