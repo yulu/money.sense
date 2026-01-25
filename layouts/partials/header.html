@@ -13,18 +13,77 @@
             <a href="{{ "/resources" | relLangURL }}" class="nav-link">{{ i18n "Resources" }}</a>
         </nav>
 
-        <button id="search-button" class="search-button" aria-label="Search">
-            <i class="fas fa-search"></i>
-        </button>
+        <div class="header-actions">
+            <button id="search-button" class="search-button" aria-label="Search">
+                <i class="fas fa-search"></i>
+            </button>
 
-        <div class="lang-switcher">
-            {{ range site.Home.AllTranslations }}
-                {{ if ne .Language site.Language }}
-                    <a href="{{ .Permalink }}" class="lang-link">{{ .Language.LanguageName }}</a>
-                {{ else }}
-                    <span class="lang-link active">{{ .Language.LanguageName }}</span>
+            <div class="lang-switcher">
+                {{ range site.Home.AllTranslations }}
+                    {{ if ne .Language site.Language }}
+                        <a href="{{ .Permalink }}" class="lang-link">{{ .Language.LanguageName }}</a>
+                    {{ else }}
+                        <span class="lang-link active">{{ .Language.LanguageName }}</span>
+                    {{ end }}
                 {{ end }}
-            {{ end }}
+            </div>
+
+            <button id="mobile-menu-toggle" class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span class="hamburger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </button>
         </div>
     </div>
+
+    <!-- Mobile Navigation Menu -->
+    <nav id="mobile-nav" class="mobile-nav">
+        <a href="{{ "/" | relLangURL }}" class="mobile-nav-link">{{ i18n "Home" }}</a>
+        <a href="{{ "/posts" | relLangURL }}" class="mobile-nav-link">{{ i18n "Posts" }}</a>
+        <a href="{{ "/podcasts" | relLangURL }}" class="mobile-nav-link">{{ i18n "Podcasts" }}</a>
+        <a href="{{ "/resources" | relLangURL }}" class="mobile-nav-link">{{ i18n "Resources" }}</a>
+    </nav>
 </header>
+
+<script>
+    // Mobile menu toggle
+    (function() {
+        const toggle = document.getElementById('mobile-menu-toggle');
+        const mobileNav = document.getElementById('mobile-nav');
+        const body = document.body;
+
+        if (toggle && mobileNav) {
+            toggle.addEventListener('click', function() {
+                const isExpanded = this.getAttribute('aria-expanded') === 'true';
+                this.setAttribute('aria-expanded', !isExpanded);
+                this.classList.toggle('active');
+                mobileNav.classList.toggle('active');
+                body.classList.toggle('mobile-menu-open');
+            });
+
+            // Close menu when clicking a link
+            const mobileLinks = mobileNav.querySelectorAll('.mobile-nav-link');
+            mobileLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    toggle.classList.remove('active');
+                    mobileNav.classList.remove('active');
+                    body.classList.remove('mobile-menu-open');
+                    toggle.setAttribute('aria-expanded', 'false');
+                });
+            });
+
+            // Close menu when clicking outside (only if menu is open)
+            document.addEventListener('click', function(event) {
+                const isMenuOpen = mobileNav.classList.contains('active');
+                if (isMenuOpen && !toggle.contains(event.target) && !mobileNav.contains(event.target)) {
+                    toggle.classList.remove('active');
+                    mobileNav.classList.remove('active');
+                    body.classList.remove('mobile-menu-open');
+                    toggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+        }
+    })();
+</script>
