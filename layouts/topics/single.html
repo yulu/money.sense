@@ -1,0 +1,80 @@
+{{ define "main" }}
+{{ $myData := (index site.Data site.Language.Lang) }}
+{{ $topicSlug := path.Base .RelPermalink }}
+
+<!-- Header -->
+{{ partial "header" }}
+
+<!-- Find matching topic from data -->
+{{ $currentTopic := dict }}
+{{ with $myData.topics }}
+    {{ range .topics }}
+        {{ if eq .name $topicSlug }}
+            {{ $currentTopic = . }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+
+<!-- Topic Page -->
+{{ with $currentTopic }}
+<section class="topic-page">
+    <div class="container container-wide">
+        <!-- Breadcrumb -->
+        <nav class="topic-breadcrumb">
+            <a href="{{ "/topics" | relLangURL }}" class="breadcrumb-link">
+                <i class="fas fa-arrow-left"></i> {{ i18n "Topics" }}
+            </a>
+        </nav>
+
+        <!-- Topic Header -->
+        <div class="topic-header">
+            <div class="topic-header-icon">
+                <i class="fas {{ .icon }}"></i>
+            </div>
+            <h1 class="topic-header-title">{{ .title }}</h1>
+            <p class="topic-header-description">{{ .description }}</p>
+        </div>
+
+        <!-- Articles List -->
+        <ul class="post-list">
+            {{ range .articles }}
+                {{ $page := site.GetPage .url }}
+                {{ if $page }}
+                    {{ $img := "" }}
+                    {{ with findRE "<img[^>]+src=\"([^\"]+)\"" $page.Content 1 }}
+                        {{ $img = index (findRE "src=\"([^\"]+)\"" (index . 0) 1) 0 | replaceRE "src=\"(.+)\"" "$1" }}
+                    {{ end }}
+                    <li class="post-list-item" {{ if $img }}style="background-image: url('{{ $img }}');"{{ end }}>
+                        <a href="{{ $page.Permalink }}" class="post-list-item-link">
+                            <div class="post-list-item-overlay"></div>
+                            <div class="post-list-item-content">
+                                <h3 class="post-list-item-title">
+                                    {{ $page.Title }}
+                                </h3>
+                                <div class="post-list-item-meta">
+                                    {{ $page.Date.Format "January 2, 2006" }}
+                                </div>
+                                {{ with $page.Params.addtags }}
+                                <div class="post-list-item-tags">
+                                    {{ range . }}
+                                    <span class="post-tag">{{ . }}</span>
+                                    {{ end }}
+                                </div>
+                                {{ end }}
+                                {{ with $page.Description }}
+                                <p class="post-list-item-description">{{ . }}</p>
+                                {{ end }}
+                            </div>
+                        </a>
+                    </li>
+                {{ end }}
+            {{ end }}
+        </ul>
+    </div>
+</section>
+{{ end }}
+
+<!-- Footer -->
+{{ partial "footer" }}
+
+{{ end }}

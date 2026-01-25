@@ -28,6 +28,9 @@ other = "首页"
 [Posts]
 other = "文章"
 
+[Topics]
+other = "专题"
+
 [Podcasts]
 other = "播客"
 

@@ -1,0 +1,38 @@
+title: "专题精选"
+subtitle: "探索相关内容的主题之旅"
+topics:
+  - name: "being-a-mom"
+    title: "新手妈妈"
+    description: "从医院账单到政府福利——新加坡育儿财务规划"
+    icon: "fa-baby-carriage"
+    image: "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?w=800&q=80"
+    articles:
+      - url: "cn/posts/birth-diary-at-kkh/"
+        title: "生产日记：KKH生产费用和体验"
+
+  - name: "newbie-investor"
+    title: "投资新手"
+    description: "用循证策略和实用指导开启你的投资之旅"
+    icon: "fa-seedling"
+    image: "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=800&q=80"
+    articles:
+      - url: "cn/posts/random-walk-of-investment-newbies/"
+        title: "投资新手的随机漫步"
+
+  - name: "home-buyer"
+    title: "购房指南"
+    description: "房产购买、装修预算和房地产投资决策导航"
+    icon: "fa-house-user"
+    image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80"
+    articles:
+      - url: "cn/posts/property-investment-for-retirement/"
+        title: "我是否应该将新加坡房产纳入投资组合"
+
+  - name: "tech-data-savvy"
+    title: "数据分析"
+    description: "用数据驱动分析和工具做出更明智的财务决策"
+    icon: "fa-chart-line"
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80"
+    articles:
+      - url: "cn/posts/ilp-exploration/"
+        title: "拆解一份投资连结保险计划(ILP)"

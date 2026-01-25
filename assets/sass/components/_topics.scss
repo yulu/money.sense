@@ -1,0 +1,204 @@
+// ========================================
+// Topics - Curated Collections
+// ========================================
+
+@use '../abstracts' as *;
+
+.topics-section {
+    padding: var(--spacing-3xl) 0;
+    background: var(--color-bg);
+}
+
+// Topics Grid - 2 Column Layout
+.topics-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-xl);
+
+    @include respond-to('md') {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-lg);
+    }
+}
+
+// Topic Card
+.topic-card {
+    position: relative;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border-light);
+    overflow: hidden;
+    transition: all var(--transition-base);
+
+    &:hover {
+        border-color: var(--color-border-dark);
+        box-shadow: var(--shadow-card-hover);
+        transform: translateY(-4px);
+
+        .topic-card-image {
+            transform: scale(1.08);
+        }
+
+        .topic-card-overlay {
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        .topic-card-icon {
+            transform: scale(1.1);
+        }
+
+        .topic-card-arrow {
+            transform: translateX(4px);
+        }
+    }
+}
+
+.topic-card-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+// Card Image with Centered Icon Overlay
+.topic-card-image-wrapper {
+    position: relative;
+    height: 240px;
+    overflow: hidden;
+}
+
+.topic-card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform var(--transition-slow);
+}
+
+.topic-card-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background var(--transition-base);
+}
+
+.topic-card-icon {
+    font-size: 3.5rem;
+    color: white;
+    opacity: 0.9;
+    transition: transform var(--transition-base);
+}
+
+// Card Content
+.topic-card-content {
+    padding: var(--spacing-lg);
+}
+
+.topic-card-title {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: var(--spacing-sm);
+    color: var(--color-text-primary);
+    letter-spacing: -0.01em;
+}
+
+.topic-card-description {
+    color: var(--color-text-light);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: var(--spacing-md);
+}
+
+.topic-card-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: var(--spacing-sm);
+    border-top: 1px solid var(--color-border-light);
+}
+
+.topic-card-count {
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+    font-weight: 500;
+}
+
+.topic-card-arrow {
+    color: var(--color-accent);
+    font-size: 0.9rem;
+    transition: transform var(--transition-fast);
+}
+
+// ========================================
+// Individual Topic Page
+// ========================================
+
+.topic-page {
+    padding: var(--spacing-2xl) 0;
+}
+
+// Breadcrumb Navigation
+.topic-breadcrumb {
+    margin-bottom: var(--spacing-xl);
+}
+
+.breadcrumb-link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    color: var(--color-text-secondary);
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color var(--transition-fast);
+
+    &:hover {
+        color: var(--color-accent);
+    }
+
+    i {
+        font-size: 0.8rem;
+    }
+}
+
+// Topic Header
+.topic-header {
+    text-align: center;
+    margin-bottom: var(--spacing-2xl);
+    padding-bottom: var(--spacing-xl);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.topic-header-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background: var(--color-wine-600);
+    color: white;
+    border-radius: 50%;
+    margin-bottom: var(--spacing-md);
+
+    i {
+        font-size: 2.5rem;
+    }
+}
+
+.topic-header-title {
+    font-family: var(--font-display);
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 400;
+    color: var(--color-text-primary);
+    letter-spacing: -0.02em;
+    margin-bottom: var(--spacing-sm);
+}
+
+.topic-header-description {
+    font-size: 1.1rem;
+    color: var(--color-text-light);
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}

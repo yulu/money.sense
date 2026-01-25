@@ -1,0 +1,38 @@
+title: "Curated Topics"
+subtitle: "Explore focused journeys through related content"
+topics:
+  - name: "being-a-mom"
+    title: "Being a Mom"
+    description: "From hospital bills to government benefits—financial planning for parenthood in Singapore"
+    icon: "fa-baby-carriage"
+    image: "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?w=800&q=80"
+    articles:
+      - url: "posts/birth-diary-at-kkh/"
+        title: "Birth Diary: Cost and Experience at KKH"
+
+  - name: "newbie-investor"
+    title: "Newbie Investor"
+    description: "Start your investment journey with evidence-based strategies and practical guidance"
+    icon: "fa-seedling"
+    image: "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=800&q=80"
+    articles:
+      - url: "posts/random-walk-of-investment-newbies/"
+        title: "Walk as a Investment Newbie"
+
+  - name: "home-buyer"
+    title: "Home Buyer"
+    description: "Navigate property purchase, renovation budgeting, and real estate investment decisions"
+    icon: "fa-house-user"
+    image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80"
+    articles:
+      - url: "posts/property-investment-for-retirement/"
+        title: "Should I Include Singapore Property in My Investment Portfolio"
+
+  - name: "tech-data-savvy"
+    title: "Tech & Data Savvy"
+    description: "Data-driven analysis and tools for smarter financial decisions"
+    icon: "fa-chart-line"
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80"
+    articles:
+      - url: "posts/ilp-exploration/"
+        title: "Dismantle one 101 Investment-Linked Plan (ILP)"
