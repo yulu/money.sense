@@ -8,6 +8,8 @@ website_resources:
   - name: "Renovation Quotation Analysis and Cost Comparision"
     url: "https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/renovation_journey/Renovation_Quotation_Comparison.xlsx"
     post: "/posts/money-story-renovation-journey/"
+  - name: "My Financial Planner (beta)"
+    url: "https://fire.littlecheesecake.me/"
 
 investment_platforms:
   - name: "Endowus"
