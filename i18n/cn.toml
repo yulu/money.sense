@@ -117,3 +117,18 @@ other = "探索专题"
 
 [ReadMore]
 other = "阅读更多内容"
+
+[Explore]
+other = "探索"
+
+[LegalAndConnect]
+other = "法律与联系"
+
+[PrivacyPolicy]
+other = "隐私政策"
+
+[About]
+other = "关于"
+
+[Contact]
+other = "联系"
