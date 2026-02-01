@@ -117,3 +117,18 @@ other = "Explore Topics"
 
 [ReadMore]
 other = "Read More"
+
+[Explore]
+other = "Explore"
+
+[LegalAndConnect]
+other = "Legal & Connect"
+
+[PrivacyPolicy]
+other = "Privacy Policy"
+
+[About]
+other = "About"
+
+[Contact]
+other = "Contact"
