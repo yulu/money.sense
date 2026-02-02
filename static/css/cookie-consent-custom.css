@@ -1,0 +1,62 @@
+/* Subtle cookie consent banner */
+#cc-main .cm {
+    padding: 0.6rem 1rem;
+    font-size: 0.8rem;
+}
+#cc-main .cm__desc {
+    padding: 0;
+    line-height: 1.4;
+}
+#cc-main .cm__title {
+    display: none;
+}
+#cc-main .cm__btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.7rem;
+    border-radius: 2px;
+    min-height: auto;
+}
+#cc-main .cm__btns {
+    gap: 0.4rem;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+}
+#cc-main .cm__texts {
+    padding: 0;
+}
+#cc-main .cm--bar .cm__body {
+    padding: 0;
+    gap: 1rem;
+}
+#cc-main .cc-link {
+    font-size: 0.75rem;
+}
+#cc-main .cm--bar.cm--bottom {
+    border-radius: 0;
+    box-shadow: 0 -1px 3px rgba(0,0,0,0.08);
+}
+#cc-main .cm--bar.cm--inline .cm__btns {
+    padding: 10px;
+}
+/* Muted colors */
+#cc-main {
+    --cc-bg: #fafafa;
+    --cc-primary-color: #555;
+    --cc-secondary-color: #999;
+    --cc-btn-primary-bg: #666;
+    --cc-btn-primary-hover-bg: #555;
+    --cc-btn-secondary-bg: #f0f0f0;
+    --cc-btn-secondary-color: #999;
+    --cc-btn-secondary-border-color: #ddd;
+    --cc-btn-secondary-hover-bg: #e5e5e5;
+}
+
+/* Decline button (second button) light style */
+#cc-main .cm__btn:last-child {
+    background-color: #e8e8e8 !important;
+    color: #888 !important;
+    border: 1px solid #ccc !important;
+}
+#cc-main .cm__btn:last-child:hover {
+    background-color: #ddd !important;
+}
