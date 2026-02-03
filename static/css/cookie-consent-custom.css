@@ -60,3 +60,56 @@
 #cc-main .cm__btn:last-child:hover {
     background-color: #ddd !important;
 }
+
+/* Mobile: optimize for small screens */
+@media (max-width: 640px) {
+    #cc-main .cm {
+        padding: 6px 8px !important;
+    }
+    #cc-main .cm__body {
+        flex-wrap: wrap !important;
+        gap: 5px !important;
+    }
+    #cc-main .cm__texts {
+        width: 100% !important;
+        flex: none !important;
+    }
+    #cc-main .cm__desc {
+        white-space: normal !important;
+        overflow: visible !important;
+        text-overflow: unset !important;
+        font-size: 10px !important;
+        line-height: 1.3 !important;
+    }
+    #cc-main .cm__btns {
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+        justify-content: space-between !important;
+        gap: 3px !important;
+        border-top: none !important;
+        padding-top: 0 !important;
+        margin-top: 0 !important;
+    }
+    /* Force button group to be horizontal */
+    #cc-main .cm__btn-group {
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+        gap: 3px !important;
+        flex: 2 1 auto !important;
+        border-top: none !important;
+    }
+    #cc-main .cm__btn {
+        flex: 1 1 auto !important;
+        font-size: 10px !important;
+        padding: 4px 2px !important;
+        text-align: center !important;
+        min-width: 0 !important;
+        max-width: none !important;
+    }
+    #cc-main .cm--inline .cm__btn+.cm__btn {
+        margin-top: 0 !important;
+    }
+}
