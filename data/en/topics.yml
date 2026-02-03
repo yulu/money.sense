@@ -53,6 +53,8 @@ topics:
         title: "Cope with Kawasaki Disease Financially and Invaluable Life Lessons"
       - url: "posts/singapore-insurance-for-kids/"
         title: "Insurance for Kids"
+      - url: "posts/teaching-five-year-olds-money"
+        title: "When I Started Giving My Five-Year-Old Five Dollars a Week"
 
   - name: "cancer-fighter-caregiver"
     title: "Cancer Fighter & Caregiver"
@@ -60,6 +62,8 @@ topics:
     icon: "fa-ribbon"
     image: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=800&q=80"
     articles:
+      - url: "posts/singapore-cancer-care-cost-insurance/"
+        title: "Navigating Cancer Care in Singapore: Public vs Private Hospitals, Costs, and Insurance Claims"
       - url: "posts/singapore-medical-concierge.md"
         title: "The Darkside of the Medical Concierge Service in Singapore"
 

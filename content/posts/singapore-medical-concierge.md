@@ -6,8 +6,8 @@ description: "A critical look at medical concierge services: conflicts of intere
 tags: 
 - Insurance
 addtags:
-- Opinions
 - MoneyStory
+- Opinions
 ---
 
 Sharing My Experience with Medical Concierge Services Recommended by Insurance Agents
