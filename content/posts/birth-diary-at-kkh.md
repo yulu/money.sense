@@ -51,6 +51,8 @@ Total cost: **$10,349.88** (mother: **$8,741.78**, baby: **$1,608.10**)
     <span class="image fit" style="max-width: 800px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/birth-diary/kkh-antenatl-delivery-total-cost.png" alt="" /></span>
 </div>
 
+{{< adsense >}}
+
 ### Why I Chose to Deliver at a Public Hospital
 
 #### 🏥 Demystifying Private Hospitals
