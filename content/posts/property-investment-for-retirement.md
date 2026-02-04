@@ -458,6 +458,7 @@ In addition to the down payment (which will be calculated later), additional upf
 | Agent Commissions       | Agent commission for property purchase                                               | 0, agent commission for condo is normally borne by Seller.  |
 | Miscellaneous Costs     | One time renovation and maintenance                                                  | 0, could be ignored and considered as operational cost  |
 
+{{< adsense >}}
 
 ### Operational Costs
 
@@ -743,6 +744,7 @@ If the upfront payment were invested in the stock market instead, we could expec
 | 1,500,000      | 979,627         | **3,687,439**             | 3,141,796      | 3,790,847      | 4,565,999      |
 | 1,600,000      | 1,039,809       | **3,933,269**             | 3,334,808      | 4,023,732      | 4,846,505      |
 
+{{< adsense >}}
 
 ## 🌱 Should I invest in Singapore property?
 

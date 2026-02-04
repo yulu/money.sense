@@ -42,6 +42,8 @@ Based on the priorities mentioned above, I created an insurance coverage matrix 
     <span class="image fit"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/family_insurance_plan/money_sense_insurance_coverage_matrix.png" alt="" /></span>
 </div>
 
+{{< adsense >}}
+
 I also maintain a list of all our insurance policies, allowing for quick access to policy details, payment deadlines, and more. The format of this table is based on my insurance agent's recommendation, as responsible agents should help clients manage their policies. I manage all the policies myself because our insurance configurations change over time and involve different insurance agents. I haven't found a single financial advisor under a commission-based system who can manage all my policies. However, this process of organizing and learning is a rewarding journey to me.
 
 <div>

@@ -69,6 +69,8 @@ Plan区分于上篇讨论的Full Retirement Sum，Enhanced Retirement Sum。前�
     <span class="image fit" style="max-width: 600px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/cpf-plans/cpf-life-plan-escalating-explain.png" alt="" /></span>
 </div>
 
+{{< adsense >}}
+
 #### 总结
 
 所以Basic和Standard/Escalating的本质区别在于：前者是留下大部分钱在65岁到90岁之间在个人退休账户里，自己慢慢花掉（CPF LIFE政策之前就是这个模式），而花小钱购买年金险应对长寿风险；后者则是全款购买65岁就可以开始领取终身的年金险。

@@ -42,6 +42,8 @@ addtags:
     <span class="image fit"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/family_insurance_plan/money_sense_insurance_coverage_matrix.png" alt="" /></span>
 </div>
 
+{{< adsense >}}
+
 另外一个表格我记录了家庭的所有保险细则，可以快速的查看保单细节，缴费时间等。这个表格的格式参考了我的保险经纪，负责的保险经纪应该为客户做保单管理。我自己做所有规划的原因是我的保险配置在不同时期调整，有不同的保险经纪管理，我没有找到佣金销售制度下单一理财顾问可以帮我管理所有保单的方案。不过这个整理和学习的过程让我受益匪浅。
 
 <div>

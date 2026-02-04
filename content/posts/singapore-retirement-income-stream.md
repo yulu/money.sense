@@ -128,6 +128,8 @@ This considers how much capital is required to start. All of the above are acces
 | Growth stock index   | Low entry threshold                                                       | 5     |
 | Property rental      | High threshold, may require leverage and good credit                      | 1     |
 
+{{< adsense >}}
+
 ### Summary
 
 If we apply weights to each category based on retirement needs (maintenance > stability > liquidity > return > threshold), each investment type gets a weighted score.

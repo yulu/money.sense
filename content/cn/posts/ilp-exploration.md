@@ -187,6 +187,8 @@ plt.show()
     <span class="image fit" style="max-width: 500px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/ilp_exploration/money_sense_ipl_comparison.png" alt="" /></span>
 </div>
 
+{{< adsense >}}
+
 ### 我的总结
 - 费用对资产的累积有很大的影响：**Cost** really **matters** a lot!
 
