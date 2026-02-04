@@ -59,6 +59,7 @@ After receiving multiple ID quotations, I conducted a detailed comparison. Since
     <iframe width="100%" height="700px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT11IZZCoLpapfWLcdFuk2ONczHxij8bHrGPsKqkZs7vvq6fI2wu-O9q3dNf9x9L5Tx3EvH6h8xOA8_/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 </div>
 
+{{< adsense >}}
 
 ### 👩🏻‍💼 Professional Service
 

@@ -188,6 +188,8 @@ plt.show()
     <span class="image fit" style="max-width: 500px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/ilp_exploration/money_sense_ipl_comparison.png" alt="" /></span>
 </div>
 
+{{< adsense >}}
+
 ### My Conclusion
 - Costs have a significant impact on asset accumulation: **Cost** really **matters** a lot!
 

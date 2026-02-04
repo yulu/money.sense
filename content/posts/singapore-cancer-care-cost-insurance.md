@@ -87,6 +87,8 @@ The table below summarizes the costs for surgery and subsequent treatment (2022 
 
 ![](https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/blog-post/cancer-treatment-cost/cancer-treatment-cost.png)
 
+{{< adsense >}}
+
 ## The Insurance Claims Process
 
 Because we did not use a panel doctor and my mother is a foreigner, e-filing was not an option. We had to pay all costs upfront and submit claims through the insurance agent afterward.

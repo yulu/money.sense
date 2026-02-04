@@ -35,3 +35,5 @@ Of course, Irish-domiciled ETFs have some disadvantages. First, trading commissi
 Currently, neither MooMoo nor Tiger Brokers supports LSE trading. FSMOne, a long-established local broker in Singapore, recently started supporting LSE trading, but its single-trade commissions are not competitive. However, they offer very low RSP (Regular Savings Plan) commissions, though the available LSE ETFs are still limited. Naturally, IBKR emerges as the best choice.
 
 Starting in early 2024, I began regularly investing in **CSPX** (S&P 500 Index) and **SWRD** (MSCI World Index) via IBKR. While IBKR's interface isn’t very user-friendly, once I set up monthly deposits and regular investments, I no longer need frequent operations. During my first transfer, I entered the wrong account information, but customer support responded promptly and resolved the issue quickly. So far, I’m satisfied with the experience.
+
+{{< adsense >}}
