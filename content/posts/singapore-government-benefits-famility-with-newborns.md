@@ -56,6 +56,8 @@ addtags:
     <span class="image fit" style="max-width: 600px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/gov-benefit-newborn-2025/benefit-newborn-4.png" alt="" /></span>
 </div>
 
+{{< adsense >}}
+
 ### 🏫 Preschool Subsidies
 
 - **Infant Care (2–18 months)**: Subsidies from $600 to $1,310/month

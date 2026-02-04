@@ -67,6 +67,8 @@ addtags:
     <span class="image fit" style="max-width: 600px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/gov-benefit-newborn-2025/benefit-newborn-5.png" alt="" /></span>
 </div>
 
+{{< adsense >}}
+
 ### 📑 个人所得税减免
 
 - WMCR: $8,000/$10,000/$12,000减税额（一胎/二胎/三胎+，每年）  
