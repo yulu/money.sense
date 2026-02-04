@@ -47,6 +47,8 @@ addtags:
     <span class="image fit" style="max-width: 800px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/birth-diary/kkh-antenatl-delivery-total-cost.png" alt="" /></span>
 </div>
 
+{{< adsense >}}
+
 ### 为什么选择公立医院生娃
 
 #### 🏥 对于私立医院祛魅
