@@ -23,8 +23,8 @@ items:
     articles:
       - title: 'My Approach to Family Insurance Planning'
         url: 'posts/family-insurance-planning/'
-      - title: 'Learn how to buy insurance from Singapore Government'
-        url: 'posts/singapore-insurance-how-gov-do/'
+      - title: "Navigating Cancer Care in Singapore: Insurance Coverage and Agent's Negligence"
+        url: 'posts/singapore-cancer-care-insurance-agent-negligence/'
     
   # feature item loop
   - name : "SavingAndInvestment"
