@@ -18,7 +18,7 @@ window.addEventListener('load', function() {
                 layout: 'bar inline',
                 position: 'bottom',
                 equalWeightButtons: true,
-                flipButtons: false
+                flipButtons: true
             },
             preferencesModal: {
                 layout: 'box'
