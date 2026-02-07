@@ -52,11 +52,6 @@
 }
 
 /* Decline button (second button) light style */
-#cc-main .cm__btn:last-child {
-    background-color: #e8e8e8 !important;
-    color: #888 !important;
-    border: 1px solid #ccc !important;
-}
 #cc-main .cm__btn:last-child:hover {
     background-color: #ddd !important;
 }
