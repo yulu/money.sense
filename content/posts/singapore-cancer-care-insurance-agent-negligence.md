@@ -3,7 +3,7 @@ title: "Navigating Cancer Care in Singapore: Insurance Coverage and Agent's Negl
 date: 2026-02-05 00:00:00
 tags:
   - Insurance
-description:
+description: "When my insurance agent gave incorrect information about cancer treatment coverage, I filed a formal complaint: the full timeline, escalation to MAS, and lessons learned about the insurance industry."
 addtags:
   - MoneyStory
 ---
