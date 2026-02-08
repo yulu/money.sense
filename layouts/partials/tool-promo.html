@@ -1,0 +1,31 @@
+<!-- Tool Promo Section -->
+{{ $compact := false }}
+{{ if reflect.IsMap . }}
+    {{ $compact = .compact }}
+{{ end }}
+<section class="tool-promo{{ if $compact }} tool-promo--compact{{ end }}">
+    <div class="tool-promo-inner">
+        <div class="tool-promo-content">
+            <span class="tool-promo-badge">Free Tool</span>
+            <h2 class="tool-promo-title">My Financial Planner</h2>
+            <p class="tool-promo-description">Track your portfolio, budget, and income flow with interactive visualizations. Plan your path to financial independence.</p>
+            <a href="https://fire.littlecheesecake.me" target="_blank" rel="noopener" class="tool-promo-button">
+                Try It Now
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17l9.2-9.2M17 17V7H7"/></svg>
+            </a>
+        </div>
+        <div class="tool-promo-images">
+            <div class="tool-promo-image-row">
+                <div class="tool-promo-image-card">
+                    <img src="{{ "images/fire-sample-1.png" | absURL }}" alt="Portfolio Preview">
+                </div>
+                <div class="tool-promo-image-card">
+                    <img src="{{ "images/fire-sample-2.png" | absURL }}" alt="Budget Preview">
+                </div>
+                <div class="tool-promo-image-card">
+                    <img src="{{ "images/fire-sample-3.png" | absURL }}" alt="Income Flow Planner">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

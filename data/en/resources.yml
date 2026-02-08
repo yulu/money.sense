@@ -10,6 +10,7 @@ website_resources:
     post: "/posts/money-story-renovation-journey/"
   - name: "My Financial Planner (web app beta version)"
     url: "https://fire.littlecheesecake.me/"
+    post: "/posts/confessions-my-financial-path/"
 
 investment_platforms:
   - name: "Endowus"
