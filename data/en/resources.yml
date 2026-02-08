@@ -1,15 +1,16 @@
 website_resources:
-  - name: "Insurance Matrix and Policy Record"
+  - name: "Insurance Matrix and Policy Record (excel template)"
     url: "https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/family_insurance_plan/Insurance+Coverage+Matrix.xlsx"
     post: "/posts/family-insurance-planning/"
-  - name: "Simple Family Income Tax Calculator"
+  - name: "Simple Family Income Tax Calculator (excel template, 2025)"
     url: "https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/personal-income-tax-calculator-family/Sample+Personal+Income+Tax+for+Familty+Calculator.xlsx"
     post: "/posts/singapore-personal-income-tax-calculator-family/"
-  - name: "Renovation Quotation Analysis and Cost Comparision"
+  - name: "Renovation Quotation Analysis and Cost Comparision (excel template)"
     url: "https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/renovation_journey/Renovation_Quotation_Comparison.xlsx"
     post: "/posts/money-story-renovation-journey/"
-  - name: "My Financial Planner (beta)"
+  - name: "My Financial Planner (web app beta version)"
     url: "https://fire.littlecheesecake.me/"
+    post: "/posts/confessions-my-financial-path/"
 
 investment_platforms:
   - name: "Endowus"

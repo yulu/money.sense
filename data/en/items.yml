@@ -13,8 +13,8 @@ items:
     articles:
       - title: 'Birth Diary: Cost and Experience at KKH'
         url: 'posts/birth-diary-at-kkh/'
-      - title: 'Female Invester'
-        url: 'posts/female-investor/'
+      - title: 'A Money Confession: How I Built My Personal Investing System'
+        url: 'posts/confessions-my-financial-path/'
 
   # feature item loop
   - name : "Insurance"
