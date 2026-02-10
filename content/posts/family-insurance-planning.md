@@ -58,6 +58,10 @@ My husband is an ISTJ, a workaholic, and has always believed that his career wil
 
 How much do these premiums cost? Excluding the portion covered by CPF, our monthly insurance expenses are around <strong>$1400</strong>. I haven't factored in the cash value of the whole life insurance, as I consider it a low-risk investment. Hospitalization insurance for our parents takes up a significant portion, but I believe it's necessary. For a small family of three, monthly insurance coverage of under <strong>$1000</strong> would be more than sufficient.
 
+> The Coverage Matrix was a genuine idea by myself and I love how it had helped me to clear my mind about family insurance planning. Maintaining the spreadsheet is tedious for me, so I move everything to a web app. Try the insurance planner [here](https://fire.littlecheesecake.me/#/insurance)
+
+{{< tool-promo >}}
+
 ### My Opinions
 
 Due to my personal experiences with care giving to family member in severe medical condition, my family is somewhat over-insured in terms of protection insurance, and some of our insurance configurations may not offer the best value for money. While it's rational to aim for 'minimal cost for adequate coverage' when it comes to insurance allocation, implementing it can be challenging. Here are some of the challenges I've identified:

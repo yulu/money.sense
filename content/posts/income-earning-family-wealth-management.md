@@ -81,6 +81,10 @@ Recording is the first step in planning. Knowing the specific numbers of income 
 
 By automating regular investments before spending, I ensure a savings rate. Fixed expenses are essential and difficult to reduce. If a major financial crisis requires a reduction in fixed expenses, it may involve significant lifestyle changes such as downgrading housing. However, basic expenses and flexible expenses can be controlled through moderate consumption downgrades, sacrificing some quality of life but not disrupting the current lifestyle abruptly. In actual life, because both my husband and I have relatively good spending habits (he is naturally frugal, and I am still working on this), we make rough estimates without meticulously tracking every cent.
 
+> I have been using spreadsheet to do budgeting and income distribution planning. Then I developed my own financial planner tool that can do the same thing with nicer and richer experience - [budgeting](https://fire.littlecheesecake.me/#/budget) and [income planner](https://fire.littlecheesecake.me/#/income-planner)
+
+{{< tool-promo >}}
+
 The Singapore government conducts surveys to present the [national household expenditure data](https://tablebuilder.singstat.gov.sg/table/CT/16629) every five years, which can be used to compare one's spending with the average. The last statistics were from 2017/18, adjusted for a high inflation rate of 3% annually. The new five-year statistics should be available soon for further reference. Note that housing expenses are excluded from the expenditure statistics. 
 
 It can be observed that as income increases, the proportion of spending decreases, leaving more money for investment and savings. Good spending habits, avoiding excessive upgrades and even engaging in occasional spending downgrades, are crucial for wealth accumulation.
