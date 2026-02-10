@@ -152,6 +152,41 @@ addtags:
 ---
 ```
 
+### Callouts / Admonitions
+
+Use GitHub-style alert syntax for styled callout boxes in posts:
+
+```markdown
+> [!note] Optional Title
+> Content goes here
+
+> [!tip] This is a tip
+> Helpful information
+
+> [!warning]
+> Warning without custom title
+```
+
+**Available Types:**
+| Type | Use Case | Color |
+|------|----------|-------|
+| `[!note]` | General notes, neutral information | Warm tan/beige |
+| `[!info]` | Informational content | Dusty purple |
+| `[!tip]` | Helpful tips and suggestions | Olive/sage green |
+| `[!idea]` | Ideas, lightbulb moments | Warm gold |
+| `[!question]` | Questions, things to consider | Dusty purple |
+| `[!warning]` | Warnings, cautions | Warm amber |
+| `[!caution]` | Proceed with care | Soft coral/rose |
+| `[!important]` | Important information | Wine (primary) |
+| `[!danger]` | Critical warnings | Deep wine red |
+| `[!failure]` | Errors, failures | Muted rose |
+| `[!bug]` | Bug reports, known issues | Dusty rose |
+| `[!example]` | Examples, demonstrations | Warm gray |
+| `[!quote]` | Quotations (no icon, minimal style) | Transparent with wine border |
+
+**Styling**: Defined in `assets/sass/components/_callouts.scss`
+**Render Hook**: `layouts/_default/_markup/render-blockquote-alert.html`
+
 ### Image Handling
 
 - Post images extracted from first `<img>` tag in content for list view backgrounds

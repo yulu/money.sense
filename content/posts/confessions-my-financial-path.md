@@ -14,7 +14,7 @@ addtags:
 
 Morgan Housel wrote in *The Psychology of Money*:
 
-> It can often be a mile-wide gap between what makes sense — which is what people suggest you do — and what feels right to them — which is what they actually do.
+> [!Quote] It can often be a mile-wide gap between what makes sense — which is what people suggest you do — and what feels right to them — which is what they actually do.
 
 So here's my money confession.
 
