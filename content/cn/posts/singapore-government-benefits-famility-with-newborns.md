@@ -44,6 +44,8 @@ addtags:
     <span class="image fit" style="max-width: 600px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/gov-benefit-newborn-2025/benefit-newborn-3.png" alt="" /></span>
 </div>
 
+{{< adsense >}}
+
 ### 🍼 产假与雇主薪水报销
 
 - 妈妈16周带薪产假：政府报销8周或16周（三胎及以上）薪水（上限$2,500/周） 
@@ -121,3 +123,5 @@ $300/月 → $60/月
 总额：$722 to 31,882
 
 ✅ 三胎及以上家庭Baby Bonus可覆盖全部费用，一二胎家庭则根据收入区间可支付全部或部分费用
+
+{{< adsense >}}

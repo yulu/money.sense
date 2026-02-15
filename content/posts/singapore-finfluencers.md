@@ -40,6 +40,7 @@ Her family insurance coverage is comprehensive: hospitalisation insurance, term 
 
 She believes in value investing: analyzing fundamentals and buying undervalued companies in the market for long-term holding. She has a relatively high risk tolerance and holds some cryptocurrency. In early 2025, she shared her latest investment milestone: reaching her goal of 1 million in investments (pure financial investments, excluding CPF and property). For a 35-year-old working mother of two with an average income (increased a lot over the years according to her transparent sharing), this is truly impressive.
 
+{{< adsense >}}
 
 ### 🔥 Investment Moats
 

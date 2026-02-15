@@ -9,6 +9,8 @@ addtags:
   - Opinions
 ---
 
+{{< audio src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/blog-post/year-end-financial-review-2025/year-end-review-2025.mp3" cover="" title="Listen to the podcast" description="My Financial Review 2025 - The Financial Habits That Paid Off" >}}
+
 As 2025 draws to a close, it’s a natural moment to look back on the year behind us and think ahead to what’s next. When it comes to personal finance, this annual reflection is more than a routine check-in—it’s a powerful habit that helps build long-term wealth and keeps life goals within reach.
 
 My investment approach is firmly rooted in passive investing. I don’t chase excess returns, so my performance largely mirrors the broader market. Because of that, any single year’s return—good or bad—doesn’t carry much meaning on its own.

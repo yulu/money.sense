@@ -42,6 +42,8 @@ There was also a parliamentary discussion on this topic in 2021. Although guidel
     <span class="image fit" style="max-width: 800px;"><img src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/singapore-medical-concierge/medical-concierge.png" alt="" /></span>
 </div>
 
+{{< adsense >}}
+
 ### Reference
 
 - [Today News - MOH to probe alleged insurance fraud involving physios, doctors and others](https://www.todayonline.com/singapore/moh-probe-alleged-insurance-fraud-involving-physios-doctors-and-others)
