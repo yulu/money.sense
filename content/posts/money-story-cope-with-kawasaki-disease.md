@@ -7,6 +7,7 @@ tags:
 - Insurance
 addtags:
 - MoneyStory
+- Podcast
 ---
 
 {{< audio src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/blog-post/money-story-cope-with-kawasaki-disease/kawasaki_v2.mp3" cover="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/money.sense/cope_with_kawasaki_disease/kawasaki_cover.jpg" title="Listen to the podcast" description="Cope with Kawasaki Disease Financially and Invaluable Life Lessons" >}}
