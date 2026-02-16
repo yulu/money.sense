@@ -7,7 +7,10 @@ tags:
 - MoneyPhilosophy
 addtags:
 - MoneyStory 
+- Podcast
 ---
+
+{{< audio src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/blog-post/teaching-five-year-olds-money/teaching-five-year-olds-money.mp3" cover="" title="Listen to the podcast" description="When I Started Giving My Five-Year-Old Five Dollars a Week" >}}
 
 Because my son is a total foodie—especially when it comes to snacks, he has zero resistance—I wanted to put a bit of a limit on how much he eats. One day I had a sudden idea: I decided to give him a fixed pocket money every week. He could only use that money to buy snacks, and once it was gone, no overspending.
 

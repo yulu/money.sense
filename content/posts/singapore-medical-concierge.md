@@ -8,7 +8,10 @@ tags:
 addtags:
 - MoneyStory
 - Opinions
+- Podcast
 ---
+
+{{< audio src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/blog-post/singapore-medical-concierge/singapore-medical-concierge.mp3" cover="" title="Listen to the podcast" description="The Darkside of the Medical Concierge Service in Singapore" >}}
 
 Sharing My Experience with Medical Concierge Services Recommended by Insurance Agents
 
