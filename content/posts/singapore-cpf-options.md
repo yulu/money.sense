@@ -1,5 +1,5 @@
 ---
-title: "CPF LIFE Plans Explained: FRS vs ERS and Which Plan Makes Sense"
+title: "CPF LIFE Explained: FRS vs ERS and Which Plan Makes Sense"
 date: 2026-02-18T21:12:45+08:00
 description: "A practical guide to choosing between CPF LIFE FRS and ERS, and comparing the Basic, Standard, and Escalating plans. Learn how your total asset size and estate planning needs should influence your retirement decisions."
 tags:
