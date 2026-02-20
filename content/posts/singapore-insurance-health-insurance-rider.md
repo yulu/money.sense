@@ -12,7 +12,7 @@ addtags:
 
 {{< toc >}}
 
-{{< audio src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/blog-post/singapore-insurance-health-insurance-rider/singapore-health-insurance-rider.mp3" cover="" title="Listen to the podcast" description="Singapore Integrated Shield Plan Rider Change: My Opinions" >}}
+{{< audio src="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/blog-post/singapore-insurance-health-insurance-rider/singapore-health-insurance-rider.mp3" cover="https://s3.ap-southeast-1.amazonaws.com/littlecheesecake.me/blog-post/singapore-insurance-health-insurance-rider/cover.jpg" title="Listen to the podcast" description="Singapore Integrated Shield Plan Rider Change: My Opinions" >}}
 
 I previously shared [some thoughts on a CNA podcast](/posts/medical_insurance_inflation/). The podcast was titled: Are generous health insurance policies inflating medical costs? The government’s recent reforms to IP rider regulations have given a clear answer to this question: Yes!
 
