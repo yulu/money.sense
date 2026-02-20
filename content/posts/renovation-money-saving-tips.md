@@ -1,5 +1,5 @@
 ---
-title: "Renovation Diary: Cut Costs by Ordering Designer Lights Overseas & Hacking into the Supply Chain of Wood Shutters"
+title: "Our Renovation Journey: Cut Costs by Ordering Designer Lights Overseas & Hacking into the Supply Chain of Wood Shutters"
 date: 2026-02-19T09:35:17+08:00
 description: ""
 tags:
@@ -17,7 +17,7 @@ The problem? Ordering locally meant waiting three months, and the price was pret
 
 At the time, an interior designer had recommended an overseas website that had it in stock. When he first sent me the link, there was a discount. But of course… by the time I checked again, the sale was over and it was back to full price. 🥲
 
-Then I remembered an Italian online store called mohd, where I had previously bought another lamp. When I contacted them before, I noticed they were using our company’s customer service software — which honestly made me trust them more. A design-focused store with good systems? I’m in. 😂
+Then I remembered an Italian online store called MOHD, where I had previously bought another lamp. When I contacted them before, I noticed they were using our company’s customer service software — which honestly made me trust them more. A design-focused store with good systems? I’m in. 😂
 
 The color I wanted wasn’t listed on their website, so I messaged customer service just to ask. To my surprise, they could special order it. And the quote they gave me was more than SGD 800 cheaper than other options I had seen. Even after adding shipping and taxes, it still worked out to over SGD 500 cheaper than buying locally — and the wait time was only about one month.
 
