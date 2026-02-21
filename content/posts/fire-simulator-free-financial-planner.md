@@ -6,7 +6,6 @@ tags:
   - MoneyPhilosophy
 addtags:
   - Tools
-  - MoneyStory
 ---
 
 {{< toc >}}
