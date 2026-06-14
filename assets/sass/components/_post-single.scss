@@ -555,3 +555,12 @@ mjx-container[display="true"] {
     padding-top: var(--spacing-2xl);
     border-top: 1px solid var(--color-border);
 }
+
+// Embedded widgets — full bleed on mobile
+.post-content iframe[id^="sgip-embed-"] {
+    @include respond-to('md') {
+        margin-left: calc(-1 * var(--spacing-md));
+        margin-right: calc(-1 * var(--spacing-md));
+        width: calc(100% + 2 * var(--spacing-md));
+    }
+}

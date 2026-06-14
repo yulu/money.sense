@@ -1,6 +1,7 @@
 ---
-title: "Singapore Integrated Shield Plans: A Practical Guide"
+title: "Singapore IP Insurance, Visualised: An Interactive Guide"
 date: 2026-06-13T00:00:00+08:00
+lastmod: 2026-06-14T00:00:00+08:00
 description: "Everything you need to know about Singapore's Integrated Shield Plans — how the layered system works, the 7 insurers, 4 coverage tiers, what riders cover, and the major regulatory reforms of 2019 and 2026."
 draft: true
 tags:
@@ -25,11 +26,17 @@ addtags:
 
 {{< toc >}}
 
-Singapore Citizens and Permanent Residents are all enrolled in MediShield Life — but most Singaporeans who want a choice of ward class or hospital go a step further with an Integrated Shield Plan (IP). This post breaks down how the system works, what the options are, and what recent regulatory changes mean for your coverage.
+> [!info] Last updated June 2026
+> Reflects the current IP insurance landscape, including the April 2026 rider regulation changes announced by MOH in November 2025.
 
----
+The first time I had to actually use my Integrated Shield Plan — not just renew it — I realised I didn't really understand it. I knew we had coverage. I didn't know what ward class it applied to, how much I'd owe after the deductible, or whether the rider I'd been paying for every year even mattered.
 
-## Singapore's Medical Insurance Structure
+Medical insurance is one of those things that feels urgent to sort out and easy to ignore until the day you actually need it. By the time you're sitting in a hospital ward, figuring out your policy is the last thing you want to be doing. You might reach for your insurance agent — but as I found out when navigating my mother's cancer treatment, agents don't always have the right answers, and sometimes give confidently wrong ones. I filed a formal complaint and escalated to MAS; [that story is here](/posts/singapore-cancer-care-insurance-agent-negligence/).
+
+This post is what I wish I had read earlier. Instead of a wall of text, I've put together a set of interactive tools that let you explore the system at your own pace — the layered structure, what each of the 7 insurers offers, how riders work, and what your real out-of-pocket looks like under different scenarios.
+
+
+### Singapore's Medical Insurance Structure
 
 Singapore's medical insurance operates in layers: **MediShield Life** (mandatory, covering Class B2/C wards at public hospitals) sits at the base, with an **IP** extending coverage to higher ward classes or private hospitals on top, and optional **riders** covering the remaining cost-sharing.
 
@@ -47,11 +54,10 @@ Singapore's medical insurance operates in layers: **MediShield Life** (mandatory
 > [!info] Source
 > [MediShield Life – How It Works](https://www.cpf.gov.sg/member/healthcare-financing/medishield-life), CPF Board
 
----
 
-## What Options Do We Have?
+### What Options Do We Have?
 
-### 4 Coverage Tiers
+#### 4 Coverage Tiers
 
 IPs are categorized by ward type, from the base Standard B1 tier up to private hospital coverage.
 
@@ -66,7 +72,7 @@ IPs are categorized by ward type, from the base Standard B1 tier up to private h
   id="sgip-embed-coverage-tiers"
 ></iframe>
 
-### 7 Approved Insurers
+#### 7 Approved Insurers
 
 MOH approves seven private insurers to offer IPs. The MediShield Life component is identical across all plans — the private insurer component, pricing, and terms vary.
 
@@ -84,9 +90,8 @@ MOH approves seven private insurers to offer IPs. The MediShield Life component 
 > [!warning] Think twice before switching insurers
 > If you've developed health conditions since your original IP was issued, switching may result in those conditions being excluded under the new policy.
 
----
 
-## What Do Riders Cover?
+### What Do Riders Cover?
 
 Riders are optional add-ons that cover the cost-sharing portions of your IP — the deductible and co-insurance — that you would otherwise pay out of pocket.
 
@@ -101,11 +106,28 @@ Riders are optional add-ons that cover the cost-sharing portions of your IP — 
   id="sgip-embed-riders-explained"
 ></iframe>
 
----
+Rider design has been shaped by two rounds of MOH regulation — in 2019 and again in 2026 — each time raising the cost-sharing floor to address rising premiums. I wrote about my personal take on these changes, including why I actually support them, in [Singapore Integrated Shield Plan Rider Change: My Opinions](/posts/singapore-insurance-health-insurance-rider/).
 
-## How Does Coverage Work?
+> [!tip] Interactive — explore how MOH rider regulations have evolved.
 
-When you submit a claim, the bill is split between you and your insurer based on your deductible and co-insurance amounts.
+<iframe
+  src="https://sgip.littlecheesecake.me/embed/rider-regulations"
+  width="100%"
+  height="500"
+  frameborder="0"
+  style="border:none;"
+  id="sgip-embed-rider-regulations"
+></iframe>
+
+> [!info] Sources
+> - [MOH: IP Rider Framework (2019)](https://www.moh.gov.sg/newsroom/integrated-shield-plan-rider-framework/)
+> - [MOH: New Requirements for IP Riders (Nov 2025)](https://www.moh.gov.sg/newsroom/new-requirements-for-integrated-shield-plan-riders-to-strengthen-sustainability-of-private-health-insurance-and-address-rising-healthcare-costs/)
+> - [MOH: New IP Riders](https://www.moh.gov.sg/newipriders/)
+
+
+### How Does Coverage Work?
+
+When you submit a claim, the bill is split between you and your insurer based on your deductible and co-insurance amounts. If you also have company group insurance, the claim order matters — your personal IP acts as the last payer. I went through this firsthand and wrote up [a practical guide on claim order here](/posts/singapore-hospitalization-insurance-order-of-claims/).
 
 > [!tip] Interactive — toggle between scenarios to compare out-of-pocket costs.
 
@@ -134,45 +156,5 @@ What exactly is covered depends on whether the treatment is inpatient or outpati
   id="sgip-embed-coverage-benefits"
 ></iframe>
 
----
 
-## Government Regulations
-
-Singapore's IP framework has evolved through two landmark regulatory reforms, each aimed at addressing unsustainable cost growth in the private healthcare market.
-
-### 2019: The 5% Co-Payment Mandate
-
-Before November 2019, popular "full riders" absorbed 100% of co-insurance above the deductible, leaving policyholders with zero out-of-pocket on covered bills. MOH identified this as a key driver of overconsumption — with no financial stake in the bill size, patients had little incentive to choose cost-appropriate care. IP premiums were rising 8–10% annually.
-
-From **1 November 2019**, all new IP riders must include at least **5% co-payment** on the co-insurance portion, capped at **$3,000 per policy year**.
-
-- Pre-November 2019 "full riders" are **grandfathered** — existing holders can continue renewing
-- These riders **cannot be newly purchased** after the cut-off
-
-> [!info] Source
-> [MOH: IP Rider Framework (2019)](https://www.moh.gov.sg/newsroom/integrated-shield-plan-rider-framework/)
-
-### 2026: Riders Can No Longer Cover the Deductible
-
-On **26 November 2025**, MOH announced the next phase of IP reform, effective **1 April 2026**.
-
-New IP riders are now required to **exclude the minimum IP deductible entirely**. The deductible — ranging from $1,500 to $3,500 per year depending on ward class — is now a mandatory out-of-pocket cost even with a rider. The co-payment cap is raised from $3,000 to $6,000 per year, and in exchange premiums for new riders are expected to be roughly **30% lower**.
-
-| | Pre-Nov 2019 riders | Nov 2019 – Mar 2026 riders | From Apr 2026 (new riders) |
-|---|:---:|:---:|:---:|
-| **Deductible** | Rider can cover | Rider can cover | Must pay yourself |
-| **Co-insurance** | Rider absorbs 100% | Min 5% (cap: $3,000/yr) | Min 5% (cap: $6,000/yr) |
-| **Expected premium** | Highest | Lower | ~30% lower than 2019-era |
-
-Insurers may continue selling old riders until 31 March 2026. Riders sold on or after 27 November 2025 must transition to the new design by the first renewal after **1 April 2028**.
-
-> [!important] MediSave can cover the deductible and co-payments
-> Both the minimum deductible and co-payments under new riders can be paid from MediSave, subject to prevailing withdrawal limits.
-
-> [!info] Sources
-> - [MOH: New Requirements for IP Riders (Nov 2025)](https://www.moh.gov.sg/newsroom/new-requirements-for-integrated-shield-plan-riders-to-strengthen-sustainability-of-private-health-insurance-and-address-rising-healthcare-costs/)
-> - [MOH: New IP Riders Information](https://www.moh.gov.sg/newipriders/)
-
----
-
-_Premium comparison and personal opinion sections coming soon._
+_This is part one of a two-part series on Singapore IP insurance. [Part two](/posts/singapore-ip-premium-comparison/) covers premium comparison across all 7 insurers and my personal take on choosing a plan._
