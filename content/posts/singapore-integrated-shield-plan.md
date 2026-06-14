@@ -38,9 +38,7 @@ This post is what I wish I had read earlier. Instead of a wall of text, I've put
 
 ### Singapore's Medical Insurance Structure
 
-Singapore's medical insurance operates in layers: **MediShield Life** (mandatory, covering Class B2/C wards at public hospitals) sits at the base, with an **IP** extending coverage to higher ward classes or private hospitals on top, and optional **riders** covering the remaining cost-sharing.
-
-> [!tip] Interactive — tap the layers to explore each component.
+Singapore's medical insurance operates in layers: **MediShield Life** (mandatory, covering Class B2/C wards at public hospitals) sits at the base, with an **IP** extending coverage to higher ward classes or private hospitals on top, and optional **riders** covering the remaining cost-sharing. *Tap the layers to explore.*
 
 <iframe
   src="https://sgip.littlecheesecake.me/embed/ip-pyramid"
@@ -51,17 +49,14 @@ Singapore's medical insurance operates in layers: **MediShield Life** (mandatory
   id="sgip-embed-ip-pyramid"
 ></iframe>
 
-> [!info] Source
-> [MediShield Life – How It Works](https://www.cpf.gov.sg/member/healthcare-financing/medishield-life), CPF Board
+*Source: [MediShield Life – How It Works](https://www.cpf.gov.sg/member/healthcare-financing/medishield-life), CPF Board*
 
 
 ### What Options Do We Have?
 
 #### 4 Coverage Tiers
 
-IPs are categorized by ward type, from the base Standard B1 tier up to private hospital coverage.
-
-> [!tip] Interactive — select a tier to see its coverage details.
+IPs are categorized by ward type, from the base Standard B1 tier up to private hospital coverage. *Select a tier to see its details.*
 
 <iframe
   src="https://sgip.littlecheesecake.me/embed/coverage-tiers"
@@ -74,9 +69,7 @@ IPs are categorized by ward type, from the base Standard B1 tier up to private h
 
 #### 7 Approved Insurers
 
-MOH approves seven private insurers to offer IPs. The MediShield Life component is identical across all plans — the private insurer component, pricing, and terms vary.
-
-> [!tip] Interactive — select an insurer to see their plans and riders.
+MOH approves seven private insurers to offer IPs. The MediShield Life component is identical across all plans — the private insurer component, pricing, and terms vary. *Select an insurer to see their plans and riders.*
 
 <iframe
   src="https://sgip.littlecheesecake.me/embed/insurers-overview"
@@ -93,9 +86,7 @@ MOH approves seven private insurers to offer IPs. The MediShield Life component 
 
 ### What Do Riders Cover?
 
-Riders are optional add-ons that cover the cost-sharing portions of your IP — the deductible and co-insurance — that you would otherwise pay out of pocket.
-
-> [!tip] Interactive — tap the rider types to see what each covers.
+Riders are optional add-ons that cover the cost-sharing portions of your IP — the deductible and co-insurance — that you would otherwise pay out of pocket. *Tap the rider types to see what each covers.*
 
 <iframe
   src="https://sgip.littlecheesecake.me/embed/riders-explained"
@@ -108,8 +99,6 @@ Riders are optional add-ons that cover the cost-sharing portions of your IP — 
 
 Rider design has been shaped by two rounds of MOH regulation — in 2019 and again in 2026 — each time raising the cost-sharing floor to address rising premiums. I wrote about my personal take on these changes, including why I actually support them, in [Singapore Integrated Shield Plan Rider Change: My Opinions](/posts/singapore-insurance-health-insurance-rider/).
 
-> [!tip] Interactive — explore how MOH rider regulations have evolved.
-
 <iframe
   src="https://sgip.littlecheesecake.me/embed/rider-regulations"
   width="100%"
@@ -119,17 +108,12 @@ Rider design has been shaped by two rounds of MOH regulation — in 2019 and aga
   id="sgip-embed-rider-regulations"
 ></iframe>
 
-> [!info] Sources
-> - [MOH: IP Rider Framework (2019)](https://www.moh.gov.sg/newsroom/integrated-shield-plan-rider-framework/)
-> - [MOH: New Requirements for IP Riders (Nov 2025)](https://www.moh.gov.sg/newsroom/new-requirements-for-integrated-shield-plan-riders-to-strengthen-sustainability-of-private-health-insurance-and-address-rising-healthcare-costs/)
-> - [MOH: New IP Riders](https://www.moh.gov.sg/newipriders/)
+*Sources: [MOH IP Rider Framework (2019)](https://www.moh.gov.sg/newsroom/integrated-shield-plan-rider-framework/) · [MOH New Requirements for IP Riders (Nov 2025)](https://www.moh.gov.sg/newsroom/new-requirements-for-integrated-shield-plan-riders-to-strengthen-sustainability-of-private-health-insurance-and-address-rising-healthcare-costs/) · [MOH New IP Riders](https://www.moh.gov.sg/newipriders/)*
 
 
 ### How Does Coverage Work?
 
-When you submit a claim, the bill is split between you and your insurer based on your deductible and co-insurance amounts. If you also have company group insurance, the claim order matters — your personal IP acts as the last payer. I went through this firsthand and wrote up [a practical guide on claim order here](/posts/singapore-hospitalization-insurance-order-of-claims/).
-
-> [!tip] Interactive — toggle between scenarios to compare out-of-pocket costs.
+When you submit a claim, the bill is split between you and your insurer based on your deductible and co-insurance amounts. If you also have company group insurance, the claim order matters — your personal IP acts as the last payer. I went through this firsthand and wrote up [a practical guide on claim order here](/posts/singapore-hospitalization-insurance-order-of-claims/). *Toggle between scenarios to compare out-of-pocket costs.*
 
 <iframe
   src="https://sgip.littlecheesecake.me/embed/coverage-explained"
@@ -143,9 +127,7 @@ When you submit a claim, the bill is split between you and your insurer based on
 > [!note] Deductible resets annually, not per admission
 > Multiple hospitalizations in the same policy year share one deductible — you only pay it once.
 
-What exactly is covered depends on whether the treatment is inpatient or outpatient — the benefit categories differ significantly.
-
-> [!tip] Interactive — switch between the Inpatient and Outpatient tabs to see what each covers.
+What exactly is covered depends on whether the treatment is inpatient or outpatient — the benefit categories differ significantly. *Switch between the tabs to explore.*
 
 <iframe
   src="https://sgip.littlecheesecake.me/embed/coverage-benefits"
