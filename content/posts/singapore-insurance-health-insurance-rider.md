@@ -70,6 +70,8 @@ Besides capping out-of-pocket costs for huge bills and greatly easing financial 
 
 I still think riders are important, mainly because of the introduction of the Cancer Drug List (CDL). As a family member of a cancer patient, I know how complex cancer treatment is. With chemotherapy, targeted therapy, and immunotherapy drugs, many late-stage cancer patients can maintain a good quality of life for years. Currently, only riders can reimburse non-CDL drugs. My family member has been receiving non-CDL treatment for some time, and through discussions with the doctor, I’ve learned more about cancer medications. One key issue is the government’s definition of the CDL: some new drugs are not included due to high prices or limited use, but for some tumors, these drugs are a perfect match. For late-stage cancer patients, these drugs are life-extending.
 
+{{< adsense >}}
+
 ### Negative impacts of the policy adjustment
 
 👉🏻 Strain on public healthcare resources
