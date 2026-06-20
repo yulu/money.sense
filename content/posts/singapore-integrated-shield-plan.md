@@ -58,7 +58,7 @@ Singapore's medical insurance operates in layers: **MediShield Life** (mandatory
 
 Singapore's hospital insurance is structured in three layers, each building on the one below.
 
-**MediShield Life** is the foundation — a compulsory government scheme run by the CPF Board covering every Singapore Citizen and Permanent Resident for life. It covers inpatient treatment at Class B2 and C ward rates in public hospitals, with a claim limit of $150,000 per year and no lifetime cap. Premiums are fully payable from MediSave.
+**MediShield Life** is the foundation — a compulsory government scheme run by the CPF Board covering every Singapore Citizen and Permanent Resident for life. It covers inpatient treatment at Class B2 and C ward rates in public hospitals, with a claim limit of $200,000 per year and no lifetime cap. Premiums are fully payable from MediSave.
 
 **Integrated Shield Plan (IP)** is a private insurance layer offered by seven MOH-approved insurers. It integrates MediShield Life into a single policy and extends coverage to higher ward classes — Public A, or Private Hospital — with policy year limits ranging from $200,000 to $2.5 million depending on the plan. IP premiums are partially payable from MediSave.
 
@@ -191,6 +191,8 @@ IP insurance covers more than just the hospital stay — benefits extend to pre-
 
 *[Open widget directly →](https://sgip.littlecheesecake.me/embed/coverage-benefits)*
 
+*Source: [Comparison of Integrated Shield Plans](https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/integrated-shield-plans/comparision-of-integrated-shield-plans/), MOH*
+
 #### Deductible and Co-Insurance
 
 When you submit a claim, the bill is split between you and your insurer based on your deductible and co-insurance amounts.
@@ -202,7 +204,7 @@ When you submit a claim, the bill is split between you and your insurer based on
 
 Before your insurer pays, two cost-sharing mechanisms apply to every inpatient claim:
 
-**Deductible** is the first amount you pay before insurance coverage begins — once per policy year, regardless of how many hospitalisations you have. The amount depends on ward class: $1,500 for B2/C wards, $2,000 for B1, and $3,500 for A ward or private hospital. If you're admitted twice in the same policy year, you only pay the deductible once.
+**Deductible** is the first amount you pay before insurance coverage begins — once per policy year, regardless of how many hospitalisations you have. The amount depends on ward class: $1,500 for Class C, $2,000 for Class B2, $2,500 for Class B1, and $3,500 for Class A or private hospital. If you're admitted twice in the same policy year, you only pay the deductible once.
 
 **Co-insurance** is the percentage of the remaining bill you share with your insurer after the deductible. The standard rate is 10% — your insurer pays 90%, you pay 10%. On a $50,000 bill with a $3,500 deductible, you'd pay $3,500 + 10% of $46,500 = $8,150 out of pocket before any rider.
 
@@ -260,7 +262,7 @@ There are three main types of IP riders:
 *[Open widget directly →](https://sgip.littlecheesecake.me/embed/riders-explained)*
 
 > [!note] Cancer coverage varies by insurer and tier
-> When I went through my family's IP policies to review their coverage, I noticed the differences in cancer benefits were more significant than I expected. Not all riders include enhanced cancer benefits by default — AIA's private-tier riders (e.g. Max VitalHealth Pro A) require a separate cancer care add-on (Max A Cancer Care Pro) for enhanced cancer drug coverage, unlike their public-tier riders which bundle it in. Income's legacy Deluxe and Classic Care riders covered Cancer Drug Treatment but not Cancer Drug Services, an exception among all 7 insurers; their newer Essential and Optima Care riders have since corrected this.
+> When I went through my family's IP policies to review their coverage, I noticed the differences in cancer benefits were more significant than I expected. Not all riders include enhanced cancer benefits by default — AIA's private-tier riders (e.g. Max VitalHealth Pro A) require a separate cancer care add-on (Cancer Care Pro) for enhanced cancer drug coverage, unlike their public-tier riders which bundle it in. Income's legacy Deluxe and Classic Care riders covered Cancer Drug Treatment but not Cancer Drug Services, an exception among all 7 insurers; their newer Essential and Optima Care riders have since corrected this.
 
 #### Rider Regulations
 
@@ -277,7 +279,7 @@ MOH has revised IP rider rules twice since 2019, progressively tightening cost-s
 
 **November 2019 – March 2026:** Riders could still cover the deductible, but a minimum 5% co-payment was required. For panel providers, the annual co-insurance exposure was capped at $3,000 per year.
 
-**From April 2026 (new riders):** Riders can no longer cover the deductible — you must pay it yourself, though MediSave can be used. The annual co-insurance cap for panel providers is raised to $6,000. Insurers estimate this redesign will lower new rider premiums by approximately 30% compared to 2019-era riders. Existing policyholders on pre-2026 riders must transition to the new design at their first renewal after 1 April 2028.
+**From April 2026 (new riders):** Riders can no longer cover the deductible — you must pay it yourself, though MediSave can be used. The minimum 5% co-payment requirement remains unchanged. The annual co-insurance cap for panel providers is raised to $6,000. MOH estimates new private hospital rider premiums will be approximately 30% lower than existing maximum-coverage riders. Policyholders who purchased old riders on or after 27 November 2025 must transition to the new design no later than their first renewal after 1 April 2028; for policyholders who held riders before that date, individual insurers determine the transition approach.
 
 </div>
 
@@ -297,7 +299,7 @@ MOH has revised IP rider rules twice since 2019, progressively tightening cost-s
 
 *Sources: [MOH New Requirements for IP Riders (Nov 2025)](https://www.moh.gov.sg/newsroom/new-requirements-for-integrated-shield-plan-riders-to-strengthen-sustainability-of-private-health-insurance-and-address-rising-healthcare-costs/) · [MOH New IP Riders](https://www.moh.gov.sg/newipriders/)*
 
-### Putting it All Together - How Much You Need to Pay?
+### Putting It All Together: How Much Will You Pay?
 
 Understanding each layer in isolation is useful — seeing them stack on a real bill is what makes the system click. The calculator below lets you select a bill size and choose whether you're using a **panel** or **non-panel** provider. It shows how the cost is split across your IP insurer and what you'll owe out of pocket.
 
@@ -306,7 +308,7 @@ Understanding each layer in isolation is useful — seeing them stack on a real 
 
 <div class="details-body">
 
-Under the pre-2026 regime, a comprehensive rider could eliminate nearly all out-of-pocket costs. From April 2026, that changes: you always pay the deductible yourself, plus at least 5% co-insurance. For small to mid-sized bills, this means a meaningful minimum out-of-pocket regardless of your rider. Riders now make the most difference on large bills — where the 5% co-insurance adds up — with the $6,000 annual cap providing the real catastrophic protection.
+Under the pre-2026 regime, a comprehensive rider could eliminate nearly all out-of-pocket costs. From April 2026, that changes: you always pay the deductible yourself, and even with a rider, a minimum 5% co-insurance applies on every claim. For small to mid-sized bills, this means a meaningful minimum out-of-pocket regardless of your rider. Riders now make the most difference on large bills — where the 5% co-insurance adds up — with the $6,000 annual cap on co-insurance for panel providers providing the real catastrophic protection.
 
 </div>
 
@@ -335,7 +337,7 @@ Now that you've read through the guide, head back to the quiz at the top and try
 
 - **MediShield Life is the floor, not the ceiling.** It covers public hospital B2/C ward bills — adequate for basic care, but limited if you want ward flexibility or private hospital access.
 - **The 7 insurers share the same MediShield Life base.** The differences that matter — pricing, rider options, cancer coverage structure, claims service — are all in the private insurer component.
-- **Riders reduce out-of-pocket costs but can't eliminate them.** From April 2026, riders cannot cover the deductible, and a minimum 5% co-insurance applies on every claim.
+- **Riders reduce out-of-pocket costs but can't eliminate them.** From April 2026, riders cannot cover the deductible, and a minimum 5% co-insurance applies on every claim, capped at $6,000 per year for panel providers.
 - **Panel vs non-panel affects more than just price.** Panel providers have agreed fee schedules with your insurer; non-panel bills are uncapped and often attract higher co-insurance rates.
 - **Switching gets harder as your health changes.** Pre-existing conditions at the time of a switch may be excluded under the new policy. Review your plan while you're still in good health.
 
@@ -379,7 +381,7 @@ Not necessarily. The right tier depends on your ward preference, budget, and oth
 <details>
 <summary>What changed in the 2026 rider regulation?</summary>
 
-From April 2026, all new IP riders must retain cost-sharing: riders can no longer waive the deductible, and a minimum 5% co-insurance applies per claim, with your out-of-pocket capped at $6,000. The intent is to reduce over-treatment and bring rider premiums down over time. I wrote about why I support this direction in [Singapore Integrated Shield Plan Rider Change: My Opinions](/posts/singapore-insurance-health-insurance-rider/).
+From April 2026, all new IP riders must retain cost-sharing: riders can no longer waive the deductible, and a minimum 5% co-insurance applies on every claim, with your annual co-insurance capped at $6,000 for panel providers. The intent is to reduce over-treatment and bring rider premiums down over time. I wrote about why I support this direction in [Singapore Integrated Shield Plan Rider Change: My Opinions](/posts/singapore-insurance-health-insurance-rider/).
 
 </details>
 
