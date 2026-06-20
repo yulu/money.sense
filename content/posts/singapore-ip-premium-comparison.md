@@ -65,9 +65,19 @@ The main policy premium is only part of the picture — rider costs can add sign
 
 TODO: Add 2–3 key insights on rider cost as a percentage of total premium, lifetime cost spread across insurers, and the impact of start age on lifetime cost.
 
-### Personal Opinions
+### Personal Experiences
 
 Numbers can tell you what's cheapest — they can't tell you what's right for your situation. Here are three decisions I've made for my own family, and the reasoning behind each.
+
+#### Setting Up My Newborn's IP
+
+When my son was born, I enrolled him in my company's group insurance immediately — our policy allows coverage from birth. About a month later (IP requires the child to be at least two weeks old), I added a personal IP.
+
+Before deciding, I compared across all 7 insurers. The full private hospital tier with a comprehensive rider runs above $1,000 annually even for a young child — more than I wanted to commit to given we already have company group insurance as a base. My focus shifted to private hospital coverage as the main plan, paired with a rider that covers the deductible for public hospital admissions — a "second tier" setup that keeps costs reasonable without dropping to public-only coverage.
+
+I ended up with AIA's private hospital plan and their Max A Value rider. GE and Prudential offer comparable configurations, and GE's pricing is slightly more competitive. I didn't go with GE — my experience with their claims process during previous admissions had been frustrating enough that I didn't want to repeat it. I also tried to find a reliable GE agent to see if that would change things; an experienced broker was honest with me that GE business offers limited ongoing commission, so proactive service is hard to count on.
+
+The Max A Value rider doesn't cover the deductible and carries a higher co-payment cap — a configuration I chose on its own merits, but one that turned out to closely match what MOH's 2026 rider regulation would later require of all new riders. I wrote about why I think that direction makes sense in [Singapore Integrated Shield Plan Rider Change: My Opinions](/posts/singapore-insurance-health-insurance-rider/).
 
 #### Downgrading My Dad's Rider
 
@@ -79,14 +89,6 @@ After Income's most recent premium revision, the rider price jumped significantl
 
 The broader lesson here is one I think about for my own retirement planning: if you want to maintain strong IP coverage into your 70s and 80s, you need to budget for premiums that will keep rising faster than inflation. It's not a small number.
 
-#### Setting Up My Newborn's IP
-
-When my son was born, I enrolled him in my company's group insurance immediately — our policy allows coverage from birth. About a month later (IP requires the child to be at least two weeks old), I added a personal IP.
-
-Before deciding, I compared across all 7 insurers. The full private hospital tier with a comprehensive rider runs above $1,000 annually even for a young child — more than I wanted to commit to given we already have company group insurance as a base. My focus shifted to private hospital coverage as the main plan, paired with a rider that covers the deductible for public hospital admissions — a "second tier" setup that keeps costs reasonable without dropping to public-only coverage.
-
-I ended up with AIA's private hospital plan and their Max A Value rider. GE and Prudential offer comparable configurations, and GE's pricing is slightly more competitive. I didn't go with GE — my experience with their claims process during previous admissions had been frustrating enough that I didn't want to repeat it. I also tried to find a reliable GE agent to see if that would change things; an experienced broker was honest with me that GE business offers limited ongoing commission, so proactive service is hard to count on.
-
 #### Switching My Husband's Insurer
 
 I originally chose Income for my husband's IP partly because their main policy pricing was competitive and the overall value looked strong at the time. Since then, Income's rider pricing has risen sharply — enough that the combination no longer looks like good value.
@@ -94,6 +96,12 @@ I originally chose Income for my husband's IP partly because their main policy p
 The window to switch insurers without health underwriting risk closes when conditions develop. My husband is healthy with no pre-existing conditions, so we still have that option. When I was sorting out our son's IP, I took the opportunity to switch my husband to the same configuration — AIA private hospital plan with the Max A Value rider. Same insurer, same setup, easier to manage.
 
 The takeaway is simple: if you're healthy and your current plan's value has deteriorated — whether from premium increases, product changes, or rider restructuring — it's worth reviewing while you still can.
+
+### Final Thoughts
+
+These three cases span the most common inflection points in managing IP insurance across a family: setting up a new policy from scratch, adjusting coverage when premiums outpace value, and switching while you still can. What the premium charts can't show is the friction behind the numbers — the claims experience that erodes trust in an insurer, the agent incentive structures that affect how much service you actually get, the cost ceiling that shifts when your circumstances change.
+
+The data is a useful starting point. The real work is knowing your own situation — your other coverage, your family's health history, your retirement cashflow — and making decisions before your options narrow.
 
 ---
 
