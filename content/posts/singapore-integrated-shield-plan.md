@@ -5,7 +5,6 @@ lastmod: 2026-06-20T00:00:00+08:00
 description: "Everything you need to know about Singapore's Integrated Shield Plans — how the layered system works, the 7 insurers, 4 coverage tiers, what riders cover, and the major regulatory reforms of 2019 and 2026."
 series: "Singapore IP Insurance"
 series_order: 1
-draft: true
 tags:
   - Insurance
 addtags:

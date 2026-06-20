@@ -1,5 +1,5 @@
 ---
-title: Insurance coverage for cancer treatment in Singapoe
+title: Insurance coverage for cancer treatment in Singapore
 date: 2026-02-07T09:40:55+08:00
 description: "How to structure insurance coverage for cancer treatment in Singapore: comparing MediShield Life, IP main plans, riders, and critical illness insurance for CDL and non-CDL drug coverage."
 tags:
