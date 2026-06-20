@@ -285,6 +285,10 @@
         letter-spacing: -0.01em;
     }
 
+    h4 {
+        margin-top: var(--spacing-lg);
+    }
+
     h2 {
         font-size: 1.75rem;
         font-weight: 500;
@@ -446,6 +450,47 @@
         height: 1px;
         background: var(--color-border);
         margin: var(--spacing-2xl) 0;
+    }
+
+    details {
+        margin: var(--spacing-md) 0;
+
+        > summary {
+            cursor: pointer;
+        }
+
+        .details-body {
+            background: var(--color-bg-alt);
+            border-left: 3px solid var(--color-border-dark);
+            padding: var(--spacing-sm) var(--spacing-md);
+            margin-top: var(--spacing-sm);
+            font-family: var(--font-sans);
+            font-size: 0.92rem;
+            line-height: 1.7;
+            color: var(--color-text-secondary);
+
+            @include respond-to('md') {
+                padding: var(--spacing-xs) var(--spacing-sm);
+                font-size: 0.88rem;
+            }
+
+            p {
+                margin-bottom: var(--spacing-xs);
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+
+            ul, ol {
+                margin: var(--spacing-xs) 0;
+                padding-left: var(--spacing-md);
+            }
+
+            strong {
+                color: var(--color-text-primary);
+            }
+        }
     }
 }
 
