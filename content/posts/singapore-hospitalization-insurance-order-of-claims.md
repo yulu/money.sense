@@ -71,6 +71,8 @@ One more point in AIA’s favor (both my personal and company insurance are with
 
 ### Comparison: Company Insurance First vs Personal Insurance First
 
+{{< adsense >}}
+
 | | **Claim Company Insurance First** | **Claim Personal Insurance First (then recover)** |
 |---|---|---|
 | **Convenience** | ❌ More cumbersome, need to coordinate with HR/company | ✅ Hospitals auto e-file for citizens/PRs, no cash outlay |

@@ -26,6 +26,8 @@ After refusing to settle privately, my husband continued to follow up with the i
 
 I then suggested that he file a complaint with [FIDReC](https://www.fidrec.com.sg/). He submitted the materials online and discussed the details with the case manager via email. The case manager then contacted the insurance company, and surprisingly, they responded immediately by refunding the premium but refused to admit any wrongdoing on their part. They portrayed the refund as a goodwill gesture and demanded that further discussion on the matter cease. One could interpret this as the insurance company seeking a private resolution. Given my husband's personality, I was already surprised that he invested so much energy into the complaint, and at this point, he compromised. Even for the compensation refund, the insurance company continued to delay, citing system issues (they previously blamed the double coverage on system faults - is their system so unstable?). My husband had to push for a resolution through the case manager again and finally got the issue resolved.
 
+{{< adsense >}}
+
 So, the question remains: if the insurance agent made an error in filling out the policy, who should bear the responsibility? Was it negligence on the part of the insurance agent? After all, the client did sign and confirm the policy (even if they didn't read the details). I still don't have an answer to this question.
 
 Some personal opinions:
