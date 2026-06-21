@@ -87,7 +87,7 @@ Singapore's hospital insurance is structured in three layers, each building on t
 
 #### 4 Coverage Tiers
 
-IPs are categorized by ward type, from the base Standard B1 tier up to private hospital coverage.
+IPs are categorized by ward type, from the entry-level Standard B1 tier through to private hospital coverage.
 
 <details>
 <summary><em>Expand to read more, or interact with the widget below — select a tier to see its details.</em></summary>
@@ -96,9 +96,11 @@ IPs are categorized by ward type, from the base Standard B1 tier up to private h
 
 MOH defines four coverage tiers for Integrated Shield Plans:
 
-**Standard B1** covers subsidised Class B1 wards in public hospitals. Benefits are identical across all seven insurers — MOH mandates the coverage structure. Only premiums differ between insurers at this tier.
+**Standard B1** is the entry-level tier, covering Class B1 wards in public hospitals. Benefits are identical across all seven insurers — MOH mandates the coverage structure. Only premiums differ between insurers at this tier.
 
-**Public A** covers Class A wards in public hospitals (single-bedded, air-conditioned), with your choice of specialist. Policy year limits are significantly higher than Standard B1, and many plans offer "As Charged" benefits with no sub-limits on surgical fees.
+**Class B1** covers the same Class B1 wards but with higher policy year limits and typically "As Charged" benefits with no sub-limits on surgical fees. Unlike Standard B1, coverage terms and premiums vary between insurers. This tier suits those who want more headroom than the standardized plan without stepping up to a Class A plan.
+
+**Public A** covers Class A wards in public hospitals (single-bedded, air-conditioned), with your choice of specialist. Policy year limits are significantly higher than B1 plans, and most plans offer "As Charged" benefits across all benefit categories.
 
 **Private Hospital** is the highest tier, covering private hospital rooms and unrestricted specialist choice. Most plans at this tier are "As Charged" across all benefit categories, with policy year limits typically between $1 million and $2.5 million.
 
