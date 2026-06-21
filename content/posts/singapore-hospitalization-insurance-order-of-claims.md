@@ -11,6 +11,9 @@ addtags:
 
 {{< toc >}}
 
+> [!tip] Not sure how personal IP hospital insurance works?
+> Before diving into claim order, it helps to understand the three-layer system — MediShield Life, your IP plan, and riders. [Singapore Medical Insurance Explained](/posts/singapore-integrated-shield-plan/) covers all of it interactively.
+
 ### Do You Still Need Personal Hospital Insurance If You Have Company Coverage?
 
 As a hardcore risk-averse person, I’ve definitely made sure my family is fully covered. I’ve shared [this story](/posts/money-story-cope-with-kawasaki-disease/) before about kids’ insurance: after I got laid off and lost the company-provided hospital coverage for my family, my FA strongly suggested I get hospital insurance for my son ASAP. Forty-five days after the policy kicked in, he was hospitalized for his second bout of Kawasaki disease. 

@@ -13,7 +13,7 @@ I’m not a professional, but I take [insurance planning for my family](/posts/f
 
 ### 🐒 Must-have: Hospitalisation Insurance
 
-Having accompanied multiple family members through hospital stays, and having personally experienced being laid off, I deeply understand how essential basic hospitalisation coverage is. I’ve shared many stories before, so I won’t repeat them here.
+Having accompanied multiple family members through hospital stays, and having personally experienced being laid off, I deeply understand how essential basic hospitalisation coverage is. I’ve shared many stories before, so I won’t repeat them here. If you want to understand how Singapore’s IP insurance system works — MediShield Life as the base, IP plans by ward tier, and riders on top — I’ve written [a full interactive guide](/posts/singapore-integrated-shield-plan/) that covers it all.
 
 ### 🐵 Strongly recommended: Critical Illness Insurance
 

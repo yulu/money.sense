@@ -21,7 +21,7 @@ MediShield Life mainly covers cancer treatment costs in B2 and C wards of public
 
 ### IP Hospitalisation Plan (Main Plan) Cancer Treatment Coverage
 
-The main plan of an IP hospitalisation plan (Integrated Shield Plan) allows you to choose higher-class wards in public hospitals or even private hospitals, with higher reimbursement limits. If your treatment and medication are on the CDL, the main IP plan’s coverage is usually sufficient.
+The main plan of an IP hospitalisation plan (Integrated Shield Plan) allows you to choose higher-class wards in public hospitals or even private hospitals, with higher reimbursement limits. If your treatment and medication are on the CDL, the main IP plan’s coverage is usually sufficient. (Unfamiliar with how IPs work? [This guide](/posts/singapore-integrated-shield-plan/) covers the full system — MediShield Life, IP tiers, and rider structure.)
 
 However, like MediShield Life, the main IP plan cannot cover cancer drugs outside the CDL. If your treatment requires non-CDL drugs, you’ll still need to bear those costs yourself.
 

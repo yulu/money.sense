@@ -16,6 +16,9 @@ addtags:
 
 I previously shared [some thoughts on a CNA podcast](/posts/medical_insurance_inflation/). The podcast was titled: Are generous health insurance policies inflating medical costs? The government’s recent reforms to IP rider regulations have given a clear answer to this question: Yes!
 
+> [!info] New to Singapore IP insurance?
+> This post focuses on my opinions about the 2026 rider regulation changes. If you’d like a full primer on how MediShield Life, IPs, and riders fit together first, check out [Singapore Medical Insurance Explained: An Interactive Guide](/posts/singapore-integrated-shield-plan/).
+
 ### What has changed in the new policy?
 
 The new IP Rider policy stipulates:
