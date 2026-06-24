@@ -10,6 +10,9 @@ website_resources:
     post: "/cn/posts/money-story-renovation-journey/"
   - name: "我的理财规划工具 (web 应用测试版)"
     url: "https://fire.littlecheesecake.me/"
+  - name: "新加坡综合健保计划互动指南 (web 应用)"
+    url: "https://sgip.littlecheesecake.me/"
+    post: "/posts/singapore-integrated-shield-plan/"
 
 investment_platforms:
   - name: "Endowus"

@@ -11,6 +11,9 @@ website_resources:
   - name: "My Financial Planner (web app beta version)"
     url: "https://fire.littlecheesecake.me/"
     post: "/posts/confessions-my-financial-path/"
+  - name: "Singapore Integrated Shield Plan Interactive Guide (web app)"
+    url: "https://sgip.littlecheesecake.me/"
+    post: "/posts/singapore-integrated-shield-plan/"
 
 investment_platforms:
   - name: "Endowus"

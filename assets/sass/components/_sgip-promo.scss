@@ -8,34 +8,37 @@
 .sgip-promo {
     position: relative;
     overflow: hidden;
+    background: #4a1830;
     border-top: 1px solid rgba(255, 255, 255, 0.04);
     border-bottom: 1px solid rgba(26, 26, 26, 0.08);
+    min-height: 240px;
 
-    // Dark wine gradient overlay (sits above bg image)
+    // Left-to-right overlay: opaque on text side, transparent on image side
     &::after {
         content: '';
         position: absolute;
         inset: 0;
         z-index: 1;
         background: linear-gradient(
-            160deg,
-            rgba(45, 26, 34, 0.97) 0%,
-            rgba(61, 20, 40, 0.93) 55%,
-            rgba(45, 26, 34, 0.88) 100%
+            to right,
+            rgba(50, 15, 30, 0.95) 0%,
+            rgba(50, 15, 30, 0.88) 45%,
+            rgba(50, 15, 30, 0.10) 100%
         );
         pointer-events: none;
     }
 }
 
-// Screenshot background image
+// Pyramid background image — screen blend so pyramid glows on dark bg
 .sgip-promo-bg {
     position: absolute;
     inset: 0;
     z-index: 0;
-    background-size: cover;
-    background-position: center top;
-    opacity: 0.22;
-    filter: grayscale(20%);
+    background-size: auto 160%;
+    background-position: 85% center;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    mix-blend-mode: screen;
     transition: transform 6s ease;
 
     .sgip-promo:hover & {
@@ -117,22 +120,15 @@
     margin: 0;
 }
 
-// CTA button group — stacked column on desktop, row on mobile
+// CTA button group — row on all sizes
 .sgip-promo-ctas {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 0.65rem;
     flex-shrink: 0;
-    min-width: 160px;
-
-    @media (max-width: $breakpoint-md) {
-        flex-direction: row;
-        min-width: unset;
-        width: 100%;
-    }
 }
 
-// Shared button base
+// Shared button base — matches .tool-promo-button size exactly
 .sgip-promo-btn {
     display: inline-flex;
     align-items: center;
@@ -158,12 +154,6 @@
 
     &:hover svg {
         transform: translate(2px, -2px);
-    }
-
-    @media (max-width: $breakpoint-md) {
-        flex: 1;
-        font-size: 0.75rem;
-        padding: 0.5rem 0.75rem;
     }
 }
 

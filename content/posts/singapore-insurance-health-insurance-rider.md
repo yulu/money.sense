@@ -16,9 +16,6 @@ addtags:
 
 I previously shared [some thoughts on a CNA podcast](/posts/medical_insurance_inflation/). The podcast was titled: Are generous health insurance policies inflating medical costs? The government’s recent reforms to IP rider regulations have given a clear answer to this question: Yes!
 
-> [!info] New to Singapore IP insurance?
-> This post focuses on my opinions about the 2026 rider regulation changes. If you’d like a full primer on how MediShield Life, IPs, and riders fit together first, check out [Singapore Medical Insurance Explained: An Interactive Guide](/posts/singapore-integrated-shield-plan/).
-
 ### What has changed in the new policy?
 
 The new IP Rider policy stipulates:
@@ -98,3 +95,5 @@ Many of these points were discussed in the October CNA podcast: [More isn’t ne
 Under the new policy, personal out-of-pocket costs have increased, but rider prices have dropped and become more manageable. The real effect is that consumers pay more for small medical expenses, unnecessary tests and overtreatment are curbed, and rider premiums become more affordable, allowing more people to buy riders to cover rare but major illnesses. Insurance is used more rationally, which actually benefits consumers.
 
 Minister for Health, Ong Ye Kung, also shared his own health insurance. He said he bought a rider when he was young, and now, in his early 50s, his rider premium has exceeded $2,000. He hopes to keep his rider but downgrade to one that doesn’t cover the deductible, but unfortunately, his insurer doesn’t offer this option (it’s hard to switch insurers for hospital insurance at an older age). Just a month after the podcast, the policy was announced, and all insurers must now offer such rider products—so the Minister’s problem is solved.
+
+{{< sgip-promo >}}
