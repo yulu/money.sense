@@ -15,3 +15,4 @@ hugo.linux
 .idea/
 .gstack/
 .playwright-mcp/
+.superpowers/

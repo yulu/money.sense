@@ -394,3 +394,4 @@ The MediShield Life component is identical, but the private insurer determines y
 
 </details>
 
+{{< sgip-promo >}}
