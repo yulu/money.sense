@@ -31,6 +31,7 @@
                 {{ with findRE "<img[^>]+src=\"([^\"]+)\"" .Content 1 }}
                     {{ $img = index (findRE "src=\"([^\"]+)\"" (index . 0) 1) 0 | replaceRE "src=\"(.+)\"" "$1" }}
                 {{ end }}
+                {{ if not $img }}{{ with .Params.image }}{{ $img = . }}{{ end }}{{ end }}
                 <li class="post-list-item" {{ if $img }}style="background-image: url('{{ $img }}');"{{ end }}>
                     <a href="{{ .Permalink }}" class="post-list-item-link">
                         <div class="post-list-item-overlay"></div>
@@ -68,6 +69,7 @@
                 {{ with findRE "<img[^>]+src=\"([^\"]+)\"" .Content 1 }}
                     {{ $img = index (findRE "src=\"([^\"]+)\"" (index . 0) 1) 0 | replaceRE "src=\"(.+)\"" "$1" }}
                 {{ end }}
+                {{ if not $img }}{{ with .Params.image }}{{ $img = . }}{{ end }}{{ end }}
                 <li class="post-list-item" {{ if $img }}style="background-image: url('{{ $img }}');"{{ end }}>
                     <a href="{{ .Permalink }}" class="post-list-item-link">
                         <div class="post-list-item-overlay"></div>
@@ -105,6 +107,7 @@
                 {{ with findRE "<img[^>]+src=\"([^\"]+)\"" .Content 1 }}
                     {{ $img = index (findRE "src=\"([^\"]+)\"" (index . 0) 1) 0 | replaceRE "src=\"(.+)\"" "$1" }}
                 {{ end }}
+                {{ if not $img }}{{ with .Params.image }}{{ $img = . }}{{ end }}{{ end }}
                 <li class="post-list-item" {{ if $img }}style="background-image: url('{{ $img }}');"{{ end }}>
                     <a href="{{ .Permalink }}" class="post-list-item-link">
                         <div class="post-list-item-overlay"></div>
@@ -142,6 +145,7 @@
                 {{ with findRE "<img[^>]+src=\"([^\"]+)\"" .Content 1 }}
                     {{ $img = index (findRE "src=\"([^\"]+)\"" (index . 0) 1) 0 | replaceRE "src=\"(.+)\"" "$1" }}
                 {{ end }}
+                {{ if not $img }}{{ with .Params.image }}{{ $img = . }}{{ end }}{{ end }}
                 <li class="post-list-item" {{ if $img }}style="background-image: url('{{ $img }}');"{{ end }}>
                     <a href="{{ .Permalink }}" class="post-list-item-link">
                         <div class="post-list-item-overlay"></div>
@@ -179,6 +183,7 @@
                 {{ with findRE "<img[^>]+src=\"([^\"]+)\"" .Content 1 }}
                     {{ $img = index (findRE "src=\"([^\"]+)\"" (index . 0) 1) 0 | replaceRE "src=\"(.+)\"" "$1" }}
                 {{ end }}
+                {{ if not $img }}{{ with .Params.image }}{{ $img = . }}{{ end }}{{ end }}
                 <li class="post-list-item" {{ if $img }}style="background-image: url('{{ $img }}');"{{ end }}>
                     <a href="{{ .Permalink }}" class="post-list-item-link">
                         <div class="post-list-item-overlay"></div>
