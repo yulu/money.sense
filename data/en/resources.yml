@@ -60,6 +60,12 @@ books:
     url: "https://www.goodreads.com/book/show/10454418-the-most-important-thing"
   - title: "Worth It: Your Life, Your Money, Your Terms"
     url: "https://www.goodreads.com/book/show/40121313-worth-it"
+  - title: "The Simple Path to Wealth"
+    url: "https://www.goodreads.com/en/book/show/30646587-the-simple-path-to-wealth"
+  - title: "Just Keep Buying"
+    url: "https://www.goodreads.com/book/show/59046778-just-keep-buying"
+  - title: "The Wealth Ladder"
+    url: "https://www.goodreads.com/book/show/220687901-the-wealth-ladder"
 
 courses:
   - title: "Financial Markets by Yale"
