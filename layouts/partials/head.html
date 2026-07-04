@@ -114,16 +114,34 @@
     {{ end }}
     <link rel="stylesheet" href="{{ $style.Permalink }}"{{ if hugo.IsProduction }} integrity="{{ $style.Data.Integrity }}"{{ end }}>
 
+    <!-- GA Consent Mode v2: set defaults before GTM loads -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('consent', 'default', {
+            'analytics_storage': 'denied',
+            'ad_storage': 'denied',
+            'ad_user_data': 'denied',
+            'ad_personalization': 'denied',
+            'wait_for_update': 500
+        });
+    </script>
+
+    <!-- Google Tag Manager -->
+    {{ if hugo.IsProduction }}
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PB2VMZMH');</script>
+    {{ end }}
+    <!-- End Google Tag Manager -->
+
     <!-- Cookie Consent -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css">
     <link rel="stylesheet" href="{{ "css/cookie-consent-custom.css" | absURL }}">
     <script defer src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.umd.js"></script>
     <script defer src="{{ "js/cookie-consent.js" | absURL }}"></script>
-
-	<!--Google Adsense-->
-	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8770339516304342"
-     crossorigin="anonymous"></script>
-	<!-- End Google Adsense -->
 
     <!-- MathJax -->
     {{ if or .Params.math .Site.Params.math }}
@@ -146,8 +164,7 @@
     {{ end }}
 
     <!-- Google AdSense -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8770339516304342"
-         crossorigin="anonymous"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8770339516304342" crossorigin="anonymous"></script>
 
     <!-- Structured Data (JSON-LD) -->
     {{ partial "structured-data.html" . }}
