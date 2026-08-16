@@ -109,6 +109,11 @@
     <!-- Main CSS (compiled from SASS) -->
     {{ $sass := resources.Get "sass/main.scss" }}
     {{ $style := $sass | toCSS (dict "transpiler" "dartsass" "targetPath" "css/main.css") }}
+    {{/* Fingerprint in production only. In development the filename must stay
+         stable: `hugo server` serves from disk, so any build into public/ with
+         different flags (minify changes the name to main.min.<hash>) leaves the
+         page asking for a hash that no longer exists — a 404 and an unstyled
+         page. Live reload handles refreshing CSS during a session. */}}
     {{ if hugo.IsProduction }}
         {{ $style = $style | minify | fingerprint }}
     {{ end }}

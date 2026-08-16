@@ -1,0 +1,717 @@
+// ========================================
+// Tool Islands
+// Interactive calculators embedded in posts via {{< tool >}}
+// ========================================
+
+@use '../abstracts' as *;
+
+.tool-island {
+    margin: var(--spacing-xl) 0;
+    padding: var(--spacing-md);
+    background: var(--color-bg-alt);
+    border: 1px solid var(--color-border);
+    border-top: 3px solid var(--color-accent);
+}
+
+.tool-island__header {
+    margin-bottom: var(--spacing-md);
+}
+
+.tool-island .tool-island__header {
+    margin-bottom: var(--spacing-md);
+}
+
+.tool-island__meta {
+    margin: 0;
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    color: var(--color-text-light);
+}
+
+// ---- Layout -----------------------------------------------------------
+
+.tool {
+    display: grid;
+    gap: var(--spacing-lg);
+    grid-template-columns: 1fr;
+
+    @include respond-to('md') {
+        grid-template-columns: 1.1fr 0.9fr;
+        align-items: start;
+    }
+}
+
+.tool__subheading {
+    margin: var(--spacing-md) 0 var(--spacing-xs);
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-text-light);
+}
+
+// ---- Inputs -----------------------------------------------------------
+
+.tool-field {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-xs) 0;
+    border-bottom: 1px solid var(--color-border-light);
+}
+
+.tool-field__label {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-sans);
+    font-size: 0.9rem;
+    color: var(--color-text-secondary);
+}
+
+.tool-field__hint {
+    font-size: 0.75rem;
+    font-style: normal;
+    color: var(--color-accent);
+}
+
+.tool-field__input {
+    width: 8.5rem;
+    padding: 0.35rem 0.5rem;
+    font-family: var(--font-sans);
+    font-size: 0.95rem;
+    text-align: right;
+    color: var(--color-text-primary);
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 0;
+
+    &:focus {
+        outline: 2px solid var(--color-accent);
+        outline-offset: 1px;
+    }
+}
+
+.tool-field--readonly .tool-field__value {
+    font-family: var(--font-sans);
+    font-size: 0.95rem;
+    color: var(--color-text-light);
+}
+
+// ---- Results ----------------------------------------------------------
+
+.tool__results {
+    margin: 0;
+    padding: var(--spacing-md);
+    background: var(--color-bg);
+    border: 1px solid var(--color-border-light);
+}
+
+.tool-result__row {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-xs) 0;
+    font-family: var(--font-sans);
+    font-size: 0.9rem;
+
+    dt {
+        color: var(--color-text-secondary);
+    }
+
+    dd {
+        margin: 0;
+        font-variant-numeric: tabular-nums;
+        color: var(--color-text-primary);
+    }
+}
+
+.tool-result__row--strong {
+    margin-top: var(--spacing-xs);
+    padding-top: var(--spacing-sm);
+    border-top: 1px solid var(--color-border);
+    font-size: 1.1rem;
+    font-weight: 700;
+
+    dd {
+        color: var(--color-accent);
+    }
+}
+
+.tool__notice {
+    margin: var(--spacing-sm) 0 0;
+    padding: var(--spacing-xs) var(--spacing-sm);
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    color: var(--color-text-secondary);
+    background: var(--color-gold-100);
+    border-left: 3px solid var(--color-gold-500);
+}
+
+.tool__disclaimer {
+    margin: var(--spacing-md) 0 0;
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    line-height: 1.5;
+    color: var(--color-text-lighter);
+}
+
+// ---- Fallback ---------------------------------------------------------
+// Server-rendered so the rates are in the HTML for crawlers and no-JS
+// readers. Hidden once the island mounts and drops the attribute.
+
+.tool-island__fallback {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+
+    caption {
+        margin-bottom: var(--spacing-xs);
+        text-align: left;
+        font-weight: 700;
+        color: var(--color-text-secondary);
+    }
+
+    th,
+    td {
+        padding: 0.35rem 0.5rem;
+        text-align: left;
+        border-bottom: 1px solid var(--color-border-light);
+    }
+
+    td:last-child {
+        text-align: right;
+        font-variant-numeric: tabular-nums;
+    }
+}
+
+.tool-island__source {
+    margin: var(--spacing-xs) 0 0;
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    color: var(--color-text-lighter);
+}
+
+[data-tool]:not([data-tool-fallback]) .tool-island__fallback,
+[data-tool]:not([data-tool-fallback]) .tool-island__source {
+    display: none;
+}
+
+// ---- Family calculator: spreadsheet grid ------------------------------
+// One row per line item, Mrs / Mr / Family as columns — the split is only
+// legible when both sides sit on the same row.
+
+.tool--family {
+    display: block;
+}
+
+.tool-island .tool-grid {
+    // The theme makes `.post-content table` a scroll container with
+    // max-width:100%. That squeezed the grid to the viewport and hid the Mr
+    // and Family columns on a phone — content 515px inside a 292px box, with
+    // no usable affordance to reach them.
+    //
+    // Let the table take its natural width and let OUR wrapper scroll it:
+    // min-width keeps it filling the space when it would otherwise be narrow.
+    width: max-content;
+    min-width: 100%;
+    max-width: none;
+    overflow: visible;
+    border-collapse: collapse;
+    font-family: var(--font-sans);
+    // Scoped to .tool-island so it beats `.post-content table` (0,1,1),
+    // which previously won and forced the grid back up to 15.2px.
+    //
+    // Everything inside sizes in `em` against this, so the whole grid scales
+    // from here and the metadata/figure hierarchy cannot invert.
+    font-size: 0.78rem;
+
+    th,
+    td {
+        padding: 0.22rem 0.5rem;
+        text-align: right;
+        vertical-align: middle;
+        white-space: nowrap;
+        // Gridlines on all four sides, like the spreadsheet this replaces —
+        // a bottom rule alone left the value columns floating.
+        border: 1px solid var(--color-border-light);
+    }
+
+    thead th {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        font-size: 0.88em;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--color-text-inverse);
+        background: var(--color-accent);
+    }
+
+    tbody th[scope='row'] {
+        width: 46%;
+        text-align: left;
+        font-weight: 400;
+        color: var(--color-text-secondary);
+    }
+
+    // The child/dependant config rows carry checkboxes and buttons, so they
+    // are the one place a little extra height is warranted.
+    .tool-row--child th,
+    .tool-row--action th {
+        white-space: normal;
+    }
+
+    td {
+        font-variant-numeric: tabular-nums;
+        white-space: nowrap;
+    }
+}
+
+.tool-grid__corner {
+    background: var(--color-accent);
+}
+
+// Editable cells behave like spreadsheet cells: the field IS the cell, so the
+// cell gives up its padding and the input carries it instead. A boxed input
+// floating inside a padded cell reads as a form control sitting on a table,
+// rather than a grid you type into.
+.tool-grid td:has(.tool-cell__input:focus) {
+    outline: 2px solid var(--color-accent);
+    outline-offset: -2px;
+}
+
+.tool-grid td:has(.tool-cell__input) {
+    padding: 0;
+    // The CELL carries the editable tint, not the input. A percentage height
+    // will not resolve inside a table cell, so an input shorter than the row
+    // would otherwise leave a band of row colour above and below it — read as
+    // padding. Tinting the cell makes the whole cell the field.
+    background: var(--color-bg);
+}
+
+.tool-cell__input {
+    display: block;
+    width: 100%;
+    // Matches the padding the cell gave up, so text lines up across columns.
+    padding: 0.22rem 0.5rem;
+    font-family: var(--font-sans);
+    // Inherit rather than restate 0.85rem. Inputs do not inherit font by
+    // default, and the grid's own 0.85rem is overridden by a theme rule to
+    // 15.2px — so declaring the same value here resolved to 13.6px and made
+    // entered figures visibly smaller than computed ones in the same row.
+    font-size: inherit;
+    text-align: right;
+    color: var(--color-text-primary);
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+
+    &:focus {
+        outline: none;
+    }
+
+    // Ring the whole cell on focus, so the highlight matches the click target.
+    &:focus-visible {
+        outline: none;
+    }
+
+    // Spinners add width and invite clicking rather than typing.
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+        margin: 0;
+        -webkit-appearance: none;
+    }
+
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+.tool-cell--total {
+    font-weight: 600;
+    color: var(--color-text-primary);
+    background: var(--color-bg-warm);
+}
+
+// Line-item rows leave this column empty by design, so keep the tint to hold
+// the column together visually rather than leaving a ragged gap.
+.tool-grid td.tool-cell--total:empty {
+    background: var(--color-bg-warm);
+}
+
+.tool-cell--na {
+    color: var(--color-text-lighter);
+}
+
+// ---- Row variants -----------------------------------------------------
+
+.tool-island .tool-grid .tool-row--section th {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    font-size: 1.02em;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-transform: none;
+    text-align: left;
+    // Warm neutral, not the spreadsheet's cream. Gold belongs to this
+    // theme's caution vocabulary (warning and idea callouts), so using it
+    // structurally made every section header read as an alert.
+    color: var(--color-text-primary);
+    background: var(--color-bg-warm);
+    border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.tool-island .tool-grid .tool-row--child th {
+    text-align: left;
+    background: var(--color-bg-alt);
+
+    // This row is metadata about the rows beneath it, so it should not read
+    // louder than the figures. Its <strong> was 15.2px against 12.48px
+    // labels, which is what made the row look bigger.
+    font-size: 0.92em;
+
+    strong {
+        font-size: 0.96em;
+    }
+}
+
+// ---------------------------------------------------------------------------
+// Standalone tool page (layouts/tools/single.html)
+// ---------------------------------------------------------------------------
+
+// The article drop cap is prose styling; on a tool page the opening text is
+// an instruction, and a decorative initial reads as a mistake.
+.tool-page .post-content > p:first-of-type::first-letter {
+    float: none;
+    font-size: inherit;
+    font-family: inherit;
+    line-height: inherit;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.tool-page__lede {
+    max-width: 42rem;
+    margin: 0.75rem auto 0;
+    color: var(--color-text-secondary);
+    text-align: center;
+}
+
+.tool-page__backlink {
+    margin-top: var(--spacing-lg);
+    font-size: 0.95rem;
+}
+
+.tool-toolbar {
+    display: flex;
+    justify-content: flex-end;
+    // The toolbar occupies the gap `.post-content table` reserves above the
+    // grid; without zeroing that margin the button floats 64px clear of the
+    // table it belongs to.
+    margin: 1.5rem 0 0.4rem;
+    // .tool-btn sizes in `em`, so outside the grid it would inherit the body
+    // size and dwarf the Add child / Add dependant buttons it sits above.
+    // Same 0.78rem the grid sets, for one consistent button size.
+    font-size: 0.78rem;
+}
+
+.tool .tool-grid {
+    margin-top: 0;
+}
+
+// While awaiting the second press the button turns wine — the one place a
+// filled wine button is right, since it is about to destroy the numbers
+// rather than report one.
+.tool-btn.is-confirming {
+    background: var(--color-accent);
+
+    &:hover { background: var(--color-accent-hover); }
+    &:focus-visible { outline-color: var(--color-accent); }
+}
+
+// The flex layout lives on a wrapper INSIDE the cell. Putting display:flex on
+// the <th> itself takes it out of table layout — colSpan stops applying and
+// the cell collapses to a fraction of the table width.
+.tool-child__bar {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+
+    .tool-check {
+        margin-left: 0;
+    }
+
+    // Remove is destructive and unrelated to the toggles beside it, so it
+    // sits apart at the far edge.
+    .tool-btn--quiet {
+        margin-left: auto;
+    }
+}
+
+.tool-island .tool-grid .tool-row--action th {
+    text-align: left;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.tool-row--strong {
+    th,
+    td {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        font-size: 1.28em;
+        font-weight: 700;
+        border-top: 2px solid var(--color-accent);
+        border-bottom: 2px solid var(--color-accent);
+    }
+
+    .tool-cell--total {
+        // Must stay above the row's own 1.28em: the family total is the
+        // number the reader is optimising, so it cannot be the smaller one.
+        font-size: 1.45em;
+        color: var(--color-accent);
+    }
+}
+
+.tool-row--outcome th,
+.tool-row--outcome td {
+    background: var(--color-bg-alt);
+}
+
+.tool-row--muted {
+    th,
+    td {
+        font-size: 0.9em;
+        color: var(--color-text-light);
+    }
+}
+
+// ---- Inline controls --------------------------------------------------
+
+.tool-alloc__buttons {
+    display: inline-flex;
+    margin-left: var(--spacing-xs);
+    vertical-align: middle;
+    border: 1px solid var(--color-border);
+}
+
+.tool-alloc__btn {
+    padding: 0.1rem 0.5rem;
+    font-family: var(--font-sans);
+    font-size: 0.85em;
+    color: var(--color-text-secondary);
+    background: var(--color-bg);
+    border: 0;
+    cursor: pointer;
+
+    &.is-active {
+        color: var(--color-text-inverse);
+        background: var(--color-accent);
+    }
+
+    &:focus-visible {
+        outline: 2px solid var(--color-accent);
+        outline-offset: 1px;
+    }
+}
+
+// In the grid the hint follows its label inline, so it needs its own line
+// rather than butting straight up against the label text.
+.tool-grid .tool-field__hint {
+    margin-left: 0.35rem;
+    font-size: 0.9em;
+    font-style: normal;
+    color: var(--color-accent);
+}
+
+// ---- Row explanations ------------------------------------------------
+// Detail on hover keeps every row one line tall, which is what makes the
+// grid scannable. Also reachable by keyboard, and tappable on touch where
+// hover does not exist.
+
+.tool-info {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 0.95rem;
+    height: 0.95rem;
+    margin-left: 0.35rem;
+    font-family: var(--font-serif, Georgia, serif);
+    font-size: 0.82em;
+    font-style: italic;
+    line-height: 1;
+    color: var(--color-text-lighter);
+    vertical-align: middle;
+    cursor: help;
+    border: 1px solid var(--color-border);
+    border-radius: 50%;
+
+    // The marker itself is only 15x15. This invisible pad enlarges the hover
+    // target — mostly upwards, the direction the pointer travels to reach the
+    // bubble — without moving anything on the page.
+    &::before {
+        content: '';
+        position: absolute;
+        top: -0.6rem;
+        right: -0.35rem;
+        bottom: -0.35rem;
+        left: -0.35rem;
+    }
+
+    &:hover,
+    &:focus-visible {
+        color: var(--color-text-inverse);
+        background: var(--color-accent);
+        border-color: var(--color-accent);
+        outline: none;
+    }
+
+    // focus-within, not focus-visible: tabbing onward lands on the IRAS link
+    // inside the bubble, and the bubble must stay open while it holds focus.
+    &:hover .tool-info__bubble,
+    &:focus-visible .tool-info__bubble,
+    &:focus-within .tool-info__bubble {
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 0.12s ease, visibility 0s;
+        // Clickable only while shown; hidden bubbles stay inert so they do
+        // not swallow clicks meant for the row above.
+        pointer-events: auto;
+    }
+}
+
+// The section heading is uppercase with wide tracking; the marker should not
+// inherit either.
+.tool-info__link {
+    display: block;
+    margin-top: 0.4rem;
+    // Colour, underline and the arrow already mark it as a link; 600 on top
+    // of that read as shouting next to the now-unbolded text.
+    font-weight: 500;
+    color: var(--color-wine-300);
+    text-decoration: underline;
+
+    &::after {
+        content: ' \2197'; // ↗, marking it as leaving the site
+    }
+
+    &:hover,
+    &:focus-visible {
+        color: var(--color-text-inverse);
+    }
+}
+
+.tool-row--section .tool-info {
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+.tool-info__bubble {
+    position: absolute;
+    bottom: calc(100% + 0.4rem);
+    left: 0;
+    z-index: 20;
+    width: max-content;
+    max-width: 22rem;
+    padding: var(--spacing-xs) var(--spacing-sm);
+    font-family: var(--font-sans);
+    font-size: 0.75rem; // rem, not em: would otherwise compound off .tool-info
+    font-style: normal;
+    // Reset like font-style above: on a section heading the bubble inherits
+    // the heading's bold italic, and tooltip prose should read as prose.
+    font-weight: 400;
+    line-height: 1.45;
+    white-space: normal;
+    text-align: left;
+    color: var(--color-text-inverse);
+    background: var(--color-bg-dark);
+    visibility: hidden;
+    opacity: 0;
+    // Hiding waits 0.25s: crossing from marker to bubble should survive a
+    // wobble. Showing is immediate (overridden below).
+    transition: opacity 0.12s ease, visibility 0s linear 0.25s;
+    // Inert while hidden: the bubble overlays the row above, and once
+    // swallowed that row's clicks. Re-enabled above only while visible, so
+    // the IRAS link inside can be used.
+    pointer-events: none;
+
+    // Bridges the gap between marker and bubble. Without it, moving the
+    // pointer up to reach the link crosses dead space, hover is lost and the
+    // bubble disappears before it can be clicked.
+    &::after {
+        content: '';
+        position: absolute;
+        top: 100%;
+        // Overhangs the left edge: the bubble starts a pixel right of the
+        // marker, so a strip flush with the bubble left a sliver uncovered.
+        left: -1rem;
+        right: 0;
+        height: 0.75rem;
+    }
+
+    // Nudge back from the viewport edge on narrow screens.
+    @media (max-width: 40rem) {
+        left: auto;
+        right: 0;
+        max-width: 16rem;
+    }
+}
+
+.tool-check {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    // Needed wherever a check sits in normal inline flow, as in the GCR row.
+    // Inside .tool-child__bar the flex `gap` already spaces them, so it is
+    // cancelled there rather than doubled.
+    margin-left: var(--spacing-sm);
+    vertical-align: middle;
+    font-size: 0.92em;
+    color: var(--color-text-light);
+    cursor: pointer;
+}
+
+.tool-btn {
+    padding: 0.2rem 0.6rem;
+    font-family: var(--font-sans);
+    font-size: 0.92em;
+    color: var(--color-text-inverse);
+    // Black rather than wine: these add a row, they do not report a figure.
+    // Wine is the grid's data accent (section headings, the family total), so
+    // filled wine buttons competed with the numbers for attention.
+    background: var(--color-bg-dark);
+    border: 0;
+    cursor: pointer;
+
+    &:hover { background: var(--color-text-secondary); }
+    &:focus-visible { outline: 2px solid var(--color-bg-dark); outline-offset: 2px; }
+}
+
+.tool-btn--quiet {
+    margin-left: var(--spacing-sm);
+    padding: 0;
+    vertical-align: middle;
+    line-height: inherit;
+    color: var(--color-text-light);
+    background: transparent;
+    text-decoration: underline;
+
+    &:hover { color: var(--color-accent); background: transparent; }
+}
+
+// A scroll container would clip the tooltips, so only create one where the
+// grid actually overflows. Hover devices get visible tooltips; narrow
+// screens get scrolling and reach the same text by tapping the marker.
+.tool-island .tool--family {
+    overflow-x: visible;
+
+    @media (max-width: 48rem) {
+        overflow-x: auto;
+    }
+}

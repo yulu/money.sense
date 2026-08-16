@@ -1,0 +1,57 @@
+{{/* Standalone page for one interactive tool.
+
+     Deliberately NOT _default/single.html: there is no date, read time, tag
+     list, "read more" grid or comment thread here, because the page is the
+     tool. The article that explains the tool links here, and this page links
+     back — a reader who arrives from the resources list wants to use it, not
+     read about it.
+
+     The disclaimer stays: it is a tax calculator. */}}
+{{ define "main" }}
+{{ $myData := (index site.Data site.Language.Lang) }}
+
+{{ partial "header" }}
+
+<div class="container container-narrow">
+    {{ partial "breadcrumb" . }}
+</div>
+
+<section class="post-header">
+    <div class="container container-narrow">
+        <h1 class="post-title">{{ .Title }}</h1>
+        {{ with .Description }}
+        <p class="tool-page__lede">{{ . }}</p>
+        {{ end }}
+    </div>
+</section>
+
+<article class="section-sm tool-page">
+    <div class="container">
+        <div class="post-layout">
+            <div class="post-content-wrapper">
+                <div class="post-content">
+                    {{ .Content }}
+                </div>
+
+                {{/* Link back to the article behind the tool, so the page is
+                     not a dead end for a reader who wants the reasoning. */}}
+                {{ with .Params.article }}
+                {{ $post := site.GetPage . }}
+                {{ with $post }}
+                <p class="tool-page__backlink">
+                    <a href="{{ .RelPermalink }}">{{ i18n "ReadPost" }}: {{ .Title }}</a>
+                </p>
+                {{ end }}
+                {{ end }}
+
+                {{ partial "disclaimer" $myData.disclaimer }}
+
+                {{ partial "buy_me_a_coffee" }}
+            </div>
+        </div>
+    </div>
+</article>
+
+{{ partial "footer" }}
+
+{{ end }}

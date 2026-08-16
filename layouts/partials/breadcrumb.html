@@ -1,3 +1,18 @@
+{{/* Home › <section> › <page>.
+
+     The section crumb is skipped when that section has no rendered page to
+     link to — the tools section is built with `render: never`, so hardcoding
+     "Posts" here used to file the standalone tool pages under Posts and point
+     at a listing they do not belong to. */}}
+{{ $section := site.GetPage "section" .Section }}
+{{ $hasSection := and $section (gt (len $section.OutputFormats) 0) }}
+{{ $sectionLabel := "" }}
+{{ if $hasSection }}
+    {{/* Prefer the translated label; fall back to the section's own title. */}}
+    {{ $sectionLabel = i18n (title $section.Section) }}
+    {{ if not $sectionLabel }}{{ $sectionLabel = $section.Title }}{{ end }}
+{{ end }}
+
 <nav class="breadcrumb" aria-label="Breadcrumb">
     <ol class="breadcrumb-list">
         <li class="breadcrumb-item">
@@ -6,10 +21,12 @@
                 <span class="breadcrumb-text">{{ i18n "Home" }}</span>
             </a>
         </li>
+        {{ if $hasSection }}
         <li class="breadcrumb-separator">›</li>
         <li class="breadcrumb-item">
-            <a href="{{ "/posts" | relLangURL }}">{{ i18n "Posts" }}</a>
+            <a href="{{ $section.RelPermalink }}">{{ $sectionLabel }}</a>
         </li>
+        {{ end }}
         <li class="breadcrumb-separator">›</li>
         <li class="breadcrumb-item breadcrumb-current" aria-current="page">
             {{ .Title }}
@@ -28,16 +45,16 @@
       "position": 1,
       "name": {{ i18n "Home" | jsonify }},
       "item": "{{ .Site.Home.Permalink }}"
-    },
+    }{{ if $hasSection }},
     {
       "@type": "ListItem",
       "position": 2,
-      "name": {{ i18n "Posts" | jsonify }},
-      "item": "{{ (site.GetPage "section" "posts").Permalink }}"
-    },
+      "name": {{ $sectionLabel | jsonify }},
+      "item": "{{ $section.Permalink }}"
+    }{{ end }},
     {
       "@type": "ListItem",
-      "position": 3,
+      "position": {{ if $hasSection }}3{{ else }}2{{ end }},
       "name": {{ .Title | jsonify }},
       "item": "{{ .Permalink }}"
     }

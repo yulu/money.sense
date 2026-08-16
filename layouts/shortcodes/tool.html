@@ -1,0 +1,215 @@
+{{/*
+    Tool island shortcode.
+
+        {{< tool name="tax-family" >}}
+
+    Renders a mount point, a JSON config blob (rates from data/tools/ plus the
+    display strings for the current language), and a server-rendered fallback
+    so the content is present for crawlers and no-JS readers.
+
+    The bundle is built by Hugo's own esbuild (js.Build) and emitted only on
+    pages that use this shortcode — posts without a tool download nothing.
+
+    To add a tool: drop assets/js/tools/<name>/<name>.tsx, add its data file,
+    and register it in the $sources dict below.
+
+    Note: Hugo's esbuild strips TypeScript types without checking them, so a
+    type error will NOT fail the Hugo build. `npm test` runs tsc --noEmit.
+*/}}
+
+{{ $name := .Get "name" }}
+{{ $id := printf "tool-%s-%d" $name .Ordinal }}
+
+{{/* Per-tool entry points. */}}
+{{ $sources := dict "tax-family" "js/tools/tax/family.tsx" }}
+{{ $entry := index $sources $name }}
+
+{{ if not $entry }}
+    {{ errorf "shortcode tool: unknown tool %q (page %s)." $name .Page.File.Path }}
+{{ end }}
+
+{{/* Guarded so an unknown name reports only the error above, rather than
+     cascading into "can't evaluate field ... in type string" further down. */}}
+{{ if $entry }}
+
+{{/* ---- Tool config: rates + localised strings ---------------------------- */}}
+{{ $config := "" }}
+{{ $t := "" }}
+
+{{ if eq $name "tax-family" }}
+    {{ $config = index .Site.Data.tools "tax_ya2026" }}
+    {{ $reliefLabels := dict }}
+    {{ $reliefInfo := dict }}
+    {{ range $config.reliefs }}
+        {{ $reliefLabels = merge $reliefLabels (dict .id (i18n .i18n)) }}
+        {{/* `if`, not `with`: `with` would rebind `.` and lose .id */}}
+        {{ if .info }}
+            {{ $reliefInfo = merge $reliefInfo (dict .id (i18n .info)) }}
+        {{ end }}
+    {{ end }}
+    {{ $t = dict
+        "income"        (i18n "tool_tax_income")
+        "reliefsHeading" (i18n "tool_tax_reliefs_heading")
+        "reliefAuto"    (i18n "tool_tax_relief_auto")
+        "reliefs"       $reliefLabels
+        "totalReliefs"  (i18n "tool_tax_total_reliefs")
+        "chargeable"    (i18n "tool_tax_chargeable")
+        "payable"       (i18n "tool_tax_payable")
+        "effective"     (i18n "tool_tax_effective")
+        "cappedOwn"     (i18n "tool_tax_capped_own" (dict "max" "{max}"))
+        "cappedOverall" (i18n "tool_tax_capped_overall" (dict "cap" "{cap}"))
+        "estimateNote"  (i18n "tool_tax_estimate_note")
+    }}
+
+    {{ $t = merge $t (dict
+            "spouseA"           (i18n "tool_tax_spouse_a")
+            "spouseB"           (i18n "tool_tax_spouse_b")
+            "motherIs"          (i18n "tool_tax_mother_is")
+            "donations"         (i18n "tool_tax_donations")
+            "donationsHint"     (i18n "tool_tax_donations_hint")
+            "donationDeduction" (i18n "tool_tax_donation_deduction")
+            "assessable"        (i18n "tool_tax_assessable")
+            "children"          (i18n "tool_tax_children")
+            "addChild"          (i18n "tool_tax_add_child")
+            "remove"            (i18n "tool_tax_remove")
+            "childN"            (i18n "tool_tax_child_n" (dict "n" "{n}"))
+            "bornFrom2024"      (i18n "tool_tax_born_from_2024")
+            "childDisability"   (i18n "tool_tax_child_disability")
+            "qcrTo"             (i18n "tool_tax_qcr_to")
+            "ptrTo"             (i18n "tool_tax_ptr_to")
+            "parents"           (i18n "tool_tax_parents")
+            "addParent"         (i18n "tool_tax_add_parent")
+            "coresiding"        (i18n "tool_tax_coresiding")
+            "claimedBy"         (i18n "tool_tax_claimed_by")
+            "ptrApplied"        (i18n "tool_tax_ptr_applied")
+            "netTax"            (i18n "tool_tax_net_tax")
+            "ptrUnused"         (i18n "tool_tax_ptr_unused" (dict "amount" "{amount}"))
+            "familyTotal"       (i18n "tool_tax_family_total")
+            "familyRate"        (i18n "tool_tax_family_rate")
+            "childCapped"       (i18n "tool_tax_child_capped")
+            "allocationNote"    (i18n "tool_tax_allocation_note")
+            "familyCol"         (i18n "tool_tax_family_col")
+            "secIncome"         (i18n "tool_tax_sec_income")
+            "secRetirement"     (i18n "tool_tax_sec_retirement")
+            "secChildren"       (i18n "tool_tax_sec_children")
+            "secElderly"        (i18n "tool_tax_sec_elderly")
+            "secPersonal"       (i18n "tool_tax_sec_personal")
+        "secDonations"      (i18n "tool_tax_sec_donations")
+        "secDonationsNote"  (i18n "tool_tax_sec_donations_note")
+            "secOutcome"        (i18n "tool_tax_sec_outcome")
+            "gcr"               (i18n "tool_tax_gcr")
+        "gcrInfo"           (i18n "tool_tax_gcr_info")
+        "gcrClaim"          (i18n "tool_tax_gcr_claim")
+        "infoLabel"         (i18n "tool_tax_info_label")
+        "sourceLink"        (i18n "tool_tax_source_link")
+        "clear"             (i18n "tool_tax_clear")
+        "clearConfirm"      (i18n "tool_tax_clear_confirm")
+        "secOtherDependants" (i18n "tool_tax_sec_other_dependants")
+        "spouseRelief"      (i18n "tool_tax_spouse_relief")
+        "spouseReliefInfo"  (i18n "tool_tax_spouse_relief_info")
+        "siblingN"          (i18n "tool_tax_sibling_n")
+        "siblingRow"        (i18n "tool_tax_sibling_row")
+        "siblingInfo"       (i18n "tool_tax_sibling_info")
+        "addSibling"        (i18n "tool_tax_add_sibling")
+        "dependantN"        (i18n "tool_tax_dependant_n" (dict "n" "{n}"))
+        "parentOver"        (i18n "tool_tax_parent_over" (dict "amount" "{amount}"))
+        "parentMax"         (i18n "tool_tax_parent_max")
+            "wmcrRow"           (i18n "tool_tax_wmcr_row" (dict "n" "{n}"))
+        "wmcrInfo"          (i18n "tool_tax_wmcr_info" (dict "basis" "{basis}"))
+            "qcrRow"            (i18n "tool_tax_qcr_row" (dict "n" "{n}"))
+        "qcrInfo"           (i18n "tool_tax_qcr_info")
+            "ptrRow"            (i18n "tool_tax_ptr_row")
+            "parentRow"         (i18n "tool_tax_parent_row" (dict "n" "{n}"))
+        "parentInfo"        (i18n "tool_tax_parent_info")
+            "taxable"           (i18n "tool_tax_taxable")
+            "rebate"            (i18n "tool_tax_rebate")
+            "monthly"           (i18n "tool_tax_monthly")
+            "afterTax"          (i18n "tool_tax_after_tax")
+        "reliefInfo"        $reliefInfo
+        "incomeInfo"        (i18n "tool_tax_income_info")
+        "donationDeductionInfo" (i18n "tool_tax_donation_deduction_info")
+        "donationApplied"   (i18n "tool_tax_donation_applied")
+        "statutoryIncome"   (i18n "tool_tax_statutory_income")
+        "statutoryIncomeInfo" (i18n "tool_tax_statutory_income_info")
+        "qcrMismatch"       (i18n "tool_tax_qcr_mismatch" (dict "amount" "{amount}"))
+        "ptrNote"           (i18n "tool_tax_ptr_note")
+    ) }}
+{{ end }}
+
+<div class="tool-island">
+    {{/* No title here: every page that embeds a tool introduces it with its
+         own heading, so an island title repeated the same words immediately
+         below it. The year of assessment stays — it is the one thing the
+         surrounding page does not necessarily say. */}}
+    <div class="tool-island__header">
+        <p class="tool-island__meta">
+            {{ i18n "tool_tax_ya" (dict "ya" $config.year_of_assessment "year" $config.income_year) }}
+        </p>
+    </div>
+
+    {{/* Mount point. Carries the fallback until the island takes over. */}}
+    <div id="{{ $id }}" data-tool="{{ $name }}" data-tool-fallback>
+        {{/* ---- No-JS / pre-hydration fallback ---------------------------- */}}
+        <table class="tool-island__fallback">
+            <caption>{{ i18n "tool_tax_rates_caption" }}</caption>
+            <thead>
+                <tr>
+                    <th scope="col">{{ i18n "tool_tax_band" }}</th>
+                    <th scope="col">{{ i18n "tool_tax_rate" }}</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{ $prev := 0 }}
+                {{ range $config.brackets }}
+                    <tr>
+                        <td>
+                            {{ if .upTo }}
+                                ${{ lang.FormatNumberCustom 0 $prev }} &ndash; ${{ lang.FormatNumberCustom 0 .upTo }}
+                            {{ else }}
+                                &gt; ${{ lang.FormatNumberCustom 0 $prev }}
+                            {{ end }}
+                        </td>
+                        {{/* Round before display: mul .rate 100 alone yields
+                             float artefacts such as 3.5000000000000004. */}}
+                        <td>{{ printf "%g" (div (math.Round (mul .rate 10000)) 100.0) }}%</td>
+                    </tr>
+                    {{ $prev = .upTo }}
+                {{ end }}
+            </tbody>
+        </table>
+        <p class="tool-island__source">
+            <a href="{{ $config.source_url }}" rel="noopener" target="_blank">{{ i18n "tool_tax_source" }}</a>
+        </p>
+    </div>
+
+    {{/* Config consumed by the island at mount time. */}}
+    {{ printf "<script type=\"application/json\" id=\"%s-config\">%s</script>" $id (jsonify (dict "config" $config "t" $t)) | safeHTML }}
+</div>
+
+{{/* ---- Bundle ---------------------------------------------------------- */}}
+{{/* Emitted unconditionally.
+
+     This used to be guarded by .Page.Scratch so a page with several instances
+     got one <script>. But Scratch survives Hugo's fast-render rebuilds, so
+     after the first asset change the guard believed it had already emitted and
+     the tag vanished — the tool silently fell back to the static rates table
+     until a full restart.
+
+     Duplicate tags are harmless: the browser fetches one URL once, and mount()
+     marks each element so a second execution cannot double-mount. */}}
+{{ $opts := dict
+    "targetPath"      (printf "js/tools/%s.js" $name)
+    "format"          "iife"
+    "jsx"             "automatic"
+    "jsxImportSource" "preact"
+    "minify"          hugo.IsProduction
+}}
+{{ with resources.Get $entry | js.Build $opts }}
+    {{ $bundle := . }}
+    {{ if hugo.IsProduction }}{{ $bundle = $bundle | fingerprint }}{{ end }}
+    {{/* .Permalink, not .RelPermalink: with relativeURLs and a baseURL
+         subpath, RelPermalink emits ../../money.sense/... which resolves
+         to /money.sense/money.sense/... Matches head.html's approach. */}}
+    <script src="{{ $bundle.Permalink }}" defer></script>
+{{ end }}
+{{ end }}

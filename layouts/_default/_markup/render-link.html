@@ -1,1 +1,7 @@
-<a href="{{ .Destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }} target="_blank" rel="nofollow noopener noreferrer">{{ .Text | safeHTML }}</a>
+{{- /* Same-page anchors must not open a new tab: a "#section" link is a jump
+       within the article the reader is already in, and _blank turns it into a
+       duplicate tab scrolled to the middle of the same page.
+
+       Everything else keeps the existing behaviour. */ -}}
+{{- $fragment := hasPrefix .Destination "#" -}}
+<a href="{{ .Destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ if not $fragment }} target="_blank" rel="nofollow noopener noreferrer"{{ end }}>{{ .Text | safeHTML }}</a>

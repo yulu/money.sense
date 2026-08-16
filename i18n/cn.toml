@@ -129,3 +129,300 @@ other = "关于"
 
 [Contact]
 other = "联系"
+
+# --- Tool: Singapore income tax calculator (LIT-16) ---
+
+[tool_tax_ya]
+other = "{{ .ya }} 课税年度（{{ .year }} 年收入）"
+
+[tool_tax_income]
+other = "年度工作收入"
+
+[tool_tax_reliefs_heading]
+other = "税务减免"
+
+[tool_tax_relief_auto]
+other = "劳动收入减免"
+
+[tool_tax_relief_cpf]
+other = "公积金缴款"
+
+[tool_tax_relief_cpf_topup_self]
+other = "公积金现金填补（本人）"
+
+[tool_tax_relief_cpf_topup_family]
+other = "公积金现金填补（家人）"
+
+[tool_tax_relief_srs]
+other = "辅助退休计划（SRS）缴款"
+
+[tool_tax_total_reliefs]
+other = "减：个人减免"
+
+[tool_tax_chargeable]
+other = "= 应课税收入"
+
+[tool_tax_payable]
+other = "应缴税款"
+
+[tool_tax_effective]
+other = "实际税率"
+
+[tool_tax_capped_own]
+other = "上限为 {{ .max }}"
+
+[tool_tax_capped_overall]
+other = "减免总额超过 {{ .cap }} 上限，已按上限计算。"
+
+[tool_tax_rates_caption]
+other = "2024 课税年度起的居民税率"
+
+[tool_tax_band]
+other = "应课税收入"
+
+[tool_tax_rate]
+other = "税率"
+
+[tool_tax_source]
+other = "税率来源：IRAS"
+
+[tool_tax_estimate_note]
+other = "本计算器依据 2026 课税年度（2025 年收入）的 IRAS 规则。结果仅供规划参考，不作为报税依据，报税前请以 IRAS 官方计算为准。"
+
+# --- Tool: family tax calculator (LIT-22) ---
+
+
+[tool_tax_spouse_a]
+other = "太太"
+
+[tool_tax_spouse_b]
+other = "先生"
+
+[tool_tax_mother_is]
+other = "在职母亲（申报 WMCR）"
+
+[tool_tax_relief_course_fees]
+other = "进修课程费用"
+
+[tool_tax_relief_nsman]
+other = "国民服役减免"
+
+[tool_tax_donations]
+other = "公益机构（IPC）捐款"
+
+[tool_tax_donations_hint]
+other = "按捐款额的 250% 扣除。"
+
+[tool_tax_children]
+other = "子女"
+
+[tool_tax_add_child]
+other = "添加子女"
+
+[tool_tax_remove]
+other = "删除"
+
+[tool_tax_child_n]
+other = "第 {{ .n }} 个子女"
+
+[tool_tax_born_from_2024]
+other = "2024年1月1日或之后出生"
+
+[tool_tax_child_disability]
+other = "残障"
+
+[tool_tax_qcr_to]
+other = "QCR 分配给"
+
+[tool_tax_ptr_to]
+other = "PTR 分配给"
+
+[tool_tax_parents]
+other = "受赡养父母"
+
+[tool_tax_add_parent]
+other = "添加受赡养人"
+
+[tool_tax_coresiding]
+other = "同住"
+
+[tool_tax_claimed_by]
+other = "申报人"
+
+[tool_tax_donation_deduction]
+other = "捐款扣除额"
+
+[tool_tax_assessable]
+other = "= 应评税收入"
+
+[tool_tax_ptr_applied]
+other = "减：父母税务回扣（PTR）"
+
+[tool_tax_net_tax]
+other = "实际应缴税款"
+
+[tool_tax_ptr_unused]
+other = "未使用的 PTR {{ .amount }} 将结转至以后年度。"
+
+[tool_tax_family_total]
+other = "家庭税款总额"
+
+[tool_tax_family_rate]
+other = "家庭实际税率"
+
+[tool_tax_child_capped]
+other = "WMCR 已按每名子女 $50,000 顶限调整"
+
+[tool_tax_allocation_note]
+other = "在夫妻之间调整减免分配，观察家庭税款总额——总额最低者最优。"
+
+[tool_tax_family_col]
+other = "家庭"
+
+[tool_tax_sec_income]
+other = "收入类减免"
+
+[tool_tax_sec_retirement]
+other = "退休储蓄类减免"
+
+[tool_tax_sec_children]
+other = "子女相关减免与退税"
+
+[tool_tax_sec_elderly]
+other = "赡养长辈相关减免"
+
+[tool_tax_sec_personal]
+other = "个人减免"
+
+[tool_tax_sec_outcome]
+other = "计算结果"
+
+[tool_tax_gcr]
+other = "祖父母照顾者减免"
+
+[tool_tax_wmcr_row]
+other = "WMCR — 第 {{ .n }} 个子女"
+
+[tool_tax_qcr_row]
+other = "QCR — 第 {{ .n }} 个子女"
+
+[tool_tax_ptr_row]
+other = "父母税务回扣（PTR）"
+
+[tool_tax_parent_row]
+other = "父母赡养减免 — 第 {{ .n }} 位"
+
+[tool_tax_taxable]
+other = "应课税金额"
+
+[tool_tax_rebate]
+other = "减：个人所得税回扣"
+
+[tool_tax_monthly]
+other = "每月税款"
+
+[tool_tax_after_tax]
+other = "税后收入"
+
+
+[tool_tax_eir_bands]
+other = "55岁以下：$1,000 · 55–59岁：$6,000 · 60岁及以上：$8,000。残障人士：$4,000 / $10,000 / $12,000。以本人工作收入为上限。"
+
+[tool_tax_qcr_mismatch]
+other = "该子女的分配金额合计应为 {{ .amount }}"
+
+[tool_tax_ptr_note]
+other = "PTR 是一次性退税，仅在子女出生后的次一课税年度授予，未用完的余额可结转至以后年度。请填入本年度实际使用的金额（含结转余额），并按双方协商的比例分配。"
+
+[tool_tax_wmcr_info]
+other = "在职母亲子女减免：{{ .basis }}。仅限母亲——IRAS 不适用于单身及男性纳税人。与 QCR 合计，每名子女上限 $50,000。"
+
+[tool_tax_qcr_info]
+other = "合格子女减免：$4,000；残障子女为 $7,500。由父母协商分配——两格金额始终等于应得总额。"
+
+[tool_tax_gcr_info]
+other = "父母或祖父母照顾子女可享 $3,000，仅限在职母亲申报。子女须为12岁及以下（若子女为未婚残障人士则不限年龄），且照顾者年收入不得超过 $8,000。"
+
+[tool_tax_parent_info]
+other = "同住 $9,000，不同住 $5,500；残障者分别为 $14,000 / $10,000。受赡养人须年满 55 岁且年收入不超过 $8,000。"
+
+[tool_tax_info_label]
+other = "查看说明"
+
+[tool_tax_dependant_n]
+other = "第 {{ .n }} 位受赡养人"
+
+[tool_tax_parent_over]
+other = "分配金额已超过该受赡养人可享的 {{ .amount }}，已按比例调整"
+
+[tool_tax_parent_max]
+other = "IRAS 规定父母赡养减免最多可申报 2 位受赡养人。"
+
+[tool_tax_sec_donations]
+other = "捐款 — 不受 $80,000 顶限限制"
+
+[tool_tax_sec_donations_note]
+other = "向合格公益机构（IPC）捐款属于税务扣除，而非个人减免，因此不受 $80,000 减免顶限限制。当 CPF 和 SRS 填补因触及顶限而失去作用时，捐款依然可以继续减少税款。"
+
+[tool_tax_relief_cpf_info]
+other = "本人强制性公积金缴款——即从工资中扣除的部分，不含雇主缴款。55岁及以下的雇员缴交率为工资的 20%，以年度工资顶限 $102,000 为上限；因此工资达到或超过该顶限时为 $20,400（20% x $102,000）。55岁以上比率递减。月薪部分仅计至普通工资顶限：2025 年为 $7,400（2026年1月1日起为 $8,000）。"
+
+[tool_tax_income_info]
+other = "扣除公积金前的年度工作收入，包含津贴与花红。请分别填写夫妻双方各自的收入——税率级距及母亲的 WMCR 百分比均以此为计算基础。"
+
+[tool_tax_donation_deduction_info]
+other = "捐款金额乘以 250%。此金额在减免之前从收入中扣除，且不计入 $80,000 减免顶限。"
+
+[tool_tax_gcr_claim]
+other = "申报"
+
+[tool_tax_donation_applied]
+other = "减：捐款（250%）"
+
+[tool_tax_statutory_income]
+other = "法定收入总额"
+
+[tool_tax_statutory_income_info]
+other = "IRAS 的计算从法定收入总额开始——包括工作收入、生意收入、租金收入等。本工具采用上方填写的工作收入；若有生意或租金收入，请一并计入。"
+
+[tool_tax_source_link]
+other = "查看 IRAS 说明"
+
+[tool_tax_relief_other]
+other = "其他减免"
+
+[tool_tax_relief_other_info]
+other = "本计算器未单独列出的减免——主要是自雇相关项目：自雇人士 CPF 减免、强制性与自愿性 MediSave 缴款、平台工作者 CPF 减免，这些均按净营业收入计算。请填入合计金额。它属于减免，因此与其他项目一样计入 $80,000 顶限。请勿在此填写捐款：捐款属于扣除，不受顶限限制。"
+
+[tool_tax_clear]
+other = "全部清除"
+
+[tool_tax_clear_confirm]
+other = "确认清除全部？"
+
+[tool_tax_sec_other_dependants]
+other = "配偶与兄弟姐妹相关减免"
+
+[tool_tax_spouse_relief]
+other = "配偶减免"
+
+[tool_tax_spouse_relief_info]
+other = "与你同住或由你供养、且年收入不超过 $8,000 的配偶可减免 $2,000；若配偶为残障人士，则为 $5,500（此情形不设收入限制）。由夫妻一方就另一方申报，不可分摊。若双方都有收入，通常只有残障情形才适用。"
+
+[tool_tax_sibling_n]
+other = "兄弟姐妹 {n}"
+
+[tool_tax_sibling_row]
+other = "残障兄弟姐妹减免 {n}"
+
+[tool_tax_sibling_info]
+other = "每位与你同住、或你为其支出 $2,000 以上供养费用的残障兄弟姐妹（含继兄弟姐妹）可减免 $5,500。可与其他共同供养的兄弟姐妹按约定分摊，因此两栏之和不必达到 $5,500，但合计不得超过。若他人已就同一位受养人申报其他减免，则不可申报。"
+
+[tool_tax_add_sibling]
+other = "添加兄弟姐妹"
+
+[tool_tax_relief_life_insurance]
+other = "人寿保险减免"
+
+[tool_tax_relief_life_insurance_info]
+other = "仅当年度强制性雇员 CPF 缴款低于 $5,000 时才可申报，且上限为差额部分——因此此处的上限会随 CPF 金额上升而下降，CPF 达到 $5,000 后即为零。请填入已缴保费与保额 7% 中的较低者。健康险、住院险、重疾险、储蓄型及投资连结型保单的保费不符合条件。"

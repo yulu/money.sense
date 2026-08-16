@@ -129,3 +129,300 @@ other = "About"
 
 [Contact]
 other = "Contact"
+
+# --- Tool: Singapore income tax calculator (LIT-16) ---
+
+[tool_tax_ya]
+other = "Year of Assessment {{ .ya }} (income earned in {{ .year }})"
+
+[tool_tax_income]
+other = "Annual employment income"
+
+[tool_tax_reliefs_heading]
+other = "Tax reliefs"
+
+[tool_tax_relief_auto]
+other = "Earned Income Relief"
+
+[tool_tax_relief_cpf]
+other = "CPF contributions"
+
+[tool_tax_relief_cpf_topup_self]
+other = "CPF cash top-up (self)"
+
+[tool_tax_relief_cpf_topup_family]
+other = "CPF cash top-up (family)"
+
+[tool_tax_relief_srs]
+other = "SRS contributions"
+
+[tool_tax_total_reliefs]
+other = "Less: Personal reliefs"
+
+[tool_tax_chargeable]
+other = "= Chargeable income"
+
+[tool_tax_payable]
+other = "Tax payable"
+
+[tool_tax_effective]
+other = "Effective tax rate"
+
+[tool_tax_capped_own]
+other = "Capped at {{ .max }}"
+
+[tool_tax_capped_overall]
+other = "Total reliefs exceed the {{ .cap }} cap and have been limited."
+
+[tool_tax_rates_caption]
+other = "Resident tax rates from YA 2024"
+
+[tool_tax_band]
+other = "Chargeable income"
+
+[tool_tax_rate]
+other = "Rate"
+
+[tool_tax_source]
+other = "Rates from IRAS"
+
+[tool_tax_estimate_note]
+other = "Figures follow IRAS rules for Year of Assessment 2026 (income earned in 2025). An estimate for planning only, not a tax filing — verify against IRAS before you file."
+
+# --- Tool: family tax calculator (LIT-22) ---
+
+
+[tool_tax_spouse_a]
+other = "Mrs"
+
+[tool_tax_spouse_b]
+other = "Mr"
+
+[tool_tax_mother_is]
+other = "Working mother (claims WMCR)"
+
+[tool_tax_relief_course_fees]
+other = "Course fees"
+
+[tool_tax_relief_nsman]
+other = "NSman relief"
+
+[tool_tax_donations]
+other = "Donations to IPCs"
+
+[tool_tax_donations_hint]
+other = "Deducted at 250% of the amount donated."
+
+[tool_tax_children]
+other = "Children"
+
+[tool_tax_add_child]
+other = "Add child"
+
+[tool_tax_remove]
+other = "Remove"
+
+[tool_tax_child_n]
+other = "Child {{ .n }}"
+
+[tool_tax_born_from_2024]
+other = "Born from 1 Jan 2024"
+
+[tool_tax_child_disability]
+other = "Disability"
+
+[tool_tax_qcr_to]
+other = "QCR to"
+
+[tool_tax_ptr_to]
+other = "PTR to"
+
+[tool_tax_parents]
+other = "Dependent parents"
+
+[tool_tax_add_parent]
+other = "Add dependant"
+
+[tool_tax_coresiding]
+other = "Lives with us"
+
+[tool_tax_claimed_by]
+other = "Claimed by"
+
+[tool_tax_donation_deduction]
+other = "Donation deduction"
+
+[tool_tax_assessable]
+other = "= Assessable income"
+
+[tool_tax_ptr_applied]
+other = "Less: Parenthood Tax Rebate"
+
+[tool_tax_net_tax]
+other = "Net tax payable"
+
+[tool_tax_ptr_unused]
+other = "Unused PTR of {{ .amount }} carries forward to future years."
+
+[tool_tax_family_total]
+other = "Family total tax"
+
+[tool_tax_family_rate]
+other = "Family effective rate"
+
+[tool_tax_child_capped]
+other = "WMCR trimmed to the $50,000 per-child cap"
+
+[tool_tax_allocation_note]
+other = "Reallocate reliefs between spouses and watch the family total — the lowest total wins."
+
+[tool_tax_family_col]
+other = "Family"
+
+[tool_tax_sec_income]
+other = "Income reliefs"
+
+[tool_tax_sec_retirement]
+other = "Retirement saving reliefs"
+
+[tool_tax_sec_children]
+other = "Reliefs and rebates for taxpayers with children"
+
+[tool_tax_sec_elderly]
+other = "Reliefs for taxpayers with elderly dependants"
+
+[tool_tax_sec_personal]
+other = "Personal reliefs"
+
+[tool_tax_sec_outcome]
+other = "Outcome"
+
+[tool_tax_gcr]
+other = "Grandparent Caregiver Relief"
+
+[tool_tax_wmcr_row]
+other = "WMCR — child {{ .n }}"
+
+[tool_tax_qcr_row]
+other = "QCR — child {{ .n }}"
+
+[tool_tax_ptr_row]
+other = "Parenthood Tax Rebate"
+
+[tool_tax_parent_row]
+other = "Parent Relief — dependant {{ .n }}"
+
+[tool_tax_taxable]
+other = "Taxable amount"
+
+[tool_tax_rebate]
+other = "Less: Personal income tax rebate"
+
+[tool_tax_monthly]
+other = "Monthly tax"
+
+[tool_tax_after_tax]
+other = "Income after tax"
+
+
+[tool_tax_eir_bands]
+other = "Below 55: $1,000 · 55–59: $6,000 · 60 and above: $8,000. With a disability: $4,000 / $10,000 / $12,000. Capped at your earned income."
+
+[tool_tax_qcr_mismatch]
+other = "Shares should add up to {{ .amount }} for this child"
+
+[tool_tax_ptr_note]
+other = "PTR is a one-off rebate, granted only in the YA after a child is born, and any unused balance carries forward. Enter what you are applying this year — including a carried-forward balance — split as you have agreed."
+
+[tool_tax_wmcr_info]
+other = "Working Mother’s Child Relief: {{ .basis }}. Mother only — IRAS excludes single and male taxpayers. Combined with QCR, capped at $50,000 per child."
+
+[tool_tax_qcr_info]
+other = "Qualifying Child Relief: $4,000, or $7,500 as Child Relief (Disability). Shared between parents by agreement — the two cells always add up to the entitlement."
+
+[tool_tax_gcr_info]
+other = "$3,000 for a parent or grandparent who cared for your child, claimable by a working mother only. The child must have been 12 or below (any age if the child has a disability and is unmarried), and the caregiver must not have earned more than $8,000 in the year."
+
+[tool_tax_parent_info]
+other = "$9,000 if the dependant lives with you, $5,500 if not; $14,000 / $10,000 where the dependant has a disability. Dependant must be 55 or older and earn no more than $8,000."
+
+[tool_tax_info_label]
+other = "More about this item"
+
+[tool_tax_dependant_n]
+other = "Dependant {{ .n }}"
+
+[tool_tax_parent_over]
+other = "Shares exceed the {{ .amount }} this dependant attracts — scaled back"
+
+[tool_tax_parent_max]
+other = "IRAS allows Parent Relief for at most 2 dependants."
+
+[tool_tax_sec_donations]
+other = "Donations — outside the $80,000 cap"
+
+[tool_tax_sec_donations_note]
+other = "Approved IPC donations are a tax deduction, not a personal relief, so the $80,000 relief cap does not apply to them. They keep reducing your tax at exactly the point where CPF and SRS top-ups stop working."
+
+[tool_tax_relief_cpf_info]
+other = "Your compulsory employee CPF contributions — the amount deducted from your pay, not your employer's share. Aged 55 or below the employee rate is 20% of wages, applied up to the annual salary ceiling of $102,000, which is why a salary at or above that ceiling gives $20,400 (20% x $102,000). Rates step down above age 55. Monthly wages count only up to the Ordinary Wage ceiling of $7,400 for 2025 ($8,000 from 1 Jan 2026)."
+
+[tool_tax_income_info]
+other = "Annual employment income before CPF, including allowances and bonuses. Enter each spouse's own income — this is what the tax bands and the mother's WMCR percentage are worked out on."
+
+[tool_tax_donation_deduction_info]
+other = "Your donations multiplied by 250%. This is subtracted from income before reliefs, and is not counted towards the $80,000 relief cap."
+
+[tool_tax_gcr_claim]
+other = "Claim"
+
+[tool_tax_donation_applied]
+other = "Less: Donations (250%)"
+
+[tool_tax_statutory_income]
+other = "Total statutory income"
+
+[tool_tax_statutory_income_info]
+other = "IRAS starts its computation from total statutory income — employment, trade, rental and so on. This tool takes the employment income entered above; if you have trade or rental income, add it in there."
+
+[tool_tax_source_link]
+other = "Read on IRAS"
+
+[tool_tax_relief_other]
+other = "Other reliefs"
+
+[tool_tax_relief_other_info]
+other = "The reliefs this calculator does not itemise — chiefly the self-employed ones: CPF relief for the self-employed, compulsory and voluntary MediSave contributions, and CPF relief as a platform worker, all computed from net trade income. Enter the total. It is a relief, so it counts toward the $80,000 cap along with the rest. Do not put donations here: they are a deduction and sit outside the cap."
+
+[tool_tax_clear]
+other = "Clear all"
+
+[tool_tax_clear_confirm]
+other = "Clear everything?"
+
+[tool_tax_sec_other_dependants]
+other = "Reliefs for taxpayers with a dependent spouse or sibling"
+
+[tool_tax_spouse_relief]
+other = "Spouse Relief"
+
+[tool_tax_spouse_relief_info]
+other = "$2,000 for a spouse you lived with or supported who earned no more than $8,000 in the year, or $5,500 as Spouse Relief (Disability) — for which the income condition does not apply. Claimed by one of you on the other, so it is not shared. With both of you earning, this normally applies only in the disability case."
+
+[tool_tax_sibling_n]
+other = "Sibling {n}"
+
+[tool_tax_sibling_row]
+other = "Sibling Relief (Disability) {n}"
+
+[tool_tax_sibling_info]
+other = "$5,500 for each sibling or step-sibling with a disability who lived with you, or on whom you spent $2,000 or more in support. Shareable by agreement with other siblings supporting the same person, so the two cells need not add up to $5,500 — but together they cannot exceed it. Not claimable if anyone else claims another relief on the same person."
+
+[tool_tax_add_sibling]
+other = "Add sibling"
+
+[tool_tax_relief_life_insurance]
+other = "Life Insurance Relief"
+
+[tool_tax_relief_life_insurance_info]
+other = "Only claimable while your compulsory employee CPF contributions are under $5,000 for the year, and then only up to the shortfall — so the ceiling here falls as your CPF entry rises, and is nil once CPF reaches $5,000. Enter the lower of the premiums you paid and 7% of the sum assured. Premiums on health, hospitalisation, critical illness, endowment and investment-linked policies do not qualify."

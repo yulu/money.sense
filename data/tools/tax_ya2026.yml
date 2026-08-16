@@ -1,0 +1,315 @@
+# Singapore resident individual income tax — YA 2026 (income year 2025)
+#
+# Rate table applies "From YA 2024 onwards" and is reproduced verbatim from IRAS.
+# Source: https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/individual-income-tax-rates
+#
+# ANNUAL MAINTENANCE: when IRAS publishes a new YA, copy this file to
+# tax_ya<YEAR>.yml and update the figures. Nothing in assets/js/tools/tax/
+# hardcodes a rate — the model reads whatever this file provides.
+
+year_of_assessment: 2026
+income_year: 2025
+source_url: https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/individual-income-tax-rates
+
+# Progressive bands. `upTo: null` marks the open-ended top band.
+# `cumulative` is IRAS's "Gross Tax Payable" on the *first* $<upTo> —
+# carried here so tests can assert against IRAS's own published figures.
+brackets:
+  - upTo: 20000
+    rate: 0
+    cumulative: 0
+  - upTo: 30000
+    rate: 0.02
+    cumulative: 200
+  - upTo: 40000
+    rate: 0.035
+    cumulative: 550
+  - upTo: 80000
+    rate: 0.07
+    cumulative: 3350
+  - upTo: 120000
+    rate: 0.115
+    cumulative: 7950
+  - upTo: 160000
+    rate: 0.15
+    cumulative: 13950
+  - upTo: 200000
+    rate: 0.18
+    cumulative: 21150
+  - upTo: 240000
+    rate: 0.19
+    cumulative: 28750
+  - upTo: 280000
+    rate: 0.195
+    cumulative: 36550
+  - upTo: 320000
+    rate: 0.20
+    cumulative: 44550
+  - upTo: 500000
+    rate: 0.22
+    cumulative: 84150
+  - upTo: 1000000
+    rate: 0.23
+    cumulative: 199150
+  - upTo: null
+    rate: 0.24
+    cumulative: null
+
+# Overall personal income tax relief cap, in force from YA 2018.
+relief_cap: 80000
+
+# Earned Income Relief reference bands, shown to the reader as a hint.
+#
+# Entered rather than derived: age alone cannot express the higher relief for
+# a person with disability, and the reader knows which band applies to them.
+# Relief is also capped at taxable earned income when that is lower.
+#
+#   Age at 31 Dec   Standard   With disability
+#   Below 55          $1,000        $4,000
+#   55 to 59          $6,000       $10,000
+#   60 and above      $8,000       $12,000
+# Source: https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-reliefs-rebates-and-deductions/tax-reliefs/earned-income-relief
+earned_income_relief:
+  standard:
+    - maxAge: 54
+      amount: 1000
+    - maxAge: 59
+      amount: 6000
+    - maxAge: null
+      amount: 8000
+  disability:
+    - maxAge: 54
+      amount: 4000
+    - maxAge: 59
+      amount: 10000
+    - maxAge: null
+      amount: 12000
+
+# User-entered reliefs. `max: null` means the entered amount is used as-is
+# (the taxpayer's actual contribution), still subject to the overall cap.
+reliefs:
+  - id: earned_income
+    max: null
+    i18n: tool_tax_relief_auto
+    info: tool_tax_eir_bands
+    href: https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-reliefs-rebates-and-deductions/tax-reliefs/earned-income-relief
+  # No fixed cap: the relief is whatever compulsory EMPLOYEE contributions
+  # were actually made (the employer's share is not the taxpayer's relief).
+  #
+  # For a reader working the figure out:
+  #   employee rate  20% of wages, aged 55 and below; steps down above 55
+  #   annual salary ceiling  $102,000  -> 20% x 102,000 = $20,400 at or above
+  #   OW ceiling  $7,400/month for 2025, $8,000 from 1 Jan 2026
+  #   total annual CPF contribution cap  $37,740
+  #
+  # Rates: https://www.cpf.gov.sg/employer/employer-obligations/how-much-cpf-contributions-to-pay
+  # Relief: https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-reliefs-rebates-and-deductions/tax-reliefs/central-provident-fund(cpf)-relief-for-employees
+  - id: cpf
+    max: null
+    i18n: tool_tax_relief_cpf
+    info: tool_tax_relief_cpf_info
+    href: https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-reliefs-rebates-and-deductions/tax-reliefs/central-provident-fund(cpf)-relief-for-employees
+  - id: cpf_topup_self
+    max: 8000
+    i18n: tool_tax_relief_cpf_topup_self
+    href: https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-reliefs-rebates-and-deductions/tax-reliefs/central-provident-fund-(cpf)-cash-top-up-relief
+  - id: cpf_topup_family
+    max: 8000
+    i18n: tool_tax_relief_cpf_topup_family
+    href: https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-reliefs-rebates-and-deductions/tax-reliefs/central-provident-fund-(cpf)-cash-top-up-relief
+  - id: srs
+    max: 15300
+    i18n: tool_tax_relief_srs
+    href: https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/special-tax-schemes/srs-contributions
+  - id: course_fees
+    max: 5500
+    i18n: tool_tax_relief_course_fees
+    href: https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-reliefs-rebates-and-deductions/tax-reliefs/course-fees-relief
+  - id: nsman
+    max: 5000
+    i18n: tool_tax_relief_nsman
+    href: https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-reliefs-rebates-and-deductions/tax-reliefs/nsman-relief-(self-wife-and-parent)
+  # `max: null` because the ceiling is DERIVED, not fixed — see the
+  # life_insurance block below. applyReliefs() computes it per spouse from
+  # that spouse's CPF entry.
+  - id: life_insurance
+    max: null
+    i18n: tool_tax_relief_life_insurance
+    info: tool_tax_relief_life_insurance_info
+    href: https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-reliefs-rebates-and-deductions/tax-reliefs/life-insurance-relief
+  # Catch-all for the reliefs this tool still does not itemise — the
+  # self-employed ones (CPF relief for the self-employed, compulsory and
+  # voluntary MediSave contributions, CPF relief as a platform worker), which
+  # are computed from net trade income this calculator does not collect.
+  # A relief, so it counts toward the $80,000 cap like the rest.
+  - id: other
+    max: null
+    i18n: tool_tax_relief_other
+    info: tool_tax_relief_other_info
+    href: https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-reliefs-rebates-and-deductions/tax-reliefs
+
+# Life Insurance Relief.
+#
+# The only relief here whose ceiling depends on ANOTHER entry: IRAS allows it
+# only while total CPF contributions are under $5,000, and then only up to the
+# shortfall. An employee on $25,000+ already contributes more than that, so for
+# most readers the relief is nil — shown as a $0 ceiling rather than hidden, so
+# they can see why.
+#
+#   "$5,000 or more -> Nil.
+#    Less than $5,000 -> the lower of: (a) the difference between $5,000 and
+#    your CPF contribution; or (b) up to 7% of the insured value of your
+#    own/your spouse's life, or the amount of insurance premiums paid."
+#
+# The 7%-of-insured-value leg cannot be computed here (the tool does not know
+# the sum assured), so the reader enters the lower of premiums and 7%, and the
+# tool applies the $5,000-shortfall leg.
+# Source: https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-reliefs-rebates-and-deductions/tax-reliefs/life-insurance-relief
+life_insurance:
+  href: https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-reliefs-rebates-and-deductions/tax-reliefs/life-insurance-relief
+  # Relief is nil once CPF contributions reach this; below it, the ceiling is
+  # the shortfall.
+  cpf_threshold: 5000
+  percent_of_insured_value: 0.07
+
+# Spouse Relief / Spouse Relief (Disability).
+#
+# Claimed BY one spouse ON the other, so it is not apportionable. The income
+# condition applies to the dependent spouse only, and is waived for the
+# disability variant. From YA 2026 the relief also covers maintenance paid by
+# a legally separated wife to her husband (previously husband-to-wife only).
+# Source: https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-reliefs-rebates-and-deductions/tax-reliefs/spouse-relief-spouse-relief-(disability)
+spouse_relief:
+  href: "https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-reliefs-rebates-and-deductions/tax-reliefs/spouse-relief-spouse-relief-(disability)"
+  amount: 2000
+  disability: 5500
+  # Raised from $4,000 with effect from YA 2025, in step with Parent Relief.
+  dependant_income_threshold: 8000
+
+# Sibling Relief (Disability) — formerly Handicapped Brother/Sister Relief.
+#
+# A flat $5,500 per sibling with a disability. Unlike Parent Relief the amount
+# does not vary with co-residence: living together OR having spent $2,000 or
+# more supporting the sibling is a QUALIFYING condition, not an amount band.
+# Shareable between claimants by agreed apportionment, so the two cells are
+# capped at the entitlement between them but need not reach it.
+# Source: https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-reliefs-rebates-and-deductions/tax-reliefs/sibling-relief-(disability)
+sibling_relief:
+  href: "https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-reliefs-rebates-and-deductions/tax-reliefs/sibling-relief-(disability)"
+  amount: 5500
+  min_support_if_not_coresiding: 2000
+
+# ---------------------------------------------------------------------------
+# Child reliefs
+# Source: https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-reliefs-rebates-and-deductions/tax-reliefs/qualifying-child-relief-(qcr)-handicapped-child-relief-(hcr)
+# ---------------------------------------------------------------------------
+child_relief:
+  href: https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-reliefs-rebates-and-deductions/tax-reliefs/qualifying-child-relief-(qcr)-handicapped-child-relief-(hcr)
+  qcr: 4000
+  disability: 7500
+  # Total QCR + WMCR claimable on any ONE child, across both parents.
+  per_child_cap: 50000
+  # A child with annual income above this does not qualify for QCR.
+  child_income_threshold: 8000
+
+# Working Mother's Child Relief.
+#
+# TWO REGIMES run in parallel — a family can have children under both at once.
+# Children born or adopted on/after 1 Jan 2024 get a fixed dollar amount;
+# those born before get a percentage of the mother's earned income.
+# A child born before the cutoff who became a Singapore Citizen after it is
+# treated under the FIXED regime.
+# Source: https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-reliefs-rebates-and-deductions/tax-reliefs/working-mother's-child-relief-(wmcr)
+wmcr:
+  href: "https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-reliefs-rebates-and-deductions/tax-reliefs/working-mother's-child-relief-(wmcr)"
+  regime_cutoff: 2024-01-01
+  # Keyed by child order; `3` covers 3rd and beyond.
+  fixed:
+    1: 8000
+    2: 10000
+    3: 12000
+  percentage_of_earned_income:
+    1: 0.15
+    2: 0.20
+    3: 0.25
+
+# Parenthood Tax Rebate — a REBATE against tax payable, not a relief.
+# Applied after tax is computed, cannot reduce tax below zero, and any
+# unutilised amount carries forward to future YAs (not modelled here; the
+# tool reports the unused balance instead).
+# Amounts below are for a child born from 2008 onwards.
+# Source: https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-reliefs-rebates-and-deductions/tax-reliefs/parenthood-tax-rebate-(ptr)
+ptr:
+  href: https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-reliefs-rebates-and-deductions/tax-reliefs/parenthood-tax-rebate-(ptr)
+  by_child_order:
+    1: 5000
+    2: 10000
+    3: 20000
+    4: 20000
+    5: 20000
+
+# Parent / Parent (Disability) Relief. Allocatable between siblings and
+# between spouses. Dependant must be 55+, earn no more than
+# dependant_income_threshold, and either live with the claimant or receive
+# min_support_if_not_coresiding or more in support.
+# Source: https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-reliefs-rebates-and-deductions/tax-reliefs/parent-relief-handicapped-parent-relief
+parent_relief:
+  href: https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-reliefs-rebates-and-deductions/tax-reliefs/parent-relief-handicapped-parent-relief
+  coresiding: 9000
+  not_coresiding: 5500
+  disability_coresiding: 14000
+  disability_not_coresiding: 10000
+  # Doubled from $4,000 with effect from YA 2025.
+  dependant_income_threshold: 8000
+  min_support_if_not_coresiding: 2000
+  # "You may claim Parent Relief/Parent Relief (Disability) for up to 2
+  # dependants."
+  max_dependants: 2
+
+# ---------------------------------------------------------------------------
+# Approved IPC donations — a DEDUCTION, not a relief.
+#
+# Deliberately NOT subject to relief_cap. MOF states the reason plainly:
+# "The tax relief cap does not apply to tax deduction for donations, as this
+# is not a Personal Income Tax relief."
+# Source: https://www.mof.gov.sg/policies/taxes/personal-income-tax/
+#
+# valid_until: Budget 2023 set 31 Dec 2026; Budget 2026 extended the 250%
+# deduction to 31 Dec 2029 (reported consistently by Baker McKenzie, EY,
+# Crowe and BDO Budget 2026 commentaries). At the time of writing, the MOF
+# page above had not yet been updated past 2026 — re-confirm against IRAS or
+# MOF before relying on the later date.
+# ---------------------------------------------------------------------------
+donations:
+  href: https://www.iras.gov.sg/taxes/other-taxes/charities/donations-tax-deductions
+  multiplier: 2.5
+  subject_to_relief_cap: false
+  valid_until: 2029-12-31
+
+# Grandparent Caregiver Relief — a FLAT $3,000, not an amount per caregiver:
+# "You may claim $3,000 on your or your husband's parents, grandparents..."
+# Claimable by a working mother whose child (12 or below, or unmarried with a
+# disability) is cared for by that relative. The caregiver's own income must
+# not exceed the threshold ($4,000 before YA 2025), and no one else may have
+# claimed GCR on the same caregiver.
+# Source: https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-reliefs-rebates-and-deductions/tax-reliefs/grandparent-caregiver-relief
+grandparent_caregiver_relief:
+  href: https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-reliefs-rebates-and-deductions/tax-reliefs/grandparent-caregiver-relief
+  amount: 3000
+  mother_only: true
+  caregiver_income_threshold: 8000
+
+# Personal Income Tax Rebate — granted per Budget, applied to tax payable
+# AFTER reliefs, and separate from PTR.
+#
+# NONE was granted for YA 2026. History, for when one returns:
+#   YA 2025 — 60% of tax payable, capped at $200
+#   YA 2024 — 50% of tax payable, capped at $200
+# Source: https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/individual-income-tax-rates
+#
+# NOTE: the published Google Sheet still applies the YA 2025 rebate
+# (60%, up to $200). Leaving these at zero is correct for YA 2026 and is an
+# expected source of difference when cross-checking against that sheet.
+personal_rebate:
+  percent: 0
+  cap: 0

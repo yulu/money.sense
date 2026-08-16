@@ -48,8 +48,21 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
+      # Node 24 for the tool islands: `node --test` runs the TypeScript test
+      # files directly via native type stripping, which needs Node >= 23.6.
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      # Hugo's esbuild strips TypeScript types without checking them, so a type
+      # error would otherwise ship silently. This runs tsc --noEmit plus the
+      # tax model tests, which assert against IRAS's published figures.
+      # No `|| true` here: a type error or a wrong tax figure must fail the
+      # deploy rather than ship silently.
+      - name: Test tool islands
+        run: npm test
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
