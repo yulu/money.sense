@@ -23,8 +23,15 @@
             </h2>
             <ul class="resource-list">
                 {{ range . }}
+                {{/* Resources are mostly files on S3, but a tool hosted on
+                     this site is a plain path — which needs relLangURL to pick
+                     up the /money.sense subpath, and should open in the same
+                     tab like any other internal link. */}}
+                {{ $external := hasPrefix .url "http" }}
                 <li class="resource-item resource-item-with-post">
-                    <a href="{{ .url }}" target="_blank" class="resource-link">{{ .name }}</a>
+                    <a href="{{ if $external }}{{ .url }}{{ else }}{{ .url | relLangURL }}{{ end }}"
+                       {{ if $external }}target="_blank" rel="noopener"{{ end }}
+                       class="resource-link">{{ .name }}</a>
                     {{ with .post }}
                     <a href="{{ . | relLangURL }}" class="resource-post-link">
                         <i class="fa-solid fa-arrow-right"></i>

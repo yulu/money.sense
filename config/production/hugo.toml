@@ -41,7 +41,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [Params.asset]
   fontawesome_css = ["css/fontawesome-all.min.css"]
-  fontawesome_js = ["js/fontawesome-all.min.js"]
 
 ## -----------------------------------------------
 ## Site Languages
